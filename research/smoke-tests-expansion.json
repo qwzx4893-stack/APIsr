@@ -1,0 +1,184 @@
+{
+  "round": "expansion",
+  "note_ar": "هذه استجابات عينات فقط، ليست إثباتًا للمجانية ولا اختبارًا لكل الخدمات. لا يتجاوز الفحص rate limits ولا يعيد المحاولات تلقائيًا. فشل اتصال هذه البيئة لا يعني توقف الخدمة عالميًا.",
+  "attempted": 16,
+  "passed": 16,
+  "results": [
+    {
+      "service_id": "jokeapi",
+      "url": "https://v2.jokeapi.dev/joke/Programming?safe-mode&type=single",
+      "checked_at": "2026-10-12T22:03:31.442305+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 423
+    },
+    {
+      "service_id": "advice-slip",
+      "url": "https://api.adviceslip.com/advice/1",
+      "checked_at": "2026-10-12T22:01:46.067088+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 101
+    },
+    {
+      "service_id": "random-user-generator",
+      "url": "https://randomuser.me/api/?results=1",
+      "checked_at": "2026-10-12T22:01:46.068087+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 1177
+    },
+    {
+      "service_id": "ipquery",
+      "url": "https://api.ipquery.io/?format=json",
+      "checked_at": "2026-10-12T22:03:31.442305+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 490
+    },
+    {
+      "service_id": "coinlore-public-market-data",
+      "url": "https://api.coinlore.net/api/global/",
+      "checked_at": "2026-10-12T22:01:46.536478+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 282
+    },
+    {
+      "service_id": "research-organization-registry",
+      "url": "https://api.ror.org/v2/organizations/02mhbdp94",
+      "checked_at": "2026-10-12T22:01:46.682555+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 1500
+    },
+    {
+      "service_id": "cleveland-museum-open-access",
+      "url": "https://openaccess-api.clevelandart.org/api/artworks/?limit=1",
+      "checked_at": "2026-10-12T22:01:46.894433+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 35919
+    },
+    {
+      "service_id": "govinfo-api",
+      "url": "https://api.govinfo.gov/collections?api_key=DEMO_KEY",
+      "checked_at": "2026-10-12T22:01:47.016601+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 4804
+    },
+    {
+      "service_id": "ocr-space",
+      "url": "https://api.ocr.space/parse/imageurl?apikey=helloworld&url=https://dl.a9t9.com/ocr/solarcell.jpg",
+      "checked_at": "2026-10-12T22:01:47.097303+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 1422
+    },
+    {
+      "service_id": "interpro-rest-api",
+      "url": "https://www.ebi.ac.uk/interpro/api/",
+      "checked_at": "2026-10-12T22:01:47.720970+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 14935
+    },
+    {
+      "service_id": "biomodels-public-read-api",
+      "url": "https://www.ebi.ac.uk/biomodels/search?query=diabetes&format=json",
+      "checked_at": "2026-10-12T22:03:31.442305+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 237561
+    },
+    {
+      "service_id": "biostudies-public-read-api",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=cancer&pageSize=1",
+      "checked_at": "2026-10-12T22:01:48.316870+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 974
+    },
+    {
+      "service_id": "pdbe-public-apis",
+      "url": "https://www.ebi.ac.uk/pdbe/api/pdb/entry/summary/1cbs",
+      "checked_at": "2026-10-12T22:01:48.839824+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 740
+    },
+    {
+      "service_id": "quickgo",
+      "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0008150",
+      "checked_at": "2026-10-12T22:01:49.263281+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 2096
+    },
+    {
+      "service_id": "alphafold-protein-structure-database",
+      "url": "https://alphafold.ebi.ac.uk/api/prediction/P69905",
+      "checked_at": "2026-10-12T22:01:49.900109+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 1987
+    },
+    {
+      "service_id": "rcsb-protein-data-bank-data-api",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/1CBS",
+      "checked_at": "2026-10-12T22:01:50.371293+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 12757
+    }
+  ]
+}

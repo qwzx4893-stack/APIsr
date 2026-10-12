@@ -1,0 +1,21 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "verified_services": 110,
+      "discovery_repositories": 11,
+      "unique_candidate_links": 4613
+    },
+    {
+      "round": 2,
+      "checked_on": "2026-10-13",
+      "previous_services": 110,
+      "added_services": 150,
+      "verified_services": 260,
+      "discovery_repositories": 24,
+      "unique_candidate_links": 7154,
+      "official_evidence_pages": 289
+    }
+  ],
+  "note_ar": "عدد الروابط المرشحة لا يساوي خدمات أو مفاتيح مؤكدة؛ إزالة التكرار هنا على مستوى URL وليست اسم الخدمة. لا تدّعي الجولة مراجعة كل الإنترنت."
+}

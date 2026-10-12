@@ -52,7 +52,20 @@ check(all(x['status'] in {'excluded','excluded_by_rule','pending_verification'} 
 for demo in json.loads((root/'data/public-demo-keys.json').read_text(encoding='utf-8'))['examples']:
     check(demo['service_id'] in indexed,'demo missing catalog service')
     check(demo['provider_published_public_example'] is True,'private demo key')
-    check(demo['key'] in {'DEMO_KEY','1','demo'},'unknown literal demo credential')
+    check(demo['key'] in {'DEMO_KEY','1','demo','helloworld'},'unknown literal demo credential')
+
+coverage=json.loads((root/'research/coverage.json').read_text(encoding='utf-8'))
+check(coverage['verified_services']==len(entries),'coverage count mismatch')
+check(coverage['auth_counts']==dict(Counter(x['auth'] for x in entries)),'coverage auth mismatch')
+check(coverage['official_evidence_pages']==len(json.loads((root/'research/official-sources.json').read_text(encoding='utf-8'))),'source-ledger count mismatch')
+rounds=json.loads((root/'research/research-rounds.json').read_text(encoding='utf-8'))['rounds']
+check(rounds[-1]['verified_services']==len(entries),'research-round total mismatch')
+check(rounds[-1]['previous_services']+rounds[-1]['added_services']==len(entries),'research-round additions mismatch')
+for report_path in (root/'research').glob('smoke-tests*.json'):
+    report=json.loads(report_path.read_text(encoding='utf-8'))
+    check(report['attempted']==len(report['results']),f'{report_path.name}: count mismatch')
+    check(report['passed']==sum(x['ok'] for x in report['results']),f'{report_path.name}: passed mismatch')
+    check(all(x['service_id'] in indexed and x['uses_private_key'] is False for x in report['results']),f'{report_path.name}: unknown service or private key')
 
 pattern=re.compile(r'(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[A-Z0-9]{16}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)')
 for file in root.rglob('*'):

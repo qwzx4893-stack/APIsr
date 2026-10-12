@@ -61,9 +61,9 @@
   },
   {
     "name": "DeepL API Free",
-    "status": "pending_verification",
-    "reason_ar": "تأكد وجود free plans، لكن لم يثبت مقدار وتجدد حصة API من الصفحات الحالية؛ حدود 500000 حرف لكل ملف لا تعني 500000 حرف شهريًا.",
-    "source_url": "https://developers.deepl.com/docs/resources/usage-limits"
+    "status": "excluded",
+    "reason_ar": "الخطة القديمة500000 حرف شهريًا متجددة، لكن لا يمكن الاشتراك فيها حاليًا. البديل Developer مليون حرف إجمالًا لا يتجدد، لذلك لا يقدم طريقًا جديدًا إلى مفتاح مجاني متجدد للمستخدم.",
+    "source_url": "https://support.deepl.com/hc/en-us/articles/360021200939-DeepL-API-plans"
   },
   {
     "name": "NewsAPI",
@@ -79,21 +79,15 @@
   },
   {
     "name": "Pexels API",
-    "status": "pending_verification",
-    "reason_ar": "صفحات التوثيق أعادت 403؛ يلزم إثبات حديث للحصة المجانية من صفحة رسمية متاحة.",
-    "source_url": "https://www.pexels.com/api/documentation/"
-  },
-  {
-    "name": "Cloudinary",
-    "status": "pending_verification",
-    "reason_ar": "فشل التحقق من شهادة SSL في هذه البيئة؛ لم تُعتمد أرقام 25 credits من القوائم دون تحقق حديث.",
-    "source_url": "https://cloudinary.com/pricing"
+    "status": "excluded",
+    "reason_ar": "API مجانية للحسابات المؤهلة، لكن الصفحة الرسمية تقول إن إصدار المفاتيح الجديدة متوقف حاليًا؛ لم تُعرض كطريقة متاحة لإنشاء مفتاح جديد.",
+    "source_url": "https://www.pexels.com/api/"
   },
   {
     "name": "Blockfrost",
     "status": "pending_verification",
-    "reason_ar": "صفحة الأسعار التي أمكن استرجاعها لم تتضمن تفاصيل مقروءة للحصة؛ لا تخمين.",
-    "source_url": "https://blockfrost.io/"
+    "source_url": "https://blockfrost.io/",
+    "reason_ar": "صفحات المنصة والأسعار عرضت واجهةJavaScript دون تفاصيل قابلة للتحقق؛ لم تُنقل50k/day من قوائم الغير إلى الأساسي."
   },
   {
     "name": "Finnhub",
@@ -102,15 +96,9 @@
     "source_url": "https://finnhub.io/pricing"
   },
   {
-    "name": "openrouteservice",
+    "name": "NVD / OSV",
     "status": "pending_verification",
-    "reason_ar": "صفحة الخطط المسترجعة لم تعرض تفاصيل مقروءة؛ لم أعمم حدود endpoint على الخدمة كلها.",
-    "source_url": "https://openrouteservice.org/plans/"
-  },
-  {
-    "name": "NVD / OSV / GBIF",
-    "status": "pending_verification",
-    "reason_ar": "تعذر الحصول على دليل مقروء يجمع شروط المجانية والحدود الحالية لهذه الجولة؛ ليست هذه علامة أنها مدفوعة.",
+    "reason_ar": "أضيفGBIF بعد إثبات مجانيته من صفحة رسمية. بقي NVD/OSV خارج الأساسي لعدم اكتمال إثبات النطاق والحدود في هذه الجولة؛ ليس حكمًا بأنها مدفوعة.",
     "source_url": "https://nvd.nist.gov/developers/start-here"
   },
   {
@@ -132,15 +120,57 @@
     "source_url": "https://www.contentful.com/pricing/"
   },
   {
-    "name": "remove.bg",
-    "status": "pending_verification",
-    "reason_ar": "صفحة السعر المسترجعة لم تثبت هل جميع التحويلات المجانية متجددة أو فقط previews/رصيد أولي.",
-    "source_url": "https://www.remove.bg/pricing"
-  },
-  {
     "name": "OpenAI / Anthropic / NVIDIA trial credits",
     "status": "excluded_by_rule",
     "reason_ar": "لم تُضم هذه المزودات كعروض مجانية؛ ذكر startup/trial credits في قوائم الاكتشاف لا يثبت حصة مجانية دائمة متجددة. لا تُعد هذه ملاحظة سعر حديث لكل منتجاتها.",
     "source_url": "https://github.com/codiebyheaart/awesome-free-apis"
+  },
+  {
+    "name": "Scrapfly signup credits",
+    "status": "excluded",
+    "source_url": "https://scrapfly.io/pricing",
+    "reason_ar": "1000 credits عند التسجيل بلا حد زمني؛ لا يظهر تجددها. بقاء الرصيد صالحًا forever لا يجعله حصة مجانية متجددة."
+  },
+  {
+    "name": "Search1API signup credits",
+    "status": "excluded",
+    "source_url": "https://www.search1api.com/pricing",
+    "reason_ar": "100 credits عند البداية؛ لم يثبت تجدد مجاني. الخطط الشهرية الموجودة مدفوعة."
+  },
+  {
+    "name": "ScreenshotOne initial free screenshots",
+    "status": "pending_verification",
+    "source_url": "https://screenshotone.com/pricing/",
+    "reason_ar": "100 screenshots مجانية للتجربة؛ لم يثبت تجددها من النص الحالي، فلا تدخل الأساسي."
+  },
+  {
+    "name": "Bytescale hosted API",
+    "status": "excluded",
+    "source_url": "https://www.bytescale.com/pricing",
+    "reason_ar": "صفحة السعر الحالية تبدأ بخطة Basic مدفوعة وتجارب مجانية؛ لا free hosted tier دائم مثبت."
+  },
+  {
+    "name": "Beeceptor free endpoints",
+    "status": "excluded",
+    "source_url": "https://beeceptor.com/pricing/",
+    "reason_ar": "مع وجود حصة يومية، endpoint المجاني ينتهي بعد30 يومًا أو90 يومًا عندclaim؛ لا يُعرض كاستضافة مستقرة مجانية بلا انتهاء."
+  },
+  {
+    "name": "MongoDB Atlas Data API",
+    "status": "pending_verification",
+    "source_url": "https://www.mongodb.com/pricing",
+    "reason_ar": "Free forever يثبت قاعدةAtlas512MB، لكنه لا يثبت API بيانات HTTP مستضافة متاحة حاليًا. لم تُحسب قاعدة البيانات وحدها كخدمةAPI إضافية."
+  },
+  {
+    "name": "JSONBin request allocation",
+    "status": "pending_verification",
+    "source_url": "https://www.jsonbin.io/pricing",
+    "reason_ar": "ظهر10000 طلب بالمجاني؛ لم يتضح تجددها من المصدر المقروء، لذلك لم يُفترض أنها شهرية."
+  },
+  {
+    "name": "Blockfrost free tier",
+    "status": "pending_verification",
+    "source_url": "https://blockfrost.io/",
+    "reason_ar": "صفحات المنصة والأسعار عرضت واجهةJavaScript دون تفاصيل قابلة للتحقق؛ لم تُنقل50k/day من قوائم الغير إلى الأساسي."
   }
 ]

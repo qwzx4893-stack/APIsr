@@ -1,5 +1,21 @@
 [
   {
+    "repository_url": "https://github.com/golapkamal/awesome-free-llm-apis",
+    "readme_url": "https://raw.githubusercontent.com/golapkamal/awesome-free-llm-apis/main/README.md",
+    "readme_sha256": "72f12d8c06b18df06347551af0b96b96a361db469e3e64373b6a2bbd3193d22a",
+    "retrieved_at": "2026-10-12T21:29:34Z",
+    "extracted_links": 157,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
+    "repository_url": "https://github.com/spinov001-art/awesome-free-apis-2026",
+    "readme_url": "https://raw.githubusercontent.com/spinov001-art/awesome-free-apis-2026/main/README.md",
+    "readme_sha256": "013073ca30fcd8ce8ca72b397a86977ba4169dfe3f095d9a59d3a2ec05a8c7d2",
+    "retrieved_at": "2026-10-12T21:27:21Z",
+    "extracted_links": 140,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
     "repository_url": "https://github.com/public-api-lists/public-api-lists",
     "readme_url": "https://raw.githubusercontent.com/public-api-lists/public-api-lists/master/README.md",
     "readme_sha256": "20b972d9617f3ef5f3419a37f6f7d02f3dbcab8d46cf6f3e510bba3a2415b2f6",
@@ -16,6 +32,14 @@
     "role": "discovery_only_not_pricing_evidence"
   },
   {
+    "repository_url": "https://github.com/amardeeplakshkar/awesome-free-llm-apis",
+    "readme_url": "https://raw.githubusercontent.com/amardeeplakshkar/awesome-free-llm-apis/main/README.md",
+    "readme_sha256": "e59375320f9dc7410754cd2c376233ea9b5e2b1ac107a4cf50f6a3c0cd8811fe",
+    "retrieved_at": "2026-10-12T21:29:34Z",
+    "extracted_links": 25,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
     "repository_url": "https://github.com/12britz/awesome-free-models",
     "readme_url": "https://raw.githubusercontent.com/12britz/awesome-free-models/main/README.md",
     "readme_sha256": "46cc8f571a46ff2825f416e76822b09cdc49917c13b0085634d67f1c97afebcc",
@@ -24,11 +48,43 @@
     "role": "discovery_only_not_pricing_evidence"
   },
   {
+    "repository_url": "https://github.com/fangzesheng/free-api",
+    "readme_url": "https://raw.githubusercontent.com/fangzesheng/free-api/master/README.md",
+    "readme_sha256": "81360d82f5728a4c7aca57cad047d9f924ac64a3dabec08a24353fd6b3d74f5b",
+    "retrieved_at": "2026-10-12T21:27:21Z",
+    "extracted_links": 657,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
+    "repository_url": "https://github.com/TonnyL/Awesome_APIs",
+    "readme_url": "https://raw.githubusercontent.com/TonnyL/Awesome_APIs/master/README.md",
+    "readme_sha256": "7ffc42d5d89ea0057164532adb7c8e96c101182494598bc34f2f3c002a9e5f59",
+    "retrieved_at": "2026-10-12T21:29:35Z",
+    "extracted_links": 302,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
     "repository_url": "https://github.com/brandonhimpfen/awesome-apis",
     "readme_url": "https://raw.githubusercontent.com/brandonhimpfen/awesome-apis/main/README.md",
     "readme_sha256": "c369ab823778e0e01f64948f95ca590a917e42e95c120cbf59aaabed110ea8bd",
     "retrieved_at": "2026-10-12T21:01:26Z",
     "extracted_links": 66,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
+    "repository_url": "https://github.com/abhishekbanthia/Public-APIs",
+    "readme_url": "https://raw.githubusercontent.com/abhishekbanthia/Public-APIs/master/README.md",
+    "readme_sha256": "80e7340906636202a8e2ad8d24dab748275b139826704174ea05f5e7f9b198f7",
+    "retrieved_at": "2026-10-12T21:29:35Z",
+    "extracted_links": 437,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
+    "repository_url": "https://github.com/n0shake/Public-APIs",
+    "readme_url": "https://raw.githubusercontent.com/n0shake/Public-APIs/master/README.md",
+    "readme_sha256": "80e7340906636202a8e2ad8d24dab748275b139826704174ea05f5e7f9b198f7",
+    "retrieved_at": "2026-10-12T21:29:35Z",
+    "extracted_links": 437,
     "role": "discovery_only_not_pricing_evidence"
   },
   {
@@ -48,11 +104,43 @@
     "role": "discovery_only_not_pricing_evidence"
   },
   {
+    "repository_url": "https://github.com/mnfst/awesome-free-llm-apis",
+    "readme_url": "https://raw.githubusercontent.com/mnfst/awesome-free-llm-apis/main/README.md",
+    "readme_sha256": "ca6008661f06867aa9c892793b0870e2874c8c22a74ee6f3cbcb05a8c8ff1222",
+    "retrieved_at": "2026-10-12T21:29:34Z",
+    "extracted_links": 44,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
+    "repository_url": "https://github.com/whizkydee/Awesome-APIs",
+    "readme_url": "https://raw.githubusercontent.com/whizkydee/Awesome-APIs/master/README.md",
+    "readme_sha256": "80e7340906636202a8e2ad8d24dab748275b139826704174ea05f5e7f9b198f7",
+    "retrieved_at": "2026-10-12T21:27:21Z",
+    "extracted_links": 437,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
+    "repository_url": "https://github.com/rohanbyale/Public_API_Collection",
+    "readme_url": "https://raw.githubusercontent.com/rohanbyale/Public_API_Collection/main/README.md",
+    "readme_sha256": "6102edec85913955e635abf0ed0141a8c43a2983fca5ff3732b84d02d5fdea22",
+    "retrieved_at": "2026-10-12T21:27:21Z",
+    "extracted_links": 0,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
     "repository_url": "https://github.com/ripienaar/free-for-dev",
     "readme_url": "https://raw.githubusercontent.com/ripienaar/free-for-dev/master/README.md",
     "readme_sha256": "6428b30cc33b3df8bebb89cd27085b2d2bd696c3e4f02dc9ecdcec1d75af00d5",
     "retrieved_at": "2026-10-12T20:55:42Z",
     "extracted_links": 1328,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
+    "repository_url": "https://github.com/manavarya09/public-apis-live",
+    "readme_url": "https://raw.githubusercontent.com/manavarya09/public-apis-live/main/README.md",
+    "readme_sha256": "7c4967de479aabe1a4d74bb45c4a432ca9511847d86d388dd9a279a861d55352",
+    "retrieved_at": "2026-10-12T21:27:22Z",
+    "extracted_links": 4659,
     "role": "discovery_only_not_pricing_evidence"
   },
   {
@@ -64,11 +152,27 @@
     "role": "discovery_only_not_pricing_evidence"
   },
   {
+    "repository_url": "https://github.com/Kikobeats/awesome-api",
+    "readme_url": "https://raw.githubusercontent.com/Kikobeats/awesome-api/master/README.md",
+    "readme_sha256": "04a82e2e2b09a1f4e5b721eba0b3ece87c4e795dc979f8e3ff10b0694b526e86",
+    "retrieved_at": "2026-10-12T21:27:22Z",
+    "extracted_links": 71,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
     "repository_url": "https://github.com/marcelscruz/public-apis",
     "readme_url": "https://raw.githubusercontent.com/marcelscruz/public-apis/main/README.md",
     "readme_sha256": "6d42a0010b6e12dd2458f47337a4d39387b6b3bc6be45876e75c9b9b4a5643f2",
     "retrieved_at": "2026-10-12T20:55:42Z",
     "extracted_links": 1750,
+    "role": "discovery_only_not_pricing_evidence"
+  },
+  {
+    "repository_url": "https://github.com/uzair004/awesome-free-llm-apis",
+    "readme_url": "https://raw.githubusercontent.com/uzair004/awesome-free-llm-apis/main/README.md",
+    "readme_sha256": "266579d306e4db259f7c6df5d07bdc76881a55d500ffacd176671b734f47601b",
+    "retrieved_at": "2026-10-12T21:29:35Z",
+    "extracted_links": 6,
     "role": "discovery_only_not_pricing_evidence"
   },
   {

@@ -6,7 +6,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:57:04Z",
-    "content_sha256": "1ff1a1a9ddb36f77ce134b66a3d58bfbc34c1e2f4f5911ac8409ce75c14a16bf"
+    "content_sha256": "1ff1a1a9ddb36f77ce134b66a3d58bfbc34c1e2f4f5911ac8409ce75c14a16bf",
+    "resolved_url": "https://console.groq.com/docs/rate-limits"
   },
   {
     "url": "https://ai.google.dev/gemini-api/docs/pricing",
@@ -22,7 +23,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:57:05Z",
-    "content_sha256": "9848f9ce83b49006e4af0a918ccb1bbdddba00a78209e5bc88688390feea09c9"
+    "content_sha256": "9848f9ce83b49006e4af0a918ccb1bbdddba00a78209e5bc88688390feea09c9",
+    "resolved_url": "https://ai.google.dev/gemini-api/docs/rate-limits"
   },
   {
     "url": "https://docs.mistral.ai/admin/billing-usage/usage-limits",
@@ -31,7 +33,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:01:25Z",
-    "content_sha256": "af7ead80efb4a85f83dc276af30594b207ae7d30d835edd905dbefcddf4ddeff"
+    "content_sha256": "af7ead80efb4a85f83dc276af30594b207ae7d30d835edd905dbefcddf4ddeff",
+    "resolved_url": "https://docs.mistral.ai/admin/billing-usage/usage-limits"
   },
   {
     "url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
@@ -40,7 +43,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:01:26Z",
-    "content_sha256": "26b742f6e34027deb48fd509d1afc83b5b188dc858d12c7381ea1762735d9395"
+    "content_sha256": "26b742f6e34027deb48fd509d1afc83b5b188dc858d12c7381ea1762735d9395",
+    "resolved_url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key"
   },
   {
     "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
@@ -49,7 +53,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:57:04Z",
-    "content_sha256": "11f338b3978366299547a34b140a359886b39c0b1a52b01b9c6dc1bc03b82780"
+    "content_sha256": "11f338b3978366299547a34b140a359886b39c0b1a52b01b9c6dc1bc03b82780",
+    "resolved_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/"
   },
   {
     "url": "https://www.tavily.com/pricing",
@@ -65,7 +70,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:57:05Z",
-    "content_sha256": "703005b2ac1b0c8e5db1c206c08afda1f32f8b72caf7c8acef8a01744d16a230"
+    "content_sha256": "703005b2ac1b0c8e5db1c206c08afda1f32f8b72caf7c8acef8a01744d16a230",
+    "resolved_url": "https://ocr.space/ocrapi"
   },
   {
     "url": "https://api-ninjas.com/pricing",
@@ -74,7 +80,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:01Z",
-    "content_sha256": "648b90ae6e29684c4efbcd155c66bdd8bafb47a386eba99380f86a08bef569c7"
+    "content_sha256": "648b90ae6e29684c4efbcd155c66bdd8bafb47a386eba99380f86a08bef569c7",
+    "resolved_url": "https://api-ninjas.com/pricing"
   },
   {
     "url": "https://jina.ai/reader/",
@@ -83,7 +90,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:57:05Z",
-    "content_sha256": "7898d42bed19a61b8e4f325f485e9af164dbb5a58d1909f7bb0d96b79b5683d1"
+    "content_sha256": "7898d42bed19a61b8e4f325f485e9af164dbb5a58d1909f7bb0d96b79b5683d1",
+    "resolved_url": "https://jina.ai/reader/"
   },
   {
     "url": "https://openweathermap.org/price",
@@ -91,8 +99,9 @@
     "checked_on": "2026-10-13",
     "method": "direct_https_read",
     "http_status": 200,
-    "retrieved_at": "2026-10-12T20:56:13Z",
-    "content_sha256": "b8b00d7c8396ebb9887d873fbb5ca2b197eab776edbdf4db923a78827f1c4ad0"
+    "retrieved_at": "2026-10-12T21:27:22Z",
+    "content_sha256": "b8b00d7c8396ebb9887d873fbb5ca2b197eab776edbdf4db923a78827f1c4ad0",
+    "resolved_url": "https://openweathermap.org/price"
   },
   {
     "url": "https://www.weatherapi.com/pricing.aspx",
@@ -101,7 +110,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:13Z",
-    "content_sha256": "76c81d7ce689b5b87d9c8593314d94fa80fbbca28fdccaea57294c2d97b01eec"
+    "content_sha256": "76c81d7ce689b5b87d9c8593314d94fa80fbbca28fdccaea57294c2d97b01eec",
+    "resolved_url": "https://www.weatherapi.com/pricing.aspx"
   },
   {
     "url": "https://www.weatherbit.io/pricing",
@@ -110,7 +120,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:14Z",
-    "content_sha256": "71addda9b18751aa37ddd50445b458bad16bd24ffadd968facb2353fa9a4ff53"
+    "content_sha256": "71addda9b18751aa37ddd50445b458bad16bd24ffadd968facb2353fa9a4ff53",
+    "resolved_url": "https://www.weatherbit.io/pricing"
   },
   {
     "url": "https://open-meteo.com/en/pricing",
@@ -119,7 +130,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:13Z",
-    "content_sha256": "cb1553086ff8903092e34b4dc93ef83c38b1d98fb1c46d874dd6391b3b85a7e2"
+    "content_sha256": "cb1553086ff8903092e34b4dc93ef83c38b1d98fb1c46d874dd6391b3b85a7e2",
+    "resolved_url": "https://open-meteo.com/en/pricing"
   },
   {
     "url": "https://www.visualcrossing.com/weather-api/",
@@ -128,7 +140,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:14Z",
-    "content_sha256": "2bf561ee8006267c1f50d38f5f85fb78ba6b8676735f28a7e4caa71485259417"
+    "content_sha256": "2bf561ee8006267c1f50d38f5f85fb78ba6b8676735f28a7e4caa71485259417",
+    "resolved_url": "https://www.visualcrossing.com/weather-api/"
   },
   {
     "url": "https://aqicn.org/api/",
@@ -137,7 +150,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:15Z",
-    "content_sha256": "171dc07c82aee8ea4ff82a7beb9db0b69d024491795e2672f748f839a573901f"
+    "content_sha256": "171dc07c82aee8ea4ff82a7beb9db0b69d024491795e2672f748f839a573901f",
+    "resolved_url": "https://aqicn.org/api/"
   },
   {
     "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
@@ -146,7 +160,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:14Z",
-    "content_sha256": "c54a9b3f1daf89cba658a15ffdd6d269f3cf0b9a58e6bb531cca5ab55226e1fa"
+    "content_sha256": "c54a9b3f1daf89cba658a15ffdd6d269f3cf0b9a58e6bb531cca5ab55226e1fa",
+    "resolved_url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2"
   },
   {
     "url": "https://www.weather.gov/documentation/services-web-api",
@@ -155,7 +170,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:03:50Z",
-    "content_sha256": "687c534041623c0a488718dcd3613eda3935b840939cb57f8690a91058a6fcf4"
+    "content_sha256": "687c534041623c0a488718dcd3613eda3935b840939cb57f8690a91058a6fcf4",
+    "resolved_url": "https://www.weather.gov/documentation/services-web-api"
   },
   {
     "url": "https://www.geoapify.com/pricing/",
@@ -163,8 +179,9 @@
     "checked_on": "2026-10-13",
     "method": "direct_https_read",
     "http_status": 200,
-    "retrieved_at": "2026-10-12T20:56:00Z",
-    "content_sha256": "7ff2d577215ba392d0beafb533b5dad824679755af5ee674f34e55d67640bfe1"
+    "retrieved_at": "2026-10-12T21:49:00Z",
+    "content_sha256": "ba700bab69a3acb26aa16f7c22a7c29fbe5d35a2d0b619928e60c593fbde3bcb",
+    "resolved_url": "https://www.geoapify.com/pricing/"
   },
   {
     "url": "https://locationiq.com/pricing",
@@ -173,7 +190,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:00Z",
-    "content_sha256": "2eae25f89675e2ba9afbb67b8dee3cb7e58121b71274b2b75a6f1cc1e2954a5e"
+    "content_sha256": "2eae25f89675e2ba9afbb67b8dee3cb7e58121b71274b2b75a6f1cc1e2954a5e",
+    "resolved_url": "https://locationiq.com/pricing"
   },
   {
     "url": "https://www.geonames.org/export/",
@@ -182,7 +200,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:14Z",
-    "content_sha256": "a3ef98168b8422e5bb1fe61939e9b11372322f3e7b6c82f0c718ab06669cec2e"
+    "content_sha256": "a3ef98168b8422e5bb1fe61939e9b11372322f3e7b6c82f0c718ab06669cec2e",
+    "resolved_url": "https://www.geonames.org/export/"
   },
   {
     "url": "https://ipinfo.io/pricing",
@@ -191,7 +210,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:00Z",
-    "content_sha256": "e2f1fbe28f7c8466ffa66d4e93b9b2e5866012824bfec5fabfda15ed5fe9f137"
+    "content_sha256": "e2f1fbe28f7c8466ffa66d4e93b9b2e5866012824bfec5fabfda15ed5fe9f137",
+    "resolved_url": "https://ipinfo.io/pricing"
   },
   {
     "url": "https://ipwhois.io/documentation",
@@ -200,7 +220,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:00Z",
-    "content_sha256": "60a901dde58a27c558f1cb590ae656c36c490905a965a3e71bcb874a8a3dbfc2"
+    "content_sha256": "60a901dde58a27c558f1cb590ae656c36c490905a965a3e71bcb874a8a3dbfc2",
+    "resolved_url": "https://ipwhois.io/documentation"
   },
   {
     "url": "https://ip-api.com/docs/api:json",
@@ -209,7 +230,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:09:59Z",
-    "content_sha256": "55a922da519ca0637f79c9c426b09eec3a245377ed8671cb4bb7fe46d051f380"
+    "content_sha256": "55a922da519ca0637f79c9c426b09eec3a245377ed8671cb4bb7fe46d051f380",
+    "resolved_url": "https://ip-api.com/docs/api:json"
   },
   {
     "url": "https://ip-api.com/docs/legal",
@@ -218,7 +240,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:01Z",
-    "content_sha256": "5f769c2e734f7dc623a829d12dc187866fa381ef32f4d208bb97352ecf22ba97"
+    "content_sha256": "5f769c2e734f7dc623a829d12dc187866fa381ef32f4d208bb97352ecf22ba97",
+    "resolved_url": "https://ip-api.com/docs/legal"
   },
   {
     "url": "https://ipgeolocation.io/pricing.html",
@@ -227,7 +250,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:03:19Z",
-    "content_sha256": "fd660a2832d601f9b1f6021cd8f43ca0494005ff5cc3484e423c5034373ffd66"
+    "content_sha256": "fd660a2832d601f9b1f6021cd8f43ca0494005ff5cc3484e423c5034373ffd66",
+    "resolved_url": "https://ipgeolocation.io/pricing.html"
   },
   {
     "url": "https://ipdata.co/pricing.html",
@@ -236,7 +260,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:03:18Z",
-    "content_sha256": "4fe7889938a4dc4c266ec7bd2174cd9e1ce9ab9c14027e1e7e30cfe5d22a9535"
+    "content_sha256": "4fe7889938a4dc4c266ec7bd2174cd9e1ce9ab9c14027e1e7e30cfe5d22a9535",
+    "resolved_url": "https://ipdata.co/pricing.html"
   },
   {
     "url": "https://positionstack.com/product",
@@ -245,7 +270,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:04Z",
-    "content_sha256": "d2873c064567c304b31df4c9bf2adad35821232125bf3ae277dacb4faa4f77b2"
+    "content_sha256": "d2873c064567c304b31df4c9bf2adad35821232125bf3ae277dacb4faa4f77b2",
+    "resolved_url": "https://positionstack.com/pricing"
   },
   {
     "url": "https://api.nasa.gov/assets/html/authentication.html",
@@ -254,7 +280,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:15Z",
-    "content_sha256": "3ec2f3e5f7b268d0323e08faf0f8c9b85ec88a4932c777df4e80eb215aedfe04"
+    "content_sha256": "3ec2f3e5f7b268d0323e08faf0f8c9b85ec88a4932c777df4e80eb215aedfe04",
+    "resolved_url": "https://api.nasa.gov/assets/html/authentication.html"
   },
   {
     "url": "https://www.nps.gov/subjects/developer/guides.htm",
@@ -263,7 +290,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:14Z",
-    "content_sha256": "0d48b761041ae882da0eb7257a08a68c28bf01effebd09f875590499d9b4e4b3"
+    "content_sha256": "0d48b761041ae882da0eb7257a08a68c28bf01effebd09f875590499d9b4e4b3",
+    "resolved_url": "https://www.nps.gov/subjects/developer/guides.htm"
   },
   {
     "url": "https://www.alphavantage.co/support/",
@@ -272,7 +300,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:43Z",
-    "content_sha256": "56ef6f20e7384316dcd6bee632d9ed09102e90ae30790dac163ce15b63fed2e0"
+    "content_sha256": "56ef6f20e7384316dcd6bee632d9ed09102e90ae30790dac163ce15b63fed2e0",
+    "resolved_url": "https://www.alphavantage.co/support/"
   },
   {
     "url": "https://twelvedata.com/pricing",
@@ -281,7 +310,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:44Z",
-    "content_sha256": "c41a5fd7dacb3e00ed555f432ab079717e15fbd4c895d7e2c783a16806b44969"
+    "content_sha256": "c41a5fd7dacb3e00ed555f432ab079717e15fbd4c895d7e2c783a16806b44969",
+    "resolved_url": "https://twelvedata.com/pricing"
   },
   {
     "url": "https://www.coingecko.com/en/api/pricing",
@@ -290,7 +320,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:44Z",
-    "content_sha256": "9c83f14b8b2e6c525d72a153250c4e83a27b8a912d23af3107a54429c346835e"
+    "content_sha256": "9c83f14b8b2e6c525d72a153250c4e83a27b8a912d23af3107a54429c346835e",
+    "resolved_url": "https://www.coingecko.com/en/api/pricing"
   },
   {
     "url": "https://www.exchangerate-api.com/docs/free",
@@ -299,7 +330,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:43Z",
-    "content_sha256": "c934aed6430923442ae8a96517a367c3524b7e6874700f21424b2ec93ab56c49"
+    "content_sha256": "c934aed6430923442ae8a96517a367c3524b7e6874700f21424b2ec93ab56c49",
+    "resolved_url": "https://www.exchangerate-api.com/docs/free"
   },
   {
     "url": "https://frankfurter.dev/",
@@ -308,7 +340,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:44Z",
-    "content_sha256": "4687e8c6d8944164bbac49e9a54abc35b78ab7e74d1b3aca2b56c926b39d71bf"
+    "content_sha256": "4687e8c6d8944164bbac49e9a54abc35b78ab7e74d1b3aca2b56c926b39d71bf",
+    "resolved_url": "https://frankfurter.dev/"
   },
   {
     "url": "https://www.eia.gov/opendata/documentation.php",
@@ -317,7 +350,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:52Z",
-    "content_sha256": "a0b0338b2875388dde6e3c600557578cc016453e71d18e6e88224a3841f5e54c"
+    "content_sha256": "a0b0338b2875388dde6e3c600557578cc016453e71d18e6e88224a3841f5e54c",
+    "resolved_url": "https://www.eia.gov/opendata/documentation.php"
   },
   {
     "url": "https://gnews.io/pricing",
@@ -326,7 +360,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:57:22Z",
-    "content_sha256": "9dae08d3314a1850930447993644792b42a7b265c6956f368b5b82c617bf37ad"
+    "content_sha256": "9dae08d3314a1850930447993644792b42a7b265c6956f368b5b82c617bf37ad",
+    "resolved_url": "https://gnews.io/pricing"
   },
   {
     "url": "https://www.currentsapi.services/en/pricing",
@@ -335,7 +370,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:57:23Z",
-    "content_sha256": "9b9987ce952046dbbaa969a75e6f682f044067338abfdc9dd777f3f3c83c7f52"
+    "content_sha256": "9b9987ce952046dbbaa969a75e6f682f044067338abfdc9dd777f3f3c83c7f52",
+    "resolved_url": "https://currentsapi.services/en/product/price"
   },
   {
     "url": "https://mediastack.com/product",
@@ -344,7 +380,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:57:23Z",
-    "content_sha256": "2a4ade85548f3913364fee6083d482926361e63c43dcc1c58e3b2ecce4e3bdf1"
+    "content_sha256": "2a4ade85548f3913364fee6083d482926361e63c43dcc1c58e3b2ecce4e3bdf1",
+    "resolved_url": "https://mediastack.com/pricing"
   },
   {
     "url": "https://developer.themoviedb.org/docs/faq",
@@ -353,7 +390,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:57:22Z",
-    "content_sha256": "c16e699bc887c66baaeb4fc6b5a1c84e1f2f75fd833fd03811be123049cd89f5"
+    "content_sha256": "c16e699bc887c66baaeb4fc6b5a1c84e1f2f75fd833fd03811be123049cd89f5",
+    "resolved_url": "https://developer.themoviedb.org/docs/faq"
   },
   {
     "url": "https://www.omdbapi.com/apikey.aspx",
@@ -362,7 +400,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:03:20Z",
-    "content_sha256": "d54621ecd1e745b50f40b61d195ab234d5234d06bcc65c1351eed9e098e919c0"
+    "content_sha256": "d54621ecd1e745b50f40b61d195ab234d5234d06bcc65c1351eed9e098e919c0",
+    "resolved_url": "https://www.omdbapi.com/apikey.aspx"
   },
   {
     "url": "https://www.football-data.org/pricing",
@@ -371,7 +410,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:57:23Z",
-    "content_sha256": "6659eb4e3793fd500916efc81e050f1d85f227251f07b4c86ec8497b91e86756"
+    "content_sha256": "6659eb4e3793fd500916efc81e050f1d85f227251f07b4c86ec8497b91e86756",
+    "resolved_url": "https://www.football-data.org/pricing"
   },
   {
     "url": "https://unsplash.com/documentation",
@@ -380,7 +420,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:29Z",
-    "content_sha256": "d7e66f187a0f1c6f0fddbbb43d5861708f57fb12e5f7b5ed8a5db6d51ca13fdb"
+    "content_sha256": "d7e66f187a0f1c6f0fddbbb43d5861708f57fb12e5f7b5ed8a5db6d51ca13fdb",
+    "resolved_url": "https://unsplash.com/documentation"
   },
   {
     "url": "https://pixabay.com/api/docs/",
@@ -389,7 +430,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:28Z",
-    "content_sha256": "32e12a32142265839512f84f7a33c71bedf6de78d470c7efc3fea84eaaeaa247"
+    "content_sha256": "32e12a32142265839512f84f7a33c71bedf6de78d470c7efc3fea84eaaeaa247",
+    "resolved_url": "https://pixabay.com/api/docs/"
   },
   {
     "url": "https://imagekit.io/plans/",
@@ -398,7 +440,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:29Z",
-    "content_sha256": "c799f32d6f638fa076f39e63cd5ff3f4238ede6c44bc79793ee323470f97e3cd"
+    "content_sha256": "c799f32d6f638fa076f39e63cd5ff3f4238ede6c44bc79793ee323470f97e3cd",
+    "resolved_url": "https://imagekit.io/plans/"
   },
   {
     "url": "https://www.filestack.com/pricing/",
@@ -406,8 +449,9 @@
     "checked_on": "2026-10-13",
     "method": "direct_https_read",
     "http_status": 200,
-    "retrieved_at": "2026-10-12T20:59:30Z",
-    "content_sha256": "d1179eae9e17eea284bb5f40cf37ba1b671879f357462e4e95b5fe3a10d75fc9"
+    "retrieved_at": "2026-10-12T21:30:42Z",
+    "content_sha256": "d1179eae9e17eea284bb5f40cf37ba1b671879f357462e4e95b5fe3a10d75fc9",
+    "resolved_url": "https://www.filestack.com/pricing/"
   },
   {
     "url": "https://thecatapi.com/",
@@ -416,7 +460,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:07Z",
-    "content_sha256": "3acd8077572a55d379c31081599aaeb04130c554c0bb987be7688c9f429f70e0"
+    "content_sha256": "3acd8077572a55d379c31081599aaeb04130c554c0bb987be7688c9f429f70e0",
+    "resolved_url": "https://thecatapi.com/"
   },
   {
     "url": "https://resend.com/pricing",
@@ -425,7 +470,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:28Z",
-    "content_sha256": "a04f8b298f6cfad3af1f64980c0b5f7df20831ef872d3a713976abd2d1a81149"
+    "content_sha256": "a04f8b298f6cfad3af1f64980c0b5f7df20831ef872d3a713976abd2d1a81149",
+    "resolved_url": "https://resend.com/pricing"
   },
   {
     "url": "https://www.brevo.com/pricing/",
@@ -433,8 +479,9 @@
     "checked_on": "2026-10-13",
     "method": "direct_https_read",
     "http_status": 200,
-    "retrieved_at": "2026-10-12T20:59:28Z",
-    "content_sha256": "241be0f6cf8bdd0b63f04851155de58f20a32974f5d25d65591e0f8beb15b4e6"
+    "retrieved_at": "2026-10-12T21:29:30Z",
+    "content_sha256": "daf4557399fc4b10aec5d14c32c5784f73ba8bb4d5e900f25dcffe20c00ec699",
+    "resolved_url": "https://www.brevo.com/pricing/"
   },
   {
     "url": "https://www.mailjet.com/pricing/",
@@ -443,7 +490,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:28Z",
-    "content_sha256": "82a167c2096f9ec38c813b5c8e19d4e5930a5d7edbf1be77200f2b87040903ff"
+    "content_sha256": "82a167c2096f9ec38c813b5c8e19d4e5930a5d7edbf1be77200f2b87040903ff",
+    "resolved_url": "https://www.mailjet.com/pricing/"
   },
   {
     "url": "https://www.mailersend.com/pricing",
@@ -452,7 +500,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:28Z",
-    "content_sha256": "583a8a6b1198dd25aae78e5ebd65b53b39fdff72c2ceeb58dfa3828b4583e088"
+    "content_sha256": "583a8a6b1198dd25aae78e5ebd65b53b39fdff72c2ceeb58dfa3828b4583e088",
+    "resolved_url": "https://www.mailersend.com/pricing"
   },
   {
     "url": "https://www.alchemy.com/pricing",
@@ -461,7 +510,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:43Z",
-    "content_sha256": "87f3597c13e333a0d5435fff9d39efd79bf4b81232891efd091e653417098dc2"
+    "content_sha256": "87f3597c13e333a0d5435fff9d39efd79bf4b81232891efd091e653417098dc2",
+    "resolved_url": "https://www.alchemy.com/pricing"
   },
   {
     "url": "https://www.infura.io/pricing",
@@ -470,7 +520,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:43Z",
-    "content_sha256": "46cdab9183a105a1aa4a239ddf253c26b61037c412e0ba20202495ba028987f9"
+    "content_sha256": "46cdab9183a105a1aa4a239ddf253c26b61037c412e0ba20202495ba028987f9",
+    "resolved_url": "https://www.infura.io/pricing"
   },
   {
     "url": "https://www.helius.dev/pricing",
@@ -479,7 +530,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:42Z",
-    "content_sha256": "985f117e2ef72710b1359bf9cf6957ccedb89bcabc861169a31896dd0332971d"
+    "content_sha256": "985f117e2ef72710b1359bf9cf6957ccedb89bcabc861169a31896dd0332971d",
+    "resolved_url": "https://www.helius.dev/pricing"
   },
   {
     "url": "https://docs.etherscan.io/resources/rate-limits",
@@ -488,7 +540,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:04:40Z",
-    "content_sha256": "0cbb0f13f989206c40091d563a9e3d37777cb45177f04d8edd6a74b691c76250"
+    "content_sha256": "0cbb0f13f989206c40091d563a9e3d37777cb45177f04d8edd6a74b691c76250",
+    "resolved_url": "https://docs.etherscan.io/rate-limits"
   },
   {
     "url": "https://docs.virustotal.com/reference/public-vs-premium-api",
@@ -497,7 +550,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:44Z",
-    "content_sha256": "703be7ff90b212777f32620317bbbb595a9f9a3f464547d69eea1ed2162a52b4"
+    "content_sha256": "703be7ff90b212777f32620317bbbb595a9f9a3f464547d69eea1ed2162a52b4",
+    "resolved_url": "https://docs.virustotal.com/reference/public-vs-premium-api"
   },
   {
     "url": "https://www.abuseipdb.com/pricing",
@@ -506,7 +560,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:43Z",
-    "content_sha256": "e5b9ae885ab511b84708bac901197ff9a246cea623e400abc6283c34f68aebcf"
+    "content_sha256": "e5b9ae885ab511b84708bac901197ff9a246cea623e400abc6283c34f68aebcf",
+    "resolved_url": "https://www.abuseipdb.com/pricing"
   },
   {
     "url": "https://urlscan.io/pricing",
@@ -515,7 +570,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:04:39Z",
-    "content_sha256": "6f34d18c30dae25cbf7d1585bd1cee410c2e559eca90ec50526abd812e2251c9"
+    "content_sha256": "6f34d18c30dae25cbf7d1585bd1cee410c2e559eca90ec50526abd812e2251c9",
+    "resolved_url": "https://urlscan.io/pricing"
   },
   {
     "url": "https://numverify.com/product",
@@ -524,7 +580,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:03Z",
-    "content_sha256": "e8094eba9ccd62243601efe019abf6d5a11232312f78caec1b687148de978b08"
+    "content_sha256": "e8094eba9ccd62243601efe019abf6d5a11232312f78caec1b687148de978b08",
+    "resolved_url": "https://numverify.com/pricing"
   },
   {
     "url": "https://mailboxlayer.com/product",
@@ -533,7 +590,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:02Z",
-    "content_sha256": "9411ad7913c967ee00538b631e8bad8fb45d2233609373a60c542f31764f360e"
+    "content_sha256": "9411ad7913c967ee00538b631e8bad8fb45d2233609373a60c542f31764f360e",
+    "resolved_url": "https://mailboxlayer.com/pricing"
   },
   {
     "url": "https://www.abstractapi.com/pricing",
@@ -542,7 +600,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:04Z",
-    "content_sha256": "f95e4bfbb6d62ba6c36a946b59dcd2e006958d27dab2b79d1b04f47a3a2f5d6f"
+    "content_sha256": "f95e4bfbb6d62ba6c36a946b59dcd2e006958d27dab2b79d1b04f47a3a2f5d6f",
+    "resolved_url": "https://www.abstractapi.com/pricing"
   },
   {
     "url": "https://apilayer.com/marketplace/fixer-api",
@@ -551,7 +610,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:01Z",
-    "content_sha256": "de04df8c901ecd69593e0874d55df32cc5b8b80f524c1e6e537aeaa0fc717bce"
+    "content_sha256": "de04df8c901ecd69593e0874d55df32cc5b8b80f524c1e6e537aeaa0fc717bce",
+    "resolved_url": "https://marketplace.apilayer.com/fixer-api"
   },
   {
     "url": "https://exchangeratesapi.io/pricing/",
@@ -560,7 +620,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:01Z",
-    "content_sha256": "c1239a0f914a6dd9843d89676666154e9171bd52af9a0b8e23165a459880300d"
+    "content_sha256": "c1239a0f914a6dd9843d89676666154e9171bd52af9a0b8e23165a459880300d",
+    "resolved_url": "https://exchangeratesapi.io/pricing/"
   },
   {
     "url": "https://currencylayer.com/product",
@@ -569,7 +630,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:02Z",
-    "content_sha256": "7f01c097f97c01c1fc492ebf58530ca58e76992847688871866869be58a145a4"
+    "content_sha256": "7f01c097f97c01c1fc492ebf58530ca58e76992847688871866869be58a145a4",
+    "resolved_url": "https://currencylayer.com/pricing"
   },
   {
     "url": "https://coinlayer.com/product",
@@ -578,7 +640,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:03Z",
-    "content_sha256": "d0758d670a144273509addf9527ba6564b75730a1b5f046d3f2139b58a6ef34a"
+    "content_sha256": "d0758d670a144273509addf9527ba6564b75730a1b5f046d3f2139b58a6ef34a",
+    "resolved_url": "https://coinlayer.com/pricing"
   },
   {
     "url": "https://serpstack.com/product",
@@ -587,7 +650,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:03Z",
-    "content_sha256": "b499d693d876e055bacb5048f73de3b091b7b0a58285f483ce0c20b735c250d5"
+    "content_sha256": "b499d693d876e055bacb5048f73de3b091b7b0a58285f483ce0c20b735c250d5",
+    "resolved_url": "https://serpstack.com/pricing"
   },
   {
     "url": "https://screenshotlayer.com/product",
@@ -596,7 +660,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:05Z",
-    "content_sha256": "eb2e836c632339f52081ad2015301677b945f4eebb316df6775c50f77a211c48"
+    "content_sha256": "eb2e836c632339f52081ad2015301677b945f4eebb316df6775c50f77a211c48",
+    "resolved_url": "https://screenshotlayer.com/pricing"
   },
   {
     "url": "https://userstack.com/product",
@@ -605,7 +670,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:05Z",
-    "content_sha256": "38c282448b2f2c6402af4fc44b0ea768cfc49160ada4bb461d4cf7b8cf572283"
+    "content_sha256": "38c282448b2f2c6402af4fc44b0ea768cfc49160ada4bb461d4cf7b8cf572283",
+    "resolved_url": "https://userstack.com/pricing"
   },
   {
     "url": "https://supabase.com/pricing",
@@ -614,7 +680,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:26Z",
-    "content_sha256": "654151fdbeea4637b9ddf090f184621129a008cf47fae9e461a00139968b3207"
+    "content_sha256": "654151fdbeea4637b9ddf090f184621129a008cf47fae9e461a00139968b3207",
+    "resolved_url": "https://supabase.com/pricing"
   },
   {
     "url": "https://www.convex.dev/pricing",
@@ -623,7 +690,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:26Z",
-    "content_sha256": "35a15fd175e4a429c964c80b75c42e0980c261861a1827b4f6f7bec391b1e00e"
+    "content_sha256": "35a15fd175e4a429c964c80b75c42e0980c261861a1827b4f6f7bec391b1e00e",
+    "resolved_url": "https://www.convex.dev/pricing"
   },
   {
     "url": "https://www.sanity.io/pricing",
@@ -632,7 +700,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:26Z",
-    "content_sha256": "69a01af61cf2890bf40e799cbbd7f73a551e3954ee738fa60db5758f6fc8f76e"
+    "content_sha256": "69a01af61cf2890bf40e799cbbd7f73a551e3954ee738fa60db5758f6fc8f76e",
+    "resolved_url": "https://www.sanity.io/pricing"
   },
   {
     "url": "https://www.contentstack.com/pricing/",
@@ -641,7 +710,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:28Z",
-    "content_sha256": "68c9de784b3f0f19a1f76bcfe45b04ea675e70e66822ba2d41fdd54148adc06f"
+    "content_sha256": "68c9de784b3f0f19a1f76bcfe45b04ea675e70e66822ba2d41fdd54148adc06f",
+    "resolved_url": "https://www.contentstack.com/pricing?personalize_variants=o_0"
   },
   {
     "url": "https://support.airtable.com/docs/managing-api-call-limits-in-airtable",
@@ -650,7 +720,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:29Z",
-    "content_sha256": "20104e2a2eeab7c6e74d269e80487b0ea0ff4da1e3487466f8382e44756d8833"
+    "content_sha256": "20104e2a2eeab7c6e74d269e80487b0ea0ff4da1e3487466f8382e44756d8833",
+    "resolved_url": "https://support.airtable.com/articles/7735693959-managing-api-call-limits-in-airtable"
   },
   {
     "url": "https://www.airtable.com/pricing",
@@ -659,7 +730,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:27Z",
-    "content_sha256": "4526fa5331bc874ebe132a01eea7c99ea148dc347f427f87a1212ea737f95cf3"
+    "content_sha256": "4526fa5331bc874ebe132a01eea7c99ea148dc347f427f87a1212ea737f95cf3",
+    "resolved_url": "https://airtable.com/pricing"
   },
   {
     "url": "https://www.algolia.com/pricing",
@@ -668,7 +740,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:28Z",
-    "content_sha256": "2f58c5508a1dd072f4b1632daffcf8964d0fa0ab6c08a3c407e05628c2b5653b"
+    "content_sha256": "2f58c5508a1dd072f4b1632daffcf8964d0fa0ab6c08a3c407e05628c2b5653b",
+    "resolved_url": "https://www.algolia.com/pricing"
   },
   {
     "url": "https://ably.com/pricing",
@@ -677,7 +750,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:28Z",
-    "content_sha256": "d626f42dcf234f72c161cdde1d3659f2127ad9351498d3d5454320649879734b"
+    "content_sha256": "d626f42dcf234f72c161cdde1d3659f2127ad9351498d3d5454320649879734b",
+    "resolved_url": "https://ably.com/pricing"
   },
   {
     "url": "https://pusher.com/channels/pricing/",
@@ -686,7 +760,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:28Z",
-    "content_sha256": "7ee56e75fe6d05c2a016f84dc5d3599a12eafafb377214594ace7fb7843713d1"
+    "content_sha256": "7ee56e75fe6d05c2a016f84dc5d3599a12eafafb377214594ace7fb7843713d1",
+    "resolved_url": "https://pusher.com/channels/pricing/"
   },
   {
     "url": "https://calendarific.com/",
@@ -695,7 +770,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:03:19Z",
-    "content_sha256": "3b85a6ad85f184872e006d381e92a5bea36b67fe71f15350ae09e92bdb281736"
+    "content_sha256": "3b85a6ad85f184872e006d381e92a5bea36b67fe71f15350ae09e92bdb281736",
+    "resolved_url": "https://calendarific.com/"
   },
   {
     "url": "https://www.datamuse.com/api/",
@@ -704,7 +780,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:03:19Z",
-    "content_sha256": "e1cc6fecc22cfef8d7951ce735bf2e4885060cbf18cd64bc113cccb8c61d2f6a"
+    "content_sha256": "e1cc6fecc22cfef8d7951ce735bf2e4885060cbf18cd64bc113cccb8c61d2f6a",
+    "resolved_url": "https://www.datamuse.com/api/"
   },
   {
     "url": "https://dev.languagetool.org/public-http-api.html",
@@ -713,7 +790,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:03:19Z",
-    "content_sha256": "959582b18350955175b2efa74c32280de87a22b83d37c5388e1e611366e72cf1"
+    "content_sha256": "959582b18350955175b2efa74c32280de87a22b83d37c5388e1e611366e72cf1",
+    "resolved_url": "https://dev.languagetool.org/public-http-api.html"
   },
   {
     "url": "https://musicbrainz.org/doc/MusicBrainz_API",
@@ -722,7 +800,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:03:19Z",
-    "content_sha256": "7f80b3f27ec11104be423ab4be1e17ee2fe83ee80fdf3c858c1a99b59329bd48"
+    "content_sha256": "7f80b3f27ec11104be423ab4be1e17ee2fe83ee80fdf3c858c1a99b59329bd48",
+    "resolved_url": "https://musicbrainz.org/doc/MusicBrainz_API"
   },
   {
     "url": "https://www.tvmaze.com/api",
@@ -731,7 +810,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:03:19Z",
-    "content_sha256": "697b7180721a82758b40158e4748364816419c3766d1600c9ca04780c1f699c1"
+    "content_sha256": "697b7180721a82758b40158e4748364816419c3766d1600c9ca04780c1f699c1",
+    "resolved_url": "https://www.tvmaze.com/api"
   },
   {
     "url": "https://opentdb.com/api_config.php",
@@ -740,7 +820,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:03:20Z",
-    "content_sha256": "9c598b92c043b427b64b9b8da31994d81cecbd1b0bea1ac5ff866f35be9fa14e"
+    "content_sha256": "9c598b92c043b427b64b9b8da31994d81cecbd1b0bea1ac5ff866f35be9fa14e",
+    "resolved_url": "https://opentdb.com/api_config.php"
   },
   {
     "url": "https://www.chess.com/news/view/published-data-api",
@@ -749,7 +830,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:03:21Z",
-    "content_sha256": "3aef242225f6d628599139c2394321e7fe451215ee21c78303c4bc06fc7b5c60"
+    "content_sha256": "3aef242225f6d628599139c2394321e7fe451215ee21c78303c4bc06fc7b5c60",
+    "resolved_url": "https://www.chess.com/news/view/published-data-api"
   },
   {
     "url": "https://jsonplaceholder.typicode.com/",
@@ -758,7 +840,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:05Z",
-    "content_sha256": "8f1edccb6f72ab3d4961fc366887e51f2d495109d84dd4ed263aca3e02b0eeaf"
+    "content_sha256": "8f1edccb6f72ab3d4961fc366887e51f2d495109d84dd4ed263aca3e02b0eeaf",
+    "resolved_url": "https://jsonplaceholder.typicode.com/"
   },
   {
     "url": "https://dummyjson.com/",
@@ -767,7 +850,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:06Z",
-    "content_sha256": "86cc9d1d0785aa3524efa2b26a082b652beef4bd2878163e8c0e0f33082e3281"
+    "content_sha256": "86cc9d1d0785aa3524efa2b26a082b652beef4bd2878163e8c0e0f33082e3281",
+    "resolved_url": "https://dummyjson.com/"
   },
   {
     "url": "https://pokeapi.co/docs/v2",
@@ -776,7 +860,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:06Z",
-    "content_sha256": "771ff528e83d024c4d4818323ce64955fe4a595f2fd783491f03a9acf7730bf8"
+    "content_sha256": "771ff528e83d024c4d4818323ce64955fe4a595f2fd783491f03a9acf7730bf8",
+    "resolved_url": "https://pokeapi.co/docs/v2"
   },
   {
     "url": "https://dictionaryapi.dev/",
@@ -785,7 +870,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:03:19Z",
-    "content_sha256": "86a13f2eb5eb3bc28e10776caea30b31fedc1c23aadd077978fd30de9d9ba04b"
+    "content_sha256": "86a13f2eb5eb3bc28e10776caea30b31fedc1c23aadd077978fd30de9d9ba04b",
+    "resolved_url": "https://dictionaryapi.dev/"
   },
   {
     "url": "https://www.themealdb.com/api.php",
@@ -794,7 +880,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:06Z",
-    "content_sha256": "089d526a46de6c7a8c391bcb2cd001764a2a28851a10330f984f71a7ca26a71d"
+    "content_sha256": "089d526a46de6c7a8c391bcb2cd001764a2a28851a10330f984f71a7ca26a71d",
+    "resolved_url": "https://www.themealdb.com/api.php"
   },
   {
     "url": "https://www.thecocktaildb.com/api.php",
@@ -803,7 +890,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:06Z",
-    "content_sha256": "8243fc006fbd201f379944975f02d2ee7f918235483f09d3fd787cd1109a64d8"
+    "content_sha256": "8243fc006fbd201f379944975f02d2ee7f918235483f09d3fd787cd1109a64d8",
+    "resolved_url": "https://www.thecocktaildb.com/api.php"
   },
   {
     "url": "https://icanhazdadjoke.com/api",
@@ -812,7 +900,18 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:06Z",
-    "content_sha256": "149fccc9e5b32f32efe187c378d9bfd621fbe5e68bd30466575b765d504a2d6e"
+    "content_sha256": "149fccc9e5b32f32efe187c378d9bfd621fbe5e68bd30466575b765d504a2d6e",
+    "resolved_url": "https://icanhazdadjoke.com/api"
+  },
+  {
+    "url": "https://openfoodfacts.github.io/openfoodfacts-server/api/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:07Z",
+    "content_sha256": "e425faa33c1c52760390d14bf4e14544803cef98c8d595c32cf689df76ed6989",
+    "resolved_url": "https://openfoodfacts.github.io/openfoodfacts-server/api/"
   },
   {
     "url": "https://world.openfoodfacts.org/data",
@@ -820,8 +919,9 @@
     "checked_on": "2026-10-13",
     "method": "direct_https_read",
     "http_status": 200,
-    "retrieved_at": "2026-10-12T21:00:50Z",
-    "content_sha256": "cb6ca7f650d3d2e3a51b68e702a27bc4029a126643480f6eae1039df15e275a4"
+    "retrieved_at": "2026-10-12T21:28:07Z",
+    "content_sha256": "cb6ca7f650d3d2e3a51b68e702a27bc4029a126643480f6eae1039df15e275a4",
+    "resolved_url": "https://world.openfoodfacts.org/data"
   },
   {
     "url": "https://api.wikimedia.org/wiki/Rate_limits",
@@ -830,7 +930,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:51Z",
-    "content_sha256": "a339485eaf048a178e262fc1e849f5ed6aa6321815316b962c23cea9feaf8d13"
+    "content_sha256": "a339485eaf048a178e262fc1e849f5ed6aa6321815316b962c23cea9feaf8d13",
+    "resolved_url": "https://www.mediawiki.org/wiki/Wikimedia_APIs"
   },
   {
     "url": "https://www.mediawiki.org/wiki/API:Etiquette",
@@ -839,7 +940,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:51Z",
-    "content_sha256": "c371de4570b233cd94aee3c9ce334f7798a4b7f30313aaa84e71b569851334f1"
+    "content_sha256": "c371de4570b233cd94aee3c9ce334f7798a4b7f30313aaa84e71b569851334f1",
+    "resolved_url": "https://www.mediawiki.org/wiki/API:Etiquette"
   },
   {
     "url": "https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits",
@@ -848,7 +950,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:09:58Z",
-    "content_sha256": "1b36678d46a93fa6996baff53826de9b257a2ba63ec1d88d95d1a0dee65465dd"
+    "content_sha256": "1b36678d46a93fa6996baff53826de9b257a2ba63ec1d88d95d1a0dee65465dd",
+    "resolved_url": "https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits"
   },
   {
     "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
@@ -857,7 +960,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:50Z",
-    "content_sha256": "20aa13bcae70da2b4fca53c1c53c21183c0ce9dd69d6df6a80d6f483d6e137ae"
+    "content_sha256": "20aa13bcae70da2b4fca53c1c53c21183c0ce9dd69d6df6a80d6f483d6e137ae",
+    "resolved_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/"
   },
   {
     "url": "https://info.arxiv.org/help/api/tou.html",
@@ -866,7 +970,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:50Z",
-    "content_sha256": "badbec1e87aa317038c3a519a3fad3c4a855ebe019f0e681772d72f6a14f4e49"
+    "content_sha256": "badbec1e87aa317038c3a519a3fad3c4a855ebe019f0e681772d72f6a14f4e49",
+    "resolved_url": "https://info.arxiv.org/help/api/tou.html"
   },
   {
     "url": "https://docs.openalex.org/how-to-use-the-api/rate-limits-and-authentication",
@@ -875,7 +980,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:50Z",
-    "content_sha256": "c9a38eee46f55803900344e479077b489fa7813f1b26c9d6ed783ef3f1d9b36b"
+    "content_sha256": "c9a38eee46f55803900344e479077b489fa7813f1b26c9d6ed783ef3f1d9b36b",
+    "resolved_url": "https://help.openalex.org/api/authentication/"
   },
   {
     "url": "https://www.dicebear.com/how-to-use/http-api/",
@@ -884,7 +990,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:59:07Z",
-    "content_sha256": "2752cba65273481d694eb60298c4d350ec34723bb840a203219f40dcf528a49f"
+    "content_sha256": "2752cba65273481d694eb60298c4d350ec34723bb840a203219f40dcf528a49f",
+    "resolved_url": "https://www.dicebear.com/integrations/http-api/"
   },
   {
     "url": "https://developers.cloudflare.com/workers/platform/pricing/",
@@ -893,7 +1000,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:08:42Z",
-    "content_sha256": "4c8ebf14ea0280a834e6e74a23bedb2169a11261ffbdc44034a530a765bd4608"
+    "content_sha256": "4c8ebf14ea0280a834e6e74a23bedb2169a11261ffbdc44034a530a765bd4608",
+    "resolved_url": "https://developers.cloudflare.com/workers/platform/pricing/"
   },
   {
     "url": "https://developers.cloudflare.com/kv/platform/pricing/",
@@ -902,7 +1010,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:08:42Z",
-    "content_sha256": "f3cf0fee747708888d7469252554f10b251ea5fa2f2fbf831f309dcdbae069ca"
+    "content_sha256": "f3cf0fee747708888d7469252554f10b251ea5fa2f2fbf831f309dcdbae069ca",
+    "resolved_url": "https://developers.cloudflare.com/kv/platform/pricing/"
   },
   {
     "url": "https://developers.cloudflare.com/d1/platform/pricing/",
@@ -911,7 +1020,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:08:42Z",
-    "content_sha256": "934c42e2d7d093d0c30de345ec767efc105b40889180ef326a9336af973dfbf3"
+    "content_sha256": "934c42e2d7d093d0c30de345ec767efc105b40889180ef326a9336af973dfbf3",
+    "resolved_url": "https://developers.cloudflare.com/d1/platform/pricing/"
   },
   {
     "url": "https://developers.cloudflare.com/queues/platform/pricing/",
@@ -920,7 +1030,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:08:42Z",
-    "content_sha256": "85c7020e1b7e324d6a0cc175b47b4d0bd2500fbe1aa6e379838edfea15d28d49"
+    "content_sha256": "85c7020e1b7e324d6a0cc175b47b4d0bd2500fbe1aa6e379838edfea15d28d49",
+    "resolved_url": "https://developers.cloudflare.com/queues/platform/pricing/"
   },
   {
     "url": "https://firebase.google.com/docs/firestore/quotas",
@@ -929,7 +1040,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:08:43Z",
-    "content_sha256": "c486f3cf554809003c3263eb56f8bf382f91e4172d740315777f79b8625aeccd"
+    "content_sha256": "c486f3cf554809003c3263eb56f8bf382f91e4172d740315777f79b8625aeccd",
+    "resolved_url": "https://firebase.google.com/docs/firestore/quotas"
   },
   {
     "url": "https://firebase.google.com/pricing",
@@ -938,7 +1050,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:27Z",
-    "content_sha256": "35a93a26293e8b2e410b3c3524b13bb0a5daf30086f55b37c7788f9cb2fd92ea"
+    "content_sha256": "35a93a26293e8b2e410b3c3524b13bb0a5daf30086f55b37c7788f9cb2fd92ea",
+    "resolved_url": "https://firebase.google.com/pricing"
   },
   {
     "url": "https://firebase.google.com/docs/database/usage/billing",
@@ -947,7 +1060,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:08:44Z",
-    "content_sha256": "1a13ed6d524f5407a2b80c042a735e23e1f61a58e7075cbac1113845d8fbecab"
+    "content_sha256": "1a13ed6d524f5407a2b80c042a735e23e1f61a58e7075cbac1113845d8fbecab",
+    "resolved_url": "https://firebase.google.com/docs/database/usage/billing"
   },
   {
     "url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
@@ -956,7 +1070,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:01:26Z",
-    "content_sha256": "030d84893f2384e47ad1f8e0aa632b1756517d55aa9a3ca410c6a4e36d53fc2c"
+    "content_sha256": "030d84893f2384e47ad1f8e0aa632b1756517d55aa9a3ca410c6a4e36d53fc2c",
+    "resolved_url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api"
   },
   {
     "url": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans",
@@ -965,7 +1080,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:04:40Z",
-    "content_sha256": "5dd3bd167d9254fb61159f07f17d62e3e5c4553be708d5e8e2472c74a0449830"
+    "content_sha256": "5dd3bd167d9254fb61159f07f17d62e3e5c4553be708d5e8e2472c74a0449830",
+    "resolved_url": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans"
   },
   {
     "url": "https://docs.gitlab.com/user/gitlab_com/rate_limits/",
@@ -974,7 +1090,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:08:43Z",
-    "content_sha256": "603df460d81cc846ed72b067104901e6eda48484f4eb67c2137fefda86784ef2"
+    "content_sha256": "603df460d81cc846ed72b067104901e6eda48484f4eb67c2137fefda86784ef2",
+    "resolved_url": "https://docs.gitlab.com/user/gitlab_com/rate_limits/"
   },
   {
     "url": "https://about.gitlab.com/pricing/",
@@ -983,7 +1100,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:04:39Z",
-    "content_sha256": "d74afb502b77c9847bc3127121d5791aa61d11d3eafc4c4a7d7e9f8e49d13ad5"
+    "content_sha256": "d74afb502b77c9847bc3127121d5791aa61d11d3eafc4c4a7d7e9f8e49d13ad5",
+    "resolved_url": "https://about.gitlab.com/pricing/"
   },
   {
     "url": "https://api.artic.edu/docs/",
@@ -992,7 +1110,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:00:50Z",
-    "content_sha256": "30a5e0e82c678ac61520ae69048deed5713d03c30472b2b48bd5d2e2d51998e7"
+    "content_sha256": "30a5e0e82c678ac61520ae69048deed5713d03c30472b2b48bd5d2e2d51998e7",
+    "resolved_url": "https://api.artic.edu/docs/"
   },
   {
     "url": "https://openlibrary.org/developers/api",
@@ -1001,7 +1120,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T21:08:44Z",
-    "content_sha256": "7d88c16e3ef694144c6d686b31db6cc5f243f7c4601f00ef5709e6476e8913bf"
+    "content_sha256": "7d88c16e3ef694144c6d686b31db6cc5f243f7c4601f00ef5709e6476e8913bf",
+    "resolved_url": "https://openlibrary.org/developers/api"
   },
   {
     "url": "https://www.bls.gov/developers/api_faqs.htm",
@@ -1017,7 +1137,8 @@
     "method": "direct_https_read",
     "http_status": 200,
     "retrieved_at": "2026-10-12T20:56:44Z",
-    "content_sha256": "e9e3ec61b75119f4899f425dc7ef363bedc73ad071c36411d2c5e353ef18422f"
+    "content_sha256": "e9e3ec61b75119f4899f425dc7ef363bedc73ad071c36411d2c5e353ef18422f",
+    "resolved_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation"
   },
   {
     "url": "https://data.worldbank.org/summary-terms-of-use",
@@ -1032,8 +1153,1683 @@
     "checked_on": "2026-10-13",
     "method": "direct_https_read",
     "http_status": 200,
-    "retrieved_at": "2026-10-12T21:03:51Z",
-    "content_sha256": "c48c786503bd7a952c19972c2b4a9126a9ca1e2070784a94a4bec26cbb2bdc1a"
+    "retrieved_at": "2026-10-12T21:30:47Z",
+    "content_sha256": "c48c786503bd7a952c19972c2b4a9126a9ca1e2070784a94a4bec26cbb2bdc1a",
+    "resolved_url": "https://nagerholidays.com/api"
+  },
+  {
+    "url": "https://www.meteosource.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:49:00Z",
+    "content_sha256": "574e3758ad8f6417d72f201f61af9e65bd06dfe3db6f36f60e3b6b62c1c990bc",
+    "resolved_url": "https://www.meteosource.com/pricing"
+  },
+  {
+    "url": "https://www.stormglass.io/pricing/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:49:00Z",
+    "content_sha256": "7527fb46d0126bc737a2efb0361688df87d733c1264875dc05b4033d12190de0",
+    "resolved_url": "https://stormglass.io/pricing/"
+  },
+  {
+    "url": "https://ipquery.io/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:48:59Z",
+    "content_sha256": "2063960a1af5de3db65c34dd2fb650e9427dcaba67e0cc1fdbb5b3fd291112ad",
+    "resolved_url": "https://ipquery.io/"
+  },
+  {
+    "url": "https://ipbase.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:49:00Z",
+    "content_sha256": "7024a326add9252e6aaab1041d5c28321a9a40609fb4d1ce92a7919653e38dcc",
+    "resolved_url": "https://ipbase.com/pricing/"
+  },
+  {
+    "url": "https://www.graphhopper.com/pricing/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:49:00Z",
+    "content_sha256": "84a132a2c9e29248af39835b9bd0d5f52448282a1bda449d4dc97e1ad5343291",
+    "resolved_url": "https://www.graphhopper.com/pricing/"
+  },
+  {
+    "url": "https://ask.openrouteservice.org/t/pricing-plan-from-the-api/5806",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:57:10Z",
+    "content_sha256": "a8e43c9f9fbffbac0b1d0d8879cd59a48c66a07af1fd14dd65324d298fc449a0",
+    "resolved_url": "https://ask.openrouteservice.org/t/pricing-plan-from-the-api/5806"
+  },
+  {
+    "url": "https://ask.openrouteservice.org/t/quota-exceeded-on-directions-while-dashboard-shows-full-quota-standard-key/8068",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:57:09Z",
+    "content_sha256": "50ce2df825904fd836c1285d322b0995530d2f3ac1a3fd998d037c5ad440044c",
+    "resolved_url": "https://ask.openrouteservice.org/t/quota-exceeded-on-directions-while-dashboard-shows-full-quota-standard-key/8068"
+  },
+  {
+    "url": "https://currencybeacon.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:50:59Z",
+    "content_sha256": "b58143468ba85cfaf2af70c317da29f2f975d88fc422441d77e53359d1669483",
+    "resolved_url": "https://currencybeacon.com/pricing"
+  },
+  {
+    "url": "https://currencyapi.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:50:59Z",
+    "content_sha256": "d592692427d83c445385fcb31d46649750d81a68e655316bd084b2b91b6a7f6b",
+    "resolved_url": "https://currencyapi.com/pricing/"
+  },
+  {
+    "url": "https://currencyfreaks.com/pricing.html",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:50:59Z",
+    "content_sha256": "523e92789f0ff4a63a605d53af2a66bc4bc60ccf242535d13ed7eb7fce2a7681",
+    "resolved_url": "https://currencyfreaks.com/pricing"
+  },
+  {
+    "url": "https://exchangerate.host/product",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:51:00Z",
+    "content_sha256": "ad23b9ab91c5dc99e6eb9d25252aa160b3301715e3f1328dbe5a03b477e53e13",
+    "resolved_url": "https://exchangerate.host/pricing"
+  },
+  {
+    "url": "https://massive.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:51:06Z",
+    "content_sha256": "074465523b7f70d6d5e7e8247489de4823e477de14766107608a8065c2e68f61",
+    "resolved_url": "https://massive.com/pricing"
+  },
+  {
+    "url": "https://www.blockcypher.com/dev/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:51:04Z",
+    "content_sha256": "2797ffde84ebd9c8172895c05da1664fbd82a091524e50574cfe6db2585e6ecb",
+    "resolved_url": "https://www.blockcypher.com/dev/"
+  },
+  {
+    "url": "https://www.blockchain.com/explorer/api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:51:03Z",
+    "content_sha256": "3760039c109e805e66bae8db7f11546453d146a05aa1e15dc3bd4b1a59b05a70",
+    "resolved_url": "https://api.blockchain.info/explorer-gateway-kt/openapi.json"
+  },
+  {
+    "url": "https://upstash.com/pricing/vector",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:51:05Z",
+    "content_sha256": "83b41e114c231b32d584eaf15e6ca02e1672e351f93f1b4bd37a098b9e92d95c",
+    "resolved_url": "https://upstash.com/pricing/vector"
+  },
+  {
+    "url": "https://upstash.com/pricing/qstash",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:51:05Z",
+    "content_sha256": "ee46ed4311d1da109e88da0df30e55f43ce4782ab42d2ce4ce42652f56a22a30",
+    "resolved_url": "https://upstash.com/pricing/qstash"
+  },
+  {
+    "url": "https://upstash.com/pricing/workflow",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:51:05Z",
+    "content_sha256": "57084566146c8fed2d20c84a5d846bd7901f59bd7d5843d2d38098b486747d7b",
+    "resolved_url": "https://upstash.com/pricing/workflow"
+  },
+  {
+    "url": "https://www.courier.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:51:06Z",
+    "content_sha256": "b5999ca5af545b0814673945751369db4decd20c0bcbe1c1e333d0e0cd9ce7c2",
+    "resolved_url": "https://www.courier.com/pricing"
+  },
+  {
+    "url": "https://www.novu.co/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:51:06Z",
+    "content_sha256": "fcb0eda61c48684058ec7d3199c819789150803cfb31bc23408c28a6b27191c8",
+    "resolved_url": "https://www.novu.co/pricing/"
+  },
+  {
+    "url": "https://www.knock.app/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:51:06Z",
+    "content_sha256": "11e7d44fd6829fa58fc8528a7c6d189b2d4cbd4df1b5f0ea0658c98b240fb9ff",
+    "resolved_url": "https://knock.app/pricing"
+  },
+  {
+    "url": "https://www.mockfly.dev/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:49:04Z",
+    "content_sha256": "1efba12209397f0b971e9cbde1fb7c3f667c24ed1ad323fbda31c675002536c5",
+    "resolved_url": "https://www.mockfly.dev/pricing"
+  },
+  {
+    "url": "https://www.jsonstorage.net/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:49:03Z",
+    "content_sha256": "8b9b20c21736abd514baff8d2a042be7ea858c5a2b15033ef769f9548700ba77",
+    "resolved_url": "https://www.jsonstorage.net/"
+  },
+  {
+    "url": "https://www.abstractapi.com/api/holidays-api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:49:01Z",
+    "content_sha256": "dc265100a2eaa34566ed41054974d022b8bf42f431d61a7f493b8728a789b57a",
+    "resolved_url": "https://www.abstractapi.com/api/holidays-api"
+  },
+  {
+    "url": "https://www.abstractapi.com/api/vat-validation-rates-api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:49:01Z",
+    "content_sha256": "e905f7673dde8495a9e8a95cfbb6591fdbb91c711971310d129f0d8abb28c23b",
+    "resolved_url": "https://www.abstractapi.com/api/vat-validation-rates-api"
+  },
+  {
+    "url": "https://www.abstractapi.com/api/iban-validation-api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:49:01Z",
+    "content_sha256": "6b27b6bbfb8e3b70e658a9ba67b3b2d548d05215b9386f9b33a193f4d8bea9fd",
+    "resolved_url": "https://www.abstractapi.com/api/iban-validation"
+  },
+  {
+    "url": "https://www.abstractapi.com/api/time-date-timezone-api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:49:01Z",
+    "content_sha256": "143eb6e12a7581a25c095a628431c0282f63d0ef5a8217939c144fcb979246db",
+    "resolved_url": "https://www.abstractapi.com/api/time-date-timezone-api"
+  },
+  {
+    "url": "https://www.abstractapi.com/api/web-scraping-api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:49:01Z",
+    "content_sha256": "62684e24ff1f618fb9a988a9ce1ae1924fb0296c3c979ec92998683d7041fd29",
+    "resolved_url": "https://www.abstractapi.com/api/web-scraping-api"
+  },
+  {
+    "url": "https://ntfy.sh/docs/publish/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:52:55Z",
+    "content_sha256": "2149e7d82cdbd3f68a4bc0b87bff49f05bc16ff37db4ad616c6a8e3e695033c7",
+    "resolved_url": "https://docs.ntfy.sh/publish/"
+  },
+  {
+    "url": "https://ntfy.sh/docs/faq/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:52:55Z",
+    "content_sha256": "d1c28ced3ab18d4fed8b3f0591f9f41d1bbca293cbddeedf44c160a50bb4d30f",
+    "resolved_url": "https://docs.ntfy.sh/faq/"
+  },
+  {
+    "url": "https://github.com/Hipo/university-domains-list",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:35Z",
+    "content_sha256": "4fc21180bfaadcf0c095d5f478d96f6d8a37f21ed5b28a8862f29ccdf543b65b",
+    "resolved_url": "https://github.com/Hipo/university-domains-list"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/ebi-search-programmatically/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:42:28Z",
+    "content_sha256": "44a62302255687321a325bfd857ff498214098c65a9c9f94681b5339232eec5b",
+    "resolved_url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/ebi-search-programmatically/"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/about/terms-of-use",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:49Z",
+    "content_sha256": "f3c148e6b91501af2a516e24edf0be61c21e2ce1b4e9f40bd834c606f1f23ae9",
+    "resolved_url": "https://www.ebi.ac.uk/about/terms-of-use/"
+  },
+  {
+    "url": "https://www.sec.gov/about/webmaster-frequently-asked-questions",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "web_reader",
+    "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+  },
+  {
+    "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "web_reader",
+    "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+  },
+  {
+    "url": "https://www2.census.gov/data/api-documentation/api-user-guide.pdf",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "web_reader",
+    "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+  },
+  {
+    "url": "https://fiscaldata.treasury.gov/api-documentation/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:11Z",
+    "content_sha256": "a50185e9ad22e0eb6ff4dacc8ee2e275663dde8bedcd9f1ba3fc64351b95c662",
+    "resolved_url": "https://fiscaldata.treasury.gov/api-documentation/"
+  },
+  {
+    "url": "https://www.govinfo.gov/features/api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:49Z",
+    "content_sha256": "b05a5cca711365aa798225199a492414b6d4b2e0b865a4fb911dfaebff487ad7",
+    "resolved_url": "https://www.govinfo.gov/features/api"
+  },
+  {
+    "url": "https://api.data.gov/docs/developer-manual/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:45:03Z",
+    "content_sha256": "c09641f25041d3c81f39988262f0fef407a166eb9210fbecf04d803afadc0c62",
+    "resolved_url": "https://api.data.gov/docs/developer-manual/"
+  },
+  {
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:07Z",
+    "content_sha256": "a68a43c6c27d1dd9e600eb7b52cb1b56e3766157036703bc8af3bf6ec4ce9f79",
+    "resolved_url": "https://earthquake.usgs.gov/fdsnws/event/1/"
+  },
+  {
+    "url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:56Z",
+    "content_sha256": "8a2d82e203b79001a7ef2c8a330cf4d6dd4c344dd5d198da9bbcdfa924e9160b",
+    "resolved_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+  },
+  {
+    "url": "https://www.statcan.gc.ca/en/developers/wds",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:11Z",
+    "content_sha256": "f11cd51b24675643069746a3bfa8b41e1c20c9b9f498a4c1b1deb3537f1980bd",
+    "resolved_url": "https://www.statcan.gc.ca/en/developers/wds"
+  },
+  {
+    "url": "https://www.statcan.gc.ca/en/reference/licence",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:43Z",
+    "content_sha256": "d441c0159f7eeaa3e6b1904d1f27f6cb601a225ec5fe8e85502c02b9789bc11f",
+    "resolved_url": "https://www.statcan.gc.ca/en/terms-conditions/open-licence"
+  },
+  {
+    "url": "https://developer.ons.gov.uk/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:41Z",
+    "content_sha256": "71d0a45ccdb97ecc7df2881ea7b061cdf387dd5a9923fe755afa28beddfac88b",
+    "resolved_url": "https://developer.ons.gov.uk/"
+  },
+  {
+    "url": "https://www.ons.gov.uk/methodology/geography/licences",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:45:03Z",
+    "content_sha256": "079d1e587f2817cf7a2163a3d9ef94d3a1d454cdca3edb5e67e8cc15d2a4dff3",
+    "resolved_url": "https://www.ons.gov.uk/methodology/geography/licences"
+  },
+  {
+    "url": "https://dev.socrata.com/docs/app-tokens.html",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:09Z",
+    "content_sha256": "226b38295967bd3c11723e178a4253607b574d5316ff0886b05cf54cc90037b0",
+    "resolved_url": "https://dev.socrata.com/docs/app-tokens.html"
+  },
+  {
+    "url": "https://www.loc.gov/apis/json-and-yaml/working-within-limits/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "web_reader",
+    "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+  },
+  {
+    "url": "https://www.gdeltproject.org/data.html",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:08Z",
+    "content_sha256": "dc2e607696f7cc0914f20d9d788491bb3d46f2fb8193216d6ffafc5f3ce2641f",
+    "resolved_url": "https://gdeltproject.org:443/data.html"
+  },
+  {
+    "url": "https://www.ip2location.io/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:21Z",
+    "content_sha256": "d8c235b959915a6c7c1c0a1d7d02e896594b3b34c7862c2813d2aa24c8d7926a",
+    "resolved_url": "https://www.ip2location.io/pricing"
+  },
+  {
+    "url": "https://ipapi.is/pricing.html",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:21Z",
+    "content_sha256": "5eaf9c4cb5cfbd7bdb0d1a2eafb008830bd3623ea3c231a6db8f837110497a39",
+    "resolved_url": "https://ipapi.is/pricing.html"
+  },
+  {
+    "url": "https://ipapi.com/product",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:22Z",
+    "content_sha256": "b922eecac81ac3352a86f7a50ff46a0c069a425a2784f9ec479062621aad82ac",
+    "resolved_url": "https://ipapi.com/pricing"
+  },
+  {
+    "url": "https://www.bigdatacloud.com/free-api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:21Z",
+    "content_sha256": "a063656d75250b8599e4d7d88042342682f6062a6d22ca2b4ba108836b35bda8",
+    "resolved_url": "https://www.bigdatacloud.com/free-api"
+  },
+  {
+    "url": "https://www.geocod.io/pricing/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:37Z",
+    "content_sha256": "85921c97940322409439dd4a9f015efdca27d98d75b03a2481ab4cf8ec33fd80",
+    "resolved_url": "https://www.geocod.io/pricing"
+  },
+  {
+    "url": "https://www.weatherstack.com/product",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:24Z",
+    "content_sha256": "0c3a256ba4768e11000fcebf6088e8dcf05359ffc28693c2def3080a46def11a",
+    "resolved_url": "https://weatherstack.com/pricing"
+  },
+  {
+    "url": "https://www.exa.ai/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:28Z",
+    "content_sha256": "2b393d5af56de9ae4216906869c758d485a4508ec5c7dccf5875a4f76d0ede5b",
+    "resolved_url": "https://exa.ai/pricing"
+  },
+  {
+    "url": "https://www.brave.com/search/api/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:29Z",
+    "content_sha256": "c2277bf82ab2b65964d932868799caca0ed3a1fd5eed8324b5891068531a4370",
+    "resolved_url": "https://brave.com/search/api/"
+  },
+  {
+    "url": "https://serpapi.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:29Z",
+    "content_sha256": "002d856df312ccdd525425287f7a8c46e41398bbba34b95e5c636bb459a25786",
+    "resolved_url": "https://serpapi.com/pricing"
+  },
+  {
+    "url": "https://www.browserless.io/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:26Z",
+    "content_sha256": "737a1b4fafc6f881cdced5443f31872a8ebf5f4403a52b2e0032fafbab738f76",
+    "resolved_url": "https://www.browserless.io/pricing"
+  },
+  {
+    "url": "https://cloudinary.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "web_reader",
+    "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+  },
+  {
+    "url": "https://www.remove.bg/api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:24Z",
+    "content_sha256": "d475a956311336f45c1d3c13ddbfb1b0b3c658d7aea59bc7d8b7e3dd2bef79ca",
+    "resolved_url": "https://www.remove.bg/api"
+  },
+  {
+    "url": "https://www.html2pdf.app/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:26Z",
+    "content_sha256": "fd7dd9c124e62dd9283f353944fbf5e3b1d02ad05e2e459ee83af350f6753283",
+    "resolved_url": "https://html2pdf.app/pricing/"
+  },
+  {
+    "url": "https://www.apiflash.com/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:27Z",
+    "content_sha256": "16a14b5196cc5c771be29ffd7b1b21ea9802a41e60f5c54902dbd84a7137498f",
+    "resolved_url": "https://apiflash.com/"
+  },
+  {
+    "url": "https://www.smtp2go.com/pricing/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:31Z",
+    "content_sha256": "b77837607a1e2fe638f01c9bdf23abe1ccc1b478891c2b652243130ac31cc5fc",
+    "resolved_url": "https://www.smtp2go.com/pricing/"
+  },
+  {
+    "url": "https://www.mailgun.com/pricing/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:30Z",
+    "content_sha256": "84167d7234256a1a63b4b0278f578dcb7ecc450ea772f1eb9e33f5a3ce01cc41",
+    "resolved_url": "https://www.mailgun.com/pricing/"
+  },
+  {
+    "url": "https://www.mailtrap.io/pricing/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:32Z",
+    "content_sha256": "6b16c46083a8d7050760483757216cd0e42dd5930c9189d4592aad46aaae8be6",
+    "resolved_url": "https://mailtrap.io:443/pricing/"
+  },
+  {
+    "url": "https://postmarkapp.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:32Z",
+    "content_sha256": "201803b538d08b6c3084e6571adce4e7896816030b134e59606a8e6ee48230bd",
+    "resolved_url": "https://postmarkapp.com/pricing"
+  },
+  {
+    "url": "https://www.mailslurp.com/pricing/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:32Z",
+    "content_sha256": "1ac36c1d3684a6e4a2c3b4df7fedd72592f1987b4c5574eb237f9dcca991fb26",
+    "resolved_url": "https://app.mailslurp.com/pricing/"
+  },
+  {
+    "url": "https://www.hunter.io/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:33Z",
+    "content_sha256": "13bcba8ae9280a2a8a43b0e6e54f07c8d26cc0e004d28f97e5697dbece21f26a",
+    "resolved_url": "https://hunter.io/pricing"
+  },
+  {
+    "url": "https://www.verifalia.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:29:34Z",
+    "content_sha256": "458d9d7354124c9597f5ec30367fbebfef1eb59c99dbe7815fe71214e2c68b13",
+    "resolved_url": "https://verifalia.com/pricing"
+  },
+  {
+    "url": "https://www.abstractapi.com/api/exchange-rate-api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:47Z",
+    "content_sha256": "5d19d367161f0d437850367075b3005d7494423bb9c10b200339503bc017c6c6",
+    "resolved_url": "https://www.abstractapi.com/api/exchange-rate-api"
+  },
+  {
+    "url": "https://www.abstractapi.com/api/company-enrichment-api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:48Z",
+    "content_sha256": "b0f7ac28695526dd23c7036be54b11dc85ffab31069118f56815bce0e8b371fa",
+    "resolved_url": "https://www.abstractapi.com/api/company-enrichment"
+  },
+  {
+    "url": "https://www.neon.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:37Z",
+    "content_sha256": "3d6937497e3de739f6b1b7532d35a64417a932a1ab47695b4c431cf5c27f7251",
+    "resolved_url": "https://neon.com/pricing"
+  },
+  {
+    "url": "https://neon.com/blog/how-axess-intelligence-simplified-their-backend-with-neons-data-api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:57:10Z",
+    "content_sha256": "232ea0a428d0354ade45d5948a9ec10101c1390b6146bef77de9127093b4f74f",
+    "resolved_url": "https://neon.com/blog/how-axess-intelligence-simplified-their-backend-with-neons-data-api"
+  },
+  {
+    "url": "https://www.upstash.com/pricing/redis",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:37Z",
+    "content_sha256": "96d707b6effec68c97f5346db6b7074f692b054994760afc07cb287903766961",
+    "resolved_url": "https://upstash.com/pricing/redis"
+  },
+  {
+    "url": "https://www.turso.tech/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:38Z",
+    "content_sha256": "c071ff71e326db31f91b84c138ef615b912c53f3490c6dff624fc8ebcf2e0ece",
+    "resolved_url": "https://turso.tech/pricing"
+  },
+  {
+    "url": "https://appwrite.io/pricing?_hsmi=269457680",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "web_reader",
+    "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+  },
+  {
+    "url": "https://www.back4app.com/pricing/backend-as-a-service",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:38Z",
+    "content_sha256": "08ffffa0759803cfe97919ae677aa76f650abfa566b78409317e9cb10dc38dc7",
+    "resolved_url": "https://www.back4app.com/pricing/backend-as-a-service"
+  },
+  {
+    "url": "https://developers.cloudflare.com/r2/pricing/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:40Z",
+    "content_sha256": "db7b2d0e05e948d371911856587fba78c46619e3e6ae393b49d622aad6cfe179",
+    "resolved_url": "https://developers.cloudflare.com/r2/pricing/"
+  },
+  {
+    "url": "https://developers.cloudflare.com/browser-rendering/platform/pricing/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:40Z",
+    "content_sha256": "a7cd0cbca2c79a6d1c85eaf92c675d7bfe645a0528cb43b91ff7a06edaece2bf",
+    "resolved_url": "https://developers.cloudflare.com/browser-run/pricing/"
+  },
+  {
+    "url": "https://developers.cloudflare.com/durable-objects/platform/pricing/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:40Z",
+    "content_sha256": "1cda6bc631435f0ff54f7778280cf0ed7e888c686e366c678fc31d3f73d4a7c5",
+    "resolved_url": "https://developers.cloudflare.com/durable-objects/platform/pricing/"
+  },
+  {
+    "url": "https://www.clerk.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:39Z",
+    "content_sha256": "c80924837a8dffc5b7b9c533544eaab30fdf70b9586eed9f96f14a86bbc37157",
+    "resolved_url": "https://clerk.com/pricing"
+  },
+  {
+    "url": "https://auth0.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:39Z",
+    "content_sha256": "fc59d8f33904fd92b6a46c116cfc26b14729e1a77e603e18f049ffe7647db130",
+    "resolved_url": "https://auth0.com/pricing"
+  },
+  {
+    "url": "https://www.stytch.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:43Z",
+    "content_sha256": "59857c03c9f12e3b67db7d2f28c1fa2d06dc601ac90f110b5e9aa5719b00b182",
+    "resolved_url": "https://stytch.com:443/pricing"
+  },
+  {
+    "url": "https://www.descope.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:40Z",
+    "content_sha256": "5a9de02f1b2a1db2cc6964a64ad4bdc2687361c0e3a2683f472066e98a7548cc",
+    "resolved_url": "https://www.descope.com/pricing"
+  },
+  {
+    "url": "https://www.supertokens.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:40Z",
+    "content_sha256": "48b4c04375a62adb916a12618b741be407d02ee80165b0903dd05c5634ec4b5b",
+    "resolved_url": "https://supertokens.com/pricing"
+  },
+  {
+    "url": "https://workos.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:40Z",
+    "content_sha256": "a930589180d5bc3a3983aec73ddd8719837e3135f26328eaca26dc69da560a55",
+    "resolved_url": "https://workos.com/pricing"
+  },
+  {
+    "url": "https://www.prismic.io/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:44Z",
+    "content_sha256": "eb73d61f312895f18a9ae6d0bb484128f67711c6119d2224a2499b4a2598eb1e",
+    "resolved_url": "https://prismic.io:443/pricing"
+  },
+  {
+    "url": "https://www.hygraph.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:42Z",
+    "content_sha256": "351587d2b0302fa126a92995a6e432b56b8492536d5166d027dcae21b14fd6d9",
+    "resolved_url": "https://hygraph.com/pricing"
+  },
+  {
+    "url": "https://www.storyblok.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:44Z",
+    "content_sha256": "940ee688ae1a8c81f1c26f4699d26df946c61dac6bba55de5d1f6bab6b1c6582",
+    "resolved_url": "https://www.storyblok.com/pricing"
+  },
+  {
+    "url": "https://www.datoCMS.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:45Z",
+    "content_sha256": "98f45aa5e6ea0fcaf1c3d678e47a35d6576b87f3c3fe106a7c3d873ef83426c9",
+    "resolved_url": "https://www.datoCMS.com/pricing"
+  },
+  {
+    "url": "https://www.flagsmith.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:44Z",
+    "content_sha256": "81c72be8ded666b1e59c658d2f97b4de26112275057daaedc1fac5383c731a49",
+    "resolved_url": "https://www.flagsmith.com/pricing"
+  },
+  {
+    "url": "https://www.configcat.com/pricing/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:44Z",
+    "content_sha256": "911a4f5789aa5d3f89ef772892efa26c012f10ddbea5779ddae79d0c30336902",
+    "resolved_url": "https://configcat.com/pricing/"
+  },
+  {
+    "url": "https://urlhaus.abuse.ch/api/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:45Z",
+    "content_sha256": "d66248b4d9b35b8253e82d7aa0fc51eca660605f3898324f585c8d52c271f7dd",
+    "resolved_url": "https://urlhaus.abuse.ch/api/"
+  },
+  {
+    "url": "https://bazaar.abuse.ch/api/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:46Z",
+    "content_sha256": "678aa7cbab66ee86ac557b962504c4351e81c8b6a88b306ad2dd2964ebc6ad1e",
+    "resolved_url": "https://bazaar.abuse.ch/api/"
+  },
+  {
+    "url": "https://threatfox.abuse.ch/api/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:30:46Z",
+    "content_sha256": "cda8a82e054d657b8bc3422d99fdb1190bf72dc684e616efcbe3612e46388194",
+    "resolved_url": "https://threatfox.abuse.ch/api/"
+  },
+  {
+    "url": "https://developers.google.com/sheets/api/limits",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:59Z",
+    "content_sha256": "4f3e3a53020a43862d1ea806dc8be1b950c81b7c00e71dbe8b1ba12356506a25",
+    "resolved_url": "https://developers.google.com/workspace/sheets/api/limits"
+  },
+  {
+    "url": "https://developers.google.com/docs/api/limits",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:35:00Z",
+    "content_sha256": "91c01d518978abc38ac7f733b874e6b6a08b077597c4d3f324c9352f56b43d5a",
+    "resolved_url": "https://developers.google.com/workspace/docs/api/limits"
+  },
+  {
+    "url": "https://developers.google.com/slides/api/limits",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:35:00Z",
+    "content_sha256": "bac9fb9e13d4dee4241cb1fb45b10a7662b3fb549a0a4063a24f66d92e83f6e4",
+    "resolved_url": "https://developers.google.com/workspace/slides/api/limits"
+  },
+  {
+    "url": "https://developers.google.com/forms/api/limits",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:35:00Z",
+    "content_sha256": "b4e4492f711c8f113d911b09c6a758308074796a4a0f5a1d1067c79f1f53f10d",
+    "resolved_url": "https://developers.google.com/workspace/forms/api/limits"
+  },
+  {
+    "url": "https://developers.google.com/drive/api/guides/limits",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:58Z",
+    "content_sha256": "85e566fc1804e591725c6f84dee6fe9eb68f6114932a344abf03ca6fe17542de",
+    "resolved_url": "https://developers.google.com/workspace/drive/api/guides/limits"
+  },
+  {
+    "url": "https://developers.google.com/calendar/api/guides/quota",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:59Z",
+    "content_sha256": "521f5ca97cdb6ce83f12b9d0f299ea4f3a3676ac4275f9cb3f086bd41cf9eb65",
+    "resolved_url": "https://developers.google.com/workspace/calendar/api/guides/quota"
+  },
+  {
+    "url": "https://developers.google.com/webmaster-tools/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:39:00Z",
+    "content_sha256": "5903937fc48b60fcfa070ef73b2692600b937abebcfb8ef597d09d61ed50817e",
+    "resolved_url": "https://developers.google.com/webmaster-tools/pricing"
+  },
+  {
+    "url": "https://developers.google.com/webmaster-tools/limits",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:39:00Z",
+    "content_sha256": "5e9873c0cefd763a66fe6be2fc849190df5a41982b26f7006551635eb9ac1b7d",
+    "resolved_url": "https://developers.google.com/webmaster-tools/limits"
+  },
+  {
+    "url": "https://developers.google.com/search/apis/indexing-api/v3/quota-pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:27:22Z",
+    "content_sha256": "a7c1c33a561658e92af63d70c655a1e15e7b2514b3ecba7963ecbf6c5ba06b6b",
+    "resolved_url": "https://developers.google.com/search/apis/indexing-api/v3/quota-pricing"
+  },
+  {
+    "url": "https://cloud.google.com/translate/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:39:02Z",
+    "content_sha256": "238315c23f18c809828ba1e54be3384090802962e5cf30b9a58eb10adecd2c84",
+    "resolved_url": "https://cloud.google.com/products/translate/pricing"
+  },
+  {
+    "url": "https://cloud.google.com/vision/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:39:01Z",
+    "content_sha256": "2272235e9bbb852777e6bd6dc9cf47222c2061ca50a01e43b32a28cceed89c4c",
+    "resolved_url": "https://cloud.google.com/vision/pricing"
+  },
+  {
+    "url": "https://cloud.google.com/natural-language/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:39:02Z",
+    "content_sha256": "97701e33b537b8133cd7b8735674a45d35fb1288a7aed913da0974825f80ab37",
+    "resolved_url": "https://cloud.google.com/products/natural-language/pricing"
+  },
+  {
+    "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:39:20Z",
+    "content_sha256": "85f518b4e7da8ee1ec9d11411cf9fc9d445a3e0ce5a4dffd13702f12a9c7e8f6",
+    "resolved_url": "https://azure.microsoft.com/en-us/pricing/details/translator/"
+  },
+  {
+    "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:39:18Z",
+    "content_sha256": "3add98084fb3ccfdec6583d22441d2179af752c58bca949567d24d3c8bc7fce6",
+    "resolved_url": "https://azure.microsoft.com/en-us/pricing/details/computer-vision/"
+  },
+  {
+    "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/language-service/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:39:20Z",
+    "content_sha256": "308898e8f8a53e5cf2959d15d065aad4641e525c3b587e380afd6b55b19a9018",
+    "resolved_url": "https://azure.microsoft.com/en-us/pricing/details/language/"
+  },
+  {
+    "url": "https://azure.microsoft.com/en-us/pricing/details/cognitive-services/speech-services/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:39:21Z",
+    "content_sha256": "43e20f1fdabcb404b941aa052e630b10cef9f615e94c65abceb825f368973a0b",
+    "resolved_url": "https://azure.microsoft.com/en-us/pricing/details/speech/"
+  },
+  {
+    "url": "https://developers.cloudflare.com/turnstile/plans/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:35:00Z",
+    "content_sha256": "148651c63c07bf0b8de403ab36f058d1b33fb45b20a58702e6ff16d347f39bf6",
+    "resolved_url": "https://developers.cloudflare.com/turnstile/plans/"
+  },
+  {
+    "url": "https://www.hcaptcha.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:35:00Z",
+    "content_sha256": "8abf580842ae1be74b5a2fead7ae99d04a51435e14fe877f33ed2f8e51e68e59",
+    "resolved_url": "https://www.hcaptcha.com/pricing"
+  },
+  {
+    "url": "https://randomuser.me/documentation",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:14Z",
+    "content_sha256": "8462180b636b541d26a36b81ff4a82c8d905883315a57d8711774b37bb453b81",
+    "resolved_url": "https://randomuser.me/documentation"
+  },
+  {
+    "url": "https://ui-avatars.com/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:14Z",
+    "content_sha256": "74bf1758be2ebb1f46fbfaeef80536bc1c55fc9e1292dd2accdf0ccb14b8aa20",
+    "resolved_url": "https://ui-avatars.com/"
+  },
+  {
+    "url": "https://robohash.org/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:15Z",
+    "content_sha256": "b57d96a73a6395065eee1909fa0092f112863dc57473c8895dfb50a45487f3ed",
+    "resolved_url": "https://robohash.org/"
+  },
+  {
+    "url": "https://api.zippopotam.us/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:39Z",
+    "content_sha256": "12d702a03adc72cbc64be6b85fab9fc0abfab46767042329c0357fbe38a57894",
+    "resolved_url": "https://api.zippopotam.us/"
+  },
+  {
+    "url": "https://www.coinlore.com/cryptocurrency-data-api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:18Z",
+    "content_sha256": "75cf32d412aabf8bcb49305563d492026ac0ef812e61a50e5e86e092f2cdb328",
+    "resolved_url": "https://www.coinlore.com/cryptocurrency-data-api"
+  },
+  {
+    "url": "https://v2.jokeapi.dev/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:16Z",
+    "content_sha256": "db64d0fc4c27f2b883557261046bbcff3b0810b00cb7c3bc68db5173adac8f93",
+    "resolved_url": "https://v2.jokeapi.dev/"
+  },
+  {
+    "url": "https://api.chucknorris.io/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:16Z",
+    "content_sha256": "48bb6db54860e180b35c3299629c667cf4696672bae525b3df918352570bcf96",
+    "resolved_url": "https://api.chucknorris.io/"
+  },
+  {
+    "url": "https://api.adviceslip.com/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:17Z",
+    "content_sha256": "a1626ec888ce3a69891062d6d7010b79610d16b070852f55c03c3493d287e784",
+    "resolved_url": "https://api.adviceslip.com/"
+  },
+  {
+    "url": "https://sunrise-sunset.org/api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:18Z",
+    "content_sha256": "06a747eecc741118611ccadd1d17660fbfb19f0bc768bc29b04d5c53d90d9804",
+    "resolved_url": "https://sunrise-sunset.org/api"
+  },
+  {
+    "url": "https://zenquotes.io/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:19Z",
+    "content_sha256": "98ab03de33415e061e998a61b8ec6cc39e80f2df4026b8362ac7a4fbf89117e1",
+    "resolved_url": "https://zenquotes.io/"
+  },
+  {
+    "url": "https://digi-api.com/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:13Z",
+    "content_sha256": "d0f0ebcb3edeb0ba2295503cf23310bbe09c88e7a3c8e4a4445bbf7badcb3782",
+    "resolved_url": "https://digi-api.com/"
+  },
+  {
+    "url": "https://jikan.moe/?trk=public_post_reshare-text",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:39:05Z",
+    "content_sha256": "2d3ef5aa21afa9abf859126fb8415006bf49f982a1fa0139e0651cb0db2c1da3",
+    "resolved_url": "https://jikan.moe/?trk=public_post_reshare-text"
+  },
+  {
+    "url": "https://docs.anilist.co/guide/rate-limiting",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:12Z",
+    "content_sha256": "4b514f330c51a382ecfc338222b6c6538bde25935061a7a40eea0dcff2326f47",
+    "resolved_url": "https://docs.anilist.co/guide/rate-limiting"
+  },
+  {
+    "url": "https://docs.anilist.co/guide/terms-of-use",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:39:04Z",
+    "content_sha256": "68d47768f57840f89f80a112c02400a2f3183b8de3f8450d584b0926c99ef5d1",
+    "resolved_url": "https://docs.anilist.co/guide/terms-of-use"
+  },
+  {
+    "url": "https://restcountries.com/docs",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:36Z",
+    "content_sha256": "b0ad5464157435875a273b9e66cdf4b74e52f39bbd2df71eb980200117f713f1",
+    "resolved_url": "https://restcountries.com/docs"
+  },
+  {
+    "url": "https://restcountries.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:36Z",
+    "content_sha256": "d81e0e27ef7fb19229e10386212e8486a8481ba15b5977c35ff6e2cdaf221836",
+    "resolved_url": "https://restcountries.com/plans"
+  },
+  {
+    "url": "https://restcountries.com/legal/terms-of-service",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:57:10Z",
+    "content_sha256": "a0193957810f2dae9a311f2f5161803adf8960cddb6917b7c4075f9264b32b42",
+    "resolved_url": "https://restcountries.com/legal/terms-of-service"
+  },
+  {
+    "url": "https://agify.io/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:35Z",
+    "content_sha256": "6c7d69e9c238fa931359e03f2abb9279801a825d5f140cb252b039e2cc471ab8",
+    "resolved_url": "https://agify.io/pricing"
+  },
+  {
+    "url": "https://genderize.io/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:35Z",
+    "content_sha256": "6b24dad79a24491fdbe65b57854d136c37f24ad04889c22505f347761874c96c",
+    "resolved_url": "https://genderize.io/pricing"
+  },
+  {
+    "url": "https://nationalize.io/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:35Z",
+    "content_sha256": "20a6c9e6c707490137fa57234ffaf4a194971fa5cb28cf90e4b0d1c4396d4a5c",
+    "resolved_url": "https://nationalize.io/pricing"
+  },
+  {
+    "url": "https://microlink.io/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:35Z",
+    "content_sha256": "037f635464dec0d59121ce0f1e6ec8fe62d54d1abd4516a6dd7c2ff02fe60f94",
+    "resolved_url": "https://microlink.io/pricing"
+  },
+  {
+    "url": "https://ror.org/about/faqs/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:07Z",
+    "content_sha256": "a5e0cd1cbc59f01e2dbf84d19d011e521daa44fe3ad6f5897762e8b102e40f6b",
+    "resolved_url": "https://ror.org/about/faqs/"
+  },
+  {
+    "url": "https://docs.db.nomics.world/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:10Z",
+    "content_sha256": "5f5ace6a0e0b99b033934c8686a163fc282ffb9f6c757a6b4b0e92eb4e01f522",
+    "resolved_url": "https://docs.db.nomics.world/"
+  },
+  {
+    "url": "https://openaccess-api.clevelandart.org/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:11Z",
+    "content_sha256": "cdb1985320437cab77d3bb420c3aafa7beab20c2af94ed918d577fe9dd322d00",
+    "resolved_url": "https://openaccess-api.clevelandart.org/"
+  },
+  {
+    "url": "https://www.clevelandart.org/open-access",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:35:06Z",
+    "content_sha256": "5d77fb2fbcced0b55e89d399d12dbd023adcf1848a56dfee30ef0a3dc640a774",
+    "resolved_url": "https://www.clevelandart.org/open-access"
+  },
+  {
+    "url": "https://archive.org/developers/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:12Z",
+    "content_sha256": "5c1049c1a8dc7342cda054cac6ed5aaecfa01bcd7924240c8f66db6823ca1533",
+    "resolved_url": "https://archive.org/developers/"
+  },
+  {
+    "url": "https://docs.openaq.org/using-the-api/rate-limits",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:37Z",
+    "content_sha256": "2ce0ff1bc6067f24969f2449625eb9dd144180af72842389c661fcf5294ce6cd",
+    "resolved_url": "https://docs.openaq.org/using-the-api/rate-limits"
+  },
+  {
+    "url": "https://open-platform.theguardian.com/access/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:52Z",
+    "content_sha256": "bb5aa160bd8b777494bb4fed42c116187b133a3a60865d56f8cba9729f056f05",
+    "resolved_url": "https://open-platform.theguardian.com/access/"
+  },
+  {
+    "url": "https://www.marketaux.com/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:54Z",
+    "content_sha256": "fe1070a0bb039397717f420a435962783509316f100be1a7156ceb2b7b61f065",
+    "resolved_url": "https://www.marketaux.com/pricing"
+  },
+  {
+    "url": "https://finlight.me/pricing",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:34:55Z",
+    "content_sha256": "c3936155206d9c5cf69a3bbc28d24e21c71aa9a9c85bb9fa326041036480fc6c",
+    "resolved_url": "https://finlight.me/pricing"
+  },
+  {
+    "url": "https://sisyphos.api.met.no/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "web_reader",
+    "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+  },
+  {
+    "url": "https://api.met.no/doc/TermsOfService",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "web_reader",
+    "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+  },
+  {
+    "url": "https://open.fda.gov/apis/authentication/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "web_reader",
+    "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+  },
+  {
+    "url": "https://www.gbif.org/restricted",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "web_reader",
+    "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "web_reader",
+    "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+  },
+  {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "web_reader",
+    "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+  },
+  {
+    "url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/chembl-programmatically/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:49Z",
+    "content_sha256": "b973195da23b04812fce63066d2f6831fe3c43f486cc9ee4ee7c519cc3815606",
+    "resolved_url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/chembl-programmatically/"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/interpro-programmatically/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:49Z",
+    "content_sha256": "f015b05f8d3f79eef63583aad5a5be90c07babccaadc91ff6012c3417d3f2b5b",
+    "resolved_url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/interpro-programmatically/"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/mgnify-programmatically/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:51Z",
+    "content_sha256": "a17aed47364ec923670bad1b4001b54e7d625f024fb6061f982a09392dcc6803",
+    "resolved_url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/mgnify-programmatically/"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/europe-pmc-programmatically/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:51Z",
+    "content_sha256": "6a3b7cb64c5c5c494ca13c05aeacd8d9ce698546d5a3686ac3ccd56abf837b33",
+    "resolved_url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/europe-pmc-programmatically/"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/biosamples/docs/references/api/overview.html",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:49Z",
+    "content_sha256": "0af8ce919adcf24e503e354006cf7c40d6a4760226d5bf19001b801828687b5e",
+    "resolved_url": "https://www.ebi.ac.uk/biosamples/docs/references/api/overview.html"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/gwas/docs/api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:51Z",
+    "content_sha256": "60299f92898d370bca863ee6770dc386eebddbc7e428e9ad654ea03c9d3c7e9b",
+    "resolved_url": "https://www.ebi.ac.uk/gwas/docs/programmatic-access/rest-api/"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/proteins/api/doc/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:51Z",
+    "content_sha256": "7e889f947c118011beab748c425c723887348a416bce43500c177999bf3650ba",
+    "resolved_url": "https://www.ebi.ac.uk/proteins/api/doc/"
+  },
+  {
+    "url": "https://alphafold.ebi.ac.uk/api-docs",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:50Z",
+    "content_sha256": "6489c68e8b61f91edb38b7e3bdd9addd4d9d73aecee4517df65cac74a1f0e889",
+    "resolved_url": "https://alphafold.ebi.ac.uk/api-docs"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/Tools/webservices/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:56Z",
+    "content_sha256": "26c252dfbd0ce9c47c586316c26eb674147df46a9e2ea09ddd8e590f25d09112",
+    "resolved_url": "https://www.ebi.ac.uk/jdispatcher/docs/"
+  },
+  {
+    "url": "https://github.com/Ensembl/ensembl-rest/wiki/Rate-Limits",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:51Z",
+    "content_sha256": "1333f1cee1a3be42c5d2e76c7e183046c471b15902d9a1c434b19366015e210c",
+    "resolved_url": "https://github.com/Ensembl/ensembl-rest/wiki/Rate-Limits"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/ensembl-programmatically/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:42:28Z",
+    "content_sha256": "60c9479de63553f49d68a70b437471059214596770fb8ac7025a0e6ea0a97139",
+    "resolved_url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/ensembl-programmatically/"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/open-targets-programmatically/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:52Z",
+    "content_sha256": "fd4719eb62d646160f1209665d4a23cfbd7279cd719af5f30c4a2989c9a4ae52",
+    "resolved_url": "https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/open-targets-programmatically/"
+  },
+  {
+    "url": "https://platform-docs.opentargets.org/data-access/graphql-api",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:52Z",
+    "content_sha256": "b089dc6cc8531593f3d1348df3a3c2a12d1cf17ab0c0b11f073270ef2f6ad49e",
+    "resolved_url": "https://platform-docs.opentargets.org/data-access/graphql-api"
+  },
+  {
+    "url": "https://reactome.org/ContentService/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:50Z",
+    "content_sha256": "046ff314171c5d5db5ba2fec51fcf0e156a04b81ab7712d842f9ef3016167f9c",
+    "resolved_url": "https://reactome.org/ContentService/"
+  },
+  {
+    "url": "https://reactome.org/license",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:50Z",
+    "content_sha256": "f10501dc085f5d341444e788925d4f307921e7c3f23528daf15b4be992f3ffde",
+    "resolved_url": "https://reactome.org/license"
+  },
+  {
+    "url": "https://data.rcsb.org/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:28:09Z",
+    "content_sha256": "9816b618ad7192f6601a953f8615efe6480754550b173d7d531d7b3c11fc399c",
+    "resolved_url": "https://data.rcsb.org/"
+  },
+  {
+    "url": "https://www.rcsb.org/pages/policies",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:32:53Z",
+    "content_sha256": "cf37e9fb5a31c03cfd078fcab9ffcecf4b5a5187878d932ac8083330b4d56f0b",
+    "resolved_url": "https://www.rcsb.org/pages/policies"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/training/online/courses/biomodels-quick-tour/what-is-biomodels/",
+    "kind": "official_pricing_or_documentation",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:42:28Z",
+    "content_sha256": "b0c7f7974341589aae40d1d2fa6b7288d8a83efc517f20f845aa8fea756f9e88",
+    "resolved_url": "https://www.ebi.ac.uk/training/online/courses/biomodels-quick-tour/what-is-biomodels/"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=cancer&pageSize=1",
+    "kind": "official_public_api_example",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:42:29Z",
+    "content_sha256": "b93ce38e151d7805945808f176f5aafe56483ccefce5d3e5c664b57921d4cb62",
+    "resolved_url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=cancer&pageSize=1"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/ERP000001",
+    "kind": "official_public_api_example",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:45:02Z",
+    "content_sha256": "8b78d44ce9076b267c435c8139cff55e234576ffc758e2835f3f7db989230247",
+    "resolved_url": "https://www.ebi.ac.uk/ena/browser/api/xml/ERP000001"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/ols4/api/",
+    "kind": "official_public_api_example",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:42:28Z",
+    "content_sha256": "dc6f6b1ba3335adc170e34bbe9f7145056cbe809bcbbb48b2068341e8e9dee8e",
+    "resolved_url": "https://www.ebi.ac.uk/ols4/api/"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0008150",
+    "kind": "official_public_api_example",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:42:29Z",
+    "content_sha256": "02765594d152b1931850028a7ca0c4f2b50c9da781856ea291b078247be7c6bd",
+    "resolved_url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0008150"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/pdbe/api/pdb/entry/summary/1cbs",
+    "kind": "official_public_api_example",
+    "checked_on": "2026-10-13",
+    "method": "direct_https_read",
+    "http_status": 200,
+    "retrieved_at": "2026-10-12T21:42:29Z",
+    "content_sha256": "300dec2c499638f6f86c87001f0f122df6743d7ff1330af3746b21e2150aa2d1",
+    "resolved_url": "https://www.ebi.ac.uk/pdbe/api/pdb/entry/summary/1cbs"
   },
   {
     "url": "https://www.alphavantage.co/documentation/",
