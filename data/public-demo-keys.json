@@ -1,0 +1,10 @@
+{
+  "checked_on": "2026-10-13",
+  "note_ar": "أربعة أمثلة عبر أربع خدمات، وثلاث قيم مختلفة فقط. جميعها منشورة رسميًا للعامة؛ ليست مفاتيح حسابات شخصية ولا كلها صالحة للإنتاج. حدود demo لا تُساوى تلقائيًا بحدود المفتاح المسجل.",
+  "examples": [
+    {"service_id":"nasa-open-apis","key":"DEMO_KEY","provider_published_public_example":true,"source_url":"https://api.nasa.gov/assets/html/authentication.html","example_url":"https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY","quota":"30 requests/hour and 50/day per IP","restriction_ar":"للاستكشاف؛ أنشئ مفتاحك المجاني للحصة الأعلى."},
+    {"service_id":"themealdb-development-api","key":"1","provider_published_public_example":true,"source_url":"https://www.themealdb.com/api.php","example_url":"https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata","quota":"No numeric demo quota documented; fair use","restriction_ar":"للتطوير والتعليم؛ النشر العام على app store يحتاج supporter."},
+    {"service_id":"thecocktaildb-development-api","key":"1","provider_published_public_example":true,"source_url":"https://www.thecocktaildb.com/api.php","example_url":"https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita","quota":"No numeric demo quota documented; fair use","restriction_ar":"للتطوير والتعليم؛ مفتاح الإنتاج وخصائص Premium مدفوعة."},
+    {"service_id":"alpha-vantage","key":"demo","provider_published_public_example":true,"source_url":"https://www.alphavantage.co/documentation/","example_url":"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=demo","quota":"Sample requests only; no general demo quota inferred","restriction_ar":"للأمثلة والرموز المحددة في الوثائق؛ ليس مفتاحًا عامًا لأي ticker أوكل endpoints."}
+  ]
+}

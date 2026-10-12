@@ -1,0 +1,30 @@
+{
+  "checked_on": "2026-10-13",
+  "timezone": "Asia/Baghdad",
+  "discovery_repositories_read": 11,
+  "unique_discovery_links": 4613,
+  "discovery_links_are_not_verified_services": true,
+  "verified_services": 110,
+  "categories": 31,
+  "auth_counts": {
+    "account_token": 11,
+    "api_key": 63,
+    "no_key": 26,
+    "api_key_or_no_key": 6,
+    "public_demo_key": 2,
+    "username": 1,
+    "api_key_or_public_demo": 1
+  },
+  "free_type_counts": {
+    "recurring_quota": 90,
+    "unmetered_public": 20
+  },
+  "official_evidence_pages": 117,
+  "numeric_free_quota_not_published": [
+    "google-gemini-developer-api",
+    "mistral-studio-free-mode",
+    "openalex",
+    "urlscan-io"
+  ],
+  "scope_limit_ar": "بحث واسع محدد بهذه الجولة؛ لم تُراجع كل روابط كل مستودعات الإنترنت، ولا تُعد الروابط المرشحة خدمات مجانية مؤكدة."
+}

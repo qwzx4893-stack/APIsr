@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+credentials*.json
+*token*.txt
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

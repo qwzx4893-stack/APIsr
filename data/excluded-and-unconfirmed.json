@@ -1,0 +1,146 @@
+[
+  {
+    "name": "OpenCage",
+    "status": "excluded",
+    "reason_ar": "المزود يصرح بأنه free trial للاختبار وليس free tier للاستخدام المستمر، رغم تجدد 2500 طلب يوميًا.",
+    "source_url": "https://opencagedata.com/api"
+  },
+  {
+    "name": "ipapi.co",
+    "status": "excluded",
+    "reason_ar": "صفحة الأسعار تعرض Free Trial للاختبار وليس للإنتاج؛ لم يثبت استحقاق دائم صالح للاستعمال المستمر.",
+    "source_url": "https://ipapi.co/#pricing"
+  },
+  {
+    "name": "QuickNode",
+    "status": "excluded",
+    "reason_ar": "10M credits هي تجربة شهر واحد فقط، وليست حصة مجانية دائمة تتجدد.",
+    "source_url": "https://www.quicknode.com/pricing"
+  },
+  {
+    "name": "Serper",
+    "status": "excluded",
+    "reason_ar": "2500 استعلام عند البدء؛ لم يثبت أنها تعود دوريًا مجانًا، لذلك لم تُقبل.",
+    "source_url": "https://serper.dev/"
+  },
+  {
+    "name": "Jina keyed Search / Embeddings / Reranker",
+    "status": "excluded",
+    "reason_ar": "10M tokens للمفتاح الجديد رصيد مرة واحدة؛ Reader دون مفتاح هو وحده مقبول في الكتالوج.",
+    "source_url": "https://jina.ai/reader/"
+  },
+  {
+    "name": "Zoho ZeptoMail",
+    "status": "excluded",
+    "reason_ar": "First credit free ومن بعده شراء؛ صلاحية credit ستة أشهر لا تعني تجدد رصيد مجاني.",
+    "source_url": "https://www.zoho.com/zeptomail/pricing.html"
+  },
+  {
+    "name": "Hugging Face Inference Providers (Free account)",
+    "status": "excluded",
+    "reason_ar": "الوثائق الحالية تعرض None للرصيد الشهري في الحساب Free وتطلب شراء credits أوPRO؛ تنزيل الأوزان محليًا ليس API مستضافًا مجانيًا.",
+    "source_url": "https://huggingface.co/docs/inference-providers/pricing"
+  },
+  {
+    "name": "Spotify Web API development mode",
+    "status": "excluded",
+    "reason_ar": "تشترط الصفحة الحالية Spotify Premium لمالك التطبيق؛ لا يطابق طلب مجانية API بلا اشتراك مدفوع لازم.",
+    "source_url": "https://developer.spotify.com/documentation/web-api/concepts/quota-modes"
+  },
+  {
+    "name": "Cerebras Free Trial",
+    "status": "pending_verification",
+    "reason_ar": "الجدول يعرض حدودًا يومية لكنه يسمي الوضع Free Trial؛ لم يُثبت عدم انتهاء التجربة، لذلك لم يُضم إلى المؤكد.",
+    "source_url": "https://inference-docs.cerebras.ai/support/rate-limits"
+  },
+  {
+    "name": "OpenRouter free variants",
+    "status": "pending_verification",
+    "reason_ar": "النماذج :free بلا كلفة، لكن جدول حدود الحسابات لم يعرض الأرقام وشروط الرصيد بوضوح في المصادر المتاحة؛ لا أنسب حصة أو استحقاقًا لم يثبت.",
+    "source_url": "https://openrouter.ai/docs/api_reference/limits"
+  },
+  {
+    "name": "DeepL API Free",
+    "status": "pending_verification",
+    "reason_ar": "تأكد وجود free plans، لكن لم يثبت مقدار وتجدد حصة API من الصفحات الحالية؛ حدود 500000 حرف لكل ملف لا تعني 500000 حرف شهريًا.",
+    "source_url": "https://developers.deepl.com/docs/resources/usage-limits"
+  },
+  {
+    "name": "NewsAPI",
+    "status": "pending_verification",
+    "reason_ar": "تعذر استرجاع صفحة السعر والوثائق من هذه البيئة؛ لم أستخدم حصة قديمة دون تحقق.",
+    "source_url": "https://newsapi.org/pricing"
+  },
+  {
+    "name": "NewsData.io",
+    "status": "pending_verification",
+    "reason_ar": "تعذر التحقق المباشر بسبب سلسلة شهادة SSL؛ لم يتم تعطيل فحص الشهادة ولم تُقبل الخدمة دون دليل كافٍ.",
+    "source_url": "https://newsdata.io/pricing"
+  },
+  {
+    "name": "Pexels API",
+    "status": "pending_verification",
+    "reason_ar": "صفحات التوثيق أعادت 403؛ يلزم إثبات حديث للحصة المجانية من صفحة رسمية متاحة.",
+    "source_url": "https://www.pexels.com/api/documentation/"
+  },
+  {
+    "name": "Cloudinary",
+    "status": "pending_verification",
+    "reason_ar": "فشل التحقق من شهادة SSL في هذه البيئة؛ لم تُعتمد أرقام 25 credits من القوائم دون تحقق حديث.",
+    "source_url": "https://cloudinary.com/pricing"
+  },
+  {
+    "name": "Blockfrost",
+    "status": "pending_verification",
+    "reason_ar": "صفحة الأسعار التي أمكن استرجاعها لم تتضمن تفاصيل مقروءة للحصة؛ لا تخمين.",
+    "source_url": "https://blockfrost.io/"
+  },
+  {
+    "name": "Finnhub",
+    "status": "pending_verification",
+    "reason_ar": "صفحة السعر المعروضة لم تتضمن دليلًا مقروءًا كافيًا للخطة الحالية.",
+    "source_url": "https://finnhub.io/pricing"
+  },
+  {
+    "name": "openrouteservice",
+    "status": "pending_verification",
+    "reason_ar": "صفحة الخطط المسترجعة لم تعرض تفاصيل مقروءة؛ لم أعمم حدود endpoint على الخدمة كلها.",
+    "source_url": "https://openrouteservice.org/plans/"
+  },
+  {
+    "name": "NVD / OSV / GBIF",
+    "status": "pending_verification",
+    "reason_ar": "تعذر الحصول على دليل مقروء يجمع شروط المجانية والحدود الحالية لهذه الجولة؛ ليست هذه علامة أنها مدفوعة.",
+    "source_url": "https://nvd.nist.gov/developers/start-here"
+  },
+  {
+    "name": "TheDogAPI",
+    "status": "pending_verification",
+    "reason_ar": "تغيرت الصفحة إلى تسويق منتجات وEnterprise ولم يثبت فيها جدول الحصة المجانية الدائمة.",
+    "source_url": "https://thedogapi.com/"
+  },
+  {
+    "name": "Aviationstack",
+    "status": "pending_verification",
+    "reason_ar": "فشل اتصال صفحة السعر؛ لم يُعتمد وصف free في المستودعات وحده.",
+    "source_url": "https://aviationstack.com/product"
+  },
+  {
+    "name": "Contentful",
+    "status": "pending_verification",
+    "reason_ar": "صفحات السعر والتوثيق أعادت 429؛ لم أكرر طلبات لتجاوز throttling ولم يُخمن الحد.",
+    "source_url": "https://www.contentful.com/pricing/"
+  },
+  {
+    "name": "remove.bg",
+    "status": "pending_verification",
+    "reason_ar": "صفحة السعر المسترجعة لم تثبت هل جميع التحويلات المجانية متجددة أو فقط previews/رصيد أولي.",
+    "source_url": "https://www.remove.bg/pricing"
+  },
+  {
+    "name": "OpenAI / Anthropic / NVIDIA trial credits",
+    "status": "excluded_by_rule",
+    "reason_ar": "لم تُضم هذه المزودات كعروض مجانية؛ ذكر startup/trial credits في قوائم الاكتشاف لا يثبت حصة مجانية دائمة متجددة. لا تُعد هذه ملاحظة سعر حديث لكل منتجاتها.",
+    "source_url": "https://github.com/codiebyheaart/awesome-free-apis"
+  }
+]

@@ -1,0 +1,169 @@
+{
+  "note_ar": "هذه استجابات عينات فقط، ليست إثباتًا للمجانية ولا اختبارًا لكل الخدمات. لا يتجاوز الفحص rate limits ولا يعيد المحاولات تلقائيًا. فشل اتصال هذه البيئة لا يعني توقف الخدمة عالميًا.",
+  "attempted": 15,
+  "passed": 14,
+  "results": [
+    {
+      "service_id": "jsonplaceholder",
+      "url": "https://jsonplaceholder.typicode.com/todos/1",
+      "checked_at": "2026-10-12T21:17:16.647430+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 83
+    },
+    {
+      "service_id": "dummyjson",
+      "url": "https://dummyjson.com/products/1",
+      "checked_at": "2026-10-12T21:17:16.648380+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 1510
+    },
+    {
+      "service_id": "pokeapi",
+      "url": "https://pokeapi.co/api/v2/pokemon/1",
+      "checked_at": "2026-10-12T21:17:16.648380+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 280916
+    },
+    {
+      "service_id": "free-dictionary-api",
+      "url": "https://api.dictionaryapi.dev/api/v2/entries/en/hello",
+      "checked_at": "2026-10-12T21:17:16.885451+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 2007
+    },
+    {
+      "service_id": "frankfurter",
+      "url": "https://api.frankfurter.dev/v1/latest?base=USD",
+      "checked_at": "2026-10-12T21:17:17.052096+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 436
+    },
+    {
+      "service_id": "open-meteo",
+      "url": "https://api.open-meteo.com/v1/forecast?latitude=40.71&longitude=-74.01&current=temperature_2m",
+      "checked_at": "2026-10-12T21:17:17.155929+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 326
+    },
+    {
+      "service_id": "tvmaze-public-api",
+      "url": "https://api.tvmaze.com/shows/1",
+      "checked_at": "2026-10-12T21:17:17.275032+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 1370
+    },
+    {
+      "service_id": "open-trivia-db",
+      "url": "https://opentdb.com/api.php?amount=1",
+      "checked_at": "2026-10-12T21:17:17.385419+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 241
+    },
+    {
+      "service_id": "themealdb-development-api",
+      "url": "https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata",
+      "checked_at": "2026-10-12T21:17:17.489498+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 2025
+    },
+    {
+      "service_id": "thecocktaildb-development-api",
+      "url": "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita",
+      "checked_at": "2026-10-12T21:17:17.532440+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 17762
+    },
+    {
+      "service_id": "nasa-open-apis",
+      "url": "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY",
+      "checked_at": "2026-10-12T21:17:17.970392+00:00",
+      "uses_private_key": false,
+      "ok": false,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "service_id": "art-institute-of-chicago",
+      "url": "https://api.artic.edu/api/v1/artworks/129884?fields=id,title",
+      "checked_at": "2026-10-12T21:17:18.076819+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 615
+    },
+    {
+      "service_id": "github-rest-api",
+      "url": "https://api.github.com/repos/public-apis/public-apis",
+      "checked_at": "2026-10-12T21:17:18.268389+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 6742
+    },
+    {
+      "service_id": "world-bank-indicators-api",
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/SP.POP.TOTL?format=json&per_page=1",
+      "checked_at": "2026-10-12T21:17:18.752975+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 294
+    },
+    {
+      "service_id": "nager-holiday-public-holiday-api",
+      "url": "https://nagerholidays.com/api/v4/Holidays/AT/2026",
+      "checked_at": "2026-10-12T21:17:18.945365+00:00",
+      "uses_private_key": false,
+      "http_status": 200,
+      "valid_json": true,
+      "payload_has_error": false,
+      "ok": true,
+      "response_bytes": 2833
+    }
+  ]
+}

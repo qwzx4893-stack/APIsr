@@ -1,0 +1,4711 @@
+{
+  "schema_version": "1.0.0",
+  "title": "APIsr",
+  "checked_on": "2026-10-13",
+  "timezone": "Asia/Baghdad",
+  "scope_ar": "خدمات مجانية بحصص متجددة أو وصول عام مستمر بلا رصيد استخدام مدفوع؛ ليست ضمانًا لتوفر غير محدود أو مجانية كل خصائص المزود.",
+  "total_services": 110,
+  "category_counts": {
+    "ai": 4,
+    "backend": 9,
+    "blockchain": 4,
+    "books": 1,
+    "calendar": 2,
+    "content": 2,
+    "culture": 1,
+    "development": 4,
+    "email": 4,
+    "entertainment": 1,
+    "environment": 2,
+    "finance": 9,
+    "food": 3,
+    "games": 2,
+    "geolocation": 10,
+    "government": 5,
+    "images": 4,
+    "knowledge": 1,
+    "language": 3,
+    "media": 4,
+    "media_processing": 3,
+    "messaging": 4,
+    "multi_domain": 1,
+    "news": 3,
+    "ocr": 1,
+    "science": 3,
+    "search": 4,
+    "security": 3,
+    "sports": 2,
+    "validation": 5,
+    "weather": 6
+  },
+  "free_type_counts": {
+    "recurring_quota": 90,
+    "unmetered_public": 20
+  },
+  "services": [
+    {
+      "id": "cloudflare-workers-ai",
+      "name": "Cloudflare Workers AI",
+      "category": "ai",
+      "category_ar": "الذكاء الاصطناعي",
+      "auth": "account_token",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "10000 neurons/day on Workers Free",
+      "reset": "day; 00:00 UTC",
+      "base_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/",
+      "get_access_url": "https://dash.cloudflare.com/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "ليست neurons عدد tokens أو طلبات؛ بعض النماذج تتطلب الدفع وتستبعد؛ تجاوز المجاني يفشل ولا يستمر دون ترقية.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:57:04Z",
+            "content_sha256": "11f338b3978366299547a34b140a359886b39c0b1a52b01b9c6dc1bc03b82780"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/12britz/awesome-free-models",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "google-gemini-developer-api",
+      "name": "Google Gemini Developer API",
+      "category": "ai",
+      "category_ar": "الذكاء الاصطناعي",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "Free input/output for eligible models; RPM, TPM and RPD depend on model and project",
+      "reset": "minute/day",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "get_access_url": "https://aistudio.google.com/apikey",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "اختر نموذجًا يظهر Free of charge؛ حدود الطلبات يوميًا تتجدد بتوقيت المحيط الهادئ؛ المحتوى قد يستخدم لتحسين المنتجات؛ توجد قيود جغرافية وعمرية.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://ai.google.dev/gemini-api/docs/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "web_reader",
+            "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+          },
+          {
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:57:05Z",
+            "content_sha256": "9848f9ce83b49006e4af0a918ccb1bbdddba00a78209e5bc88688390feea09c9"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/12britz/awesome-free-models",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "category": "ai",
+      "category_ar": "الذكاء الاصطناعي",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "Model-dependent RPM, RPD, TPM and TPD; example gpt-oss-120b: 30 RPM, 1000 RPD, 8000 TPM, 200000 TPD",
+      "reset": "minute/day",
+      "base_url": "https://api.groq.com/openai/v1",
+      "get_access_url": "https://console.groq.com/keys",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "الحدود على مستوى المؤسسة وتختلف بالنموذج؛ راجع لوحة Limits؛ المجاني لا يشمل كل ميزات الخطة المدفوعة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://console.groq.com/docs/rate-limits",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:57:04Z",
+            "content_sha256": "1ff1a1a9ddb36f77ce134b66a3d58bfbc34c1e2f4f5911ac8409ce75c14a16bf"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/12britz/awesome-free-models",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "mistral-studio-free-mode",
+      "name": "Mistral Studio Free mode",
+      "category": "ai",
+      "category_ar": "الذكاء الاصطناعي",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "Included monthly usage; model-specific RPS and TPM shown in account Limits",
+      "reset": "month/second/minute",
+      "base_url": "https://api.mistral.ai/v1",
+      "get_access_url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "المصدر يثبت الحصة الشهرية لكنه لا ينشر رقمًا موحدًا؛ ابق في Free mode؛ الدفع حسب الاستخدام منفصل.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://docs.mistral.ai/admin/billing-usage/usage-limits",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:01:25Z",
+            "content_sha256": "af7ead80efb4a85f83dc276af30594b207ae7d30d835edd905dbefcddf4ddeff"
+          },
+          {
+            "url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:01:26Z",
+            "content_sha256": "26b742f6e34027deb48fd509d1afc83b5b188dc858d12c7381ea1762735d9395"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/12britz/awesome-free-models",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "category": "backend",
+      "category_ar": "الخدمات الخلفية وقواعد البيانات",
+      "auth": "account_token",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1000 API calls/workspace/month; 5 requests/second/base",
+      "reset": "month/second",
+      "base_url": "https://api.airtable.com/v0",
+      "get_access_url": "https://airtable.com/create/tokens",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "Free workspace؛ PAT مع أضيق نطاق للقاعدة؛ حد شهري مشترك بين المستخدمين؛ عدد السجلات والملفات محدود.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://support.airtable.com/docs/managing-api-call-limits-in-airtable",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:29Z",
+            "content_sha256": "20104e2a2eeab7c6e74d269e80487b0ea0ff4da1e3487466f8382e44756d8833"
+          },
+          {
+            "url": "https://www.airtable.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:27Z",
+            "content_sha256": "4526fa5331bc874ebe132a01eea7c99ea148dc347f427f87a1212ea737f95cf3"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "cloudflare-d1",
+      "name": "Cloudflare D1",
+      "category": "backend",
+      "category_ar": "الخدمات الخلفية وقواعد البيانات",
+      "auth": "account_token",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "5 million rows read/day; 100000 rows written/day; 5 GB total storage",
+      "reset": "day; 00:00 UTC",
+      "base_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/d1",
+      "get_access_url": "https://dash.cloudflare.com/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "Rows لا queries؛ الفهارس قد تزيد write counts؛ التزم Free لتجنب billing؛ التخزين سعة ثابتة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://developers.cloudflare.com/d1/platform/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:08:42Z",
+            "content_sha256": "934c42e2d7d093d0c30de345ec767efc105b40889180ef326a9336af973dfbf3"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/12britz/awesome-free-models",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "cloudflare-workers-free",
+      "name": "Cloudflare Workers Free",
+      "category": "backend",
+      "category_ar": "الخدمات الخلفية وقواعد البيانات",
+      "auth": "account_token",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100000 dynamic requests/day; 10 ms CPU/invocation",
+      "reset": "day",
+      "base_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/workers",
+      "get_access_url": "https://dash.cloudflare.com/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "خطة Workers Free منفصلة عن Paid؛ static assets مجانية دون حصة requests لكن limits الأخرى تبقى؛ التزم وقت CPU.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://developers.cloudflare.com/workers/platform/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:08:42Z",
+            "content_sha256": "4c8ebf14ea0280a834e6e74a23bedb2169a11261ffbdc44034a530a765bd4608"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/12britz/awesome-free-models",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "cloudflare-workers-kv",
+      "name": "Cloudflare Workers KV",
+      "category": "backend",
+      "category_ar": "الخدمات الخلفية وقواعد البيانات",
+      "auth": "account_token",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100000 reads/day; 1000 writes, deletes and lists/day each",
+      "reset": "day; 00:00 UTC",
+      "base_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/storage/kv",
+      "get_access_url": "https://dash.cloudflare.com/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "Workers Free فقط؛ 1 GB تخزين ثابت؛ تجاوز نوع العملية يوقفه حتى التجديد؛ بعض batch operations تحسب لكل key.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://developers.cloudflare.com/kv/platform/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:08:42Z",
+            "content_sha256": "f3cf0fee747708888d7469252554f10b251ea5fa2f2fbf831f309dcdbae069ca"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/12britz/awesome-free-models",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "convex-free",
+      "name": "Convex Free",
+      "category": "backend",
+      "category_ar": "الخدمات الخلفية وقواعد البيانات",
+      "auth": "account_token",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1 million function calls/month; 20 GB-hours action compute included",
+      "reset": "month",
+      "base_url": "https://{deployment}.convex.cloud",
+      "get_access_url": "https://dashboard.convex.dev/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "اختر Free لا Starter ذات الدفع حسب الاستخدام؛ حدود تخزين وbandwidth ووظائف متزامنة؛ compute وحدات مختلفة عن calls.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.convex.dev/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:26Z",
+            "content_sha256": "35a15fd175e4a429c964c80b75c42e0980c261861a1827b4f6f7bec391b1e00e"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "firebase-cloud-firestore",
+      "name": "Firebase Cloud Firestore",
+      "category": "backend",
+      "category_ar": "الخدمات الخلفية وقواعد البيانات",
+      "auth": "account_token",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "50000 document reads/day; 20000 writes/day; 20000 deletes/day; 10 GiB transfer/month",
+      "reset": "day; midnight Pacific / month",
+      "base_url": "https://firestore.googleapis.com/v1",
+      "get_access_url": "https://console.firebase.google.com/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "Spark بلا billing؛ قاعدة مجانية واحدة لكل project؛ 1 GiB تخزين ثابت؛ TTL/PITR/backups وغيرها قد تتطلب billing وتستبعد.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://firebase.google.com/docs/firestore/quotas",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:08:43Z",
+            "content_sha256": "c486f3cf554809003c3263eb56f8bf382f91e4172d740315777f79b8625aeccd"
+          },
+          {
+            "url": "https://firebase.google.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:27Z",
+            "content_sha256": "35a93a26293e8b2e410b3c3524b13bb0a5daf30086f55b37c7788f9cb2fd92ea"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "firebase-realtime-database",
+      "name": "Firebase Realtime Database",
+      "category": "backend",
+      "category_ar": "الخدمات الخلفية وقواعد البيانات",
+      "auth": "account_token",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "10 GB downloads/month; 1 GB storage",
+      "reset": "month",
+      "base_url": "https://{database}.firebaseio.com",
+      "get_access_url": "https://console.firebase.google.com/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "Spark دون فاتورة؛ 100 اتصال متزامن وفق جدول الخطة؛ احم البيانات بـRules؛ ترقية Blaze تضيف دفعًا عند التجاوز.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://firebase.google.com/docs/database/usage/billing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:08:44Z",
+            "content_sha256": "1a13ed6d524f5407a2b80c042a735e23e1f61a58e7075cbac1113845d8fbecab"
+          },
+          {
+            "url": "https://firebase.google.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:27Z",
+            "content_sha256": "35a93a26293e8b2e410b3c3524b13bb0a5daf30086f55b37c7788f9cb2fd92ea"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "firebase-remote-config",
+      "name": "Firebase Remote Config",
+      "category": "backend",
+      "category_ar": "الخدمات الخلفية وقواعد البيانات",
+      "auth": "account_token",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100000 fetch requests/day/project on Spark",
+      "reset": "day",
+      "base_url": "https://firebaseremoteconfig.googleapis.com/v1",
+      "get_access_url": "https://console.firebase.google.com/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "حسب تسعير بدأ 1 سبتمبر 2026؛ quota للـfetch لا تعني معدل admin REST؛ لا تعتمد وصف unlimited القديم؛ Spark فقط.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://firebase.google.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:27Z",
+            "content_sha256": "35a93a26293e8b2e410b3c3524b13bb0a5daf30086f55b37c7788f9cb2fd92ea"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "category": "backend",
+      "category_ar": "الخدمات الخلفية وقواعد البيانات",
+      "auth": "api_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Unlimited API requests; 50000 monthly active users; 5 GB egress/month",
+      "reset": "month for egress and MAU; API requests unmetered",
+      "base_url": "https://{project}.supabase.co/rest/v1",
+      "get_access_url": "https://supabase.com/dashboard",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "2 مشاريع؛ 500 MB database و1 GB file storage ثابتان؛ pause بعد أسبوع خمول؛ publishable/anon key لا يعطي صلاحية admin ويجب ضبط RLS.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://supabase.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:26Z",
+            "content_sha256": "654151fdbeea4637b9ddf090f184621129a008cf47fae9e461a00139968b3207"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "alchemy",
+      "name": "Alchemy",
+      "category": "blockchain",
+      "category_ar": "البلوكشين",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "30 million compute units/month; 15 requests/second",
+      "reset": "month/second",
+      "base_url": "https://{network}.g.alchemy.com/v2/{your_key}",
+      "get_access_url": "https://dashboard.alchemy.com/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "الحصة compute units وليست عدد طلبات ثابتًا؛ 5 apps و5 webhooks؛ عمليات الشبكة والمعاملات قد لها gas مستقل غير مجاني.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.alchemy.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:43Z",
+            "content_sha256": "87f3597c13e333a0d5435fff9d39efd79bf4b81232891efd091e653417098dc2"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "etherscan",
+      "name": "Etherscan",
+      "category": "blockchain",
+      "category_ar": "البلوكشين",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "3 calls/second; 100000 calls/day",
+      "reset": "second/day",
+      "base_url": "https://api.etherscan.io/v2/api",
+      "get_access_url": "https://etherscan.io/register",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "selected chains only؛ PRO endpoints غير مجانية؛ V2 والمفتاح موحد للشبكات المدعومة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://docs.etherscan.io/resources/rate-limits",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:04:40Z",
+            "content_sha256": "0cbb0f13f989206c40091d563a9e3d37777cb45177f04d8edd6a74b691c76250"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "helius",
+      "name": "Helius",
+      "category": "blockchain",
+      "category_ar": "البلوكشين",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1 million credits/month; 10 requests/second; 1 sendTransaction/second",
+      "reset": "month/second",
+      "base_url": "https://mainnet.helius-rpc.com",
+      "get_access_url": "https://dashboard.helius.dev/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "Solana؛ credits تختلف حسب endpoint؛ لا تفعّل autoscaling مدفوع؛ fees للمعاملات منفصلة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.helius.dev/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:42Z",
+            "content_sha256": "985f117e2ef72710b1359bf9cf6957ccedb89bcabc861169a31896dd0332971d"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [],
+      "discovery_route": "general_web_and_provider_documentation",
+      "private_credentials_included": false
+    },
+    {
+      "id": "infura",
+      "name": "Infura",
+      "category": "blockchain",
+      "category_ar": "البلوكشين",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "3 million credits/day; 500 credits/second on Core",
+      "reset": "day/second",
+      "base_url": "https://{network}.infura.io/v3/{your_key}",
+      "get_access_url": "https://app.infura.io/register",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "Core مجانية؛ مفتاح واحد؛ الأرصدة حسب طريقة RPC؛ رسوم blockchain ليست مشمولة بالمجانية.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.infura.io/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:43Z",
+            "content_sha256": "46cdab9183a105a1aa4a239ddf253c26b61037c412e0ba20202495ba028987f9"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "open-library",
+      "name": "Open Library",
+      "category": "books",
+      "category_ar": "الكتب",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1 request/second default; 3/second with identified User-Agent and contact email",
+      "reset": "second",
+      "base_url": "https://openlibrary.org",
+      "get_access_url": "https://openlibrary.org/developers/api",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "للبحث والقراءة البشرية بكمية منخفضة؛ ليست بنية خلفية bulk أو high-traffic تجارية؛ cache وdumps للأعمال الكبيرة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://openlibrary.org/developers/api",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:08:44Z",
+            "content_sha256": "7d88c16e3ef694144c6d686b31db6cc5f243f7c4601f00ef5709e6476e8913bf"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/markodenic/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "calendarific",
+      "name": "Calendarific",
+      "category": "calendar",
+      "category_ar": "التقاويم والعطلات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "500 calls/month",
+      "reset": "month",
+      "base_url": "https://calendarific.com/api/v2",
+      "get_access_url": "https://calendarific.com/signup",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "attribution مطلوب؛ لغة واحدة وتاريخ/مستقبل محدودان؛ الجدول الحالي 500 وليس 1000 كما في قوائم أقدم.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://calendarific.com/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:19Z",
+            "content_sha256": "3b85a6ad85f184872e006d381e92a5bea36b67fe71f15350ae09e92bdb281736"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "nager-holiday-public-holiday-api",
+      "name": "Nager.Holiday public holiday API",
+      "category": "calendar",
+      "category_ar": "التقاويم والعطلات",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Official page states no rate limits and unlimited queries; no key",
+      "reset": "no stated rate limit",
+      "base_url": "https://nagerholidays.com/api/v4",
+      "get_access_url": "https://date.nager.at/API",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "الموقع الرسمي انتقل إلى API v4 على nagerholidays.com؛ لا تعتمد endpoint v3 من القوائم القديمة؛ تحققت من استجابة مثال عطلات AT/2026.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://date.nager.at/API",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:51Z",
+            "content_sha256": "c48c786503bd7a952c19972c2b4a9126a9ca1e2070784a94a4bec26cbb2bdc1a"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "contentstack",
+      "name": "Contentstack",
+      "category": "content",
+      "category_ar": "إدارة المحتوى",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100000 API calls/month; 100 GB bandwidth/month",
+      "reset": "month",
+      "base_url": "https://cdn.contentstack.io/v3",
+      "get_access_url": "https://www.contentstack.com/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "Free forever؛ production stack واحد و3 مستخدمين و10 أنواع محتوى؛ عدد entries/assets ثابت؛ ليس كل Agent OS مجانيًا بلا سقف.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.contentstack.com/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:28Z",
+            "content_sha256": "68c9de784b3f0f19a1f76bcfe45b04ea675e70e66822ba2d41fdd54148adc06f"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [],
+      "discovery_route": "general_web_and_provider_documentation",
+      "private_credentials_included": false
+    },
+    {
+      "id": "sanity",
+      "name": "Sanity",
+      "category": "content",
+      "category_ar": "إدارة المحتوى",
+      "auth": "api_key_or_no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1 million CDN API requests/month; 250000 API requests/month; 100 GB bandwidth/month",
+      "reset": "month",
+      "base_url": "https://{project}.api.sanity.io",
+      "get_access_url": "https://www.sanity.io/get-started",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "Free forever؛ datasets عامة فقط؛ حصة CDN مستقلة عن API المباشر؛ لا تنشر write token.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.sanity.io/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:26Z",
+            "content_sha256": "69a01af61cf2890bf40e799cbbd7f73a551e3954ee738fa60db5758f6fc8f76e"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "art-institute-of-chicago",
+      "name": "Art Institute of Chicago",
+      "category": "culture",
+      "category_ar": "المتاحف والثقافة",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "60 requests/minute/IP; scraping at most 1 request/second",
+      "reset": "minute/second",
+      "base_url": "https://api.artic.edu/api/v1",
+      "get_access_url": "https://api.artic.edu/docs/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "بيانات عامة دون auth؛ public-domain artworks فقط للاستعمال الحر للصور؛ استخدم dumps للتحميل الكبير وHTTPS.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://api.artic.edu/docs/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:50Z",
+            "content_sha256": "30a5e0e82c678ac61520ae69048deed5713d03c30472b2b48bd5d2e2d51998e7"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "dummyjson",
+      "name": "DummyJSON",
+      "category": "development",
+      "category_ar": "التطوير والاختبار",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Free fake REST API; no paid usage credit for public sample endpoints",
+      "reset": "ongoing; fair use",
+      "base_url": "https://dummyjson.com",
+      "get_access_url": "https://dummyjson.com/docs",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "بيانات وهمية؛ auth endpoints للتجريب لا تعني حسابات مستخدمين حقيقية؛ لا تعد خدمة إنتاج خلفية دائمة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://dummyjson.com/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:06Z",
+            "content_sha256": "86cc9d1d0785aa3524efa2b26a082b652beef4bd2878163e8c0e0f33082e3281"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "github-rest-api",
+      "name": "GitHub REST API",
+      "category": "development",
+      "category_ar": "التطوير والاختبار",
+      "auth": "api_key_or_no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "60 requests/hour unauthenticated; 5000/hour authenticated",
+      "reset": "rolling hour",
+      "base_url": "https://api.github.com",
+      "get_access_url": "https://github.com/settings/tokens",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "GitHub Free يدعم API؛ search وGraphQL لهما حدود أخرى؛ secondary limits مشتركة؛ لا تشمل الحصة تكاليف Actions أوCopilot؛ لا تنشر PAT.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:01:26Z",
+            "content_sha256": "030d84893f2384e47ad1f8e0aa632b1756517d55aa9a3ca410c6a4e36d53fc2c"
+          },
+          {
+            "url": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:04:40Z",
+            "content_sha256": "5dd3bd167d9254fb61159f07f17d62e3e5c4553be708d5e8e2472c74a0449830"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [],
+      "discovery_route": "general_web_and_provider_documentation",
+      "private_credentials_included": false
+    },
+    {
+      "id": "gitlab-com-rest-api",
+      "name": "GitLab.com REST API",
+      "category": "development",
+      "category_ar": "التطوير والاختبار",
+      "auth": "api_key_or_no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "Authenticated API up to 2000/minute; anonymous and endpoint-specific limits also apply",
+      "reset": "minute",
+      "base_url": "https://gitlab.com/api/v4",
+      "get_access_url": "https://gitlab.com/-/user_settings/personal_access_tokens",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "خطة Free صفر دولار؛ الصفحة تفصل حدودًا مقترحة غير مفعلة عن الحدود الحالية؛ 100/minute للـFree ضمن proposal لا يعتمد كواقع نافذ؛ تحقق من headers.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://docs.gitlab.com/user/gitlab_com/rate_limits/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:08:43Z",
+            "content_sha256": "603df460d81cc846ed72b067104901e6eda48484f4eb67c2137fefda86784ef2"
+          },
+          {
+            "url": "https://about.gitlab.com/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:04:39Z",
+            "content_sha256": "d74afb502b77c9847bc3127121d5791aa61d11d3eafc4c4a7d7e9f8e49d13ad5"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "jsonplaceholder",
+      "name": "JSONPlaceholder",
+      "category": "development",
+      "category_ar": "التطوير والاختبار",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Free for everyone; no signup or API key; no published recurring billing quota",
+      "reset": "ongoing; fair use",
+      "base_url": "https://jsonplaceholder.typicode.com",
+      "get_access_url": "https://jsonplaceholder.typicode.com/guide/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "بيانات وهمية للتجريب؛ POST/PUT لا تحفظ تغييرات فعلية؛ عدم نشر quota لا يعني SLA أو عدم throttling.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://jsonplaceholder.typicode.com/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:05Z",
+            "content_sha256": "8f1edccb6f72ab3d4961fc366887e51f2d495109d84dd4ed263aca3e02b0eeaf"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/markodenic/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "brevo",
+      "name": "Brevo",
+      "category": "email",
+      "category_ar": "البريد الإلكتروني",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "300 emails/day on Free",
+      "reset": "day",
+      "base_url": "https://api.brevo.com/v3",
+      "get_access_url": "https://www.brevo.com/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "خطة Free forever بعد اعتماد الحساب للإرسال؛ البريد فقط، SMS وWhatsApp ليست مجانية؛ التزم الموافقة وسياسات الإرسال.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.brevo.com/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:28Z",
+            "content_sha256": "241be0f6cf8bdd0b63f04851155de58f20a32974f5d25d65591e0f8beb15b4e6"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "mailersend",
+      "name": "MailerSend",
+      "category": "email",
+      "category_ar": "البريد الإلكتروني",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "500 emails/month; 100 daily API requests in Free",
+      "reset": "month/day",
+      "base_url": "https://api.mailersend.com/v1",
+      "get_access_url": "https://www.mailersend.com/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "اختر Free، وليس تجربة Professional 14 يومًا ولا Hobby المدفوعة؛ نطاق واحد وقيود تحقق الحساب.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.mailersend.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:28Z",
+            "content_sha256": "583a8a6b1198dd25aae78e5ebd65b53b39fdff72c2ceeb58dfa3828b4583e088"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "mailjet",
+      "name": "Mailjet",
+      "category": "email",
+      "category_ar": "البريد الإلكتروني",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "6000 emails/month; 200/day",
+      "reset": "month/day",
+      "base_url": "https://api.mailjet.com/v3.1",
+      "get_access_url": "https://app.mailjet.com/signup",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "خطة Free؛ سقف contacts وخصائص الإحصاء؛ التحقق من المرسل وسياسات البريد مطلوبة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.mailjet.com/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:28Z",
+            "content_sha256": "82a167c2096f9ec38c813b5c8e19d4e5930a5d7edbf1be77200f2b87040903ff"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "resend",
+      "name": "Resend",
+      "category": "email",
+      "category_ar": "البريد الإلكتروني",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "3000 emails/month; 100 emails/day",
+      "reset": "month/day",
+      "base_url": "https://api.resend.com",
+      "get_access_url": "https://resend.com/signup",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "المجانية تخص البريد ضمن الحصة؛ يحتاج الإرسال نطاقًا موثقًا وسياسات مكافحة الرسائل المزعجة؛ عدد domains محدود.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://resend.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:28Z",
+            "content_sha256": "a04f8b298f6cfad3af1f64980c0b5f7df20831ef872d3a713976abd2d1a81149"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "icanhazdadjoke",
+      "name": "icanhazdadjoke",
+      "category": "entertainment",
+      "category_ar": "الترفيه",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Public API requires no authentication and no usage credit",
+      "reset": "ongoing; fair use",
+      "base_url": "https://icanhazdadjoke.com",
+      "get_access_url": "https://icanhazdadjoke.com/api",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "أرسل Accept: application/json وUser-Agent؛ أضف نسبة المصدر عند إعادة عرض المحتوى؛ لا ضمان استضافة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://icanhazdadjoke.com/api",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:06Z",
+            "content_sha256": "149fccc9e5b32f32efe187c378d9bfd621fbe5e68bd30466575b765d504a2d6e"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ruanbekker/awesome-free-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "noaa-climate-data-online",
+      "name": "NOAA Climate Data Online",
+      "category": "environment",
+      "category_ar": "البيئة",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "5 requests/second; 10000 requests/day",
+      "reset": "second/day",
+      "base_url": "https://www.ncei.noaa.gov/cdo-web/api/v2",
+      "get_access_url": "https://www.ncei.noaa.gov/cdo-web/token",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "مفتاح خاص بطلب مجاني عبر البريد؛ ليس هو مفتاح NASA؛ البيانات الأمريكية والمناخية فقط.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.ncei.noaa.gov/cdo-web/webservices/v2",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:14Z",
+            "content_sha256": "c54a9b3f1daf89cba658a15ffdd6d269f3cf0b9a58e6bb531cca5ab55226e1fa"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/brandonhimpfen/awesome-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "waqi-aqicn",
+      "name": "WAQI / AQICN",
+      "category": "environment",
+      "category_ar": "البيئة",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "Default quota 1000 requests/second",
+      "reset": "second",
+      "base_url": "https://api.waqi.info",
+      "get_access_url": "https://aqicn.org/data-platform/token/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "يلزم نسبة المصدر؛ لا إعادة توزيع كبيانات مخزنة ولا إعادة بيع؛ راجع acceptable usage قبل الاستخدام التجاري.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://aqicn.org/api/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:15Z",
+            "content_sha256": "171dc07c82aee8ea4ff82a7beb9db0b69d024491795e2672f748f839a573901f"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "alpha-vantage",
+      "name": "Alpha Vantage",
+      "category": "finance",
+      "category_ar": "الأسواق والعملات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "25 API requests/day; higher free access requires verified educational/open-source eligibility",
+      "reset": "day",
+      "base_url": "https://www.alphavantage.co/query",
+      "get_access_url": "https://www.alphavantage.co/support/#api-key",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "الحصة الأساسية 25 فقط؛ البيانات اللحظية الأمريكية وميزات Premium ليست مجانية؛ لا تفترض قبول الإعفاء التعليمي.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.alphavantage.co/support/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:43Z",
+            "content_sha256": "56ef6f20e7384316dcd6bee632d9ed09102e90ae30790dac163ce15b63fed2e0"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "coingecko-demo",
+      "name": "CoinGecko Demo",
+      "category": "finance",
+      "category_ar": "الأسواق والعملات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "10000 call credits/month; 100 calls/minute",
+      "reset": "month/minute",
+      "base_url": "https://api.coingecko.com/api/v3",
+      "get_access_url": "https://www.coingecko.com/en/developers/dashboard",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "خطة Demo صفر دولار متجددة؛ attribution مطلوب؛ البيانات والأسواق ونطاق السجل أقل من الخطط المدفوعة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.coingecko.com/en/api/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:44Z",
+            "content_sha256": "9c83f14b8b2e6c525d72a153250c4e83a27b8a912d23af3107a54429c346835e"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "coinlayer",
+      "name": "coinlayer",
+      "category": "finance",
+      "category_ar": "الأسواق والعملات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 requests/month",
+      "reset": "month",
+      "base_url": "https://api.coinlayer.com",
+      "get_access_url": "https://coinlayer.com/signup/free",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "لا انتهاء؛ USD target currency؛ الخطة المجانية وبياناتها أضيق من المدفوع.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://coinlayer.com/product",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:03Z",
+            "content_sha256": "d0758d670a144273509addf9527ba6564b75730a1b5f046d3f2139b58a6ef34a"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "currencylayer",
+      "name": "currencylayer",
+      "category": "finance",
+      "category_ar": "الأسواق والعملات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 API calls/month",
+      "reset": "month",
+      "base_url": "https://api.currencylayer.com",
+      "get_access_url": "https://currencylayer.com/signup/free",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "Free بلا مدة انتهاء؛ لا currency switching والتحويل الموسع؛ صفحة الأسعار أولى من أرقام القوائم القديمة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://currencylayer.com/product",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:02Z",
+            "content_sha256": "7f01c097f97c01c1fc492ebf58530ca58e76992847688871866869be58a145a4"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "exchangerate-api",
+      "name": "ExchangeRate-API",
+      "category": "finance",
+      "category_ar": "الأسواق والعملات",
+      "auth": "api_key_or_no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "Registered Free: 1500 requests/month; Open Access: rate-limited, daily data refresh",
+      "reset": "month; open endpoint rate window unpublished",
+      "base_url": "https://open.er-api.com/v6/latest/{currency}",
+      "get_access_url": "https://www.exchangerate-api.com/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "المسار المفتوح يتطلب attribution ويمنع إعادة توزيع البيانات؛ المسار ذو المفتاح مختلف؛ لا تختَر تجربة Pro.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.exchangerate-api.com/docs/free",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:43Z",
+            "content_sha256": "c934aed6430923442ae8a96517a367c3524b7e6874700f21424b2ec93ab56c49"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "exchangeratesapi-io",
+      "name": "ExchangeRatesAPI.io",
+      "category": "finance",
+      "category_ar": "الأسواق والعملات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 requests/month",
+      "reset": "month",
+      "base_url": "https://api.exchangeratesapi.io/v1",
+      "get_access_url": "https://exchangeratesapi.io/signup/free",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "تحديث يومي وخطة محدودة؛ تبديل العملة الأساسية والتحويل وHTTPS قد يكونان مدفوعين بحسب endpoint والخطة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://exchangeratesapi.io/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:01Z",
+            "content_sha256": "c1239a0f914a6dd9843d89676666154e9171bd52af9a0b8e23165a459880300d"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "fixer-on-apilayer",
+      "name": "Fixer on APILayer",
+      "category": "finance",
+      "category_ar": "الأسواق والعملات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 requests/month",
+      "reset": "month",
+      "base_url": "https://api.apilayer.com/fixer",
+      "get_access_url": "https://apilayer.com/marketplace/fixer-api",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "Free for Lifetime؛ لا تخلط API السوق مع خطة fixer.io أخرى؛ العملات الأساسية والتحويل قد تختلف حسب الخطة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://apilayer.com/marketplace/fixer-api",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:01Z",
+            "content_sha256": "de04df8c901ecd69593e0874d55df32cc5b8b80f524c1e6e537aeaa0fc717bce"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "frankfurter",
+      "name": "Frankfurter",
+      "category": "finance",
+      "category_ar": "الأسواق والعملات",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "No daily or monthly quota; abuse rate limits apply",
+      "reset": "no monthly/daily cap",
+      "base_url": "https://api.frankfurter.dev",
+      "get_access_url": "https://frankfurter.dev/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "allowed",
+      "limitations_ar": "أسعار مرجعية وليست live trading؛ ترخيص المصادر المركزية يظل نافذًا؛ self-host للتدفق الكثيف.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://frankfurter.dev/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:44Z",
+            "content_sha256": "4687e8c6d8944164bbac49e9a54abc35b78ab7e74d1b3aca2b56c926b39d71bf"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [],
+      "discovery_route": "general_web_and_provider_documentation",
+      "private_credentials_included": false
+    },
+    {
+      "id": "twelve-data",
+      "name": "Twelve Data",
+      "category": "finance",
+      "category_ar": "الأسواق والعملات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "8 API credits/minute; 800/day on Basic",
+      "reset": "minute/day",
+      "base_url": "https://api.twelvedata.com",
+      "get_access_url": "https://twelvedata.com/register",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "Basic فقط؛ كل رمز في الطلب قد يستهلك credit؛ اعرض بيانات الأسواق وفق ترخيصها؛ websocket trial غير محسوب.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://twelvedata.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:44Z",
+            "content_sha256": "c41a5fd7dacb3e00ed555f432ab079717e15fbd4c895d7e2c783a16806b44969"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "open-food-facts",
+      "name": "Open Food Facts",
+      "category": "food",
+      "category_ar": "الأغذية والوصفات",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Database and API 100% free of charge and open to all; endpoint rate limits apply",
+      "reset": "ongoing; endpoint-specific rate windows",
+      "base_url": "https://world.openfoodfacts.org/api/v2",
+      "get_access_url": "https://openfoodfacts.github.io/openfoodfacts-server/api/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "allowed",
+      "limitations_ar": "ODbL attribution وshare-alike؛ التوصيف الغذائي بيانات لا نصيحة طبية؛ bulk عبر dumps لا scraping كثيف.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://world.openfoodfacts.org/data",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:50Z",
+            "content_sha256": "cb6ca7f650d3d2e3a51b68e702a27bc4029a126643480f6eae1039df15e275a4"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "thecocktaildb-development-api",
+      "name": "TheCocktailDB development API",
+      "category": "food",
+      "category_ar": "الأغذية والوصفات",
+      "auth": "public_demo_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Official public test key 1 for development/education; no paid trial credits",
+      "reset": "ongoing; fair use",
+      "base_url": "https://www.thecocktaildb.com/api/json/v1/1",
+      "get_access_url": "https://www.thecocktaildb.com/api.php",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "development_only",
+      "limitations_ar": "مفتاح 1 رسمي؛ production/app store يتطلب Premium؛ random selection/popular/recent الموسعة مدفوعة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.thecocktaildb.com/api.php",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:06Z",
+            "content_sha256": "8243fc006fbd201f379944975f02d2ee7f918235483f09d3fd787cd1109a64d8"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false,
+      "official_public_demo_key": "1"
+    },
+    {
+      "id": "themealdb-development-api",
+      "name": "TheMealDB development API",
+      "category": "food",
+      "category_ar": "الأغذية والوصفات",
+      "auth": "public_demo_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Official public test key 1 for development/education; no paid trial credits",
+      "reset": "ongoing; fair use",
+      "base_url": "https://www.themealdb.com/api/json/v1/1",
+      "get_access_url": "https://www.themealdb.com/api.php",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "development_only",
+      "limitations_ar": "مفتاح 1 رسمي؛ النشر العام على app store يتطلب supporter؛ multi-ingredient/full database مزايا مدفوعة؛ الاستخدام المجاني هنا تعليمي فقط.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.themealdb.com/api.php",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:06Z",
+            "content_sha256": "089d526a46de6c7a8c391bcb2cd001764a2a28851a10330f984f71a7ca26a71d"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false,
+      "official_public_demo_key": "1"
+    },
+    {
+      "id": "open-trivia-db",
+      "name": "Open Trivia DB",
+      "category": "games",
+      "category_ar": "الألعاب",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1 API request/5 seconds/IP; up to 50 questions/request",
+      "reset": "5 seconds",
+      "base_url": "https://opentdb.com/api.php",
+      "get_access_url": "https://opentdb.com/api_config.php",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "المجاني كامل؛ CC BY-SA 4.0؛ session token لمنع تكرار الأسئلة لا يمثل مفتاح دفع.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://opentdb.com/api_config.php",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:20Z",
+            "content_sha256": "9c598b92c043b427b64b9b8da31994d81cecbd1b0bea1ac5ff866f35be9fa14e"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "pokeapi",
+      "name": "PokeAPI",
+      "category": "games",
+      "category_ar": "الألعاب",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Rate limiting removed since move to static hosting; all resources open",
+      "reset": "no request quota documented",
+      "base_url": "https://pokeapi.co/api/v2",
+      "get_access_url": "https://pokeapi.co/docs/v2",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "GET فقط؛ التخزين المؤقت وfair use مطلوبان؛ علامة Pokémon والمحتوى ليست ترخيصًا تجاريًا عامًا.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://pokeapi.co/docs/v2",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:06Z",
+            "content_sha256": "771ff528e83d024c4d4818323ce64955fe4a595f2fd783491f03a9acf7730bf8"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "abstract-ip-geolocation",
+      "name": "Abstract IP Geolocation",
+      "category": "geolocation",
+      "category_ar": "الخرائط والمواقع وIP",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1000 requests/month",
+      "reset": "month",
+      "base_url": "https://ipgeolocation.abstractapi.com/v1",
+      "get_access_url": "https://www.abstractapi.com/api/ip-geolocation-api",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "حصة مستقلة لمنتج IP؛ الصفحة تؤكد monthly free tier؛ الميزات المتقدمة تختلف بالخطة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.abstractapi.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:04Z",
+            "content_sha256": "f95e4bfbb6d62ba6c36a946b59dcd2e006958d27dab2b79d1b04f47a3a2f5d6f"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "geoapify",
+      "name": "Geoapify",
+      "category": "geolocation",
+      "category_ar": "الخرائط والمواقع وIP",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "3000 credits/day; up to 5 requests/second",
+      "reset": "day/second",
+      "base_url": "https://api.geoapify.com/v1",
+      "get_access_url": "https://myprojects.geoapify.com/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "allowed",
+      "limitations_ar": "يلزم attribution لـGeoapify ومصادر البيانات؛ بعض endpoints تستهلك عدة credits؛ المجاني يصلح للإنتاج ضمن حدوده.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.geoapify.com/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:00Z",
+            "content_sha256": "7ff2d577215ba392d0beafb533b5dad824679755af5ee674f34e55d67640bfe1"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/brandonhimpfen/awesome-apis",
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "geonames",
+      "name": "GeoNames",
+      "category": "geolocation",
+      "category_ar": "الخرائط والمواقع وIP",
+      "auth": "username",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "10000 credits/day; 1000 credits/hour",
+      "reset": "day/hour",
+      "base_url": "https://secure.geonames.org",
+      "get_access_url": "https://www.geonames.org/login",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "allowed",
+      "limitations_ar": "أنشئ اسم مستخدمك وفعّل web services؛ لا تستخدم demo username؛ attribution مطلوب؛ معظم الطلبات تستهلك credit واحدًا.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.geonames.org/export/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:14Z",
+            "content_sha256": "a3ef98168b8422e5bb1fe61939e9b11372322f3e7b6c82f0c718ab06669cec2e"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "ip-api",
+      "name": "ip-api",
+      "category": "geolocation",
+      "category_ar": "الخرائط والمواقع وIP",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "45 HTTP requests/minute/IP",
+      "reset": "minute",
+      "base_url": "http://ip-api.com/json",
+      "get_access_url": "https://ip-api.com/docs/legal",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "المجاني HTTP فقط؛ لا تستخدمه لبيانات حساسة؛ ترخيص تجاري وHTTPS مدفوعان؛ راجع أمثلة الاستخدام المسموح.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://ip-api.com/docs/api:json",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:09:59Z",
+            "content_sha256": "55a922da519ca0637f79c9c426b09eec3a245377ed8671cb4bb7fe46d051f380"
+          },
+          {
+            "url": "https://ip-api.com/docs/legal",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:01Z",
+            "content_sha256": "5f769c2e734f7dc623a829d12dc187866fa381ef32f4d208bb97352ecf22ba97"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "ipdata",
+      "name": "ipdata",
+      "category": "geolocation",
+      "category_ar": "الخرائط والمواقع وIP",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1500 requests/day",
+      "reset": "day",
+      "base_url": "https://api.ipdata.co",
+      "get_access_url": "https://dashboard.ipdata.co/sign-up.html",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "عند نفاد الحصة المجانية تُحجب الطلبات؛ لا تستخدم بيانات الخطة المجانية تجاريًا.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://ipdata.co/pricing.html",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:18Z",
+            "content_sha256": "4fe7889938a4dc4c266ec7bd2174cd9e1ce9ab9c14027e1e7e30cfe5d22a9535"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [],
+      "discovery_route": "general_web_and_provider_documentation",
+      "private_credentials_included": false
+    },
+    {
+      "id": "ipgeolocation-io",
+      "name": "IPGeolocation.io",
+      "category": "geolocation",
+      "category_ar": "الخرائط والمواقع وIP",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1000 API credits/day for life",
+      "reset": "day",
+      "base_url": "https://api.ipgeolocation.io",
+      "get_access_url": "https://ipgeolocation.io/signup.html",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "للتجريب والمشاريع الصغيرة؛ لا overages بالمجاني؛ APIs المتخصصة قد تختلف في طريقة احتساب credits.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://ipgeolocation.io/pricing.html",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:19Z",
+            "content_sha256": "fd660a2832d601f9b1f6021cd8f43ca0494005ff5cc3484e423c5034373ffd66"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "ipinfo-lite",
+      "name": "IPinfo Lite",
+      "category": "geolocation",
+      "category_ar": "الخرائط والمواقع وIP",
+      "auth": "api_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Unlimited country-level IP and ASN lookups on Lite",
+      "reset": "no monthly request cap",
+      "base_url": "https://api.ipinfo.io/lite",
+      "get_access_url": "https://ipinfo.io/signup",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "Lite يختلف عن بيانات المدينة وVPN المدفوعة؛ يتطلب مفتاح الحساب وترخيص/attribution الخطة؛ ليس كل endpoint مجانيًا.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://ipinfo.io/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:00Z",
+            "content_sha256": "e2f1fbe28f7c8466ffa66d4e93b9b2e5866012824bfec5fabfda15ed5fe9f137"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "ipwho-is",
+      "name": "ipwho.is",
+      "category": "geolocation",
+      "category_ar": "الخرائط والمواقع وIP",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1000 requests/day/IP; browser CORS traffic counted per domain",
+      "reset": "day; access restored after 24h",
+      "base_url": "https://ipwho.is",
+      "get_access_url": "https://ipwhois.io/documentation",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "allowed",
+      "limitations_ar": "المسار Free فقط؛ لا bulk ولا security أو currency data؛ لا SLA؛ لا تفترض أن تبديل مفتاح يجدد حصة IP.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://ipwhois.io/documentation",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:00Z",
+            "content_sha256": "60a901dde58a27c558f1cb590ae656c36c490905a965a3e71bcb874a8a3dbfc2"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "locationiq",
+      "name": "LocationIQ",
+      "category": "geolocation",
+      "category_ar": "الخرائط والمواقع وIP",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "5000 requests/day; 60 requests/minute; 2 requests/second",
+      "reset": "day/minute/second",
+      "base_url": "https://us1.locationiq.com/v1",
+      "get_access_url": "https://my.locationiq.com/register",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "الاستخدام التجاري المجاني يتطلب رابطًا واضحًا للمزود؛ رمز وصول واحد؛ حدود الخرائط والتوجيه تختلف حسب المنتج.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://locationiq.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:00Z",
+            "content_sha256": "2eae25f89675e2ba9afbb67b8dee3cb7e58121b71274b2b75a6f1cc1e2954a5e"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "positionstack",
+      "name": "positionstack",
+      "category": "geolocation",
+      "category_ar": "الخرائط والمواقع وIP",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 requests/month",
+      "reset": "month",
+      "base_url": "https://api.positionstack.com/v1",
+      "get_access_url": "https://positionstack.com/signup/free",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "للاستخدام الشخصي؛ التوجيه الأمامي والعكسي فقط؛ خصائص batch وGeoJSON الموسعة مدفوعة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://positionstack.com/product",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:04Z",
+            "content_sha256": "d2873c064567c304b31df4c9bf2adad35821232125bf3ae277dacb4faa4f77b2"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "bls-public-data-api",
+      "name": "BLS Public Data API",
+      "category": "government",
+      "category_ar": "البيانات الحكومية والإحصاءات",
+      "auth": "api_key_or_no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "Registered v2: 500 queries/day; unregistered v1: 25/day; 50 requests/10 seconds",
+      "reset": "day/10 seconds",
+      "base_url": "https://api.bls.gov/publicAPI",
+      "get_access_url": "https://data.bls.gov/registrationEngine/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "تجديد تسجيل المفتاح سنويًا؛ 50 سلسلة و20 سنة/طلب للمسجل مقابل 25 سلسلة و10 سنوات لغير المسجل؛ إحصاءات عامة لا real-time markets.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.bls.gov/developers/api_faqs.htm",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "web_reader",
+            "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "nasa-open-apis",
+      "name": "NASA Open APIs",
+      "category": "government",
+      "category_ar": "البيانات الحكومية والإحصاءات",
+      "auth": "api_key_or_public_demo",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "Registered key: 1000 requests/hour; DEMO_KEY: 30/hour and 50/day/IP",
+      "reset": "hour rolling/day",
+      "base_url": "https://api.nasa.gov",
+      "get_access_url": "https://api.nasa.gov/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "الحصة مشتركة عبر خدمات api.nasa.gov؛ بعض APIs تختلف؛ صور الأطراف الثالثة قد تحمل حقوقًا منفصلة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://api.nasa.gov/assets/html/authentication.html",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:15Z",
+            "content_sha256": "3ec2f3e5f7b268d0323e08faf0f8c9b85ec88a4932c777df4e80eb215aedfe04"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/brandonhimpfen/awesome-apis",
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false,
+      "official_public_demo_key": "DEMO_KEY"
+    },
+    {
+      "id": "national-park-service",
+      "name": "National Park Service",
+      "category": "government",
+      "category_ar": "البيانات الحكومية والإحصاءات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1000 requests/hour by default",
+      "reset": "hour rolling",
+      "base_url": "https://developer.nps.gov/api/v1",
+      "get_access_url": "https://www.nps.gov/subjects/developer/get-started.htm",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "مفتاح شخصي مجاني؛ يرسل في X-Api-Key؛ احترام Disclaimer وحقوق المحتوى والصور.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.nps.gov/subjects/developer/guides.htm",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:14Z",
+            "content_sha256": "0d48b761041ae882da0eb7257a08a68c28bf01effebd09f875590499d9b4e4b3"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "us-eia-open-data",
+      "name": "US EIA Open Data",
+      "category": "government",
+      "category_ar": "البيانات الحكومية والإحصاءات",
+      "auth": "api_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Data and keys free; per-second/hour traffic tolerances apply",
+      "reset": "ongoing; temporary throttle",
+      "base_url": "https://api.eia.gov/v2",
+      "get_access_url": "https://www.eia.gov/opendata/register.php",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "يلزم مفتاح عبر البريد؛ الحظر الزائد مؤقت؛ راجع شروط الخدمة وCopyrights and Reuse؛ لم أنسب حدًا رقميًا غير موثق.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.eia.gov/opendata/documentation.php",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:52Z",
+            "content_sha256": "a0b0338b2875388dde6e3c600557578cc016453e71d18e6e88224a3841f5e54c"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [],
+      "discovery_route": "general_web_and_provider_documentation",
+      "private_credentials_included": false
+    },
+    {
+      "id": "world-bank-indicators-api",
+      "name": "World Bank Indicators API",
+      "category": "government",
+      "category_ar": "البيانات الحكومية والإحصاءات",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Open public indicators with no key or paid request credit",
+      "reset": "ongoing; no numerical quota stated",
+      "base_url": "https://api.worldbank.org/v2",
+      "get_access_url": "https://data.worldbank.org/summary-terms-of-use",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "V2؛ ترخيص CC BY 4.0 مع بعض بيانات أطراف ثالثة قد تختلف؛ لا افتراض SLA أو أن عدم نشر quota يلغي throttling.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:44Z",
+            "content_sha256": "e9e3ec61b75119f4899f425dc7ef363bedc73ad071c36411d2c5e353ef18422f"
+          },
+          {
+            "url": "https://data.worldbank.org/summary-terms-of-use",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "web_reader",
+            "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/brandonhimpfen/awesome-apis",
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "dicebear-hosted-avatar-api",
+      "name": "DiceBear hosted Avatar API",
+      "category": "images",
+      "category_ar": "الصور والرسوم",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "50 requests/second for SVG; 10/second for raster/JSON",
+      "reset": "second",
+      "base_url": "https://api.dicebear.com/{version}/{style}/{format}",
+      "get_access_url": "https://www.dicebear.com/how-to-use/http-api/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "المسار المستضاف لغير التجاري؛ تراخيص styles مختلفة؛ raster حتى 256×256؛ self-host له متطلبات وترخيص منفصلان.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.dicebear.com/how-to-use/http-api/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:07Z",
+            "content_sha256": "2752cba65273481d694eb60298c4d350ec34723bb840a203219f40dcf528a49f"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "pixabay",
+      "name": "Pixabay",
+      "category": "images",
+      "category_ar": "الصور والرسوم",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 requests/60 seconds by default",
+      "reset": "60 seconds",
+      "base_url": "https://pixabay.com/api",
+      "get_access_url": "https://pixabay.com/accounts/register/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "تخزين نتائج API مؤقتًا 24 ساعة مطلوب؛ لا تحميل جماعي ولا hotlinking دائم؛ التزم Content License ونسبة المصدر.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://pixabay.com/api/docs/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:28Z",
+            "content_sha256": "32e12a32142265839512f84f7a33c71bedf6de78d470c7efc3fea84eaaeaa247"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "thecatapi",
+      "name": "TheCatAPI",
+      "category": "images",
+      "category_ar": "الصور والرسوم",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "10000 requests/month",
+      "reset": "month",
+      "base_url": "https://api.thecatapi.com/v1",
+      "get_access_url": "https://thecatapi.com/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "خطة التعلم المجانية؛ ترخيص بيانات الاستخدام التجاري في Startup؛ لا تفترض شمول جميع حقول السلالات والمزايا.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://thecatapi.com/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:07Z",
+            "content_sha256": "3acd8077572a55d379c31081599aaeb04130c554c0bb987be7688c9f429f70e0"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash",
+      "category": "images",
+      "category_ar": "الصور والرسوم",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "50 requests/hour in demo mode; production requires approval",
+      "reset": "hour",
+      "base_url": "https://api.unsplash.com",
+      "get_access_url": "https://unsplash.com/developers",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "احترام attribution وhotlinking وإبلاغ تنزيل الصور؛ لا تفترض الموافقة على حصة الإنتاج؛ حقوق الصور منفصلة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://unsplash.com/documentation",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:29Z",
+            "content_sha256": "d7e66f187a0f1c6f0fddbbb43d5861708f57fb12e5f7b5ed8a5db6d51ca13fdb"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "wikimedia-public-read-apis",
+      "name": "Wikimedia public read APIs",
+      "category": "knowledge",
+      "category_ar": "المعرفة",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Free open knowledge; public REST/Action APIs with access-policy rate limits",
+      "reset": "ongoing; rate windows depend on identity",
+      "base_url": "https://en.wikipedia.org/w/api.php",
+      "get_access_url": "https://www.mediawiki.org/wiki/API:Etiquette",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "User-Agent ونسبة المصدر وترخيص CC BY-SA؛ Enterprise API المدفوعة ليست هذه الخدمة؛ limites تختلف حسب الهوية والحمل.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://api.wikimedia.org/wiki/Rate_limits",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:51Z",
+            "content_sha256": "a339485eaf048a178e262fc1e849f5ed6aa6321815316b962c23cea9feaf8d13"
+          },
+          {
+            "url": "https://www.mediawiki.org/wiki/API:Etiquette",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:51Z",
+            "content_sha256": "c371de4570b233cd94aee3c9ce334f7798a4b7f30313aaa84e71b569851334f1"
+          },
+          {
+            "url": "https://www.mediawiki.org/wiki/Wikimedia_APIs/Rate_limits",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:09:58Z",
+            "content_sha256": "1b36678d46a93fa6996baff53826de9b257a2ba63ec1d88d95d1a0dee65465dd"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "datamuse",
+      "name": "Datamuse",
+      "category": "language",
+      "category_ar": "اللغة",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100000 requests/day",
+      "reset": "day",
+      "base_url": "https://api.datamuse.com",
+      "get_access_url": "https://www.datamuse.com/api/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "لا مفتاح حتى 1 فبراير 2027؛ ابتداءً منه يلزم مفتاح والحصة نفسها يومية؛ نسبة المصدر والتواصل للتطبيقات الواسعة مطلوبان.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.datamuse.com/api/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:19Z",
+            "content_sha256": "e1cc6fecc22cfef8d7951ce735bf2e4885060cbf18cd64bc113cccb8c61d2f6a"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "free-dictionary-api",
+      "name": "Free Dictionary API",
+      "category": "language",
+      "category_ar": "اللغة",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Always free public word definitions; no billing quota documented",
+      "reset": "ongoing; fair use",
+      "base_url": "https://api.dictionaryapi.dev/api/v2/entries/en",
+      "get_access_url": "https://dictionaryapi.dev/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "القاموس الإنجليزي؛ تراخيص المصادر والصوت في الرد؛ عدم نشر حد ليس ضمانًا لطلبات غير محدودة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://dictionaryapi.dev/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:19Z",
+            "content_sha256": "86a13f2eb5eb3bc28e10776caea30b31fedc1c23aadd077978fd30de9d9ba04b"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "languagetool-public-http-api",
+      "name": "LanguageTool Public HTTP API",
+      "category": "language",
+      "category_ar": "اللغة",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "20 requests/minute/IP; 75 KB text/minute/IP; 20 KB/request",
+      "reset": "minute",
+      "base_url": "https://api.languagetool.org/v2/check",
+      "get_access_url": "https://dev.languagetool.org/public-http-api.html",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "مسموح للطلبات الفردية فقط؛ automated requests ممنوعة حسب الصفحة؛ لا ضمان خدمة ولا كل ميزات Premium.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://dev.languagetool.org/public-http-api.html",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:19Z",
+            "content_sha256": "959582b18350955175b2efa74c32280de87a22b83d37c5388e1e611366e72cf1"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/marcelscruz/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "musicbrainz-read-api",
+      "name": "MusicBrainz read API",
+      "category": "media",
+      "category_ar": "الأفلام والتلفاز والموسيقى",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1 request/second/application",
+      "reset": "second",
+      "base_url": "https://musicbrainz.org/ws/2",
+      "get_access_url": "https://musicbrainz.org/doc/MusicBrainz_API",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "قراءة البيانات عامة؛ write/user requests تتطلب auth؛ User-Agent واضح؛ خطط تجارية منفصلة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://musicbrainz.org/doc/MusicBrainz_API",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:19Z",
+            "content_sha256": "7f80b3f27ec11104be423ab4be1e17ee2fe83ee80fdf3c858c1a99b59329bd48"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "omdb",
+      "name": "OMDb",
+      "category": "media",
+      "category_ar": "الأفلام والتلفاز والموسيقى",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1000 requests/day on FREE account",
+      "reset": "day",
+      "base_url": "https://www.omdbapi.com",
+      "get_access_url": "https://www.omdbapi.com/apikey.aspx",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "بيانات CC BY-NC 4.0؛ Poster API للمشتركين؛ اختر FREE بدل Patreon.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.omdbapi.com/apikey.aspx",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:20Z",
+            "content_sha256": "d54621ecd1e745b50f40b61d195ab234d5234d06bcc65c1351eed9e098e919c0"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "tmdb",
+      "name": "TMDB",
+      "category": "media",
+      "category_ar": "الأفلام والتلفاز والموسيقى",
+      "auth": "api_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Free API for non-commercial use; rate limiting applies",
+      "reset": "ongoing; no paid usage credit in non-commercial API",
+      "base_url": "https://api.themoviedb.org/3",
+      "get_access_url": "https://www.themoviedb.org/settings/api",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "attribution مطلوب؛ الترخيص التجاري يحتاج تواصلًا وموافقة منفصلة؛ لا تنشر مفتاح حسابك.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://developer.themoviedb.org/docs/faq",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:57:22Z",
+            "content_sha256": "c16e699bc887c66baaeb4fc6b5a1c84e1f2f75fd833fd03811be123049cd89f5"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/markodenic/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "tvmaze-public-api",
+      "name": "TVmaze Public API",
+      "category": "media",
+      "category_ar": "الأفلام والتلفاز والموسيقى",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "At least 20 calls/10 seconds/IP",
+      "reset": "10 seconds",
+      "base_url": "https://api.tvmaze.com",
+      "get_access_url": "https://www.tvmaze.com/api",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "CC BY-SA وترخيص الصور منفصل؛ بيانات cache قد تتأخر ساعة؛ user-level API Premium خارج النطاق.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.tvmaze.com/api",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:19Z",
+            "content_sha256": "697b7180721a82758b40158e4748364816419c3766d1600c9ca04780c1f699c1"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "filestack",
+      "name": "Filestack",
+      "category": "media_processing",
+      "category_ar": "معالجة الوسائط",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "500 uploads; 1000 transformations; 1 GB bandwidth in free monthly plan",
+      "reset": "month",
+      "base_url": "https://www.filestackapi.com/api",
+      "get_access_url": "https://dev.filestack.com/signup/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "Free forever؛ 1 GB storage ثابت؛ OCR وعمليات premium ليست ضمن المجاني؛ راجع دورة الحساب في لوحة الاشتراك.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.filestack.com/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:30Z",
+            "content_sha256": "d1179eae9e17eea284bb5f40cf37ba1b671879f357462e4e95b5fe3a10d75fc9"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "imagekit",
+      "name": "ImageKit",
+      "category": "media_processing",
+      "category_ar": "معالجة الوسائط",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "20 GB bandwidth/month; 500 video units/month; 650 extension units/month",
+      "reset": "month",
+      "base_url": "https://api.imagekit.io/v1",
+      "get_access_url": "https://imagekit.io/registration/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "Forever free؛ 3 GB تخزين ثابت لا يتجدد كرصيد جديد؛ ميزات AI لها حصص منفصلة؛ الخطة Lite المدفوعة مختلفة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://imagekit.io/plans/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:29Z",
+            "content_sha256": "c799f32d6f638fa076f39e63cd5ff3f4238ede6c44bc79793ee323470f97e3cd"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "screenshotlayer",
+      "name": "screenshotlayer",
+      "category": "media_processing",
+      "category_ar": "معالجة الوسائط",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 snapshots/month; no time limit",
+      "reset": "month",
+      "base_url": "https://api.screenshotlayer.com/api/capture",
+      "get_access_url": "https://screenshotlayer.com/signup/free",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "الحصة snapshots شهرية؛ الخصائص وتدفق HTTPS تختلف بالخطة؛ لا يشمل المجاني احتياجات معالجة مدفوعة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://screenshotlayer.com/product",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:05Z",
+            "content_sha256": "eb2e836c632339f52081ad2015301677b945f4eebb316df6775c50f77a211c48"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "ably",
+      "name": "Ably",
+      "category": "messaging",
+      "category_ar": "الرسائل والإشعارات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "6 million messages/month; 200 concurrent connections; 500 messages/second",
+      "reset": "month/second",
+      "base_url": "https://rest.ably.io",
+      "get_access_url": "https://ably.com/sign-up",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "development_only",
+      "limitations_ar": "خطة Free لبناء proof of concept؛ الرسائل ومجموع الدقائق قنوات/اتصالات قد يحتسبان بصورة مختلفة في الخطط المدفوعة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://ably.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:28Z",
+            "content_sha256": "d626f42dcf234f72c161cdde1d3659f2127ad9351498d3d5454320649879734b"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "cloudflare-queues",
+      "name": "Cloudflare Queues",
+      "category": "messaging",
+      "category_ar": "الرسائل والإشعارات",
+      "auth": "account_token",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "10000 operations/day; 24-hour message retention",
+      "reset": "day",
+      "base_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/queues",
+      "get_access_url": "https://dash.cloudflare.com/",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "Workers Free؛ رسالة read/write/delete تستهلك غالبًا 3 operations؛ حجم أكثر من 64 KB يزيد الاحتساب؛ مليون operation شهريًا للخطة المدفوعة لا للمجاني.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://developers.cloudflare.com/queues/platform/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:08:42Z",
+            "content_sha256": "85c7020e1b7e324d6a0cc175b47b4d0bd2500fbe1aa6e379838edfea15d28d49"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/12britz/awesome-free-models",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "firebase-cloud-messaging",
+      "name": "Firebase Cloud Messaging",
+      "category": "messaging",
+      "category_ar": "الرسائل والإشعارات",
+      "auth": "account_token",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "FCM messaging service is no-cost; request and delivery quotas still apply",
+      "reset": "ongoing; service-specific quota windows",
+      "base_url": "https://fcm.googleapis.com/v1",
+      "get_access_url": "https://console.firebase.google.com/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "الإشعارات push لا SMS؛ تكاليف خادمك أوFunctions منفصلة؛ service account/OAuth لا ينشر؛ limits للإرسال والأجهزة باقية.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://firebase.google.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:27Z",
+            "content_sha256": "35a93a26293e8b2e410b3c3524b13bb0a5daf30086f55b37c7788f9cb2fd92ea"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "pusher-channels",
+      "name": "Pusher Channels",
+      "category": "messaging",
+      "category_ar": "الرسائل والإشعارات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "200000 messages/day; 100 concurrent connections",
+      "reset": "day",
+      "base_url": "https://api-{cluster}.pusher.com",
+      "get_access_url": "https://dashboard.pusher.com/accounts/sign_up",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "development_only",
+      "limitations_ar": "Sandbox المجانية؛ سر التطبيق يستخدم على السيرفر فقط؛ broadcasting قد يستهلك رسائل لكل مستلم.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://pusher.com/channels/pricing/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:28Z",
+            "content_sha256": "7ee56e75fe6d05c2a016f84dc5d3599a12eafafb377214594ace7fb7843713d1"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/brandonhimpfen/awesome-apis",
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "api-ninjas",
+      "name": "API Ninjas",
+      "category": "multi_domain",
+      "category_ar": "APIs متعددة المجالات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "3000 API calls/month; 100 calls/hour",
+      "reset": "month/hour",
+      "base_url": "https://api.api-ninjas.com/v1",
+      "get_access_url": "https://api-ninjas.com/register",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "development_only",
+      "limitations_ar": "للتقييم والعروض فقط؛ يلزم attribution؛ تخزين البيانات واستخدامها التجاري غير مسموحين بالمجاني؛ الميزات Premium مستثناة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://api-ninjas.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:01Z",
+            "content_sha256": "648b90ae6e29684c4efbcd155c66bdd8bafb47a386eba99380f86a08bef569c7"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [],
+      "discovery_route": "general_web_and_provider_documentation",
+      "private_credentials_included": false
+    },
+    {
+      "id": "currents",
+      "name": "Currents",
+      "category": "news",
+      "category_ar": "الأخبار",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "250 requests/day",
+      "reset": "day",
+      "base_url": "https://api.currentsapi.services/v1",
+      "get_access_url": "https://www.currentsapi.services/en/register",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "خطة Free developer؛ نطاق التاريخ والنتائج محدود؛ إعادة نشر محتوى المصادر تحتاج حقوقًا منفصلة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.currentsapi.services/en/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:57:23Z",
+            "content_sha256": "9b9987ce952046dbbaa969a75e6f682f044067338abfdc9dd777f3f3c83c7f52"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "gnews",
+      "name": "GNews",
+      "category": "news",
+      "category_ar": "الأخبار",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 requests/day; up to 10 articles/request",
+      "reset": "day",
+      "base_url": "https://gnews.io/api/v4",
+      "get_access_url": "https://gnews.io/register",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "للتطوير والاختبار والمشاريع غير التجارية؛ تأخير 12 ساعة؛ CORS على localhost؛ النص الكامل مدفوع.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://gnews.io/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:57:22Z",
+            "content_sha256": "9dae08d3314a1850930447993644792b42a7b265c6956f368b5b82c617bf37ad"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "mediastack",
+      "name": "mediastack",
+      "category": "news",
+      "category_ar": "الأخبار",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 calls/month",
+      "reset": "month",
+      "base_url": "https://api.mediastack.com/v1",
+      "get_access_url": "https://mediastack.com/signup/free",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "أخبار مؤخرة؛ لا historical data بالمجاني؛ حقوق المحتوى لا تنتقل بمجرد استعمال API.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://mediastack.com/product",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:57:23Z",
+            "content_sha256": "2a4ade85548f3913364fee6083d482926361e63c43dcc1c58e3b2ecce4e3bdf1"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "ocr-space",
+      "name": "OCR.space",
+      "category": "ocr",
+      "category_ar": "التعرف الضوئي على النص",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "25000 requests/month and 500 requests/day/IP",
+      "reset": "month/day",
+      "base_url": "https://api.ocr.space/parse/image",
+      "get_access_url": "https://ocr.space/ocrapi",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "unknown",
+      "limitations_ar": "المجاني محدود بحجم ملف 1 MB وثلاث صفحات PDF؛ حد IP مشترك؛ لا ضمان أداء الخطة المدفوعة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://ocr.space/ocrapi",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:57:05Z",
+            "content_sha256": "703005b2ac1b0c8e5db1c206c08afda1f32f8b72caf7c8acef8a01744d16a230"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "arxiv-legacy-api",
+      "name": "arXiv legacy API",
+      "category": "science",
+      "category_ar": "الأبحاث العلمية",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1 request/3 seconds; one connection at a time",
+      "reset": "3 seconds",
+      "base_url": "https://export.arxiv.org/api/query",
+      "get_access_url": "https://info.arxiv.org/help/api/user-manual.html",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "metadata تحت CC0؛ المقالات لها تراخيص مستقلة؛ لا parallel requests ولا تجاوز rate limits.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://info.arxiv.org/help/api/tou.html",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:50Z",
+            "content_sha256": "badbec1e87aa317038c3a519a3fad3c4a855ebe019f0e681772d72f6a14f4e49"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "crossref-rest-api",
+      "name": "Crossref REST API",
+      "category": "science",
+      "category_ar": "الأبحاث العلمية",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Free metadata APIs; endpoint and pool rate limits apply",
+      "reset": "ongoing; response headers expose limits",
+      "base_url": "https://api.crossref.org",
+      "get_access_url": "https://api.crossref.org/swagger-ui/index.html",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "استخدم mailto مع User-Agent للاستفادة من polite pool؛ تراخيص abstracts/full text قد تختلف عن metadata.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:50Z",
+            "content_sha256": "20aa13bcae70da2b4fca53c1c53c21183c0ce9dd69d6df6a80d6f483d6e137ae"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [],
+      "discovery_route": "general_web_and_provider_documentation",
+      "private_credentials_included": false
+    },
+    {
+      "id": "openalex",
+      "name": "OpenAlex",
+      "category": "science",
+      "category_ar": "الأبحاث العلمية",
+      "auth": "api_key_or_no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "Free daily budget; key gives 10x keyless budget; 10 RPS without key, 30 RPS with free key",
+      "reset": "day/second",
+      "base_url": "https://api.openalex.org",
+      "get_access_url": "https://openalex.org/settings/api",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "ميزانية يومية تختلف بتكلفة query؛ الرقم النقدي الحالي لم يثبت من الصفحة لذا لم يُخمن؛ الدفع للتوسع اختياري.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://docs.openalex.org/how-to-use-the-api/rate-limits-and-authentication",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:50Z",
+            "content_sha256": "c9a38eee46f55803900344e479077b489fa7813f1b26c9d6ed783ef3f1d9b36b"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "algolia-build",
+      "name": "Algolia Build",
+      "category": "search",
+      "category_ar": "البحث واستخراج المحتوى",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "10000 search requests/month; 5000 recommendation requests/month; 50000 records",
+      "reset": "month",
+      "base_url": "https://{application_id}-dsn.algolia.net/1",
+      "get_access_url": "https://dashboard.algolia.com/users/sign_up",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "development_only",
+      "limitations_ar": "اختر Build المجانية؛ Grow قد يحتسب overages؛ لا تنشر admin key؛ عدد records ثابت وليس رصيدًا يتراكم كل شهر.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.algolia.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:28Z",
+            "content_sha256": "2f58c5508a1dd072f4b1632daffcf8964d0fa0ab6c08a3c407e05628c2b5653b"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "jina-reader-without-api-key",
+      "name": "Jina Reader without API key",
+      "category": "search",
+      "category_ar": "البحث واستخراج المحتوى",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "20 requests/minute for keyless Reader",
+      "reset": "minute",
+      "base_url": "https://r.jina.ai/",
+      "get_access_url": "https://jina.ai/reader/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "المسار المجاني هو Reader بلا مفتاح فقط؛ رصيد المفتاح الجديد 10M tokens لمرة واحدة ليس ضمن القائمة؛ خدمة البحث s.jina.ai ليست مشمولة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://jina.ai/reader/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:57:05Z",
+            "content_sha256": "7898d42bed19a61b8e4f325f485e9af164dbb5a58d1909f7bb0d96b79b5683d1"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "serpstack",
+      "name": "serpstack",
+      "category": "search",
+      "category_ar": "البحث واستخراج المحتوى",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 searches/month",
+      "reset": "month",
+      "base_url": "https://api.serpstack.com",
+      "get_access_url": "https://serpstack.com/signup/free",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "Free forever؛ JSON فقط؛ لا تفترض أن عدد المواقع المستخرجة يساوي search requests.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://serpstack.com/product",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:03Z",
+            "content_sha256": "b499d693d876e055bacb5048f73de3b091b7b0a58285f483ce0c20b735c250d5"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "tavily",
+      "name": "Tavily",
+      "category": "search",
+      "category_ar": "البحث واستخراج المحتوى",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1000 API credits/month",
+      "reset": "month",
+      "base_url": "https://api.tavily.com",
+      "get_access_url": "https://app.tavily.com/",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "عدد credits يختلف حسب endpoint ونمط البحث؛ لا تفعّل الدفع حسب الاستخدام للحصول على المزيد.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.tavily.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "web_reader",
+            "note_ar": "قرئت الصفحة الرسمية عبر أداة الويب؛ لم تُحفظ بصمة HTML محلية."
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "abuseipdb",
+      "name": "AbuseIPDB",
+      "category": "security",
+      "category_ar": "الأمن",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1000 IP checks/reports/day; 100 block checks/day; 5 bulk reports/day",
+      "reset": "day",
+      "base_url": "https://api.abuseipdb.com/api/v2",
+      "get_access_url": "https://www.abuseipdb.com/register",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "Individual Free forever؛ blacklist حتى 10000 IP وقيود يومية؛ لا تنسب حدود تجربة الخطة المدفوعة للمجاني.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.abuseipdb.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:43Z",
+            "content_sha256": "e5b9ae885ab511b84708bac901197ff9a246cea623e400abc6283c34f68aebcf"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "urlscan-io",
+      "name": "urlscan.io",
+      "category": "security",
+      "category_ar": "الأمن",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "Free $0 plan; separate daily submission, result and search quotas shown in account",
+      "reset": "minute/hour/day",
+      "base_url": "https://urlscan.io/api/v1",
+      "get_access_url": "https://urlscan.io/user/signup",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "الحصص تختلف حسب نوع الفعل؛ لم أضع رقمًا من جدول غير واضح؛ public scan قد يكشف URL المرسل، فلا ترسل روابط خاصة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://urlscan.io/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:04:39Z",
+            "content_sha256": "6f34d18c30dae25cbf7d1585bd1cee410c2e559eca90ec50526abd812e2251c9"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "virustotal-public-api",
+      "name": "VirusTotal Public API",
+      "category": "security",
+      "category_ar": "الأمن",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "500 requests/day; 4 requests/minute",
+      "reset": "day/minute",
+      "base_url": "https://www.virustotal.com/api/v3",
+      "get_access_url": "https://www.virustotal.com/gui/join-us",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "لا منتجات تجارية ولا business workflows التي لا تساهم بملفات جديدة؛ يمنع تعدد الحسابات لتجاوز الحصة؛ احذر خصوصية الملفات التي ترفعها.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://docs.virustotal.com/reference/public-vs-premium-api",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:59:44Z",
+            "content_sha256": "703be7ff90b212777f32620317bbbb595a9f9a3f464547d69eea1ed2162a52b4"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "chess-com-published-data-api",
+      "name": "Chess.com Published Data API",
+      "category": "sports",
+      "category_ar": "الرياضة",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Unlimited serial requests; parallel requests may be throttled",
+      "reset": "no serial request quota",
+      "base_url": "https://api.chess.com/pub",
+      "get_access_url": "https://www.chess.com/news/view/published-data-api",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "restricted",
+      "limitations_ar": "قراءة بيانات عامة فقط؛ انتظر انتهاء الطلب قبل التالي؛ البيانات قد تُحدّث كل 24 ساعة؛ احترم حقوق وخصوصية البيانات.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.chess.com/news/view/published-data-api",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:21Z",
+            "content_sha256": "3aef242225f6d628599139c2394321e7fe451215ee21c78303c4bc06fc7b5c60"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "football-data-org",
+      "name": "football-data.org",
+      "category": "sports",
+      "category_ar": "الرياضة",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "10 calls/minute; free coverage of 12 competitions",
+      "reset": "minute",
+      "base_url": "https://api.football-data.org/v4",
+      "get_access_url": "https://www.football-data.org/client/register",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "Free forever؛ النتائج والجداول مؤخرة؛ الإحصاءات الموسعة والاحتمالات والإضافات مدفوعة.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.football-data.org/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:57:23Z",
+            "content_sha256": "6659eb4e3793fd500916efc81e050f1d85f227251f07b4c86ec8497b91e86756"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "abstract-email-validation",
+      "name": "Abstract Email Validation",
+      "category": "validation",
+      "category_ar": "التحقق من البيانات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 requests/month; 3 requests/second",
+      "reset": "month/second",
+      "base_url": "https://emailvalidation.abstractapi.com/v1",
+      "get_access_url": "https://www.abstractapi.com/api/email-verification-validation-api",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "حصة مستقلة لمنتج Email؛ اختَر الخطة المجانية؛ نتائج التحقق تقديرية وليست ضمان تسليم.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.abstractapi.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:04Z",
+            "content_sha256": "f95e4bfbb6d62ba6c36a946b59dcd2e006958d27dab2b79d1b04f47a3a2f5d6f"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "abstract-phone-validation",
+      "name": "Abstract Phone Validation",
+      "category": "validation",
+      "category_ar": "التحقق من البيانات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 requests/month",
+      "reset": "month",
+      "base_url": "https://phonevalidation.abstractapi.com/v1",
+      "get_access_url": "https://www.abstractapi.com/api/phone-validation-api",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "حصة مستقلة لمنتج Phone؛ لا يساوي توفر metadata إثبات امتلاك الرقم ولا إرسال SMS مجانيًا.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.abstractapi.com/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:04Z",
+            "content_sha256": "f95e4bfbb6d62ba6c36a946b59dcd2e006958d27dab2b79d1b04f47a3a2f5d6f"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "mailboxlayer",
+      "name": "mailboxlayer",
+      "category": "validation",
+      "category_ar": "التحقق من البيانات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 API requests/month",
+      "reset": "month",
+      "base_url": "https://apilayer.net/api",
+      "get_access_url": "https://mailboxlayer.com/signup/free",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "تقييم جودة البريد فقط؛ لا bulk endpoint بالمجاني؛ راجع تفعيل HTTPS والشروط من لوحة الحساب.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://mailboxlayer.com/product",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:02Z",
+            "content_sha256": "9411ad7913c967ee00538b631e8bad8fb45d2233609373a60c542f31764f360e"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "numverify",
+      "name": "numverify",
+      "category": "validation",
+      "category_ar": "التحقق من البيانات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 requests/month; free without time limit",
+      "reset": "month",
+      "base_url": "https://apilayer.net/api",
+      "get_access_url": "https://numverify.com/signup/free",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "خطة Free موصوفة trial without time limit لكنها حصة شهرية مستمرة؛ تحقق من دعم HTTPS في الحساب لأن جدول الميزات والFAQ لا يتطابقان دائمًا.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://numverify.com/product",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:03Z",
+            "content_sha256": "e8094eba9ccd62243601efe019abf6d5a11232312f78caec1b687148de978b08"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis",
+        "https://github.com/ripienaar/free-for-dev"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "userstack",
+      "name": "userstack",
+      "category": "validation",
+      "category_ar": "التحقق من البيانات",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100 lookups/month",
+      "reset": "month",
+      "base_url": "https://api.userstack.com",
+      "get_access_url": "https://userstack.com/signup/free",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "جدول Free الحالي 100؛ FAQ أقدم يذكر 10000، استخدمت الرقم الأقل من جدول السعر الحالي؛ لا bulk بالمجاني.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://userstack.com/product",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:00:05Z",
+            "content_sha256": "38c282448b2f2c6402af4fc44b0ea768cfc49160ada4bb461d4cf7b8cf572283"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "national-weather-service",
+      "name": "National Weather Service",
+      "category": "weather",
+      "category_ar": "الطقس",
+      "auth": "no_key",
+      "free_type": "unmetered_public",
+      "price_usd_within_free_scope": 0,
+      "quota": "Free public data; reasonable unpublished rate limits",
+      "reset": "ongoing; throttle clears after waiting",
+      "base_url": "https://api.weather.gov",
+      "get_access_url": "https://www.weather.gov/documentation/services-web-api",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "allowed",
+      "limitations_ar": "يلزم User-Agent واضح؛ الخدمة تخص الولايات المتحدة؛ عدم نشر حد رقمي لا يعني عدم وجود throttling.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.weather.gov/documentation/services-web-api",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T21:03:50Z",
+            "content_sha256": "687c534041623c0a488718dcd3613eda3935b840939cb57f8690a91058a6fcf4"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "open-meteo",
+      "name": "Open-Meteo",
+      "category": "weather",
+      "category_ar": "الطقس",
+      "auth": "no_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "600 calls/minute; 5000/hour; 10000/day; 300000/month",
+      "reset": "minute/hour/day/month",
+      "base_url": "https://api.open-meteo.com/v1",
+      "get_access_url": "https://open-meteo.com/en/docs",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "الاستخدام غير التجاري؛ لا مفتاح للمسار المفتوح؛ الحصة مشتركة مع APIs المفتوحة للمزود؛ الترخيص التجاري مدفوع.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://open-meteo.com/en/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:13Z",
+            "content_sha256": "cb1553086ff8903092e34b4dc93ef83c38b1d98fb1c46d874dd6391b3b85a7e2"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "openweather-free-apis",
+      "name": "OpenWeather Free APIs",
+      "category": "weather",
+      "category_ar": "الطقس",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "60 calls/minute; 1000000 calls/month",
+      "reset": "minute/month",
+      "base_url": "https://api.openweathermap.org/data/2.5",
+      "get_access_url": "https://home.openweathermap.org/users/sign_up",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "restricted",
+      "limitations_ar": "اختر Free Weather API access؛ يشمل الطقس الحالي وتوقع 5 أيام والتلوث والخرائط والترميز الجغرافي؛ One Call المدفوع منفصل ومستبعد هنا.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://openweathermap.org/price",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:13Z",
+            "content_sha256": "b8b00d7c8396ebb9887d873fbb5ca2b197eab776edbdf4db923a78827f1c4ad0"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/brandonhimpfen/awesome-apis",
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/markodenic/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "visual-crossing",
+      "name": "Visual Crossing",
+      "category": "weather",
+      "category_ar": "الطقس",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "1000 weather records/day",
+      "reset": "day",
+      "base_url": "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline",
+      "get_access_url": "https://www.visualcrossing.com/sign-up",
+      "credit_card_required": false,
+      "credit_card_evidence": "explicit_or_keyless",
+      "commercial_use": "unknown",
+      "limitations_ar": "الحصة records وليست requests؛ الطلب التاريخي متعدد الأيام قد يستهلك أكثر من سجل؛ تجنب تفعيل الاستخدام المدفوع.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.visualcrossing.com/weather-api/",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:14Z",
+            "content_sha256": "2bf561ee8006267c1f50d38f5f85fb78ba6b8676735f28a7e4caa71485259417"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "weatherapi-com",
+      "name": "WeatherAPI.com",
+      "category": "weather",
+      "category_ar": "الطقس",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "100000 calls/month",
+      "reset": "month; first day 00:00 UTC",
+      "base_url": "https://api.weatherapi.com/v1",
+      "get_access_url": "https://www.weatherapi.com/signup.aspx",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "allowed",
+      "limitations_ar": "الخصائص والمدة التاريخية تختلف عن المدفوع؛ عند نفاد الحصة يتوقف الرد حتى التجديد أو الترقية.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.weatherapi.com/pricing.aspx",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:13Z",
+            "content_sha256": "76c81d7ce689b5b87d9c8593314d94fa80fbbca28fdccaea57294c2d97b01eec"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/markodenic/public-apis",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    },
+    {
+      "id": "weatherbit",
+      "name": "Weatherbit",
+      "category": "weather",
+      "category_ar": "الطقس",
+      "auth": "api_key",
+      "free_type": "recurring_quota",
+      "price_usd_within_free_scope": 0,
+      "quota": "50 requests/day; 1 request/second",
+      "reset": "day/second",
+      "base_url": "https://api.weatherbit.io/v2.0",
+      "get_access_url": "https://www.weatherbit.io/account/create",
+      "credit_card_required": null,
+      "credit_card_evidence": "not_confirmed",
+      "commercial_use": "non_commercial",
+      "limitations_ar": "خطة always-free مختلفة عن تجربة Business لمدة 21 يومًا؛ للاستخدام غير التجاري؛ الطقس الحالي وتوقع يومي 7 أيام.",
+      "verification": {
+        "status": "official_documentation_reviewed",
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "evidence": [
+          {
+            "url": "https://www.weatherbit.io/pricing",
+            "kind": "official_pricing_or_documentation",
+            "checked_on": "2026-10-13",
+            "method": "direct_https_read",
+            "http_status": 200,
+            "retrieved_at": "2026-10-12T20:56:14Z",
+            "content_sha256": "71addda9b18751aa37ddd50445b458bad16bd24ffadd968facb2353fa9a4ff53"
+          }
+        ],
+        "live_key_tested": false
+      },
+      "discovered_from": [
+        "https://github.com/free-public-apis/apis",
+        "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+        "https://github.com/marcelscruz/public-apis",
+        "https://github.com/public-api-lists/public-api-lists",
+        "https://github.com/public-apis/public-apis"
+      ],
+      "discovery_route": "repository_and_provider_verification",
+      "private_credentials_included": false
+    }
+  ]
+}
