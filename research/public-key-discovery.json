@@ -121,7 +121,8 @@
         "nps-demo",
         "fec-demo",
         "epa-attains-demo",
-        "college-scorecard-demo"
+        "college-scorecard-demo",
+        "attestwire-demo"
       ],
       "role": "discovery_only_not_shared_key_authorization"
     },
@@ -191,7 +192,8 @@
         "nps-demo",
         "fec-demo",
         "epa-attains-demo",
-        "college-scorecard-demo"
+        "college-scorecard-demo",
+        "attestwire-demo"
       ],
       "role": "discovery_only_not_shared_key_authorization"
     },

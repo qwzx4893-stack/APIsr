@@ -3,20 +3,20 @@
   "checked_on": "2026-10-13",
   "timezone": "Asia/Baghdad",
   "summary": {
-    "services": 33,
-    "unique_public_key_values": 16,
+    "services": 42,
+    "unique_public_key_values": 21,
     "category_counts": {
-      "space": 1,
+      "space": 2,
       "food": 2,
       "finance": 4,
       "government": 6,
       "ocr": 1,
-      "sports": 2,
+      "sports": 3,
       "music": 1,
-      "documents": 1,
+      "documents": 3,
       "geolocation": 1,
       "business": 1,
-      "development": 2,
+      "development": 3,
       "images": 1,
       "parks": 1,
       "travel": 1,
@@ -26,18 +26,23 @@
       "education": 1,
       "productivity": 1,
       "compute": 1,
-      "translation": 1
+      "translation": 1,
+      "proxy": 1,
+      "graphics": 1,
+      "vehicles": 1,
+      "analytics": 1
     },
     "access_scope_counts": {
-      "public_data": 15,
-      "development_data": 6,
-      "restricted_sample_data": 6,
+      "public_data": 18,
+      "development_data": 11,
+      "restricted_sample_data": 7,
       "sandbox_data": 3,
       "synthetic_practice": 3
     },
-    "recurring_quota_services": 20,
+    "recurring_quota_services": 28,
     "synthetic_practice_services": 3,
-    "pending_failed_candidates": 8
+    "pending_failed_candidates": 10,
+    "practical_services": 36
   },
   "note_ar": "قائمة مستقلة لمفاتيح ينشرها المزودون للاستخدام العام دون تسجيل، داخل النطاق الموضح. تكرار قيمة واحدة عبر خدمات متعددة لا يزيد عدد المفاتيح المختلفة. أمثلة sandbox والبيانات الوهمية موضحة؛ لا ضمان للإنتاج أو الاستمرار الأبدي. لم تجمع مفاتيح حسابات شخصية.",
   "services": [
@@ -104,6 +109,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "عارض تعليمي للكويكبات القريبة من الأرض."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -158,6 +170,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج تطبيق وصفات للتطوير والتعليم."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -212,6 +231,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج كتالوج مشروبات للتطوير والتعليم."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -267,6 +293,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "لوحة تجريبية لبيانات IBM المسموح بها في أمثلة demo."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -321,6 +354,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "باحث في مجموعات الوثائق الحكومية العامة."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -379,6 +419,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "تجربة استخراج النص من صور المثال عبر OCR."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -433,6 +480,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج بطاقات فرق ولاعبين ضمن قيود البحث المجاني."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -496,6 +550,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج عرض بيانات موسيقى للفنانين المتاحين للمفتاح."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -550,6 +611,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "تجربة عرض سعر AAPL أو رموز demo المسموح بها."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -602,6 +670,13 @@
           "shape": "list:2",
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج رسم بياني لأسعار AAPL.US المتاحة للمثال."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -663,6 +738,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": false,
+        "examples_ar": [
+          "اختبار عرض القوالب والمظاريف على مؤسسة sandbox."
+        ],
+        "scope_note_ar": "البيانات الوهمية وsandbox لا تخدم بيانات تطبيقك الفعلية."
       }
     },
     {
@@ -722,6 +804,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "أداة تطوير تحول رابط خرائط إلى إحداثيات."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -786,6 +875,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": false,
+        "examples_ar": [
+          "اختبار شاشات قوائم الفواتير على بيانات sandbox."
+        ],
+        "scope_note_ar": "البيانات الوهمية وsandbox لا تخدم بيانات تطبيقك الفعلية."
       }
     },
     {
@@ -843,6 +939,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": false,
+        "examples_ar": [
+          "تدريب على وضع المفتاح في header الصحيح."
+        ],
+        "scope_note_ar": "البيانات الوهمية وsandbox لا تخدم بيانات تطبيقك الفعلية."
       }
     },
     {
@@ -900,6 +1003,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": false,
+        "examples_ar": [
+          "اختبار حالات 401 و403 للمصادقة باستخدام بيانات وهمية."
+        ],
+        "scope_note_ar": "البيانات الوهمية وsandbox لا تخدم بيانات تطبيقك الفعلية."
       }
     },
     {
@@ -974,6 +1084,13 @@
           "id": "tradewave-demo",
           "semantic_check_passed": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج عرض بيانات الأنماط للمجموعة المحددة في demo."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1037,6 +1154,13 @@
           "id": "sportsbookish-demo",
           "semantic_check_passed": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج عرض بيانات أسعار رياضية من الخدمة المستقلة."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1099,6 +1223,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": false,
+        "examples_ar": [
+          "اختبار ربط API الصور باستجابة placeholder ثابتة."
+        ],
+        "scope_note_ar": "البيانات الوهمية وsandbox لا تخدم بيانات تطبيقك الفعلية."
       }
     },
     {
@@ -1174,6 +1305,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج دليل حدائق ومعلومات زيارة من البيانات العامة."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1239,6 +1377,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج متابعة تشريعات عامة أو البحث في فهرس bills."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1313,6 +1458,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "لوحة بيانات عامة عن المرشحين وتمويل الحملات."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1376,6 +1528,13 @@
           "shape": "list:1",
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "باحث في سجلات التدقيق الحكومي المتاحة للعامة."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1443,6 +1602,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "محرك بحث في metadata مجموعات البيانات الحكومية."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1512,6 +1678,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "عرض المقاييس العامة لخدمة api.data.gov."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1573,6 +1746,13 @@
           "shape": "list:346",
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "عرض بدلات السفر الحكومية حسب المكان والسنة."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1648,6 +1828,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج خريطة محطات الوقود البديل أو الشحن."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1715,6 +1902,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "لوحة تعرض قياسات المياه اليومية المنشورة."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1774,6 +1968,13 @@
           "shape": "list:5",
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج يعرض تصنيفات تقييم المياه المنشورة."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1848,6 +2049,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "باحث في فهرس المتاحف والمواد ذات الترخيص المناسب."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1921,6 +2129,13 @@
           ],
           "ok": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج مقارنة بيانات جامعات من البيانات الحكومية."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
       }
     },
     {
@@ -1991,6 +2206,13 @@
           "id": "deskmonitor-demo",
           "semantic_check_passed": true
         }
+      },
+      "project_use": {
+        "practical": false,
+        "examples_ar": [
+          "اختبار ربط MCP بلوحة عمل وهمية."
+        ],
+        "scope_note_ar": "البيانات الوهمية وsandbox لا تخدم بيانات تطبيقك الفعلية."
       }
     },
     {
@@ -2057,7 +2279,14 @@
           "semantic_check_passed": true
         }
       },
-      "public_key_lookup_url": "https://www.orbitroute.ai/api/v1/keys/demo"
+      "public_key_lookup_url": "https://www.orbitroute.ai/api/v1/keys/demo",
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "تجربة قرارات توجيه الحوسبة دون تشغيل أعمال فعلية."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
+      }
     },
     {
       "id": "inktranslator-free",
@@ -2124,6 +2353,686 @@
           "semantic_check_passed": true,
           "translation_nonempty": true
         }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "تجربة ترجمة نصوص قصيرة حتى 50 حرفًا."
+        ],
+        "scope_note_ar": "مفيد للنموذج أو قراءة البيانات المحددة؛ راجع القيود قبل الإنتاج."
+      }
+    },
+    {
+      "id": "corx-public",
+      "name": "CORX public CORS proxy",
+      "category": "proxy",
+      "category_ar": "طلبات المواقع",
+      "key": "corx_wurhkSx9Z5GkXBs85bu8iyqJ-963qATW",
+      "key_placement": "query",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "development_data",
+      "quota": "3000 requests/day/calling site; 100000/day/whole instance; target-host caps also apply",
+      "reset": "day (UTC)",
+      "free_type": "recurring_quota",
+      "production_use": "not_inferred",
+      "limitations_ar": "GET وHEAD لبيانات عامة فقط. يزيل Cookie وAuthorization من الطلب المرسل للمصدر ويستخدم cache مشتركًا وسجلات 30 يومًا. مفتاح عام للتجربة والنماذج؛ لا يصلح لبيانات خاصة أو أسرار.",
+      "example_request": {
+        "method": "GET",
+        "url": "https://corx.envx.cn/fetch?url=https%3A%2F%2Fexample.com%2F&corx-key=corx_wurhkSx9Z5GkXBs85bu8iyqJ-963qATW",
+        "headers": {},
+        "body": null
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://corx.envx.cn/en",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:43:01Z",
+            "sha256": "680c072231adbb7b39dfdb07ee1d68f61b07551b8c8e1f0988aa328eef3f5e84",
+            "resolved_url": "https://corx.envx.cn/en"
+          },
+          {
+            "url": "https://corx.envx.cn/docs",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:43:01Z",
+            "sha256": "d3d288ec886c4da10072bcb59610b3787e485a9e7f5fc0d58b9ec4cd2d27840b",
+            "resolved_url": "https://corx.envx.cn/docs"
+          }
+        ],
+        "live_test": {
+          "id": "corx-public",
+          "url": "https://corx.envx.cn/fetch?url=https%3A%2F%2Fexample.com%2F&corx-key=corx_wurhkSx9Z5GkXBs85bu8iyqJ-963qATW",
+          "method": "GET",
+          "checked_at": "2026-10-12T22:50:58Z",
+          "uses_private_key": false,
+          "response_kind": "html",
+          "http_status": 200,
+          "bytes": 944,
+          "content_type": "text/html; charset=utf-8",
+          "rate_limit_header": "60",
+          "ok": true,
+          "expected_page_title_present": true
+        }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "تحويل استدعاءات بيانات عامة في نموذج موقع إلى طلبات تدعم CORS."
+        ],
+        "scope_note_ar": "مفيد ضمن النطاق المجاني الموثق؛ ليس تصريحًا تلقائيًا بالإنتاج التجاري."
+      }
+    },
+    {
+      "id": "attestwire-demo",
+      "name": "Attestwire invoice validation demo",
+      "category": "documents",
+      "category_ar": "المستندات",
+      "key": "demo",
+      "key_placement": "header",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "development_data",
+      "quota": "6 requests/minute; 30 documents/day/IP shared across validate, generate and recipient",
+      "reset": "minute/day (UTC)",
+      "free_type": "recurring_quota",
+      "production_use": "not_inferred",
+      "limitations_ar": "المفتاح يقبل ثلاثة مسارات فقط؛ لا /parse ولا إرسال فواتير ولا سجلات تحقق ولا MCP. نجحت فاتورة المثال مع valid=true. للاستخدام المعتاد يوصي المزود بمفتاحك الشخصي.",
+      "example_request": {
+        "method": "POST",
+        "url": "https://api.attestwire.com/v1/validate",
+        "headers": {
+          "Authorization": "Bearer demo"
+        },
+        "body": {
+          "profile": "en16931",
+          "invoiceNumber": "DEMO-1",
+          "issueDate": "2026-09-26",
+          "currency": "EUR",
+          "seller": {
+            "name": "Demo GmbH",
+            "vatId": "DE123456789",
+            "address": {
+              "city": "Berlin",
+              "postalCode": "10115",
+              "countryCode": "DE"
+            }
+          },
+          "buyer": {
+            "name": "Kunde AG",
+            "address": {
+              "city": "Koeln",
+              "postalCode": "50667",
+              "countryCode": "DE"
+            }
+          },
+          "lines": [
+            {
+              "id": "1",
+              "description": "Consulting",
+              "quantity": 2,
+              "unitCode": "HUR",
+              "unitPrice": 100,
+              "vatCategory": "S",
+              "vatRate": 19
+            }
+          ]
+        }
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://attestwire.com/pricing",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:43:48Z",
+            "sha256": "c72ec92606d0f94558733dfe4f1c7909f55d7d2be811c9c95426c891881ba15a",
+            "resolved_url": "https://attestwire.com/pricing"
+          },
+          {
+            "url": "https://api.attestwire.com/docs",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:46:26Z",
+            "sha256": "c9fb066dd0dbcac46d17ddd479c40d6f5490914c830edabd67b9eb5c44959b38",
+            "resolved_url": "https://api.attestwire.com/docs"
+          }
+        ],
+        "live_test": {
+          "id": "attestwire-demo",
+          "url": "https://api.attestwire.com/v1/validate",
+          "method": "POST",
+          "checked_at": "2026-10-12T22:50:58Z",
+          "uses_private_key": false,
+          "response_kind": "json",
+          "http_status": 200,
+          "bytes": 325,
+          "content_type": "application/json; charset=utf-8",
+          "rate_limit_header": "30",
+          "ok": true,
+          "shape": [
+            "valid",
+            "profile",
+            "errors",
+            "warnings",
+            "information",
+            "provenance"
+          ],
+          "invoice_valid": true
+        }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "تطوير مدقق لفواتير EN 16931 من JSON وتجربة رسائل الأخطاء قبل الربط الإنتاجي."
+        ],
+        "scope_note_ar": "مفيد ضمن النطاق المجاني الموثق؛ ليس تصريحًا تلقائيًا بالإنتاج التجاري."
+      }
+    },
+    {
+      "id": "genji-crowd-demo",
+      "name": "Genji Crowd public development key",
+      "category": "graphics",
+      "category_ar": "رسوم ومشاهد ثلاثية الأبعاد",
+      "key": "gk_demo_public_v1",
+      "key_placement": "header",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "development_data",
+      "quota": "60 requests/minute/IP; 5000/day/IP; 50 crowd creations/day/IP; up to 5000 characters/crowd",
+      "reset": "minute/day",
+      "free_type": "recurring_quota",
+      "production_use": "not_inferred",
+      "limitations_ar": "المفتاح معلن وآمن للتضمين في JavaScript بحسب المزود. crowds المنشأة تنتهي بعد 24 ساعة؛ هذه مدة البيانات وليست رصيد تجربة لمرة واحدة. اختُبر GET /v1/projects ونجحت القائمة الفارغة؛ لم تنشأ crowd ولم تختبر كل خصائص التوليد. راجع ترخيص الأصول قبل توزيعها.",
+      "example_request": {
+        "method": "GET",
+        "url": "https://www.genjicrowd.com/v1/projects",
+        "headers": {
+          "Authorization": "Bearer gk_demo_public_v1"
+        },
+        "body": null
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://www.genjicrowd.com/docs",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:43:48Z",
+            "sha256": "d9e35042ee4621bb252914a8016bcb97cbd0478a7d0111963272cc026e75c699",
+            "resolved_url": "https://www.genjicrowd.com/docs"
+          }
+        ],
+        "live_test": {
+          "id": "genji-crowd-demo",
+          "url": "https://www.genjicrowd.com/v1/projects",
+          "method": "GET",
+          "checked_at": "2026-10-12T22:50:58Z",
+          "uses_private_key": false,
+          "response_kind": "json",
+          "http_status": 200,
+          "bytes": 2,
+          "content_type": "application/json; charset=utf-8",
+          "rate_limit_header": null,
+          "ok": true,
+          "shape": "list:0"
+        }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج لعبة أو صفحة WebGL/Three.js تعرض حشودًا وشخصيات ثلاثية الأبعاد."
+        ],
+        "scope_note_ar": "مفيد ضمن النطاق المجاني الموثق؛ ليس تصريحًا تلقائيًا بالإنتاج التجاري."
+      }
+    },
+    {
+      "id": "keeptrack-demo",
+      "name": "KeepTrack satellite-data demo",
+      "category": "space",
+      "category_ar": "الفضاء",
+      "key": "kt_demo_00000000000000000000000000",
+      "key_placement": "header",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "public_data",
+      "quota": "30 requests/hour with the public demo key",
+      "reset": "hour",
+      "free_type": "recurring_quota",
+      "production_use": "non_commercial_only",
+      "limitations_ar": "مجانية الاستخدام الخاص والبحثي والتعليمي تحت CC BY-NC 4.0؛ ليست إذنًا لتطبيق تجاري. نجحت عناصر مدار ISS. احسب المواقع محليًا بواسطة OOTK بدل افتراض أن حصة positions هي نفسها حصة العناصر المدارية.",
+      "example_request": {
+        "method": "GET",
+        "url": "https://api.keeptrack.space/v4/sats/25544",
+        "headers": {
+          "X-API-Key": "kt_demo_00000000000000000000000000"
+        },
+        "body": null
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://keeptrack.space/api",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:43:48Z",
+            "sha256": "f584cc0835bdc9aff6c0adf71ac384041eb6c9f2c1ccb7208dfbbe051f586e8a",
+            "resolved_url": "https://keeptrack.space/api"
+          }
+        ],
+        "live_test": {
+          "id": "keeptrack-demo",
+          "url": "https://api.keeptrack.space/v4/sats/25544",
+          "method": "GET",
+          "checked_at": "2026-10-12T22:50:58Z",
+          "uses_private_key": false,
+          "response_kind": "json",
+          "http_status": 200,
+          "bytes": 4223,
+          "content_type": "application/json",
+          "rate_limit_header": "30",
+          "ok": true,
+          "shape": "list:1"
+        }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "تطبيق تعليمي لمتابعة محطة ISS أو عرض عناصر المدارات وحساب المواقع محليًا."
+        ],
+        "scope_note_ar": "مفيد ضمن النطاق المجاني الموثق؛ ليس تصريحًا تلقائيًا بالإنتاج التجاري."
+      }
+    },
+    {
+      "id": "thevehicledb-demo",
+      "name": "TheVehicleDB public test API",
+      "category": "vehicles",
+      "category_ar": "السيارات والمركبات",
+      "key": "3",
+      "key_placement": "url_path",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "development_data",
+      "quota": "30 requests/minute; 1 returned item/request",
+      "reset": "minute",
+      "free_type": "recurring_quota",
+      "production_use": "not_inferred",
+      "limitations_ar": "المفتاح العام 3 موثق لـ v1 وv2. نجح مثال Cobra وأعاد حقول نموذج سيارة تحت search. لم تُختبر v2، ولا تعني إتاحة artwork ترخيصًا مستقلًا لإعادة توزيعه.",
+      "example_request": {
+        "method": "GET",
+        "url": "https://www.thevehicledb.com/api/v1/json/3/searchmodel.php?m=cobra",
+        "headers": {},
+        "body": null
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://www.thevehicledb.com/free_car_api",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:47:08Z",
+            "sha256": "9f944d9f876efb19ee7a254a9abc5d00b4a23038ebe90b1c894e47d3523fef2d",
+            "resolved_url": "https://www.thevehicledb.com/free_car_api"
+          }
+        ],
+        "live_test": {
+          "id": "thevehicledb-demo",
+          "url": "https://www.thevehicledb.com/api/v1/json/3/searchmodel.php?m=cobra",
+          "method": "GET",
+          "checked_at": "2026-10-12T22:52:19Z",
+          "uses_private_key": false,
+          "response_kind": "json",
+          "http_status": 200,
+          "bytes": 337,
+          "content_type": "application/json; charset=utf-8",
+          "ok": true,
+          "shape": [
+            "search"
+          ],
+          "model_fields_verified": true
+        }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج كتالوج سيارات يعرض الطراز والعلامة وبلد التصنيع والسنوات."
+        ],
+        "scope_note_ar": "مفيد ضمن النطاق المجاني الموثق؛ ليس تصريحًا تلقائيًا بالإنتاج التجاري."
+      }
+    },
+    {
+      "id": "docraptor-public-test",
+      "name": "DocRaptor public PDF test key",
+      "category": "documents",
+      "category_ar": "المستندات",
+      "key": "YOUR_API_KEY_HERE",
+      "key_placement": "basic_auth",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "development_data",
+      "quota": "Unlimited test documents advertised; shared-key numeric throttling limit not separately published",
+      "reset": "ongoing public test mode",
+      "free_type": "ongoing_public_demo",
+      "production_use": "not_inferred",
+      "limitations_ar": "القيمة الحرفية YOUR_API_KEY_HERE تعمل رسميًا دون حساب بشرط test=true. نجح إخراج PDF فعلي. PDF يحمل علامة اختبار، وExcel في test يقف عند 20 صفًا. لا تستخدمه كمستند إنتاج نهائي بلا علامة.",
+      "example_request": {
+        "method": "POST",
+        "url": "https://api.docraptor.com/docs",
+        "headers": {
+          "Authorization": "Basic WU9VUl9BUElfS0VZX0hFUkU6"
+        },
+        "body": {
+          "test": true,
+          "document_content": "<html><body><h1>APIsr API test</h1><p>Public test key verification.</p></body></html>",
+          "type": "pdf"
+        },
+        "basic_auth": {
+          "username": "YOUR_API_KEY_HERE",
+          "password": ""
+        }
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://docraptor.com/documentation",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:46:29Z",
+            "sha256": "7c954b842b50c8f98b795c6ba968b6065a6b991878cdfdad98a7e5b5ae42c06d",
+            "resolved_url": "https://docraptor.com/documentation"
+          },
+          {
+            "url": "https://docraptor.com/documentation/tutorial/html-and-javascript",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:47:09Z",
+            "sha256": "df8c20e9db3b9d1ec669788c680d4350d4cccd1b52aed387eccd273dda950328",
+            "resolved_url": "https://docraptor.com/documentation/tutorial/html-and-javascript"
+          }
+        ],
+        "live_test": {
+          "id": "docraptor-public-test",
+          "url": "https://api.docraptor.com/docs",
+          "method": "POST",
+          "checked_at": "2026-10-12T22:50:59Z",
+          "uses_private_key": false,
+          "response_kind": "pdf",
+          "http_status": 200,
+          "bytes": 45751,
+          "content_type": "application/pdf",
+          "rate_limit_header": null,
+          "ok": true,
+          "valid_pdf_magic": true
+        }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "تطوير تصميم تقارير وفواتير HTML/CSS إلى PDF وتجربة جودة التنسيق."
+        ],
+        "scope_note_ar": "مفيد ضمن النطاق المجاني الموثق؛ ليس تصريحًا تلقائيًا بالإنتاج التجاري."
+      }
+    },
+    {
+      "id": "oddiwire-demo",
+      "name": "OddiWire public REST preview",
+      "category": "sports",
+      "category_ar": "الرياضة",
+      "key": "demo",
+      "key_placement": "query",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "restricted_sample_data",
+      "quota": "10 requests/5 minutes pooled across all demo callers",
+      "reset": "5 minutes",
+      "free_type": "recurring_quota",
+      "production_use": "development_only",
+      "limitations_ar": "REST فقط؛ لا SSE بالمفتاح العام. المزود يصرح أنه preview وليس اعتماد إنتاج. البيانات من خدمة مستقلة، ولا ينفذ الطلب رهانًا أو معاملة.",
+      "example_request": {
+        "method": "GET",
+        "url": "https://oddiwire.com/v1/fixtures?key=demo&limit=1",
+        "headers": {},
+        "body": null
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://oddiwire.com/llms-full.txt",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:43:02Z",
+            "sha256": "ed6a1f98d337db0c152fcd951c2353e7692a78bf34da4511074f36f196ec2a59",
+            "resolved_url": "https://oddiwire.com/llms-full.txt"
+          }
+        ],
+        "live_test": {
+          "id": "oddiwire-demo",
+          "url": "https://oddiwire.com/v1/fixtures?key=demo&limit=1",
+          "method": "GET",
+          "checked_at": "2026-10-12T22:51:00Z",
+          "uses_private_key": false,
+          "response_kind": "json",
+          "http_status": 200,
+          "bytes": 3979,
+          "content_type": "application/json; charset=utf-8",
+          "rate_limit_header": null,
+          "ok": true,
+          "shape": [
+            "count",
+            "events"
+          ]
+        }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج لوحة يعرض fixtures وأسعارًا رياضية من قراءة JSON محدودة."
+        ],
+        "scope_note_ar": "مفيد ضمن النطاق المجاني الموثق؛ ليس تصريحًا تلقائيًا بالإنتاج التجاري."
+      }
+    },
+    {
+      "id": "gsa-site-scanning-demo",
+      "name": "GSA Site Scanning public demo",
+      "category": "development",
+      "category_ar": "تعلم واختبار APIs",
+      "key": "DEMO_KEY",
+      "key_placement": "header",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "public_data",
+      "quota": "Observed X-RateLimit-Limit=10; header did not identify its time window; api.data.gov default demo policy is 30/hour and 50/day/IP with service overrides",
+      "reset": "recurring api.data.gov windows; exact service header window unconfirmed",
+      "free_type": "recurring_quota",
+      "production_use": "not_inferred",
+      "limitations_ar": "المصدر ينشر DEMO_KEY صراحةً. نجحت قراءة بيانات scan منشورة لمواقع حكومية؛ لا يطلب تشغيل فحص جديد على أي موقع. الحد 10 المشاهد أقل من الافتراضي، فلا تعتمد 30 كحصة فعلية لهذه الخدمة.",
+      "example_request": {
+        "method": "GET",
+        "url": "https://api.gsa.gov/technology/site-scanning/v1/websites?limit=1",
+        "headers": {
+          "X-Api-Key": "DEMO_KEY"
+        },
+        "body": null
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://open.gsa.gov/api/site-scanning-api/",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:49:54Z",
+            "sha256": "6921f4277c61cd0e7748b68641c6a81b51745ff48aa749124ea81c40e5abf45d",
+            "resolved_url": "https://open.gsa.gov/api/site-scanning-api/"
+          },
+          {
+            "url": "https://api.data.gov/docs/developer-manual/",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:20:18Z",
+            "sha256": "c09641f25041d3c81f39988262f0fef407a166eb9210fbecf04d803afadc0c62",
+            "resolved_url": "https://api.data.gov/docs/developer-manual/"
+          }
+        ],
+        "live_test": {
+          "id": "gsa-site-scanning-demo",
+          "url": "https://api.gsa.gov/technology/site-scanning/v1/websites?limit=1",
+          "method": "GET",
+          "checked_at": "2026-10-12T22:51:00Z",
+          "uses_private_key": false,
+          "response_kind": "json",
+          "http_status": 200,
+          "bytes": 2874,
+          "content_type": "application/json; charset=utf-8",
+          "rate_limit_header": "10",
+          "ok": true,
+          "shape": [
+            "items",
+            "meta",
+            "links"
+          ]
+        }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "لوحة بيانات تعرض حالة HTTPS وخصائص المواقع الحكومية من نتائج الفحص المنشورة."
+        ],
+        "scope_note_ar": "مفيد ضمن النطاق المجاني الموثق؛ ليس تصريحًا تلقائيًا بالإنتاج التجاري."
+      }
+    },
+    {
+      "id": "dap-analytics-demo",
+      "name": "analytics.usa.gov DAP public demo",
+      "category": "analytics",
+      "category_ar": "إحصاءات استخدام المواقع",
+      "key": "DEMO_KEY",
+      "key_placement": "header",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "public_data",
+      "quota": "Observed X-RateLimit-Limit=10; header did not identify its time window; api.data.gov default demo policy is 30/hour and 50/day/IP with service overrides",
+      "reset": "recurring api.data.gov windows; exact service header window unconfirmed",
+      "free_type": "recurring_quota",
+      "production_use": "not_inferred",
+      "limitations_ar": "قراءة إحصاءات مجمعة منشورة لزيارات المواقع الحكومية، وليست حساب تحليلات موقعك. نجح تقرير اللغات. الحد 10 المشاهد خاص بالاستجابة؛ نافذته لم تثبت من header.",
+      "example_request": {
+        "method": "GET",
+        "url": "https://api.gsa.gov/analytics/dap/v2/reports/language/data?limit=1",
+        "headers": {
+          "X-Api-Key": "DEMO_KEY"
+        },
+        "body": null
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://open.gsa.gov/api/dap/",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:49:54Z",
+            "sha256": "14b8a491cbb26e9da5d84f59923d5a4a8e42eed339c4e35c56cc325bfa489f7e",
+            "resolved_url": "https://open.gsa.gov/api/dap/"
+          },
+          {
+            "url": "https://api.data.gov/docs/developer-manual/",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-12T22:20:18Z",
+            "sha256": "c09641f25041d3c81f39988262f0fef407a166eb9210fbecf04d803afadc0c62",
+            "resolved_url": "https://api.data.gov/docs/developer-manual/"
+          }
+        ],
+        "live_test": {
+          "id": "dap-analytics-demo",
+          "url": "https://api.gsa.gov/analytics/dap/v2/reports/language/data?limit=1",
+          "method": "GET",
+          "checked_at": "2026-10-12T22:51:01Z",
+          "uses_private_key": false,
+          "response_kind": "json",
+          "http_status": 200,
+          "bytes": 125,
+          "content_type": "application/json; charset=utf-8",
+          "rate_limit_header": "10",
+          "ok": true,
+          "shape": "list:1"
+        }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "لوحة عرض لإحصاءات لغات زوار المواقع الحكومية ومقارنة التقارير العامة."
+        ],
+        "scope_note_ar": "مفيد ضمن النطاق المجاني الموثق؛ ليس تصريحًا تلقائيًا بالإنتاج التجاري."
       }
     }
   ]

@@ -1,34 +1,36 @@
 # المفاتيح العامة دون تسجيل
 
-**33 خدمة نجح طلبها، 16 قيمة مفتاح مختلفة، 21 مجالًا. المراجعة: 2026-10-13 بتوقيت بغداد.**
+**42 خدمة نجح طلبها، 21 قيمة مفتاح مختلفة، 25 مجالًا. المراجعة: 2026-10-13 بتوقيت بغداد.**
 
-[JSON بالمفاتيح والطلبات](../data/public-shared-keys.json) · [CSV](../data/public-shared-keys.csv) · [نتائج الاختبار](../research/public-key-tests.json) · [المصادر الرسمية](../research/public-key-sources.json) · [غير المحسوم](../research/public-key-unconfirmed.json)
+[JSON بالمفاتيح والطلبات](../data/public-shared-keys.json) · [CSV](../data/public-shared-keys.csv) · [أمثلة المشاريع العملية](practical-projects.ar.md) · [نتائج الاختبار](../research/public-key-tests.json) · [المصادر الرسمية](../research/public-key-sources.json) · [غير المحسوم](../research/public-key-unconfirmed.json)
 
-هذا القسم يحقق شرط عدم إنشاء حساب أو تسجيل للحصول على القيمة المدرجة. عدد الخدمات لا يساوي عدد المفاتيح: `DEMO_KEY` و`demo` و`123` مشتركة بين أكثر من خدمة. **3 خدمات تدريبية أو placeholder تظهر منفصلة أدناه ولا تمثل APIs بيانات إنتاجية.** القائمة العامة ذات 260 خدمة في README تشمل خدمات تحتاج حسابًا، وليست هذه القائمة الخاصة.
+القائمة الحالية ليست حصرًا لكل الخدمات الموجودة. أضافت الجولة الموجهة للمشاريع 9 خدمات و5 قيم مفتاح جديدة. يمكن تصفية **36 خدمة تفيد نموذج مشروع ببيانات عامة أو تحويل محتوى فعلي**؛ تبقى 3 خدمات sandbox ببيانات وهمية وثلاث للتدريب أو placeholder منفصلة. تصنيف practical لا يعني إباحة الإنتاج التجاري.
 
-كل قيمة هنا منشورة بإذن صاحب الخدمة للاستخدام العام في النطاق المحدد. لا نجمع مفاتيح شخصية ظاهرة في مستودعات الآخرين. صلاحية المثال لا تعطي حق استخدام كل endpoints، ولا تجعل مفتاح sandbox مفتاح إنتاج. حصص api.data.gov للمفتاح التجريبي محدودة حسب IP وقد تكون مشتركة؛ لا تجمع 50 طلبًا لكل صف كحصص مستقلة. لا ننسب حصة المفتاح الشخصي إلى مفتاح الأمثلة.
+كل قيمة في هذه القائمة متاحة من المزود دون إنشاء حساب أو تسجيل أو بطاقة، داخل النطاق المحدد. أرقام الخدمات تختلف عن أرقام المفاتيح: DEMO_KEY وdemo و123 مشتركة بين أكثر من خدمة. الكتالوج العام ذا 260 خدمة يشمل خدمات تتطلب حسابًا؛ ليس 260 مفتاحًا مشتركًا.
 
-المزود الذي لا ينشر حدًا رقميًا موضح كذلك؛ ذلك لا يعني طلبات غير محدودة. القيم العامة قد تدور، والمجانية هنا للنطاق الحالي المنشور وليست ضمان استمرار الخدمة للأبد.
+المفتاح منشور بإذن صاحبه، ولم تجمع مفاتيح حسابات أشخاص من مشاريعهم. بعض القيم للتطوير فقط أو لرموز محددة أو لغير التجاري. لا تُنسخ حصة المفتاح الشخصي إلى المفتاح العام. عدم نشر حد رقمي لا يعني unlimited، ومدة انتهاء البيانات التجريبية تختلف عن تجديد حصة الطلبات.
 
-## المفاتيح ذات البيانات الفعلية أو sandbox
+لـ api.data.gov افتراض وثائقي 30 طلبًا/ساعة و50/يوم حسب IP، لكنه يسمح باختلاف الخدمات. أظهرت خدمتا GSA Site Scanning وDAP حدًا 10 في header؛ نافذته لم تثبت، لذلك هذا ظاهر في الصفوف ولا ننسب إليهما 30 كحصة فعلية. الحصص المشتركة لا تجمع تلقائيًا لكل endpoint.
 
-| الخدمة | المفتاح العام | المجال | النطاق | الحصة والتجديد | الطلب والمصدر |
+## المفاتيح ذات البيانات الفعلية أو التحويل الحقيقي أو sandbox
+
+| الخدمة | المفتاح | المجال | النطاق | الحصة والتجديد | الطلب والمصدر |
 |---|---|---|---|---|---|
 | NASA Open APIs | `DEMO_KEY` | الفضاء | بيانات عامة فعلية | 30/hour and 50/day/IP — hour/day | [GET example](https://api.nasa.gov/neo/rest/v1/neo/browse?page=0&size=1&api_key=DEMO_KEY) · [المصدر](https://api.nasa.gov/assets/html/authentication.html) |
-| TheMealDB | `1` | الطعام والمشروبات | تطوير مع بيانات فعلية أو خدمة محدودة | Numeric shared-key quota not published — ongoing public development access | [GET example](https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata) · [المصدر](https://www.themealdb.com/api.php) |
-| TheCocktailDB | `1` | الطعام والمشروبات | تطوير مع بيانات فعلية أو خدمة محدودة | Numeric shared-key quota not published — ongoing public development access | [GET example](https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita) · [المصدر](https://www.thecocktaildb.com/api.php) |
-| Alpha Vantage demo | `demo` | البيانات المالية | أمثلة ورموز محددة | Only documented demo queries; no numeric shared quota published — ongoing published examples | [GET example](https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=demo) · [المصدر](https://www.alphavantage.co/documentation/) |
+| TheMealDB | `1` | الطعام والمشروبات | تطوير بخدمة فعلية أو محدودة | Numeric shared-key quota not published — ongoing public development access | [GET example](https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata) · [المصدر](https://www.themealdb.com/api.php) |
+| TheCocktailDB | `1` | الطعام والمشروبات | تطوير بخدمة فعلية أو محدودة | Numeric shared-key quota not published — ongoing public development access | [GET example](https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita) · [المصدر](https://www.thecocktaildb.com/api.php) |
+| Alpha Vantage demo | `demo` | البيانات المالية | أمثلة أو بيانات محددة | Only documented demo queries; no numeric shared quota published — ongoing published examples | [GET example](https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=demo) · [المصدر](https://www.alphavantage.co/documentation/) |
 | GovInfo | `DEMO_KEY` | البيانات الحكومية | بيانات عامة فعلية | api.data.gov default: 30/hour and 50/day/IP — hour/day | [GET example](https://api.govinfo.gov/collections?api_key=DEMO_KEY) · [المصدر](https://api.data.gov/docs/developer-manual/) |
-| OCR.space public GET examples | `helloworld` | التعرف على النص | أمثلة ورموز محددة | Numeric shared-key quota not separately published — ongoing published examples | [GET example](https://api.ocr.space/parse/imageurl?apikey=helloworld&url=https://dl.a9t9.com/ocr/solarcell.jpg) · [المصدر](https://ocr.space/ocrapi) |
+| OCR.space public GET examples | `helloworld` | التعرف على النص | أمثلة أو بيانات محددة | Numeric shared-key quota not separately published — ongoing published examples | [GET example](https://api.ocr.space/parse/imageurl?apikey=helloworld&url=https://dl.a9t9.com/ocr/solarcell.jpg) · [المصدر](https://ocr.space/ocrapi) |
 | TheSportsDB v1 | `123` | الرياضة | بيانات عامة فعلية | 30 requests/minute; result limits by endpoint — minute | [GET example](https://www.thesportsdb.com/api/v1/json/123/searchteams.php?t=Arsenal) · [المصدر](https://api.thesportsdb.com/documentation) |
-| TheAudioDB v1 | `123` | الموسيقى | تطوير مع بيانات فعلية أو خدمة محدودة | 30 requests/minute; limited results — minute | [GET example](https://www.theaudiodb.com/api/v1/json/123/search.php?s=coldplay) · [المصدر](https://www.theaudiodb.com/free_music_api) |
-| Twelve Data demo | `demo` | البيانات المالية | أمثلة ورموز محددة | Numeric shared demo quota not separately published — ongoing published examples | [GET example](https://api.twelvedata.com/price?symbol=AAPL&apikey=demo) · [المصدر](https://twelvedata.com/docs) |
-| EODHD demo | `demo` | البيانات المالية | أمثلة ورموز محددة | Numeric shared demo quota not separately published — ongoing published examples | [GET example](https://eodhd.com/api/eod/AAPL.US?api_token=demo&fmt=json&from=2026-09-01&to=2026-09-02) · [المصدر](https://eodhd.com/financial-apis/quick-start-with-our-financial-data-apis) |
+| TheAudioDB v1 | `123` | الموسيقى | تطوير بخدمة فعلية أو محدودة | 30 requests/minute; limited results — minute | [GET example](https://www.theaudiodb.com/api/v1/json/123/search.php?s=coldplay) · [المصدر](https://www.theaudiodb.com/free_music_api) |
+| Twelve Data demo | `demo` | البيانات المالية | أمثلة أو بيانات محددة | Numeric shared demo quota not separately published — ongoing published examples | [GET example](https://api.twelvedata.com/price?symbol=AAPL&apikey=demo) · [المصدر](https://twelvedata.com/docs) |
+| EODHD demo | `demo` | البيانات المالية | أمثلة أو بيانات محددة | Numeric shared demo quota not separately published — ongoing published examples | [GET example](https://eodhd.com/api/eod/AAPL.US?api_token=demo&fmt=json&from=2026-09-01&to=2026-09-02) · [المصدر](https://eodhd.com/financial-apis/quick-start-with-our-financial-data-apis) |
 | ERPDocs public sandbox | `AEP7KDgcD904RFSNxX82kpe2zDGJHwawQE2Bu4ZCO0c` | المستندات | بيانات sandbox | 30 requests/minute — minute | [GET example](https://www.erpdocs.com/api/v1/ping) · [المصدر](https://www.erpdocs.com/developers) |
-| Mapconvert | `mc_demo_public` | الخرائط والإحداثيات | تطوير مع بيانات فعلية أو خدمة محدودة | 1 request/minute — minute | [POST example](https://api.mapconvert.dev/coordinates) · [المصدر](https://mapconvert.dev/api) |
+| Mapconvert | `mc_demo_public` | الخرائط والإحداثيات | تطوير بخدمة فعلية أو محدودة | 1 request/minute — minute | [POST example](https://api.mapconvert.dev/coordinates) · [المصدر](https://mapconvert.dev/api) |
 | Clix public invoicing sandbox | `clix_fxC9tzt_I7fiKMpvTQbU5CNiL647PQu9ssvE3C4jAlPyw3sf3hY` | خدمات الأعمال | بيانات sandbox | 200 created invoices/month shared; reads remain available — month | [GET example](https://sandbox.api.goclix.ai/v1/api/invoices/) · [المصدر](https://docs.goclix.ai/developers/try-the-api/) |
-| TradeWave public demo | `tw_demo_explore` | البيانات المالية | أمثلة ورموز محددة | 30 requests/minute; 1000/day in documented demo /me example — minute/day | [GET example](https://api.tradewave.ai/v1/scan?markets=2&limit=1) · [المصدر](https://developers.tradewave.ai/docs/quickstart.html) |
-| SportsBookISH public data demo | `sbi_live_84fdd6cc6a6b2df3e38a9f19a49537a5` | الرياضة | أمثلة ورموز محددة | Numeric shared-key quota not published — ongoing public demo offer | [GET example](https://sportsbookish.com/api/v1/edges?min_edge=0.03) · [المصدر](https://raw.githubusercontent.com/kennyhyder/sportsbookish-docs/main/README.md) |
+| TradeWave public demo | `tw_demo_explore` | البيانات المالية | أمثلة أو بيانات محددة | 30 requests/minute; 1000/day in documented demo /me example — minute/day | [GET example](https://api.tradewave.ai/v1/scan?markets=2&limit=1) · [المصدر](https://developers.tradewave.ai/docs/quickstart.html) |
+| SportsBookISH public data demo | `sbi_live_84fdd6cc6a6b2df3e38a9f19a49537a5` | الرياضة | أمثلة أو بيانات محددة | Numeric shared-key quota not published — ongoing public demo offer | [GET example](https://sportsbookish.com/api/v1/edges?min_edge=0.03) · [المصدر](https://raw.githubusercontent.com/kennyhyder/sportsbookish-docs/main/README.md) |
 | National Park Service | `DEMO_KEY` | الحدائق | بيانات عامة فعلية | api.data.gov demo default: 30/hour and 50/day/IP — hour/day | [GET example](https://developer.nps.gov/api/v1/parks?parkCode=acad&limit=1&api_key=DEMO_KEY) · [المصدر](https://www.nps.gov/subjects/developer/get-started.htm) |
 | Congress.gov v3 | `DEMO_KEY` | البيانات الحكومية | بيانات عامة فعلية | api.data.gov demo default: 30/hour and 50/day/IP — hour/day | [GET example](https://api.congress.gov/v3/bill?format=json&limit=1&api_key=DEMO_KEY) · [المصدر](https://raw.githubusercontent.com/LibraryOfCongress/api.congress.gov/main/README.md) |
 | OpenFEC | `DEMO_KEY` | البيانات الحكومية | بيانات عامة فعلية | api.data.gov demo default: 30/hour and 50/day/IP — hour/day | [GET example](https://api.open.fec.gov/v1/candidates/?per_page=1&api_key=DEMO_KEY) · [المصدر](https://api.open.fec.gov/developers/) |
@@ -42,29 +44,40 @@
 | Smithsonian Open Access | `DEMO_KEY` | الثقافة والمتاحف | بيانات عامة فعلية | api.data.gov demo default: 30/hour and 50/day/IP — hour/day | [GET example](https://api.si.edu/openaccess/api/v1.0/search?q=moon&rows=1&api_key=DEMO_KEY) · [المصدر](https://edan.si.edu/openaccess/apidocs/) |
 | College Scorecard | `DEMO_KEY` | التعليم | بيانات عامة فعلية | api.data.gov demo default: 30/hour and 50/day/IP — hour/day | [GET example](https://api.data.gov/ed/collegescorecard/v1/schools?per_page=1&fields=id,school.name&api_key=DEMO_KEY) · [المصدر](https://collegescorecard.ed.gov/data/api/) |
 | TheDeskMonitor public MCP demo | `dm_demo_public` | إدارة العمل | بيانات sandbox | Numeric shared demo quota not published — ongoing public demo offer | [POST example](https://api.thedeskmonitor.com/api/mcp/v1/) · [المصدر](https://thedeskmonitor.com/integrations/ai-connect) |
-| OrbitRoute shared evaluation key | `or_sk5T_yGimzi2EF8CaG-JS_OA6_Eruw_r-eoCLSM8yMU` | توجيه الحوسبة | تطوير مع بيانات فعلية أو خدمة محدودة | 100 routing decisions/day shared — day | [GET example](https://www.orbitroute.ai/api/v1/usage) · [المصدر](https://www.orbitroute.ai/api-reference) |
-| InkTranslator FREE | `FREE` | الترجمة | تطوير مع بيانات فعلية أو خدمة محدودة | 50 characters/request; numeric aggregate rate cap not published — ongoing public free test scope | [POST example](https://inktranslator.com/api/translate) · [المصدر](https://inktranslator.com/lang/en) |
+| OrbitRoute shared evaluation key | `or_sk5T_yGimzi2EF8CaG-JS_OA6_Eruw_r-eoCLSM8yMU` | توجيه الحوسبة | تطوير بخدمة فعلية أو محدودة | 100 routing decisions/day shared — day | [GET example](https://www.orbitroute.ai/api/v1/usage) · [المصدر](https://www.orbitroute.ai/api-reference) |
+| InkTranslator FREE | `FREE` | الترجمة | تطوير بخدمة فعلية أو محدودة | 50 characters/request; numeric aggregate rate cap not published — ongoing public free test scope | [POST example](https://inktranslator.com/api/translate) · [المصدر](https://inktranslator.com/lang/en) |
+| CORX public CORS proxy | `corx_wurhkSx9Z5GkXBs85bu8iyqJ-963qATW` | طلبات المواقع | تطوير بخدمة فعلية أو محدودة | 3000 requests/day/calling site; 100000/day/whole instance; target-host caps also apply — day (UTC) | [GET example](https://corx.envx.cn/fetch?url=https%3A%2F%2Fexample.com%2F&corx-key=corx_wurhkSx9Z5GkXBs85bu8iyqJ-963qATW) · [المصدر](https://corx.envx.cn/en) |
+| Attestwire invoice validation demo | `demo` | المستندات | تطوير بخدمة فعلية أو محدودة | 6 requests/minute; 30 documents/day/IP shared across validate, generate and recipient — minute/day (UTC) | [POST example](https://api.attestwire.com/v1/validate) · [المصدر](https://attestwire.com/pricing) |
+| Genji Crowd public development key | `gk_demo_public_v1` | رسوم ومشاهد ثلاثية الأبعاد | تطوير بخدمة فعلية أو محدودة | 60 requests/minute/IP; 5000/day/IP; 50 crowd creations/day/IP; up to 5000 characters/crowd — minute/day | [GET example](https://www.genjicrowd.com/v1/projects) · [المصدر](https://www.genjicrowd.com/docs) |
+| KeepTrack satellite-data demo | `kt_demo_00000000000000000000000000` | الفضاء | بيانات عامة فعلية | 30 requests/hour with the public demo key — hour | [GET example](https://api.keeptrack.space/v4/sats/25544) · [المصدر](https://keeptrack.space/api) |
+| TheVehicleDB public test API | `3` | السيارات والمركبات | تطوير بخدمة فعلية أو محدودة | 30 requests/minute; 1 returned item/request — minute | [GET example](https://www.thevehicledb.com/api/v1/json/3/searchmodel.php?m=cobra) · [المصدر](https://www.thevehicledb.com/free_car_api) |
+| DocRaptor public PDF test key | `YOUR_API_KEY_HERE` | المستندات | تطوير بخدمة فعلية أو محدودة | Unlimited test documents advertised; shared-key numeric throttling limit not separately published — ongoing public test mode | [POST example](https://api.docraptor.com/docs) · [المصدر](https://docraptor.com/documentation) |
+| OddiWire public REST preview | `demo` | الرياضة | أمثلة أو بيانات محددة | 10 requests/5 minutes pooled across all demo callers — 5 minutes | [GET example](https://oddiwire.com/v1/fixtures?key=demo&limit=1) · [المصدر](https://oddiwire.com/llms-full.txt) |
+| GSA Site Scanning public demo | `DEMO_KEY` | تعلم واختبار APIs | بيانات عامة فعلية | Observed X-RateLimit-Limit=10; header did not identify its time window; api.data.gov default demo policy is 30/hour and 50/day/IP with service overrides — recurring api.data.gov windows; exact service header window unconfirmed | [GET example](https://api.gsa.gov/technology/site-scanning/v1/websites?limit=1) · [المصدر](https://open.gsa.gov/api/site-scanning-api/) |
+| analytics.usa.gov DAP public demo | `DEMO_KEY` | إحصاءات استخدام المواقع | بيانات عامة فعلية | Observed X-RateLimit-Limit=10; header did not identify its time window; api.data.gov default demo policy is 30/hour and 50/day/IP with service overrides — recurring api.data.gov windows; exact service header window unconfirmed | [GET example](https://api.gsa.gov/analytics/dap/v2/reports/language/data?limit=1) · [المصدر](https://open.gsa.gov/api/dap/) |
 
 ## مفاتيح تدريب وplaceholder
 
-| الخدمة | المفتاح العام | المجال | النطاق | الحصة والتجديد | الطلب والمصدر |
-|---|---|---|---|---|
+| الخدمة | المفتاح | المجال | النطاق | الحصة والتجديد | الطلب والمصدر |
+|---|---|---|---|---|---|
 | Learn API authentication lab | `learn_api_demo_key` | تعلم واختبار APIs | تدريب أو placeholder فقط | Numeric quota not published — ongoing public practice endpoint | [GET example](https://learn-api.com/wp-json/learn-api/v1/labs/api-key) · [المصدر](https://learn-api.com/api-basics/read-api-documentation/) |
 | QA Bash API-key practice | `demo-key-abc123` | تعلم واختبار APIs | تدريب أو placeholder فقط | Numeric quota not published for auth exercise — ongoing public practice endpoint | [GET example](https://www.qabash.com/api/tools/sample-api/auth/api-key) · [المصدر](https://www.qabash.com/learning/api-playground) |
 | ThumbAPI integration test | `thumbapi_test` | الصور | تدريب أو placeholder فقط | No credits consumed by documented test key; numeric rate cap not published — ongoing public placeholder endpoint | [POST example](https://api.thumbapi.dev/v1/generate) · [المصدر](https://thumbapi.dev/docs/quickstart) |
 
-## الطلبات الجاهزة والقيود
+## الطلبات الجاهزة
 
-روابط POST وروابط المصادقة في header لن تعمل بمجرد فتحها في المتصفح. استخدم الطلب الكامل في JSON أو أداة البحث التالية. عرض الطلب لا يرسل شيئًا:
+رابط POST أو طلب مصادقة في header لا يكفي فتحه في المتصفح. اعرض الطلب الكامل بهذه الأداة؛ لا ترسل الأداة شيئًا:
 
 ```sh
-python scripts/public_keys.py
-python scripts/public_keys.py --category translation
-python scripts/public_keys.py --service mapconvert-demo --request
+python scripts/public_keys.py --practical
+python scripts/public_keys.py --practical --category documents
+python scripts/public_keys.py --service docraptor-public-test --request
 python scripts/public_keys.py --scope sandbox_data
 ```
 
-`--request` يطبع method وURL وheaders وbody بالمفتاح العام. لا يُجري طلبًا ولا يُنشئ حسابًا.
+DocRaptor يستخدم Basic Auth باسم المستخدم الذي يساوي المفتاح العام وكلمة مرور فارغة؛ يظهر header الصحيح وبيانات المصادقة في JSON. يشترط test=true لإخراج PDF مجاني بعلامة اختبار.
+
+## القيود حسب الخدمة
 
 - **NASA Open APIs**: مفتاح استكشاف رسمي. نجح مثال الكويكبات NeoWs؛ مثال APOD الافتراضي أعاد HTTP 500 في هذه الجولة.
 - **TheMealDB**: للتطوير والتعليم. نشر تطبيق على متجر التطبيقات يحتاج مفتاح supporter؛ بعض عمليات البحث والمحتوى Premium.
@@ -99,9 +112,20 @@ python scripts/public_keys.py --scope sandbox_data
 - **TheDeskMonitor public MCP demo**: شركة وهمية من 8 موظفين. المفتاح المجاني دون حساب يتيح القراءة؛ الكتابة تتطلب dm_live. نجح get_dashboard_summary دون إنشاء سجل أو دعوة شخص.
 - **OrbitRoute shared evaluation key**: GET /api/v1/keys/demo يعطي المفتاح المشترك بلا حساب. نجح /usage وأكد free و100/day. توثيق /route يصف قرار توجيه فقط؛ التنفيذ الفعلي له شروط مستقلة. المفتاح قد يدور.
 - **InkTranslator FREE**: المزود يسمح مباشرة بمفتاح FREE دون تسجيل؛ نجحت ترجمة Hello إلى العربية. حد 2000 حرف خاص بالمفاتيح المدفوعة.
+- **CORX public CORS proxy**: GET وHEAD لبيانات عامة فقط. يزيل Cookie وAuthorization من الطلب المرسل للمصدر ويستخدم cache مشتركًا وسجلات 30 يومًا. مفتاح عام للتجربة والنماذج؛ لا يصلح لبيانات خاصة أو أسرار.
+- **Attestwire invoice validation demo**: المفتاح يقبل ثلاثة مسارات فقط؛ لا /parse ولا إرسال فواتير ولا سجلات تحقق ولا MCP. نجحت فاتورة المثال مع valid=true. للاستخدام المعتاد يوصي المزود بمفتاحك الشخصي.
+- **Genji Crowd public development key**: المفتاح معلن وآمن للتضمين في JavaScript بحسب المزود. crowds المنشأة تنتهي بعد 24 ساعة؛ هذه مدة البيانات وليست رصيد تجربة لمرة واحدة. اختُبر GET /v1/projects ونجحت القائمة الفارغة؛ لم تنشأ crowd ولم تختبر كل خصائص التوليد. راجع ترخيص الأصول قبل توزيعها.
+- **KeepTrack satellite-data demo**: مجانية الاستخدام الخاص والبحثي والتعليمي تحت CC BY-NC 4.0؛ ليست إذنًا لتطبيق تجاري. نجحت عناصر مدار ISS. احسب المواقع محليًا بواسطة OOTK بدل افتراض أن حصة positions هي نفسها حصة العناصر المدارية.
+- **TheVehicleDB public test API**: المفتاح العام 3 موثق لـ v1 وv2. نجح مثال Cobra وأعاد حقول نموذج سيارة تحت search. لم تُختبر v2، ولا تعني إتاحة artwork ترخيصًا مستقلًا لإعادة توزيعه.
+- **DocRaptor public PDF test key**: القيمة الحرفية YOUR_API_KEY_HERE تعمل رسميًا دون حساب بشرط test=true. نجح إخراج PDF فعلي. PDF يحمل علامة اختبار، وExcel في test يقف عند 20 صفًا. لا تستخدمه كمستند إنتاج نهائي بلا علامة.
+- **OddiWire public REST preview**: REST فقط؛ لا SSE بالمفتاح العام. المزود يصرح أنه preview وليس اعتماد إنتاج. البيانات من خدمة مستقلة، ولا ينفذ الطلب رهانًا أو معاملة.
+- **GSA Site Scanning public demo**: المصدر ينشر DEMO_KEY صراحةً. نجحت قراءة بيانات scan منشورة لمواقع حكومية؛ لا يطلب تشغيل فحص جديد على أي موقع. الحد 10 المشاهد أقل من الافتراضي، فلا تعتمد 30 كحصة فعلية لهذه الخدمة.
+- **analytics.usa.gov DAP public demo**: قراءة إحصاءات مجمعة منشورة لزيارات المواقع الحكومية، وليست حساب تحليلات موقعك. نجح تقرير اللغات. الحد 10 المشاهد خاص بالاستجابة؛ نافذته لم تثبت من header.
 
-## حدود الاختبار
+## نتائج التحقق وحدودها
 
-جرى اختبار 41 طلبًا أساسيًا لمرشحين أو قيم مختلفة؛ المقبول 33 والباقي 8 خارج القائمة الجاهزة. مثال NASA APOD فشل، فاختُبر NeoWs ونجح؛ لذلك لا يُعرض APOD كطلب ناجح. بعض الفشل بسبب DNS أو timeout وليس إثبات توقف عالمي. اختُبرت استجابات خمسة مزودين دلاليًا، منها ترجمة غير فارغة ونجاح مصادقة OrbitRoute بالحصة المنشورة.
+القائمة تجمع نتائج جولات البحث، وليست إعادة اختبار لكل خدمة في كل جولة. 42 خدمة لديها طلب ناجح موثق، و10 مرشحين فشلت طلباتهم خارج القائمة الجاهزة. تأريخ الاختبار وURL ونوع الاستجابة محفوظة لكل سجل. نجح PDF فعلي وJSON فاتورة الاختبار، ونتائج المركبات تحققت من idModel وstrModel، وعناصر مدار ISS من TLE_LINE_1 وTLE_LINE_2. نجاح قائمة Genji الفارغة يثبت مثال القراءة والمصادقة؛ لم تُنشأ حشود.
 
-المصادر الرسمية تدعم إتاحة المفتاح ونطاقه، والاختبار يدعم نجاح المثال وقت الفحص. لا يضمن أي منهما SLA أو كل الرموز والخصائص. POST المختبر اقتصر على تحويل رابط أو ترجمة نص اختبار أو بيانات وهمية أو قراءة MCP؛ لم يُرسل شيء إلى أشخاص.
+PinnWire أعاد 429 لأن الحصة العامة المشتركة اليومية استُهلكت؛ لم نصنفه كمفتاح باطل، ولم نضعه كطلب جاهز الآن. USDA وRegulations.gov ما زالا غير محسومين في هذه البيئة. GSA eMuseum أعاد 503. لا نكرر الطلبات لتجاوز الحصص ولا نتحايل بتدوير مفاتيح أو IP.
+
+الإثبات الوثائقي يثبت النطاق المجاني المعلن، والطلب يثبت نجاح المثال وقت الفحص؛ لا يثبت كل endpoints أو SLA أو أن الخطة ستبقى للأبد. اختبارات POST اقتصرت على نص/رابط اختبار، وبيانات وهمية، وقراءة MCP، وتنسيق PDF، والتحقق من JSON فاتورة دون إرسالها.

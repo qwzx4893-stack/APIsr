@@ -64,6 +64,7 @@ check(summary['access_scope_counts']==dict(Counter(x['access_scope'] for x in sh
 check(len({x['id'] for x in shared_rows})==len(shared_rows),'duplicate shared service IDs')
 check(summary['synthetic_practice_services']==sum(x['access_scope']=='synthetic_practice' for x in shared_rows),'synthetic practice count mismatch')
 check(summary['recurring_quota_services']==sum(x['free_type']=='recurring_quota' for x in shared_rows),'shared recurring count mismatch')
+check(summary['practical_services']==sum(x['project_use']['practical'] for x in shared_rows),'practical service count mismatch')
 check(summary['pending_failed_candidates']==len(json.loads((root/'research/public-key-unconfirmed.json').read_text(encoding='utf-8'))['candidates']),'pending shared count mismatch')
 approved_keys={
  'DEMO_KEY','1','demo','helloworld','123','FREE','mc_demo_public','dm_demo_public',
@@ -72,6 +73,8 @@ approved_keys={
  'clix_fxC9tzt_I7fiKMpvTQbU5CNiL647PQu9ssvE3C4jAlPyw3sf3hY',
  'sbi_live_84fdd6cc6a6b2df3e38a9f19a49537a5',
  'or_sk5T_yGimzi2EF8CaG-JS_OA6_Eruw_r-eoCLSM8yMU',
+ 'corx_wurhkSx9Z5GkXBs85bu8iyqJ-963qATW','gk_demo_public_v1',
+ 'kt_demo_00000000000000000000000000','3','YOUR_API_KEY_HERE',
 }
 shared_doc=(root/'docs/public-shared-keys.ar.md').read_text(encoding='utf-8')
 shared_tests=json.loads((root/'research/public-key-tests.json').read_text(encoding='utf-8'))
@@ -93,6 +96,8 @@ for x in shared_rows:
  check(verification['live_test']['ok'] is True and verification['live_test']['http_status']==200,f'{prefix}: failed shared test admitted')
  check(verification['live_test']['uses_private_key'] is False,f'{prefix}: private key test')
  check(x['name'] in shared_doc and x['key'] in shared_doc,f'{prefix}: absent from shared guide')
+ check(bool(x['project_use']['examples_ar']),f'{prefix}: missing project example')
+ check(x['project_use']['practical']==(x['access_scope'] not in {'sandbox_data','synthetic_practice'}),f'{prefix}: fictional data marked practical')
  request=x['example_request']
  check(request['method'] in {'GET','POST'} and request['url'].startswith('https://'),f'{prefix}: invalid request')
  check(request['url']==verification['live_test']['url'],f'{prefix}: untested example URL')
@@ -102,6 +107,7 @@ with (root/'data/public-shared-keys.csv').open(encoding='utf-8-sig',newline='') 
  shared_csv=list(csv.DictReader(fp))
 check(len(shared_csv)==len(shared_rows),'shared CSV count mismatch')
 check({x['id']:x['key'] for x in shared_csv}=={x['id']:x['key'] for x in shared_rows},'shared CSV key mismatch')
+check({x['id']:x['practical'] for x in shared_csv}=={x['id']:str(x['project_use']['practical']) for x in shared_rows},'shared CSV practical mismatch')
 shared_ledger=json.loads((root/'research/public-key-sources.json').read_text(encoding='utf-8'))
 check({x['url'] for x in shared_ledger}=={e['url'] for x in shared_rows for e in x['verification']['evidence']},'shared source ledger mismatch')
 

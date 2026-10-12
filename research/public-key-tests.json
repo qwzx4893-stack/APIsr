@@ -1,20 +1,20 @@
 {
   "checked_on": "2026-10-13",
   "summary": {
-    "services": 33,
-    "unique_public_key_values": 16,
+    "services": 42,
+    "unique_public_key_values": 21,
     "category_counts": {
-      "space": 1,
+      "space": 2,
       "food": 2,
       "finance": 4,
       "government": 6,
       "ocr": 1,
-      "sports": 2,
+      "sports": 3,
       "music": 1,
-      "documents": 1,
+      "documents": 3,
       "geolocation": 1,
       "business": 1,
-      "development": 2,
+      "development": 3,
       "images": 1,
       "parks": 1,
       "travel": 1,
@@ -24,21 +24,26 @@
       "education": 1,
       "productivity": 1,
       "compute": 1,
-      "translation": 1
+      "translation": 1,
+      "proxy": 1,
+      "graphics": 1,
+      "vehicles": 1,
+      "analytics": 1
     },
     "access_scope_counts": {
-      "public_data": 15,
-      "development_data": 6,
-      "restricted_sample_data": 6,
+      "public_data": 18,
+      "development_data": 11,
+      "restricted_sample_data": 7,
       "sandbox_data": 3,
       "synthetic_practice": 3
     },
-    "recurring_quota_services": 20,
+    "recurring_quota_services": 28,
     "synthetic_practice_services": 3,
-    "pending_failed_candidates": 8
+    "pending_failed_candidates": 10,
+    "practical_services": 36
   },
-  "primary_attempted": 41,
-  "primary_passed": 33,
+  "primary_attempted": 52,
+  "primary_passed": 42,
   "results": [
     {
       "id": "nasa-open-apis",
@@ -356,10 +361,11 @@
     },
     {
       "id": "usda-fooddata-demo",
-      "url": "https://api.nal.usda.gov/fdc/v1/foods/search?query=cheddar&pageSize=1&api_key=DEMO_KEY",
+      "url": "https://api.nal.usda.gov/fdc/v1/foods/list?pageSize=1&api_key=DEMO_KEY",
       "method": "GET",
-      "checked_at": "2026-10-12T22:26:11Z",
+      "checked_at": "2026-10-12T22:53:12Z",
       "uses_private_key": false,
+      "response_kind": "json",
       "ok": false,
       "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
     },
@@ -465,10 +471,11 @@
     },
     {
       "id": "regulations-demo",
-      "url": "https://api.regulations.gov/v4/documents?filter%5BsearchTerm%5D=water&page%5Bsize%5D=1&api_key=DEMO_KEY",
+      "url": "https://api.regulations.gov/v4/documents/FDA-2009-N-0501-0012?api_key=DEMO_KEY",
       "method": "GET",
-      "checked_at": "2026-10-12T22:27:49Z",
+      "checked_at": "2026-10-12T22:53:12Z",
       "uses_private_key": false,
+      "response_kind": "json",
       "ok": false,
       "error": "The read operation timed out"
     },
@@ -613,6 +620,171 @@
       "ok": false,
       "http_status": 401,
       "error": "{\"success\":false,\"error\":{\"code\":401,\"message\":\"Invalid API key.\"}}"
+    },
+    {
+      "id": "corx-public",
+      "url": "https://corx.envx.cn/fetch?url=https%3A%2F%2Fexample.com%2F&corx-key=corx_wurhkSx9Z5GkXBs85bu8iyqJ-963qATW",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:50:58Z",
+      "uses_private_key": false,
+      "response_kind": "html",
+      "http_status": 200,
+      "bytes": 944,
+      "content_type": "text/html; charset=utf-8",
+      "rate_limit_header": "60",
+      "ok": true,
+      "expected_page_title_present": true
+    },
+    {
+      "id": "attestwire-demo",
+      "url": "https://api.attestwire.com/v1/validate",
+      "method": "POST",
+      "checked_at": "2026-10-12T22:50:58Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 325,
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": "30",
+      "ok": true,
+      "shape": [
+        "valid",
+        "profile",
+        "errors",
+        "warnings",
+        "information",
+        "provenance"
+      ],
+      "invoice_valid": true
+    },
+    {
+      "id": "genji-crowd-demo",
+      "url": "https://www.genjicrowd.com/v1/projects",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:50:58Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 2,
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": null,
+      "ok": true,
+      "shape": "list:0"
+    },
+    {
+      "id": "keeptrack-demo",
+      "url": "https://api.keeptrack.space/v4/sats/25544",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:50:58Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 4223,
+      "content_type": "application/json",
+      "rate_limit_header": "30",
+      "ok": true,
+      "shape": "list:1"
+    },
+    {
+      "id": "thevehicledb-demo",
+      "url": "https://www.thevehicledb.com/api/v1/json/3/searchmodel.php?m=cobra",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:52:19Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 337,
+      "content_type": "application/json; charset=utf-8",
+      "ok": true,
+      "shape": [
+        "search"
+      ],
+      "model_fields_verified": true
+    },
+    {
+      "id": "docraptor-public-test",
+      "url": "https://api.docraptor.com/docs",
+      "method": "POST",
+      "checked_at": "2026-10-12T22:50:59Z",
+      "uses_private_key": false,
+      "response_kind": "pdf",
+      "http_status": 200,
+      "bytes": 45751,
+      "content_type": "application/pdf",
+      "rate_limit_header": null,
+      "ok": true,
+      "valid_pdf_magic": true
+    },
+    {
+      "id": "oddiwire-demo",
+      "url": "https://oddiwire.com/v1/fixtures?key=demo&limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:51:00Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 3979,
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": null,
+      "ok": true,
+      "shape": [
+        "count",
+        "events"
+      ]
+    },
+    {
+      "id": "pinnwire-demo",
+      "url": "https://pinnwire.com/kit/v1/markets?sport_id=1&event_type=prematch&key=demo",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:51:00Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "ok": false,
+      "http_status": 429,
+      "error": "{\"error\":\"rate_limited\",\"window\":\"day\",\"limit\":50,\"retry_after_ms\":4138531,\"message\":\"Rate limit reached for the \\\"demo\\\" plan (50 per day). Wait 4139s and retry (honor the Retry-After header). Get a free API key in 5 seconds (100 requests/day foreve"
+    },
+    {
+      "id": "gsa-site-scanning-demo",
+      "url": "https://api.gsa.gov/technology/site-scanning/v1/websites?limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:51:00Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 2874,
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": "10",
+      "ok": true,
+      "shape": [
+        "items",
+        "meta",
+        "links"
+      ]
+    },
+    {
+      "id": "dap-analytics-demo",
+      "url": "https://api.gsa.gov/analytics/dap/v2/reports/language/data?limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:51:01Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 125,
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": "10",
+      "ok": true,
+      "shape": "list:1"
+    },
+    {
+      "id": "gsa-emuseum-demo",
+      "url": "https://api.gsa.gov/real_estate/emuseum/v1/search/people?Index=a&end=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:53:12Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "ok": false,
+      "http_status": 503,
+      "error": "no healthy upstream"
     }
   ],
   "history": [
@@ -1236,6 +1408,207 @@
       "ok": false,
       "http_status": 401,
       "error": "{\"success\":false,\"error\":{\"code\":401,\"message\":\"Invalid API key.\"}}"
+    },
+    {
+      "id": "genji-crowd-demo",
+      "url": "https://www.genjicrowd.com/v1/projects",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:50:58Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 2,
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": null,
+      "ok": true,
+      "shape": "list:0"
+    },
+    {
+      "id": "attestwire-demo",
+      "url": "https://api.attestwire.com/v1/validate",
+      "method": "POST",
+      "checked_at": "2026-10-12T22:50:58Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 325,
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": "30",
+      "ok": true,
+      "shape": [
+        "valid",
+        "profile",
+        "errors",
+        "warnings",
+        "information",
+        "provenance"
+      ],
+      "invoice_valid": true
+    },
+    {
+      "id": "thevehicledb-demo",
+      "url": "https://www.thevehicledb.com/api/v1/json/3/searchmodel.php?m=cobra",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:50:59Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 337,
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": null,
+      "ok": false,
+      "shape": [
+        "search"
+      ]
+    },
+    {
+      "id": "keeptrack-demo",
+      "url": "https://api.keeptrack.space/v4/sats/25544",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:50:58Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 4223,
+      "content_type": "application/json",
+      "rate_limit_header": "30",
+      "ok": true,
+      "shape": "list:1"
+    },
+    {
+      "id": "oddiwire-demo",
+      "url": "https://oddiwire.com/v1/fixtures?key=demo&limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:51:00Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 3979,
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": null,
+      "ok": true,
+      "shape": [
+        "count",
+        "events"
+      ]
+    },
+    {
+      "id": "corx-public",
+      "url": "https://corx.envx.cn/fetch?url=https%3A%2F%2Fexample.com%2F&corx-key=corx_wurhkSx9Z5GkXBs85bu8iyqJ-963qATW",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:50:58Z",
+      "uses_private_key": false,
+      "response_kind": "html",
+      "http_status": 200,
+      "bytes": 944,
+      "content_type": "text/html; charset=utf-8",
+      "rate_limit_header": "60",
+      "ok": true,
+      "expected_page_title_present": true
+    },
+    {
+      "id": "pinnwire-demo",
+      "url": "https://pinnwire.com/kit/v1/markets?sport_id=1&event_type=prematch&key=demo",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:51:00Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "ok": false,
+      "http_status": 429,
+      "error": "{\"error\":\"rate_limited\",\"window\":\"day\",\"limit\":50,\"retry_after_ms\":4138531,\"message\":\"Rate limit reached for the \\\"demo\\\" plan (50 per day). Wait 4139s and retry (honor the Retry-After header). Get a free API key in 5 seconds (100 requests/day foreve"
+    },
+    {
+      "id": "docraptor-public-test",
+      "url": "https://api.docraptor.com/docs",
+      "method": "POST",
+      "checked_at": "2026-10-12T22:50:59Z",
+      "uses_private_key": false,
+      "response_kind": "pdf",
+      "http_status": 200,
+      "bytes": 45751,
+      "content_type": "application/pdf",
+      "rate_limit_header": null,
+      "ok": true,
+      "valid_pdf_magic": true
+    },
+    {
+      "id": "gsa-site-scanning-demo",
+      "url": "https://api.gsa.gov/technology/site-scanning/v1/websites?limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:51:00Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 2874,
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": "10",
+      "ok": true,
+      "shape": [
+        "items",
+        "meta",
+        "links"
+      ]
+    },
+    {
+      "id": "dap-analytics-demo",
+      "url": "https://api.gsa.gov/analytics/dap/v2/reports/language/data?limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:51:01Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 125,
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": "10",
+      "ok": true,
+      "shape": "list:1"
+    },
+    {
+      "id": "thevehicledb-demo",
+      "url": "https://www.thevehicledb.com/api/v1/json/3/searchmodel.php?m=cobra",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:52:19Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 337,
+      "content_type": "application/json; charset=utf-8",
+      "ok": true,
+      "shape": [
+        "search"
+      ],
+      "model_fields_verified": true
+    },
+    {
+      "id": "gsa-emuseum-demo",
+      "url": "https://api.gsa.gov/real_estate/emuseum/v1/search/people?Index=a&end=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:53:12Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "ok": false,
+      "http_status": 503,
+      "error": "no healthy upstream"
+    },
+    {
+      "id": "usda-fooddata-demo",
+      "url": "https://api.nal.usda.gov/fdc/v1/foods/list?pageSize=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:53:12Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "ok": false,
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "id": "regulations-demo",
+      "url": "https://api.regulations.gov/v4/documents/FDA-2009-N-0501-0012?api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:53:12Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "ok": false,
+      "error": "The read operation timed out"
     }
   ],
   "semantic_checks": [
@@ -1261,5 +1634,5 @@
       "semantic_check_passed": true
     }
   ],
-  "note_ar": "طلبات محدودة للتحقق من مثال واحد؛ GET وPOST للقراءة أو مثال غير إنتاجي فقط. لا إرسال رسائل أو فواتير ولا تشغيل أعمال حوسبة فعلية. نتيجة HTTP 200 لا تثبت كل endpoints أو الإباحة التجارية."
+  "note_ar": "طلبات محدودة للتحقق من مثال واحد؛ البيانات العامة أو محتوى اختبار فقط. PDF تجريبي وJSON فاتورة وهمية للتحقق بلا إرسال، وGET للحشود دون إنشاء. نجاح المثال لا يثبت كل الخصائص أو الإباحة التجارية."
 }

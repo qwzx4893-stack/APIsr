@@ -76,14 +76,15 @@
       "status": "documented_but_not_live_verified",
       "test": {
         "id": "usda-fooddata-demo",
-        "url": "https://api.nal.usda.gov/fdc/v1/foods/search?query=cheddar&pageSize=1&api_key=DEMO_KEY",
+        "url": "https://api.nal.usda.gov/fdc/v1/foods/list?pageSize=1&api_key=DEMO_KEY",
         "method": "GET",
-        "checked_at": "2026-10-12T22:26:11Z",
+        "checked_at": "2026-10-12T22:53:12Z",
         "uses_private_key": false,
+        "response_kind": "json",
         "ok": false,
         "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
       },
-      "note_ar": "فشل الطلب في هذه البيئة؛ لا يُعرض ضمن المفاتيح الجاهزة. هذا ليس حكمًا بتوقف الخدمة عالميًا."
+      "note_ar": "خارج القائمة الجاهزة. 429 تعني نفاد حصة مشتركة قابلة للتجديد وليست بطلان المفتاح؛ DNS وtimeout لا تثبت توقفًا عالميًا."
     },
     {
       "id": "regulations-demo",
@@ -92,14 +93,15 @@
       "status": "documented_but_not_live_verified",
       "test": {
         "id": "regulations-demo",
-        "url": "https://api.regulations.gov/v4/documents?filter%5BsearchTerm%5D=water&page%5Bsize%5D=1&api_key=DEMO_KEY",
+        "url": "https://api.regulations.gov/v4/documents/FDA-2009-N-0501-0012?api_key=DEMO_KEY",
         "method": "GET",
-        "checked_at": "2026-10-12T22:27:49Z",
+        "checked_at": "2026-10-12T22:53:12Z",
         "uses_private_key": false,
+        "response_kind": "json",
         "ok": false,
         "error": "The read operation timed out"
       },
-      "note_ar": "فشل الطلب في هذه البيئة؛ لا يُعرض ضمن المفاتيح الجاهزة. هذا ليس حكمًا بتوقف الخدمة عالميًا."
+      "note_ar": "خارج القائمة الجاهزة. 429 تعني نفاد حصة مشتركة قابلة للتجديد وليست بطلان المفتاح؛ DNS وtimeout لا تثبت توقفًا عالميًا."
     },
     {
       "id": "theaudiodb-key2",
@@ -134,6 +136,42 @@
         "error": "{\"success\":false,\"error\":{\"code\":401,\"message\":\"Invalid API key.\"}}"
       },
       "note_ar": "فشل الطلب في هذه البيئة؛ لا يُعرض ضمن المفاتيح الجاهزة. هذا ليس حكمًا بتوقف الخدمة عالميًا."
+    },
+    {
+      "id": "pinnwire-demo",
+      "source_url": "https://www.pinnwire.com/llms-full.txt",
+      "candidate_public_value": "demo",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "pinnwire-demo",
+        "url": "https://pinnwire.com/kit/v1/markets?sport_id=1&event_type=prematch&key=demo",
+        "method": "GET",
+        "checked_at": "2026-10-12T22:51:00Z",
+        "uses_private_key": false,
+        "response_kind": "json",
+        "ok": false,
+        "http_status": 429,
+        "error": "{\"error\":\"rate_limited\",\"window\":\"day\",\"limit\":50,\"retry_after_ms\":4138531,\"message\":\"Rate limit reached for the \\\"demo\\\" plan (50 per day). Wait 4139s and retry (honor the Retry-After header). Get a free API key in 5 seconds (100 requests/day foreve"
+      },
+      "note_ar": "خارج القائمة الجاهزة. 429 تعني نفاد حصة مشتركة قابلة للتجديد وليست بطلان المفتاح؛ DNS وtimeout لا تثبت توقفًا عالميًا."
+    },
+    {
+      "id": "gsa-emuseum-demo",
+      "source_url": "https://gsa.github.io/eMuseum-API/console/",
+      "candidate_public_value": "DEMO_KEY",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "gsa-emuseum-demo",
+        "url": "https://api.gsa.gov/real_estate/emuseum/v1/search/people?Index=a&end=1&api_key=DEMO_KEY",
+        "method": "GET",
+        "checked_at": "2026-10-12T22:53:12Z",
+        "uses_private_key": false,
+        "response_kind": "json",
+        "ok": false,
+        "http_status": 503,
+        "error": "no healthy upstream"
+      },
+      "note_ar": "خارج القائمة الجاهزة. 429 تعني نفاد حصة مشتركة قابلة للتجديد وليست بطلان المفتاح؛ DNS وtimeout لا تثبت توقفًا عالميًا."
     }
   ],
   "other_candidates": [
@@ -186,6 +224,61 @@
       "name": "EIA DEMO_KEY",
       "source_url": "https://www.eia.gov/opendata/documentation.php",
       "reason_ar": "لم يظهر دليل صريح على القيمة العامة في المصدر الرسمي المقروء؛ لا تكفي مقالات الطرف الثالث وحدها."
+    },
+    {
+      "name": "PEKPIK shared keys",
+      "source_url": "https://aiapiv2.pekpik.com/",
+      "reason_ar": "جدول المزود يقول إن المفتاح المشترك يعيش 48 ساعة ولا يتجدد رصيده. إصدار مفاتيح بديلة تلقائيًا لا يثبت تجديد حصة المفتاح نفسه؛ مستبعد وفق الشرط."
+    },
+    {
+      "name": "Ruvicode treasury key",
+      "source_url": "https://ruvicode.com/treasury",
+      "reason_ar": "ميزانية مجانية يومية موثقة، لكن الموقع لا ينشر القيمة الكاملة ويحيل إلى قناة Discord. لم أستخرج قيمة غير منشورة أو أُدخل حسابًا إلى القناة؛ خارج قائمة المفاتيح المباشرة المتاحة دون تسجيل."
+    },
+    {
+      "name": "doc.cheap public sandbox",
+      "source_url": "https://doc.cheap/docs/concepts/api-keys-and-sessions",
+      "reason_ar": "المفتاح العام حقيقي، لكن الوثائق تذكر lifetime free allowance لكل عميل؛ ليس رصيدًا متجددًا. مستبعد رغم وجود rate bucket متجدد."
+    },
+    {
+      "name": "PDFCrowd demo credentials",
+      "source_url": "https://pdfcrowd.com/api/authentication/",
+      "reason_ar": "demo/demo منشور للتقييم بلا تسجيل، لكن تجديد حدود حساب demo لم يثبت من الوثائق المقروءة؛ لا ننسب إليه حصص الحساب الشخصي."
+    },
+    {
+      "name": "LangShop public example token",
+      "source_url": "https://langshop.io/langshop-api",
+      "reason_ar": "قيمة demo منشورة للأمثلة، لكن النص يقول limited requests دون توضيح تجديد الحصة. لم تُقبل لمجرد أنها مفتاح عام."
+    },
+    {
+      "name": "Veroq/Polaris",
+      "source_url": "https://thepolarisreport.com/docs",
+      "reason_ar": "أظهرت نتائج البحث مفتاح demo بحصة شهرية، لكن صفحات المرجع المقروءة أعادت 404؛ لم يكتمل الإثبات الحالي."
+    },
+    {
+      "name": "AxPrism public SDK key",
+      "source_url": "https://www.npmjs.com/package/@axprism/mcp",
+      "reason_ar": "مفتاح read-only demo معلن في SDK، لكن الموقع الحالي لم يوفر توثيق خطة صالحًا وتجديد الحصة لم يثبت؛ لم تُقبل بيانات نتائج البحث وحدها."
+    },
+    {
+      "name": "MobileValidate / Fleeta / Broadcastwell / Skybyte sandbox examples",
+      "source_url": "https://mobilevalidate.com/docs/api-reference",
+      "reason_ar": "مفاتيح نماذج أو بيانات وهمية موثقة تفيد اختبار التكامل، لكنها لا توفر الخدمة الفعلية لبيانات مشروع المستخدم. لم تضاف في هذه الجولة الموجهة للخدمات العملية."
+    },
+    {
+      "name": "Seatmap developer demo",
+      "source_url": "https://seatmap.dev/developers/",
+      "reason_ar": "بوابة المطور توثق demo لتجربة renderer وتحيل إلى وثائق خارجية للمفتاح؛ لم يكتمل إثبات القيمة والحصة للاستخدام المباشر."
+    },
+    {
+      "name": "Zeroboot public prototype",
+      "source_url": "https://raw.githubusercontent.com/zerobootdev/zeroboot/main/README.md",
+      "reason_ar": "قيمة demo منشورة في README لمشروع prototype، لكن حدود الحصة وتجديدها للخدمة المستضافة لم تثبت؛ لم تُقبل بمجرد أنها تعمل أو أن كودها مفتوح."
+    },
+    {
+      "name": "AIbit Translator",
+      "source_url": "https://aibitranslator.com/",
+      "reason_ar": "المثال في الموقع يستخدم shared demo، لكن لم أقرأ قيمة عامة مع سياسة حصة مستقلة؛ تعذر DNS المباشر. لا تكفي حصة المفتاح المسجل."
     }
   ]
 }

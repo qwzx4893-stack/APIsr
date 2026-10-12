@@ -329,5 +329,113 @@
     "retrieved_at": "2026-10-12T22:23:08Z",
     "sha256": "f60e65423e1302208721902755e66ae8e70b26a9d1d8e3832172d29d1737c9bd",
     "resolved_url": "https://inktranslator.com/lang/en"
+  },
+  {
+    "url": "https://corx.envx.cn/en",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:43:01Z",
+    "sha256": "680c072231adbb7b39dfdb07ee1d68f61b07551b8c8e1f0988aa328eef3f5e84",
+    "resolved_url": "https://corx.envx.cn/en"
+  },
+  {
+    "url": "https://corx.envx.cn/docs",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:43:01Z",
+    "sha256": "d3d288ec886c4da10072bcb59610b3787e485a9e7f5fc0d58b9ec4cd2d27840b",
+    "resolved_url": "https://corx.envx.cn/docs"
+  },
+  {
+    "url": "https://attestwire.com/pricing",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:43:48Z",
+    "sha256": "c72ec92606d0f94558733dfe4f1c7909f55d7d2be811c9c95426c891881ba15a",
+    "resolved_url": "https://attestwire.com/pricing"
+  },
+  {
+    "url": "https://api.attestwire.com/docs",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:46:26Z",
+    "sha256": "c9fb066dd0dbcac46d17ddd479c40d6f5490914c830edabd67b9eb5c44959b38",
+    "resolved_url": "https://api.attestwire.com/docs"
+  },
+  {
+    "url": "https://www.genjicrowd.com/docs",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:43:48Z",
+    "sha256": "d9e35042ee4621bb252914a8016bcb97cbd0478a7d0111963272cc026e75c699",
+    "resolved_url": "https://www.genjicrowd.com/docs"
+  },
+  {
+    "url": "https://keeptrack.space/api",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:43:48Z",
+    "sha256": "f584cc0835bdc9aff6c0adf71ac384041eb6c9f2c1ccb7208dfbbe051f586e8a",
+    "resolved_url": "https://keeptrack.space/api"
+  },
+  {
+    "url": "https://www.thevehicledb.com/free_car_api",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:47:08Z",
+    "sha256": "9f944d9f876efb19ee7a254a9abc5d00b4a23038ebe90b1c894e47d3523fef2d",
+    "resolved_url": "https://www.thevehicledb.com/free_car_api"
+  },
+  {
+    "url": "https://docraptor.com/documentation",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:46:29Z",
+    "sha256": "7c954b842b50c8f98b795c6ba968b6065a6b991878cdfdad98a7e5b5ae42c06d",
+    "resolved_url": "https://docraptor.com/documentation"
+  },
+  {
+    "url": "https://docraptor.com/documentation/tutorial/html-and-javascript",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:47:09Z",
+    "sha256": "df8c20e9db3b9d1ec669788c680d4350d4cccd1b52aed387eccd273dda950328",
+    "resolved_url": "https://docraptor.com/documentation/tutorial/html-and-javascript"
+  },
+  {
+    "url": "https://oddiwire.com/llms-full.txt",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:43:02Z",
+    "sha256": "ed6a1f98d337db0c152fcd951c2353e7692a78bf34da4511074f36f196ec2a59",
+    "resolved_url": "https://oddiwire.com/llms-full.txt"
+  },
+  {
+    "url": "https://open.gsa.gov/api/site-scanning-api/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:49:54Z",
+    "sha256": "6921f4277c61cd0e7748b68641c6a81b51745ff48aa749124ea81c40e5abf45d",
+    "resolved_url": "https://open.gsa.gov/api/site-scanning-api/"
+  },
+  {
+    "url": "https://open.gsa.gov/api/dap/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:49:54Z",
+    "sha256": "14b8a491cbb26e9da5d84f59923d5a4a8e42eed339c4e35c56cc325bfa489f7e",
+    "resolved_url": "https://open.gsa.gov/api/dap/"
   }
 ]
