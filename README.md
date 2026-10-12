@@ -2,12 +2,14 @@
 
 **260 خدمة في 37 مجالًا، مراجعة في 2026-10-13 بتوقيت بغداد.**
 
+**للمفاتيح العامة دون تسجيل تحديدًا:** [قائمة مستقلة تضم 33 خدمة مختبرة و16 قيمة مفتاح مختلفة](docs/public-shared-keys.ar.md) · [JSON بالمفاتيح والطلبات الكاملة](data/public-shared-keys.json) · [CSV](data/public-shared-keys.csv). منها 30 خدمة ببيانات فعلية أو sandbox، وثلاث للتدريب أو placeholder فقط. هذه الأعداد مستقلة عن الكتالوج العام، وليست 260 مفتاحًا مشتركًا.
+
 دليل للحصول على APIs مجانية قانونية، مع الحصة ودورة التجديد ورابط إنشاء مفتاحك والمصدر الرسمي وقيود الاستخدام. يغطي خدمات عامة ومتخصصة. **ليس مخزنًا لمفاتيح حسابات الآخرين، ولم تُنشأ حسابات لدى هذه المزودات نيابة عنك.**
 
 ## النتائج والملفات
 
 - [القائمة الآلية JSON](data/catalog.json) · [CSV قابل للبحث](data/catalog.csv).
-- [المفاتيح التجريبية العامة الرسمية](data/public-demo-keys.json) · [طريقة الحصول على مفاتيحك](docs/access-guide.ar.md).
+- [المفاتيح العامة المختبرة دون تسجيل](docs/public-shared-keys.ar.md) · [الأمثلة الستة الأصلية](data/public-demo-keys.json) · [طريقة الحصول على مفاتيحك](docs/access-guide.ar.md).
 - [المستبعد وغير المحسوم](data/excluded-and-unconfirmed.json) · [منهجية التحقق](docs/methodology.ar.md).
 - [مستودعات الاكتشاف](research/discovery-repositories.json) · [صفحات الإثبات الرسمية](research/official-sources.json) · [حدود التغطية](research/coverage.json).
 
@@ -32,6 +34,8 @@ python scripts/search.py --auth no_key
 python scripts/search.py --free-type recurring_quota --category geolocation
 python scripts/search.py --commercial allowed --no-card
 python scripts/validate.py
+python scripts/public_keys.py --category translation
+python scripts/public_keys.py --service mapconvert-demo --request
 ```
 
 ## فهرس المجالات

@@ -1,0 +1,273 @@
+{
+  "checked_on": "2026-10-13",
+  "directories_checked": 24,
+  "directories_with_matching_provider": 14,
+  "note_ar": "أُعيد فحص النسخ المقروءة من 24 قائمة بحثًا عن مواقع المزودين المقبولين؛ إثبات مشاركة المفتاح ومجانيته يأتي من الوثائق الرسمية والاختبار لا من هذه القوائم. مطابقة نطاق ليست مراجعة لكل روابط المستودع ولا تعني أنه نشر قيمة المفتاح.",
+  "repositories": [
+    {
+      "repository_url": "https://github.com/golapkamal/awesome-free-llm-apis",
+      "readme_url": "https://raw.githubusercontent.com/golapkamal/awesome-free-llm-apis/main/README.md",
+      "readme_retrieved_at": "2026-10-12T21:29:34Z",
+      "matched_provider_ids": [],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/spinov001-art/awesome-free-apis-2026",
+      "readme_url": "https://raw.githubusercontent.com/spinov001-art/awesome-free-apis-2026/main/README.md",
+      "readme_retrieved_at": "2026-10-12T21:27:21Z",
+      "matched_provider_ids": [
+        "nasa-open-apis",
+        "themealdb-development-api",
+        "thecocktaildb-development-api",
+        "alpha-vantage"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/public-api-lists/public-api-lists",
+      "readme_url": "https://raw.githubusercontent.com/public-api-lists/public-api-lists/master/README.md",
+      "readme_retrieved_at": "2026-10-12T20:55:42Z",
+      "matched_provider_ids": [
+        "nasa-open-apis",
+        "themealdb-development-api",
+        "thecocktaildb-development-api",
+        "alpha-vantage",
+        "fec-demo",
+        "epa-attains-demo"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/markodenic/public-apis",
+      "readme_url": "https://raw.githubusercontent.com/markodenic/public-apis/main/README.md",
+      "readme_retrieved_at": "2026-10-12T20:55:42Z",
+      "matched_provider_ids": [],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/amardeeplakshkar/awesome-free-llm-apis",
+      "readme_url": "https://raw.githubusercontent.com/amardeeplakshkar/awesome-free-llm-apis/main/README.md",
+      "readme_retrieved_at": "2026-10-12T21:29:34Z",
+      "matched_provider_ids": [],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/12britz/awesome-free-models",
+      "readme_url": "https://raw.githubusercontent.com/12britz/awesome-free-models/main/README.md",
+      "readme_retrieved_at": "2026-10-12T20:55:42Z",
+      "matched_provider_ids": [],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/fangzesheng/free-api",
+      "readme_url": "https://raw.githubusercontent.com/fangzesheng/free-api/master/README.md",
+      "readme_retrieved_at": "2026-10-12T21:27:21Z",
+      "matched_provider_ids": [],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/TonnyL/Awesome_APIs",
+      "readme_url": "https://raw.githubusercontent.com/TonnyL/Awesome_APIs/master/README.md",
+      "readme_retrieved_at": "2026-10-12T21:29:35Z",
+      "matched_provider_ids": [],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/brandonhimpfen/awesome-apis",
+      "readme_url": "https://raw.githubusercontent.com/brandonhimpfen/awesome-apis/main/README.md",
+      "readme_retrieved_at": "2026-10-12T21:01:26Z",
+      "matched_provider_ids": [
+        "nasa-open-apis"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/abhishekbanthia/Public-APIs",
+      "readme_url": "https://raw.githubusercontent.com/abhishekbanthia/Public-APIs/master/README.md",
+      "readme_retrieved_at": "2026-10-12T21:29:35Z",
+      "matched_provider_ids": [
+        "nasa-open-apis",
+        "alpha-vantage",
+        "theaudiodb",
+        "twelve-data-demo"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/n0shake/Public-APIs",
+      "readme_url": "https://raw.githubusercontent.com/n0shake/Public-APIs/master/README.md",
+      "readme_retrieved_at": "2026-10-12T21:29:35Z",
+      "matched_provider_ids": [
+        "nasa-open-apis",
+        "alpha-vantage",
+        "theaudiodb",
+        "twelve-data-demo"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/public-apis/public-apis",
+      "readme_url": "https://raw.githubusercontent.com/public-apis/public-apis/master/README.md",
+      "readme_retrieved_at": "2026-10-12T20:55:42Z",
+      "matched_provider_ids": [
+        "nasa-open-apis",
+        "themealdb-development-api",
+        "thecocktaildb-development-api",
+        "alpha-vantage",
+        "ocr-space",
+        "theaudiodb",
+        "twelve-data-demo",
+        "eodhd-demo",
+        "nps-demo",
+        "fec-demo",
+        "epa-attains-demo",
+        "college-scorecard-demo"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/codiebyheaart/awesome-free-apis",
+      "readme_url": "https://raw.githubusercontent.com/codiebyheaart/awesome-free-apis/main/README.md",
+      "readme_retrieved_at": "2026-10-12T21:01:25Z",
+      "matched_provider_ids": [
+        "alpha-vantage"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/mnfst/awesome-free-llm-apis",
+      "readme_url": "https://raw.githubusercontent.com/mnfst/awesome-free-llm-apis/main/README.md",
+      "readme_retrieved_at": "2026-10-12T21:29:34Z",
+      "matched_provider_ids": [],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/whizkydee/Awesome-APIs",
+      "readme_url": "https://raw.githubusercontent.com/whizkydee/Awesome-APIs/master/README.md",
+      "readme_retrieved_at": "2026-10-12T21:27:21Z",
+      "matched_provider_ids": [
+        "nasa-open-apis",
+        "alpha-vantage",
+        "theaudiodb",
+        "twelve-data-demo"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/rohanbyale/Public_API_Collection",
+      "readme_url": "https://raw.githubusercontent.com/rohanbyale/Public_API_Collection/main/README.md",
+      "readme_retrieved_at": "2026-10-12T21:27:21Z",
+      "matched_provider_ids": [
+        "nasa-open-apis",
+        "themealdb-development-api",
+        "thecocktaildb-development-api",
+        "alpha-vantage",
+        "ocr-space"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/ripienaar/free-for-dev",
+      "readme_url": "https://raw.githubusercontent.com/ripienaar/free-for-dev/master/README.md",
+      "readme_retrieved_at": "2026-10-12T20:55:42Z",
+      "matched_provider_ids": [
+        "ocr-space"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/manavarya09/public-apis-live",
+      "readme_url": "https://raw.githubusercontent.com/manavarya09/public-apis-live/main/README.md",
+      "readme_retrieved_at": "2026-10-12T21:27:22Z",
+      "matched_provider_ids": [
+        "nasa-open-apis",
+        "themealdb-development-api",
+        "thecocktaildb-development-api",
+        "alpha-vantage",
+        "ocr-space",
+        "theaudiodb",
+        "twelve-data-demo",
+        "eodhd-demo",
+        "nps-demo",
+        "fec-demo",
+        "epa-attains-demo",
+        "college-scorecard-demo"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/ruanbekker/awesome-free-apis",
+      "readme_url": "https://raw.githubusercontent.com/ruanbekker/awesome-free-apis/master/README.md",
+      "readme_retrieved_at": "2026-10-12T21:01:25Z",
+      "matched_provider_ids": [],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/Kikobeats/awesome-api",
+      "readme_url": "https://raw.githubusercontent.com/Kikobeats/awesome-api/master/README.md",
+      "readme_retrieved_at": "2026-10-12T21:27:22Z",
+      "matched_provider_ids": [],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/marcelscruz/public-apis",
+      "readme_url": "https://raw.githubusercontent.com/marcelscruz/public-apis/main/README.md",
+      "readme_retrieved_at": "2026-10-12T20:55:42Z",
+      "matched_provider_ids": [
+        "nasa-open-apis",
+        "themealdb-development-api",
+        "thecocktaildb-development-api",
+        "alpha-vantage",
+        "theaudiodb",
+        "twelve-data-demo",
+        "nps-demo",
+        "fec-demo",
+        "epa-attains-demo",
+        "college-scorecard-demo"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/uzair004/awesome-free-llm-apis",
+      "readme_url": "https://raw.githubusercontent.com/uzair004/awesome-free-llm-apis/main/README.md",
+      "readme_retrieved_at": "2026-10-12T21:29:35Z",
+      "matched_provider_ids": [],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/gunjanjaswal/Awesome-Public-Free-Apis",
+      "readme_url": "https://raw.githubusercontent.com/gunjanjaswal/Awesome-Public-Free-Apis/main/README.md",
+      "readme_retrieved_at": "2026-10-12T21:01:25Z",
+      "matched_provider_ids": [
+        "nasa-open-apis",
+        "themealdb-development-api",
+        "thecocktaildb-development-api",
+        "alpha-vantage",
+        "theaudiodb",
+        "twelve-data-demo",
+        "nps-demo",
+        "fec-demo",
+        "epa-attains-demo",
+        "college-scorecard-demo"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/free-public-apis/apis",
+      "readme_url": "https://raw.githubusercontent.com/free-public-apis/apis/main/README.md",
+      "readme_retrieved_at": "2026-10-12T21:01:25Z",
+      "matched_provider_ids": [
+        "nasa-open-apis",
+        "themealdb-development-api",
+        "thecocktaildb-development-api",
+        "alpha-vantage",
+        "theaudiodb",
+        "twelve-data-demo",
+        "fec-demo",
+        "epa-attains-demo",
+        "college-scorecard-demo"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    }
+  ]
+}

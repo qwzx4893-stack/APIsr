@@ -1,0 +1,333 @@
+[
+  {
+    "url": "https://api.nasa.gov/assets/html/authentication.html",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T20:56:15Z",
+    "sha256": "3ec2f3e5f7b268d0323e08faf0f8c9b85ec88a4932c777df4e80eb215aedfe04",
+    "resolved_url": "https://api.nasa.gov/assets/html/authentication.html"
+  },
+  {
+    "url": "https://api.data.gov/docs/developer-manual/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:18Z",
+    "sha256": "c09641f25041d3c81f39988262f0fef407a166eb9210fbecf04d803afadc0c62",
+    "resolved_url": "https://api.data.gov/docs/developer-manual/"
+  },
+  {
+    "url": "https://www.themealdb.com/api.php",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T20:59:06Z",
+    "sha256": "089d526a46de6c7a8c391bcb2cd001764a2a28851a10330f984f71a7ca26a71d",
+    "resolved_url": "https://www.themealdb.com/api.php"
+  },
+  {
+    "url": "https://www.thecocktaildb.com/api.php",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T20:59:06Z",
+    "sha256": "8243fc006fbd201f379944975f02d2ee7f918235483f09d3fd787cd1109a64d8",
+    "resolved_url": "https://www.thecocktaildb.com/api.php"
+  },
+  {
+    "url": "https://www.alphavantage.co/documentation/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T21:09:59Z",
+    "sha256": "7c460b4450ede2b90690a4689053db0dd6f88843ed1b0f507533f150e7cf6d09",
+    "resolved_url": "https://www.alphavantage.co/documentation/"
+  },
+  {
+    "url": "https://ocr.space/ocrapi",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T20:57:05Z",
+    "sha256": "703005b2ac1b0c8e5db1c206c08afda1f32f8b72caf7c8acef8a01744d16a230",
+    "resolved_url": "https://ocr.space/ocrapi"
+  },
+  {
+    "url": "https://api.thesportsdb.com/documentation",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:13Z",
+    "sha256": "e06efe0b133d6fde17af8ca840afcd206982d634eac5fb9c09d31597a088f68b",
+    "resolved_url": "https://api.thesportsdb.com/documentation"
+  },
+  {
+    "url": "https://www.theaudiodb.com/free_music_api",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:12Z",
+    "sha256": "15aa5e42474c1669e49904b8d3b4582e9f9e6812c0d3334c388de44a78845572",
+    "resolved_url": "https://www.theaudiodb.com/free_music_api"
+  },
+  {
+    "url": "https://www.theaudiodb.com/forum_topic.php?t=2",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:30:01Z",
+    "sha256": "fd6b974fd217e9748ab3504f4903f48ac356d72b61689261b4318ae3ee8e2b29",
+    "resolved_url": "https://www.theaudiodb.com/forum_topic.php?t=2"
+  },
+  {
+    "url": "https://twelvedata.com/docs",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:18Z",
+    "sha256": "6ee291c58bf3474464e7e8f10dab881655f535eb014d3545a3c169b1d0260ac9",
+    "resolved_url": "https://twelvedata.com/docs"
+  },
+  {
+    "url": "https://eodhd.com/financial-apis/quick-start-with-our-financial-data-apis",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:15Z",
+    "sha256": "62c95e9eb2cde67182eeab74cc1b001fe1066f2004f86f0d2d46b7877c9a4eee",
+    "resolved_url": "https://eodhd.com/financial-apis/quick-start-with-our-financial-data-apis"
+  },
+  {
+    "url": "https://www.erpdocs.com/developers",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:21:31Z",
+    "sha256": "f7591ce7073b305e6544944cc0f9f95189c06876afd2d1acbdf1d809968e365e",
+    "resolved_url": "https://www.erpdocs.com/developers"
+  },
+  {
+    "url": "https://mapconvert.dev/api",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:21:30Z",
+    "sha256": "4a8586fa2b741c31fe90789579e2112f58ba439b4dd3ca590c476a1f7b4c0f01",
+    "resolved_url": "https://mapconvert.dev/api"
+  },
+  {
+    "url": "https://docs.goclix.ai/developers/try-the-api/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:21:53Z",
+    "sha256": "4d8d4b778a7e25a52132176f173952306ad07f7aec2b6ed3fdf3bcb7c3fb3206",
+    "resolved_url": "https://docs.goclix.ai/developers/try-the-api/"
+  },
+  {
+    "url": "https://learn-api.com/api-basics/read-api-documentation/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:21:32Z",
+    "sha256": "ea71ed8f78078704933c093b9325a9de24455fc7aa909e546b90b433f1331cfb",
+    "resolved_url": "https://learn-api.com/api-basics/read-api-documentation/"
+  },
+  {
+    "url": "https://www.qabash.com/learning/api-playground",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:21:33Z",
+    "sha256": "86b80919f72170159f14da7c835aab3cc7e0014a2f867a6a37394e30d6da333d",
+    "resolved_url": "https://www.qabash.com/learning/api-playground"
+  },
+  {
+    "url": "https://developers.tradewave.ai/docs/quickstart.html",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:23:08Z",
+    "sha256": "3cdcc75ff5b71ec671f60d00d9a9a098ca3a0be3e07bce572ca89f1692828a5f",
+    "resolved_url": "https://developers.tradewave.ai/docs/quickstart.html"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/kennyhyder/sportsbookish-docs/main/README.md",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:23:08Z",
+    "sha256": "5d3e8dbd4f08e18979bfdfe70fe34e92b4f7588a347e8c5bc8499a01ca9628a1",
+    "resolved_url": "https://raw.githubusercontent.com/kennyhyder/sportsbookish-docs/main/README.md"
+  },
+  {
+    "url": "https://thumbapi.dev/docs/quickstart",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:23:08Z",
+    "sha256": "ccd524ebcd974351bc73774798a0118bf1414b4867cf908e40dcd5e04bbeb414",
+    "resolved_url": "https://thumbapi.dev/docs/quickstart"
+  },
+  {
+    "url": "https://www.nps.gov/subjects/developer/get-started.htm",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:17Z",
+    "sha256": "a8726244b1b370ff1ef7fe9e55e75b0123ece6a88c4611945a0d8e36cb6a9319",
+    "resolved_url": "https://www.nps.gov/subjects/developer/get-started.htm"
+  },
+  {
+    "url": "https://api.data.gov/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:30:02Z",
+    "sha256": "3e13c75ecf01e05e35f7f3830b247fdb928d7b3782b96c6e52360a2f45f1791d",
+    "resolved_url": "https://api.data.gov/"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/LibraryOfCongress/api.congress.gov/main/README.md",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:18Z",
+    "sha256": "e06505c6539ded4601abdacea38247d1aad1eacbff250b97116259d4e95f1e0d",
+    "resolved_url": "https://raw.githubusercontent.com/LibraryOfCongress/api.congress.gov/main/README.md"
+  },
+  {
+    "url": "https://api.open.fec.gov/developers/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:20Z",
+    "sha256": "d5e350cc27e99a7f5a12c48bc09f6b2837f23d3ff112699491553719d60c569a",
+    "resolved_url": "https://api.open.fec.gov/developers/"
+  },
+  {
+    "url": "https://www.fac.gov/api/getting-started/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:16Z",
+    "sha256": "513a96509f8edfeb2f0ab550425fb2b7f6b6dbe95a362b4f0cbdb3e5455251d3",
+    "resolved_url": "https://www.fac.gov/api/getting-started/"
+  },
+  {
+    "url": "https://resources.data.gov/catalog-api/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:16Z",
+    "sha256": "42f0e2a8d2cd300cd6beb04d5b460deb3a40901bdf0f1f60044936c38cb45c94",
+    "resolved_url": "https://resources.data.gov/catalog-api/"
+  },
+  {
+    "url": "https://open.gsa.gov/api/apidatagov-metrics/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:17Z",
+    "sha256": "112ecaec4682e11463c5be36334e6e54a4c59767958728e93be25261ecca4196",
+    "resolved_url": "https://open.gsa.gov/api/apidatagov-metrics/"
+  },
+  {
+    "url": "https://open.gsa.gov/api/perdiem/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:18Z",
+    "sha256": "b564009640475e32285192d7566e25c51dfb89fb3b594e274f39b27559546fd2",
+    "resolved_url": "https://open.gsa.gov/api/perdiem/"
+  },
+  {
+    "url": "https://developer.nlr.gov/docs/api-key/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:26:34Z",
+    "sha256": "82adffc3e6c805c4bc54e992219184dec876e89c335070edbc7c10f95c352a8b",
+    "resolved_url": "https://developer.nlr.gov/docs/api-key/"
+  },
+  {
+    "url": "https://developer.nlr.gov/docs/rate-limits/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:26:34Z",
+    "sha256": "2d34b01e2d608910c4ea6e021359147a9d012d174502b9cebbd928aaf7aabd84",
+    "resolved_url": "https://developer.nlr.gov/docs/rate-limits/"
+  },
+  {
+    "url": "https://api.waterdata.usgs.gov/docs/ogcapi/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:23:10Z",
+    "sha256": "ce0b32a5201670b8769053d9c8bcac91809251ea266462ca444aa5b24ab0c8b9",
+    "resolved_url": "https://api.waterdata.usgs.gov/docs/ogcapi/"
+  },
+  {
+    "url": "https://www.epa.gov/system/files/documents/2026-04/attains_web_services_api_key_2026-04-28.pdf",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "web_reader",
+    "note_ar": "قُرئ PDF الرسمي عبر أداة البحث؛ لا توجد بصمة محلية للمصدر."
+  },
+  {
+    "url": "https://edan.si.edu/openaccess/apidocs/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:23:09Z",
+    "sha256": "ffe0fe2e2ac46f1efecee67594d013bd75336e39a40e52d7ffdfb40c3143a2d1",
+    "resolved_url": "https://edan.si.edu/openaccess/apidocs/"
+  },
+  {
+    "url": "https://collegescorecard.ed.gov/data/api/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:23:09Z",
+    "sha256": "abf464a16cb8185d491f23ec4fe3f24cf180007925113862784bbd71f52032b5",
+    "resolved_url": "https://collegescorecard.ed.gov/data/api/"
+  },
+  {
+    "url": "https://collegescorecard.ed.gov/data/api-documentation/",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:26:33Z",
+    "sha256": "c595eacb1a9c9f89ea82a9a46efc2a7a5844dc0df252761a85f30035cc7d2839",
+    "resolved_url": "https://collegescorecard.ed.gov/data/api-documentation/"
+  },
+  {
+    "url": "https://thedeskmonitor.com/integrations/ai-connect",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:20:13Z",
+    "sha256": "659eeb506d792bb198c490da72038d6b29e54794203ab8915a65674008563211",
+    "resolved_url": "https://thedeskmonitor.com/integrations/ai-connect"
+  },
+  {
+    "url": "https://www.orbitroute.ai/api-reference",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:21:30Z",
+    "sha256": "37b9a743096186f232b4d03a527f69c54695261b777adb945e43e4bfdd6234cc",
+    "resolved_url": "https://www.orbitroute.ai/api-reference"
+  },
+  {
+    "url": "https://inktranslator.com/lang/en",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-12T22:23:08Z",
+    "sha256": "f60e65423e1302208721902755e66ae8e70b26a9d1d8e3832172d29d1737c9bd",
+    "resolved_url": "https://inktranslator.com/lang/en"
+  }
+]

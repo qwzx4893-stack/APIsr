@@ -1,0 +1,191 @@
+{
+  "checked_on": "2026-10-13",
+  "candidates": [
+    {
+      "id": "fmp-demo",
+      "source_url": "https://site.financialmodelingprep.com/developer/docs",
+      "candidate_public_value": "demo",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "fmp-demo",
+        "url": "https://financialmodelingprep.com/stable/quote?symbol=AAPL&apikey=demo",
+        "method": "GET",
+        "checked_at": "2026-10-12T22:26:07Z",
+        "uses_private_key": false,
+        "ok": false,
+        "http_status": 401,
+        "error": "{\n  \"Error Message\": \"Invalid API KEY. Feel free to create a Free API Key or visit https://site.financialmodelingprep.com/faqs?search=why-is-my-api-key-invalid for more information.\"\n}"
+      },
+      "note_ar": "فشل الطلب في هذه البيئة؛ لا يُعرض ضمن المفاتيح الجاهزة. هذا ليس حكمًا بتوقف الخدمة عالميًا."
+    },
+    {
+      "id": "ip2proxy-demo",
+      "source_url": "https://blog.ip2location.com/knowledge-base/display-visitors-proxy-using-ip2proxy-web-service/",
+      "candidate_public_value": "demo",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "ip2proxy-demo",
+        "url": "https://api.ip2proxy.com/?ip=8.8.8.8&key=demo&package=PX11&format=json",
+        "method": "GET",
+        "checked_at": "2026-10-12T22:26:08Z",
+        "uses_private_key": false,
+        "ok": false,
+        "http_status": 401,
+        "error": "{\"response\":\"Invalid API key or insufficient credit.\"}"
+      },
+      "note_ar": "فشل الطلب في هذه البيئة؛ لا يُعرض ضمن المفاتيح الجاهزة. هذا ليس حكمًا بتوقف الخدمة عالميًا."
+    },
+    {
+      "id": "guardian-test",
+      "source_url": "https://open-platform.theguardian.com/documentation/edition",
+      "candidate_public_value": "test",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "guardian-test",
+        "url": "https://content.guardianapis.com/editions?q=uk&api-key=test",
+        "method": "GET",
+        "checked_at": "2026-10-12T22:26:10Z",
+        "uses_private_key": false,
+        "ok": false,
+        "http_status": 401,
+        "error": "{\n  \"message\": \"Unauthorized\"\n}"
+      },
+      "note_ar": "فشل الطلب في هذه البيئة؛ لا يُعرض ضمن المفاتيح الجاهزة. هذا ليس حكمًا بتوقف الخدمة عالميًا."
+    },
+    {
+      "id": "linkyourskill-demo",
+      "source_url": "https://app.linkyourskill.ai/en/docs/api",
+      "candidate_public_value": "lys_demo_readonly_token_for_documentation",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "linkyourskill-demo",
+        "url": "https://app.linkyourskill.ai/api/v1/agent/skillanbieter/search?q=Klempner&service_area=Berlin",
+        "method": "GET",
+        "checked_at": "2026-10-12T22:26:11Z",
+        "uses_private_key": false,
+        "ok": false,
+        "http_status": 401,
+        "error": "{\"error\":\"unauthorized\",\"message\":\"Invalid or revoked token\"}"
+      },
+      "note_ar": "فشل الطلب في هذه البيئة؛ لا يُعرض ضمن المفاتيح الجاهزة. هذا ليس حكمًا بتوقف الخدمة عالميًا."
+    },
+    {
+      "id": "usda-fooddata-demo",
+      "source_url": "https://fdc.nal.usda.gov/api-guide/",
+      "candidate_public_value": "DEMO_KEY",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "usda-fooddata-demo",
+        "url": "https://api.nal.usda.gov/fdc/v1/foods/search?query=cheddar&pageSize=1&api_key=DEMO_KEY",
+        "method": "GET",
+        "checked_at": "2026-10-12T22:26:11Z",
+        "uses_private_key": false,
+        "ok": false,
+        "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+      },
+      "note_ar": "فشل الطلب في هذه البيئة؛ لا يُعرض ضمن المفاتيح الجاهزة. هذا ليس حكمًا بتوقف الخدمة عالميًا."
+    },
+    {
+      "id": "regulations-demo",
+      "source_url": "https://open.gsa.gov/api/regulationsgov/",
+      "candidate_public_value": "DEMO_KEY",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "regulations-demo",
+        "url": "https://api.regulations.gov/v4/documents?filter%5BsearchTerm%5D=water&page%5Bsize%5D=1&api_key=DEMO_KEY",
+        "method": "GET",
+        "checked_at": "2026-10-12T22:27:49Z",
+        "uses_private_key": false,
+        "ok": false,
+        "error": "The read operation timed out"
+      },
+      "note_ar": "فشل الطلب في هذه البيئة؛ لا يُعرض ضمن المفاتيح الجاهزة. هذا ليس حكمًا بتوقف الخدمة عالميًا."
+    },
+    {
+      "id": "theaudiodb-key2",
+      "source_url": "https://www.theaudiodb.com/forum_topic.php?t=309",
+      "candidate_public_value": "2",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "theaudiodb-key2",
+        "url": "https://www.theaudiodb.com/api/v1/json/2/search.php?s=coldplay",
+        "method": "GET",
+        "checked_at": "2026-10-12T22:28:56Z",
+        "uses_private_key": false,
+        "ok": false,
+        "http_status": 404,
+        "error": "{\"Message\":\"Not found\"}"
+      },
+      "note_ar": "فشل الطلب في هذه البيئة؛ لا يُعرض ضمن المفاتيح الجاهزة. هذا ليس حكمًا بتوقف الخدمة عالميًا."
+    },
+    {
+      "id": "viewdns-demo",
+      "source_url": "https://viewdns.info/api/dns-record-lookup/",
+      "candidate_public_value": "demo",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "viewdns-demo",
+        "url": "https://api.viewdns.info/dnsrecord/?domain=domain.com&apikey=demo&output=json",
+        "method": "GET",
+        "checked_at": "2026-10-12T22:28:56Z",
+        "uses_private_key": false,
+        "ok": false,
+        "http_status": 401,
+        "error": "{\"success\":false,\"error\":{\"code\":401,\"message\":\"Invalid API key.\"}}"
+      },
+      "note_ar": "فشل الطلب في هذه البيئة؛ لا يُعرض ضمن المفاتيح الجاهزة. هذا ليس حكمًا بتوقف الخدمة عالميًا."
+    }
+  ],
+  "other_candidates": [
+    {
+      "name": "Google Maps Demo Key",
+      "source_url": "https://developers.google.com/maps/documentation/weather/demo-key",
+      "reason_ar": "يتطلب تسجيل الدخول بحساب Google؛ لا يحقق شرط المفتاح المشترك دون تسجيل."
+    },
+    {
+      "name": "Zeq SDK demo mint",
+      "source_url": "https://www.zeq.dev/sdk/start/",
+      "reason_ar": "رصيد 5 computes فقط؛ لا تجديد موثق. مستبعد من النطاق المطلوب."
+    },
+    {
+      "name": "GoPDF anonymous demo mint",
+      "source_url": "https://docs.gopdf.dev/api-reference",
+      "reason_ar": "مفتاح فردي قابل للانتهاء وليس قيمة مشتركة عامة؛ تعذرت أيضًا قراءة المصدر مباشرة بسبب HTTP 525."
+    },
+    {
+      "name": "ReefAPI playground",
+      "source_url": "https://reefapi.com/playground",
+      "reason_ar": "التجربة العامة موثقة بـ15 طلب/ساعة، لكن صفحة الوثائق المقروءة لم تنشر قيمة مفتاح للاستخدام المباشر؛ لا نستخرج مفاتيح داخلية من تطبيق المزود."
+    },
+    {
+      "name": "EcoRouter promo shared key",
+      "source_url": "https://ecorouter.top/login",
+      "reason_ar": "حملة Promo برصيد 100M مشترك؛ لم يثبت تجديد الرصيد. لا تُقبل كخدمة مجانية مستمرة."
+    },
+    {
+      "name": "CognariAI playground",
+      "source_url": "https://www.cognariai.com/docs/playground?autorun=true",
+      "reason_ar": "ظهرت قيمة sandbox في البحث، لكن النص المقروء مباشرة لم يثبت نطاقها وحصتها، ولم تُقبل دون اختبار."
+    },
+    {
+      "name": "FastDOL playground",
+      "source_url": "https://www.fastdol.com/playground",
+      "reason_ar": "تجربة عبر الموقع، لكن قراءة الوثائق أعادت HTTP 402 ولم نحصل على مفتاح عام موثق للاستخدام المباشر."
+    },
+    {
+      "name": "OpenStoop playground",
+      "source_url": "https://openstoop.com/api-docs",
+      "reason_ar": "المصدر أعاد HTTP 429؛ لم يكتمل إثبات مفتاح صالح دون تسجيل."
+    },
+    {
+      "name": "SubmitHarbor demo",
+      "source_url": "https://www.submitharbor.com/static-site-forms",
+      "reason_ar": "مفتاح عام موثق يعيد صدى بيانات تجريبية ثم يتخلص منها؛ لم يُختبر، فلم يدخل القائمة الجاهزة."
+    },
+    {
+      "name": "EIA DEMO_KEY",
+      "source_url": "https://www.eia.gov/opendata/documentation.php",
+      "reason_ar": "لم يظهر دليل صريح على القيمة العامة في المصدر الرسمي المقروء؛ لا تكفي مقالات الطرف الثالث وحدها."
+    }
+  ]
+}

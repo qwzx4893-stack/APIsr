@@ -1,0 +1,1265 @@
+{
+  "checked_on": "2026-10-13",
+  "summary": {
+    "services": 33,
+    "unique_public_key_values": 16,
+    "category_counts": {
+      "space": 1,
+      "food": 2,
+      "finance": 4,
+      "government": 6,
+      "ocr": 1,
+      "sports": 2,
+      "music": 1,
+      "documents": 1,
+      "geolocation": 1,
+      "business": 1,
+      "development": 2,
+      "images": 1,
+      "parks": 1,
+      "travel": 1,
+      "energy": 1,
+      "environment": 2,
+      "culture": 1,
+      "education": 1,
+      "productivity": 1,
+      "compute": 1,
+      "translation": 1
+    },
+    "access_scope_counts": {
+      "public_data": 15,
+      "development_data": 6,
+      "restricted_sample_data": 6,
+      "sandbox_data": 3,
+      "synthetic_practice": 3
+    },
+    "recurring_quota_services": 20,
+    "synthetic_practice_services": 3,
+    "pending_failed_candidates": 8
+  },
+  "primary_attempted": 41,
+  "primary_passed": 33,
+  "results": [
+    {
+      "id": "nasa-open-apis",
+      "url": "https://api.nasa.gov/neo/rest/v1/neo/browse?page=0&size=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:27:48Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 13939,
+      "shape": [
+        "links",
+        "near_earth_objects",
+        "page"
+      ],
+      "ok": true
+    },
+    {
+      "id": "themealdb-development-api",
+      "url": "https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:05Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 2025,
+      "shape": [
+        "meals"
+      ],
+      "ok": true
+    },
+    {
+      "id": "thecocktaildb-development-api",
+      "url": "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:05Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 17762,
+      "shape": [
+        "drinks"
+      ],
+      "ok": true
+    },
+    {
+      "id": "alpha-vantage",
+      "url": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=demo",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:05Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 21308,
+      "shape": [
+        "Meta Data",
+        "Time Series (Daily)"
+      ],
+      "ok": true
+    },
+    {
+      "id": "govinfo-api",
+      "url": "https://api.govinfo.gov/collections?api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:06Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 4804,
+      "shape": [
+        "collections"
+      ],
+      "ok": true
+    },
+    {
+      "id": "ocr-space",
+      "url": "https://api.ocr.space/parse/imageurl?apikey=helloworld&url=https://dl.a9t9.com/ocr/solarcell.jpg",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:06Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 1422,
+      "shape": [
+        "ParsedResults",
+        "OCRExitCode",
+        "IsErroredOnProcessing",
+        "ProcessingTimeInMilliseconds",
+        "SearchablePDFURL"
+      ],
+      "ok": true
+    },
+    {
+      "id": "thesportsdb",
+      "url": "https://www.thesportsdb.com/api/v1/json/123/searchteams.php?t=Arsenal",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:06Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 17179,
+      "shape": [
+        "teams"
+      ],
+      "ok": true
+    },
+    {
+      "id": "theaudiodb",
+      "url": "https://www.theaudiodb.com/api/v1/json/123/search.php?s=coldplay",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:06Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 30098,
+      "shape": [
+        "artists"
+      ],
+      "ok": true
+    },
+    {
+      "id": "twelve-data-demo",
+      "url": "https://api.twelvedata.com/price?symbol=AAPL&apikey=demo",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:07Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 22,
+      "shape": [
+        "price"
+      ],
+      "ok": true
+    },
+    {
+      "id": "eodhd-demo",
+      "url": "https://eodhd.com/api/eod/AAPL.US?api_token=demo&fmt=json&from=2026-09-01&to=2026-09-02",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:07Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 240,
+      "shape": "list:2",
+      "ok": true
+    },
+    {
+      "id": "fmp-demo",
+      "url": "https://financialmodelingprep.com/stable/quote?symbol=AAPL&apikey=demo",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:07Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 401,
+      "error": "{\n  \"Error Message\": \"Invalid API KEY. Feel free to create a Free API Key or visit https://site.financialmodelingprep.com/faqs?search=why-is-my-api-key-invalid for more information.\"\n}"
+    },
+    {
+      "id": "ip2proxy-demo",
+      "url": "https://api.ip2proxy.com/?ip=8.8.8.8&key=demo&package=PX11&format=json",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:08Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 401,
+      "error": "{\"response\":\"Invalid API key or insufficient credit.\"}"
+    },
+    {
+      "id": "erpdocs-demo",
+      "url": "https://www.erpdocs.com/api/v1/ping",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:08Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 223,
+      "shape": [
+        "environment",
+        "ok",
+        "org_id",
+        "org_name",
+        "scopes",
+        "server_time"
+      ],
+      "ok": true
+    },
+    {
+      "id": "mapconvert-demo",
+      "url": "https://api.mapconvert.dev/coordinates",
+      "method": "POST",
+      "checked_at": "2026-10-12T22:26:08Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 28,
+      "shape": [
+        "lat",
+        "lng"
+      ],
+      "ok": true
+    },
+    {
+      "id": "clix-demo",
+      "url": "https://sandbox.api.goclix.ai/v1/api/invoices/",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:09Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 227211,
+      "shape": [
+        "message",
+        "invoices",
+        "total",
+        "num_pages",
+        "current_page",
+        "payment_status_options",
+        "invoice_status_options",
+        "max_invoice_amount",
+        "summary"
+      ],
+      "ok": true
+    },
+    {
+      "id": "learn-api-practice",
+      "url": "https://learn-api.com/wp-json/learn-api/v1/labs/api-key",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:09Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 111,
+      "shape": [
+        "data",
+        "meta"
+      ],
+      "ok": true
+    },
+    {
+      "id": "qabash-practice",
+      "url": "https://www.qabash.com/api/tools/sample-api/auth/api-key",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:09Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 54,
+      "shape": [
+        "message",
+        "scope"
+      ],
+      "ok": true
+    },
+    {
+      "id": "guardian-test",
+      "url": "https://content.guardianapis.com/editions?q=uk&api-key=test",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:10Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 401,
+      "error": "{\n  \"message\": \"Unauthorized\"\n}"
+    },
+    {
+      "id": "tradewave-demo",
+      "url": "https://api.tradewave.ai/v1/scan?markets=2&limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:10Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 665,
+      "shape": [
+        "capped_by_plan",
+        "count",
+        "disclaimer",
+        "enrichment_capped",
+        "evaluated_count",
+        "evidence_failures",
+        "generated_at",
+        "lookback",
+        "market_failures",
+        "markets_scanned",
+        "ml_remaining_today",
+        "opportunities",
+        "rank_by",
+        "shown_of_evaluated",
+        "summary"
+      ],
+      "ok": true
+    },
+    {
+      "id": "sportsbookish-demo",
+      "url": "https://sportsbookish.com/api/v1/edges?min_edge=0.03",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:10Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 1601,
+      "shape": [
+        "schema_version",
+        "generated_at",
+        "request",
+        "edges"
+      ],
+      "ok": true
+    },
+    {
+      "id": "linkyourskill-demo",
+      "url": "https://app.linkyourskill.ai/api/v1/agent/skillanbieter/search?q=Klempner&service_area=Berlin",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:11Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 401,
+      "error": "{\"error\":\"unauthorized\",\"message\":\"Invalid or revoked token\"}"
+    },
+    {
+      "id": "thumbapi-placeholder",
+      "url": "https://api.thumbapi.dev/v1/generate",
+      "method": "POST",
+      "checked_at": "2026-10-12T22:26:11Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 1014614,
+      "shape": [
+        "image",
+        "format",
+        "outputFormat"
+      ],
+      "ok": true
+    },
+    {
+      "id": "usda-fooddata-demo",
+      "url": "https://api.nal.usda.gov/fdc/v1/foods/search?query=cheddar&pageSize=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:11Z",
+      "uses_private_key": false,
+      "ok": false,
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "id": "nps-demo",
+      "url": "https://developer.nps.gov/api/v1/parks?parkCode=acad&limit=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:12Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 18696,
+      "shape": [
+        "total",
+        "limit",
+        "start",
+        "data"
+      ],
+      "ok": true
+    },
+    {
+      "id": "congress-demo",
+      "url": "https://api.congress.gov/v3/bill?format=json&limit=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:12Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 1111,
+      "shape": [
+        "bills",
+        "pagination",
+        "request"
+      ],
+      "ok": true
+    },
+    {
+      "id": "fec-demo",
+      "url": "https://api.open.fec.gov/v1/candidates/?per_page=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:13Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 730,
+      "shape": [
+        "api_version",
+        "pagination",
+        "results"
+      ],
+      "ok": true
+    },
+    {
+      "id": "fac-demo",
+      "url": "https://api.fac.gov/general?limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:13Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 2167,
+      "shape": "list:1",
+      "ok": true
+    },
+    {
+      "id": "datagov-catalog-demo",
+      "url": "https://api.gsa.gov/technology/datagov/v4/search?q=climate&limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:15Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 162250,
+      "shape": [
+        "after",
+        "results",
+        "sort"
+      ],
+      "ok": true
+    },
+    {
+      "id": "gsa-metrics-demo",
+      "url": "https://api.gsa.gov/operations/api-data-gov/v0/analytics/summary.json",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:15Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 269623,
+      "shape": [
+        "timezone",
+        "cached_at",
+        "production_apis",
+        "end_time",
+        "start_time"
+      ],
+      "ok": true
+    },
+    {
+      "id": "gsa-perdiem-demo",
+      "url": "https://api.gsa.gov/travel/perdiem/v2/rates/conus/lodging/2026?api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:17Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 79776,
+      "shape": "list:346",
+      "ok": true
+    },
+    {
+      "id": "regulations-demo",
+      "url": "https://api.regulations.gov/v4/documents?filter%5BsearchTerm%5D=water&page%5Bsize%5D=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:27:49Z",
+      "uses_private_key": false,
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "nlr-demo",
+      "url": "https://developer.nlr.gov/api/alt-fuel-stations/v1.json?limit=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:19Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 2119,
+      "shape": [
+        "station_locator_url",
+        "total_results",
+        "station_counts",
+        "fuel_stations"
+      ],
+      "ok": true
+    },
+    {
+      "id": "usgs-water-demo",
+      "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/daily/items?limit=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:20Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 2087,
+      "shape": [
+        "type",
+        "features",
+        "numberReturned",
+        "links",
+        "timeStamp"
+      ],
+      "ok": true
+    },
+    {
+      "id": "epa-attains-demo",
+      "url": "https://api.epa.gov/attains/domains?domainName=ParameterStatus&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:21Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 675,
+      "shape": "list:5",
+      "ok": true
+    },
+    {
+      "id": "smithsonian-demo",
+      "url": "https://api.si.edu/openaccess/api/v1.0/search?q=moon&rows=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:22Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 5017,
+      "shape": [
+        "status",
+        "responseCode",
+        "response"
+      ],
+      "ok": true
+    },
+    {
+      "id": "college-scorecard-demo",
+      "url": "https://api.data.gov/ed/collegescorecard/v1/schools?per_page=1&fields=id,school.name&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:23Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 116,
+      "shape": [
+        "metadata",
+        "results"
+      ],
+      "ok": true
+    },
+    {
+      "id": "deskmonitor-demo",
+      "url": "https://api.thedeskmonitor.com/api/mcp/v1/",
+      "method": "POST",
+      "checked_at": "2026-10-12T22:28:10Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 1810,
+      "shape": [
+        "jsonrpc",
+        "id",
+        "result"
+      ],
+      "ok": true
+    },
+    {
+      "id": "orbitroute-demo",
+      "url": "https://www.orbitroute.ai/api/v1/usage",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:28:10Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 111,
+      "shape": [
+        "owner",
+        "tier",
+        "daily_limit",
+        "usage_today",
+        "usage_this_week",
+        "remaining_today"
+      ],
+      "ok": true
+    },
+    {
+      "id": "inktranslator-free",
+      "url": "https://inktranslator.com/api/translate",
+      "method": "POST",
+      "checked_at": "2026-10-12T22:28:53Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 73,
+      "shape": [
+        "msg",
+        "code",
+        "translatedText",
+        "text"
+      ],
+      "ok": true
+    },
+    {
+      "id": "theaudiodb-key2",
+      "url": "https://www.theaudiodb.com/api/v1/json/2/search.php?s=coldplay",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:28:56Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 404,
+      "error": "{\"Message\":\"Not found\"}"
+    },
+    {
+      "id": "viewdns-demo",
+      "url": "https://api.viewdns.info/dnsrecord/?domain=domain.com&apikey=demo&output=json",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:28:56Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 401,
+      "error": "{\"success\":false,\"error\":{\"code\":401,\"message\":\"Invalid API key.\"}}"
+    }
+  ],
+  "history": [
+    {
+      "id": "nasa-open-apis",
+      "url": "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:05Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 500,
+      "error": "{\"code\":500,\"msg\":\"Internal Service Error\",\"service_version\":\"v1\"}\n"
+    },
+    {
+      "id": "themealdb-development-api",
+      "url": "https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:05Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 2025,
+      "shape": [
+        "meals"
+      ],
+      "ok": true
+    },
+    {
+      "id": "thecocktaildb-development-api",
+      "url": "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:05Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 17762,
+      "shape": [
+        "drinks"
+      ],
+      "ok": true
+    },
+    {
+      "id": "alpha-vantage",
+      "url": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=demo",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:05Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 21308,
+      "shape": [
+        "Meta Data",
+        "Time Series (Daily)"
+      ],
+      "ok": true
+    },
+    {
+      "id": "govinfo-api",
+      "url": "https://api.govinfo.gov/collections?api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:06Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 4804,
+      "shape": [
+        "collections"
+      ],
+      "ok": true
+    },
+    {
+      "id": "ocr-space",
+      "url": "https://api.ocr.space/parse/imageurl?apikey=helloworld&url=https://dl.a9t9.com/ocr/solarcell.jpg",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:06Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 1422,
+      "shape": [
+        "ParsedResults",
+        "OCRExitCode",
+        "IsErroredOnProcessing",
+        "ProcessingTimeInMilliseconds",
+        "SearchablePDFURL"
+      ],
+      "ok": true
+    },
+    {
+      "id": "thesportsdb",
+      "url": "https://www.thesportsdb.com/api/v1/json/123/searchteams.php?t=Arsenal",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:06Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 17179,
+      "shape": [
+        "teams"
+      ],
+      "ok": true
+    },
+    {
+      "id": "theaudiodb",
+      "url": "https://www.theaudiodb.com/api/v1/json/123/search.php?s=coldplay",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:06Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 30098,
+      "shape": [
+        "artists"
+      ],
+      "ok": true
+    },
+    {
+      "id": "twelve-data-demo",
+      "url": "https://api.twelvedata.com/price?symbol=AAPL&apikey=demo",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:07Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 22,
+      "shape": [
+        "price"
+      ],
+      "ok": true
+    },
+    {
+      "id": "eodhd-demo",
+      "url": "https://eodhd.com/api/eod/AAPL.US?api_token=demo&fmt=json&from=2026-09-01&to=2026-09-02",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:07Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 240,
+      "shape": "list:2",
+      "ok": true
+    },
+    {
+      "id": "fmp-demo",
+      "url": "https://financialmodelingprep.com/stable/quote?symbol=AAPL&apikey=demo",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:07Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 401,
+      "error": "{\n  \"Error Message\": \"Invalid API KEY. Feel free to create a Free API Key or visit https://site.financialmodelingprep.com/faqs?search=why-is-my-api-key-invalid for more information.\"\n}"
+    },
+    {
+      "id": "ip2proxy-demo",
+      "url": "https://api.ip2proxy.com/?ip=8.8.8.8&key=demo&package=PX11&format=json",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:08Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 401,
+      "error": "{\"response\":\"Invalid API key or insufficient credit.\"}"
+    },
+    {
+      "id": "erpdocs-demo",
+      "url": "https://www.erpdocs.com/api/v1/ping",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:08Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 223,
+      "shape": [
+        "environment",
+        "ok",
+        "org_id",
+        "org_name",
+        "scopes",
+        "server_time"
+      ],
+      "ok": true
+    },
+    {
+      "id": "mapconvert-demo",
+      "url": "https://api.mapconvert.dev/coordinates",
+      "method": "POST",
+      "checked_at": "2026-10-12T22:26:08Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 28,
+      "shape": [
+        "lat",
+        "lng"
+      ],
+      "ok": true
+    },
+    {
+      "id": "clix-demo",
+      "url": "https://sandbox.api.goclix.ai/v1/api/invoices/",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:09Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 227211,
+      "shape": [
+        "message",
+        "invoices",
+        "total",
+        "num_pages",
+        "current_page",
+        "payment_status_options",
+        "invoice_status_options",
+        "max_invoice_amount",
+        "summary"
+      ],
+      "ok": true
+    },
+    {
+      "id": "learn-api-practice",
+      "url": "https://learn-api.com/wp-json/learn-api/v1/labs/api-key",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:09Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 111,
+      "shape": [
+        "data",
+        "meta"
+      ],
+      "ok": true
+    },
+    {
+      "id": "qabash-practice",
+      "url": "https://www.qabash.com/api/tools/sample-api/auth/api-key",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:09Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 54,
+      "shape": [
+        "message",
+        "scope"
+      ],
+      "ok": true
+    },
+    {
+      "id": "guardian-test",
+      "url": "https://content.guardianapis.com/editions?q=uk&api-key=test",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:10Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 401,
+      "error": "{\n  \"message\": \"Unauthorized\"\n}"
+    },
+    {
+      "id": "tradewave-demo",
+      "url": "https://api.tradewave.ai/v1/scan?markets=2&limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:10Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 665,
+      "shape": [
+        "capped_by_plan",
+        "count",
+        "disclaimer",
+        "enrichment_capped",
+        "evaluated_count",
+        "evidence_failures",
+        "generated_at",
+        "lookback",
+        "market_failures",
+        "markets_scanned",
+        "ml_remaining_today",
+        "opportunities",
+        "rank_by",
+        "shown_of_evaluated",
+        "summary"
+      ],
+      "ok": true
+    },
+    {
+      "id": "sportsbookish-demo",
+      "url": "https://sportsbookish.com/api/v1/edges?min_edge=0.03",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:10Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 1601,
+      "shape": [
+        "schema_version",
+        "generated_at",
+        "request",
+        "edges"
+      ],
+      "ok": true
+    },
+    {
+      "id": "linkyourskill-demo",
+      "url": "https://app.linkyourskill.ai/api/v1/agent/skillanbieter/search?q=Klempner&service_area=Berlin",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:11Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 401,
+      "error": "{\"error\":\"unauthorized\",\"message\":\"Invalid or revoked token\"}"
+    },
+    {
+      "id": "thumbapi-placeholder",
+      "url": "https://api.thumbapi.dev/v1/generate",
+      "method": "POST",
+      "checked_at": "2026-10-12T22:26:11Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 1014614,
+      "shape": [
+        "image",
+        "format",
+        "outputFormat"
+      ],
+      "ok": true
+    },
+    {
+      "id": "usda-fooddata-demo",
+      "url": "https://api.nal.usda.gov/fdc/v1/foods/search?query=cheddar&pageSize=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:11Z",
+      "uses_private_key": false,
+      "ok": false,
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "id": "nps-demo",
+      "url": "https://developer.nps.gov/api/v1/parks?parkCode=acad&limit=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:12Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 18696,
+      "shape": [
+        "total",
+        "limit",
+        "start",
+        "data"
+      ],
+      "ok": true
+    },
+    {
+      "id": "congress-demo",
+      "url": "https://api.congress.gov/v3/bill?format=json&limit=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:12Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 1111,
+      "shape": [
+        "bills",
+        "pagination",
+        "request"
+      ],
+      "ok": true
+    },
+    {
+      "id": "fec-demo",
+      "url": "https://api.open.fec.gov/v1/candidates/?per_page=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:13Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 730,
+      "shape": [
+        "api_version",
+        "pagination",
+        "results"
+      ],
+      "ok": true
+    },
+    {
+      "id": "fac-demo",
+      "url": "https://api.fac.gov/general?limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:13Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 2167,
+      "shape": "list:1",
+      "ok": true
+    },
+    {
+      "id": "datagov-catalog-demo",
+      "url": "https://api.gsa.gov/technology/datagov/v4/search?q=climate&limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:15Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 162250,
+      "shape": [
+        "after",
+        "results",
+        "sort"
+      ],
+      "ok": true
+    },
+    {
+      "id": "gsa-metrics-demo",
+      "url": "https://api.gsa.gov/operations/api-data-gov/v0/analytics/summary.json",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:15Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 269623,
+      "shape": [
+        "timezone",
+        "cached_at",
+        "production_apis",
+        "end_time",
+        "start_time"
+      ],
+      "ok": true
+    },
+    {
+      "id": "gsa-perdiem-demo",
+      "url": "https://api.gsa.gov/travel/perdiem/v2/rates/conus/lodging/2026?api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:17Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 79776,
+      "shape": "list:346",
+      "ok": true
+    },
+    {
+      "id": "regulations-demo",
+      "url": "https://api.regulations.gov/v4/documents?filter%5BsearchTerm%5D=water&page%5Bsize%5D=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:17Z",
+      "uses_private_key": false,
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "nlr-demo",
+      "url": "https://developer.nlr.gov/api/alt-fuel-stations/v1.json?limit=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:19Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 2119,
+      "shape": [
+        "station_locator_url",
+        "total_results",
+        "station_counts",
+        "fuel_stations"
+      ],
+      "ok": true
+    },
+    {
+      "id": "usgs-water-demo",
+      "url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/daily/items?limit=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:20Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 2087,
+      "shape": [
+        "type",
+        "features",
+        "numberReturned",
+        "links",
+        "timeStamp"
+      ],
+      "ok": true
+    },
+    {
+      "id": "epa-attains-demo",
+      "url": "https://api.epa.gov/attains/domains?domainName=ParameterStatus&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:21Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 675,
+      "shape": "list:5",
+      "ok": true
+    },
+    {
+      "id": "smithsonian-demo",
+      "url": "https://api.si.edu/openaccess/api/v1.0/search?q=moon&rows=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:22Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 5017,
+      "shape": [
+        "status",
+        "responseCode",
+        "response"
+      ],
+      "ok": true
+    },
+    {
+      "id": "college-scorecard-demo",
+      "url": "https://api.data.gov/ed/collegescorecard/v1/schools?per_page=1&fields=id,school.name&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:23Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 116,
+      "shape": [
+        "metadata",
+        "results"
+      ],
+      "ok": true
+    },
+    {
+      "id": "deskmonitor-demo",
+      "url": "https://api.thedeskmonitor.com/api/mcp/v1/tools",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:23Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 31468,
+      "shape": [
+        "tools",
+        "meta"
+      ],
+      "ok": true
+    },
+    {
+      "id": "orbitroute-demo",
+      "url": "https://www.orbitroute.ai/api/v1/keys/demo",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:26:23Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 227,
+      "shape": [
+        "api_key",
+        "note"
+      ],
+      "ok": true
+    },
+    {
+      "id": "nasa-open-apis",
+      "url": "https://api.nasa.gov/neo/rest/v1/neo/browse?page=0&size=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:27:48Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 13939,
+      "shape": [
+        "links",
+        "near_earth_objects",
+        "page"
+      ],
+      "ok": true
+    },
+    {
+      "id": "regulations-demo",
+      "url": "https://api.regulations.gov/v4/documents?filter%5BsearchTerm%5D=water&page%5Bsize%5D=1&api_key=DEMO_KEY",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:27:49Z",
+      "uses_private_key": false,
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "orbitroute-demo",
+      "url": "https://www.orbitroute.ai/api/v1/usage",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:28:10Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 111,
+      "shape": [
+        "owner",
+        "tier",
+        "daily_limit",
+        "usage_today",
+        "usage_this_week",
+        "remaining_today"
+      ],
+      "ok": true
+    },
+    {
+      "id": "deskmonitor-demo",
+      "url": "https://api.thedeskmonitor.com/api/mcp/v1/",
+      "method": "POST",
+      "checked_at": "2026-10-12T22:28:10Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 1810,
+      "shape": [
+        "jsonrpc",
+        "id",
+        "result"
+      ],
+      "ok": true
+    },
+    {
+      "id": "inktranslator-free",
+      "url": "https://inktranslator.com/api/translate",
+      "method": "POST",
+      "checked_at": "2026-10-12T22:28:53Z",
+      "uses_private_key": false,
+      "http_status": 200,
+      "bytes": 73,
+      "shape": [
+        "msg",
+        "code",
+        "translatedText",
+        "text"
+      ],
+      "ok": true
+    },
+    {
+      "id": "theaudiodb-key2",
+      "url": "https://www.theaudiodb.com/api/v1/json/2/search.php?s=coldplay",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:28:56Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 404,
+      "error": "{\"Message\":\"Not found\"}"
+    },
+    {
+      "id": "viewdns-demo",
+      "url": "https://api.viewdns.info/dnsrecord/?domain=domain.com&apikey=demo&output=json",
+      "method": "GET",
+      "checked_at": "2026-10-12T22:28:56Z",
+      "uses_private_key": false,
+      "ok": false,
+      "http_status": 401,
+      "error": "{\"success\":false,\"error\":{\"code\":401,\"message\":\"Invalid API key.\"}}"
+    }
+  ],
+  "semantic_checks": [
+    {
+      "id": "inktranslator-free",
+      "semantic_check_passed": true,
+      "translation_nonempty": true
+    },
+    {
+      "id": "tradewave-demo",
+      "semantic_check_passed": true
+    },
+    {
+      "id": "sportsbookish-demo",
+      "semantic_check_passed": true
+    },
+    {
+      "id": "orbitroute-demo",
+      "semantic_check_passed": true
+    },
+    {
+      "id": "deskmonitor-demo",
+      "semantic_check_passed": true
+    }
+  ],
+  "note_ar": "طلبات محدودة للتحقق من مثال واحد؛ GET وPOST للقراءة أو مثال غير إنتاجي فقط. لا إرسال رسائل أو فواتير ولا تشغيل أعمال حوسبة فعلية. نتيجة HTTP 200 لا تثبت كل endpoints أو الإباحة التجارية."
+}
