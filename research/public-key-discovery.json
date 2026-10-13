@@ -1,8 +1,8 @@
 {
   "checked_on": "2026-10-13",
-  "directories_checked": 24,
-  "directories_with_matching_provider": 14,
-  "note_ar": "أُعيد فحص النسخ المقروءة من 24 قائمة بحثًا عن مواقع المزودين المقبولين؛ إثبات مشاركة المفتاح ومجانيته يأتي من الوثائق الرسمية والاختبار لا من هذه القوائم. مطابقة نطاق ليست مراجعة لكل روابط المستودع ولا تعني أنه نشر قيمة المفتاح.",
+  "directories_checked": 26,
+  "directories_with_matching_provider": 15,
+  "note_ar": "أعيد فحص نسخ 26 قائمة ومستودع تجميع، تشمل 24 مصدرًا من الكتالوج العام وإضافات جولة الاستكمال. المطابقة على مستوى نطاق المزود للاكتشاف فقط؛ إثبات مشاركة المفتاح ومجانيته يأتي من وثائق المزود والاختبار.",
   "repositories": [
     {
       "repository_url": "https://github.com/golapkamal/awesome-free-llm-apis",
@@ -268,6 +268,34 @@
         "fec-demo",
         "epa-attains-demo",
         "college-scorecard-demo"
+      ],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/chanolan20/free-llm-api-keys-playground",
+      "readme_url": "https://raw.githubusercontent.com/chanolan20/free-llm-api-keys-playground/main/README.md",
+      "readme_retrieved_at": "2026-10-13T09:52:20Z",
+      "matched_provider_ids": [],
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/Manavarya09/public-apis-live",
+      "readme_url": "https://raw.githubusercontent.com/Manavarya09/public-apis-live/main/README.md",
+      "readme_retrieved_at": "2026-10-13T09:52:20Z",
+      "matched_provider_ids": [
+        "nasa-open-apis",
+        "themealdb-development-api",
+        "thecocktaildb-development-api",
+        "alpha-vantage",
+        "ocr-space",
+        "theaudiodb",
+        "twelve-data-demo",
+        "eodhd-demo",
+        "nps-demo",
+        "fec-demo",
+        "epa-attains-demo",
+        "college-scorecard-demo",
+        "attestwire-demo"
       ],
       "role": "discovery_only_not_shared_key_authorization"
     }

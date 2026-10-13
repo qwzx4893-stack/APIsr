@@ -1,18 +1,18 @@
 {
   "checked_on": "2026-10-13",
   "summary": {
-    "services": 42,
-    "unique_public_key_values": 21,
+    "services": 47,
+    "unique_public_key_values": 26,
     "category_counts": {
       "space": 2,
       "food": 2,
-      "finance": 4,
+      "finance": 5,
       "government": 6,
       "ocr": 1,
       "sports": 3,
       "music": 1,
       "documents": 3,
-      "geolocation": 1,
+      "geolocation": 2,
       "business": 1,
       "development": 3,
       "images": 1,
@@ -28,22 +28,25 @@
       "proxy": 1,
       "graphics": 1,
       "vehicles": 1,
-      "analytics": 1
+      "analytics": 1,
+      "health": 1,
+      "ai": 1,
+      "messaging": 1
     },
     "access_scope_counts": {
-      "public_data": 18,
-      "development_data": 11,
+      "public_data": 19,
+      "development_data": 13,
       "restricted_sample_data": 7,
-      "sandbox_data": 3,
+      "sandbox_data": 5,
       "synthetic_practice": 3
     },
-    "recurring_quota_services": 28,
+    "recurring_quota_services": 32,
     "synthetic_practice_services": 3,
-    "pending_failed_candidates": 10,
-    "practical_services": 36
+    "pending_failed_candidates": 13,
+    "practical_services": 39
   },
-  "primary_attempted": 52,
-  "primary_passed": 42,
+  "primary_attempted": 60,
+  "primary_passed": 47,
   "results": [
     {
       "id": "nasa-open-apis",
@@ -736,12 +739,12 @@
       "id": "pinnwire-demo",
       "url": "https://pinnwire.com/kit/v1/markets?sport_id=1&event_type=prematch&key=demo",
       "method": "GET",
-      "checked_at": "2026-10-12T22:51:00Z",
+      "checked_at": "2026-10-13T09:54:29Z",
       "uses_private_key": false,
       "response_kind": "json",
       "ok": false,
       "http_status": 429,
-      "error": "{\"error\":\"rate_limited\",\"window\":\"day\",\"limit\":50,\"retry_after_ms\":4138531,\"message\":\"Rate limit reached for the \\\"demo\\\" plan (50 per day). Wait 4139s and retry (honor the Retry-After header). Get a free API key in 5 seconds (100 requests/day foreve"
+      "error": "{\"error\":\"rate_limited\",\"window\":\"day\",\"limit\":50,\"retry_after_ms\":50728631,\"message\":\"Rate limit reached for the \\\"demo\\\" plan (50 per day). Wait 50729s and retry (honor the Retry-After header). Get a free API key in 5 seconds (100 requests/day fore"
     },
     {
       "id": "gsa-site-scanning-demo",
@@ -785,6 +788,151 @@
       "ok": false,
       "http_status": 503,
       "error": "no healthy upstream"
+    },
+    {
+      "id": "meducate-public-demo",
+      "url": "https://api.meducateapi.com/api/v1/topics/search?query=asthma",
+      "method": "GET",
+      "checked_at": "2026-10-13T09:54:28Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 2126,
+      "sha256": "7b4806cdc581c84af126b659005ed2f29bcc4b662c5156f8453fb99f32bd4ddd",
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": "50",
+      "ok": true,
+      "quota_headers": {
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "49",
+        "x-ratelimit-reset": "1791936000"
+      },
+      "shape": [
+        "items",
+        "totalCount",
+        "page",
+        "pageSize",
+        "totalPages",
+        "hasNextPage"
+      ]
+    },
+    {
+      "id": "snapforge-public-demo",
+      "url": "https://api.snapforge.click/v1/og-image",
+      "method": "POST",
+      "checked_at": "2026-10-13T09:54:28Z",
+      "uses_private_key": false,
+      "response_kind": "png",
+      "ok": false,
+      "http_status": 429,
+      "error": "{\"error\":{\"message\":\"Daily limit of 50 requests reached. Upgrade your plan.\",\"code\":\"DAILY_LIMIT_REACHED\"}}"
+    },
+    {
+      "id": "aipower-public-demo",
+      "url": "https://api.aipower.me/v1/chat/completions",
+      "method": "POST",
+      "checked_at": "2026-10-13T09:54:28Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 692,
+      "sha256": "53929d4916f3e9fea3772c1d470638d10dfeb13046626056e0296b8f86367025",
+      "content_type": "application/json",
+      "rate_limit_header": null,
+      "ok": true,
+      "quota_headers": {},
+      "shape": [
+        "id",
+        "object",
+        "created",
+        "model",
+        "choices",
+        "usage",
+        "system_fingerprint",
+        "x_aipower_demo"
+      ],
+      "nonempty_generated_text": true
+    },
+    {
+      "id": "agentwinds-properties-demo",
+      "url": "https://tophamtechbe.com/api/treas/idx/v1/retrieve-property-summary?state=CA&limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-13T09:54:29Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "ok": false,
+      "http_status": 401,
+      "error": "{\"message\":\"Invalid or expired property credential.\",\"error\":\"invalid_property_credential\"}"
+    },
+    {
+      "id": "nyx-fund-sandbox",
+      "url": "https://nyxsuite.com/api/v1/fund/overview",
+      "method": "GET",
+      "checked_at": "2026-10-13T09:54:29Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 409,
+      "sha256": "22a0f87d706386dab43b26b0be540ea76148d2ac292e5564d0975929aeb06621",
+      "content_type": "application/json",
+      "rate_limit_header": "10",
+      "ok": true,
+      "quota_headers": {
+        "X-Ratelimit-Limit": "10",
+        "X-Ratelimit-Window": "600s"
+      },
+      "shape": [
+        "fund",
+        "shareClasses",
+        "latestNav"
+      ]
+    },
+    {
+      "id": "knockout-public-demo",
+      "url": "https://useknockout--api.modal.run/remove",
+      "method": "POST",
+      "checked_at": "2026-10-13T09:57:21Z",
+      "uses_private_key": false,
+      "response_kind": "png",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "unmap-public-demo",
+      "url": "https://api.unmap.dev/geocode/search?q=Calgary%20Tower&limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-13T09:57:20Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 381,
+      "sha256": "812d7967c4c8779ebe728d23146cd29979ceccc089bd5ef1542b1704a681b8f7",
+      "content_type": "application/json",
+      "rate_limit_header": null,
+      "ok": true,
+      "quota_headers": {},
+      "shape": "list:1"
+    },
+    {
+      "id": "bluereacher-public-sandbox",
+      "url": "https://api.bluereacher.com/v1/usage",
+      "method": "GET",
+      "checked_at": "2026-10-13T10:00:27Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 670,
+      "sha256": "e73f26b47bb76dc4d573dd37cfb9016d80034ddfa22c7af9a9837603e17e5726",
+      "content_type": "application/json",
+      "rate_limit_header": null,
+      "ok": true,
+      "quota_headers": {},
+      "shape": [
+        "sandbox",
+        "period",
+        "total_calls",
+        "keys"
+      ]
     }
   ],
   "history": [
@@ -1609,6 +1757,172 @@
       "response_kind": "json",
       "ok": false,
       "error": "The read operation timed out"
+    },
+    {
+      "id": "meducate-public-demo",
+      "url": "https://api.meducateapi.com/api/v1/topics/search?query=asthma",
+      "method": "GET",
+      "checked_at": "2026-10-13T09:54:28Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 2126,
+      "sha256": "7b4806cdc581c84af126b659005ed2f29bcc4b662c5156f8453fb99f32bd4ddd",
+      "content_type": "application/json; charset=utf-8",
+      "rate_limit_header": "50",
+      "ok": true,
+      "quota_headers": {
+        "x-ratelimit-limit": "50",
+        "x-ratelimit-remaining": "49",
+        "x-ratelimit-reset": "1791936000"
+      },
+      "shape": [
+        "items",
+        "totalCount",
+        "page",
+        "pageSize",
+        "totalPages",
+        "hasNextPage"
+      ]
+    },
+    {
+      "id": "snapforge-public-demo",
+      "url": "https://api.snapforge.click/v1/og-image",
+      "method": "POST",
+      "checked_at": "2026-10-13T09:54:28Z",
+      "uses_private_key": false,
+      "response_kind": "png",
+      "ok": false,
+      "http_status": 429,
+      "error": "{\"error\":{\"message\":\"Daily limit of 50 requests reached. Upgrade your plan.\",\"code\":\"DAILY_LIMIT_REACHED\"}}"
+    },
+    {
+      "id": "aipower-public-demo",
+      "url": "https://api.aipower.me/v1/chat/completions",
+      "method": "POST",
+      "checked_at": "2026-10-13T09:54:28Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 692,
+      "sha256": "53929d4916f3e9fea3772c1d470638d10dfeb13046626056e0296b8f86367025",
+      "content_type": "application/json",
+      "rate_limit_header": null,
+      "ok": true,
+      "quota_headers": {},
+      "shape": [
+        "id",
+        "object",
+        "created",
+        "model",
+        "choices",
+        "usage",
+        "system_fingerprint",
+        "x_aipower_demo"
+      ],
+      "nonempty_generated_text": true
+    },
+    {
+      "id": "agentwinds-properties-demo",
+      "url": "https://tophamtechbe.com/api/treas/idx/v1/retrieve-property-summary?state=CA&limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-13T09:54:29Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "ok": false,
+      "http_status": 401,
+      "error": "{\"message\":\"Invalid or expired property credential.\",\"error\":\"invalid_property_credential\"}"
+    },
+    {
+      "id": "nyx-fund-sandbox",
+      "url": "https://nyxsuite.com/api/v1/fund/overview",
+      "method": "GET",
+      "checked_at": "2026-10-13T09:54:29Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 409,
+      "sha256": "22a0f87d706386dab43b26b0be540ea76148d2ac292e5564d0975929aeb06621",
+      "content_type": "application/json",
+      "rate_limit_header": "10",
+      "ok": true,
+      "quota_headers": {
+        "X-Ratelimit-Limit": "10",
+        "X-Ratelimit-Window": "600s"
+      },
+      "shape": [
+        "fund",
+        "shareClasses",
+        "latestNav"
+      ]
+    },
+    {
+      "id": "pinnwire-demo",
+      "url": "https://pinnwire.com/kit/v1/markets?sport_id=1&event_type=prematch&key=demo",
+      "method": "GET",
+      "checked_at": "2026-10-13T09:54:29Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "ok": false,
+      "http_status": 429,
+      "error": "{\"error\":\"rate_limited\",\"window\":\"day\",\"limit\":50,\"retry_after_ms\":50728631,\"message\":\"Rate limit reached for the \\\"demo\\\" plan (50 per day). Wait 50729s and retry (honor the Retry-After header). Get a free API key in 5 seconds (100 requests/day fore"
+    },
+    {
+      "id": "knockout-public-demo",
+      "url": "https://useknockout--api.modal.run/remove",
+      "method": "POST",
+      "checked_at": "2026-10-13T09:54:30Z",
+      "uses_private_key": false,
+      "response_kind": "png",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "unmap-public-demo",
+      "url": "https://api.unmap.dev/geocode/search?q=Calgary%20Tower&limit=1",
+      "method": "GET",
+      "checked_at": "2026-10-13T09:57:20Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 381,
+      "sha256": "812d7967c4c8779ebe728d23146cd29979ceccc089bd5ef1542b1704a681b8f7",
+      "content_type": "application/json",
+      "rate_limit_header": null,
+      "ok": true,
+      "quota_headers": {},
+      "shape": "list:1"
+    },
+    {
+      "id": "knockout-public-demo",
+      "url": "https://useknockout--api.modal.run/remove",
+      "method": "POST",
+      "checked_at": "2026-10-13T09:57:21Z",
+      "uses_private_key": false,
+      "response_kind": "png",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "bluereacher-public-sandbox",
+      "url": "https://api.bluereacher.com/v1/usage",
+      "method": "GET",
+      "checked_at": "2026-10-13T10:00:27Z",
+      "uses_private_key": false,
+      "response_kind": "json",
+      "http_status": 200,
+      "bytes": 670,
+      "sha256": "e73f26b47bb76dc4d573dd37cfb9016d80034ddfa22c7af9a9837603e17e5726",
+      "content_type": "application/json",
+      "rate_limit_header": null,
+      "ok": true,
+      "quota_headers": {},
+      "shape": [
+        "sandbox",
+        "period",
+        "total_calls",
+        "keys"
+      ]
     }
   ],
   "semantic_checks": [
@@ -1634,5 +1948,45 @@
       "semantic_check_passed": true
     }
   ],
-  "note_ar": "طلبات محدودة للتحقق من مثال واحد؛ البيانات العامة أو محتوى اختبار فقط. PDF تجريبي وJSON فاتورة وهمية للتحقق بلا إرسال، وGET للحشود دون إنشاء. نجاح المثال لا يثبت كل الخصائص أو الإباحة التجارية."
+  "note_ar": "طلبات محدودة للتحقق من أمثلة موثقة، وحقول بيانات جغرافية ومرجعية. نص توليد قصير وصورة اصطناعية، وقراءة sandbox؛ لم ترسل رسائل ولم تنشأ فواتير أو حسابات أو مفاتيح شخصية. نجاح اختبار لا يثبت كل الوظائف أو الإنتاج.",
+  "additional_semantic_checks": [
+    {
+      "id": "meducate-public-demo",
+      "semantic_check_passed": true,
+      "records": 2,
+      "first_record_fields": [
+        "id",
+        "name",
+        "summary",
+        "topicType",
+        "category",
+        "icd11Code",
+        "lastUpdated"
+      ],
+      "uses_private_key": false,
+      "note_ar": "فحص وجود سجلات فعلية وحقولها، دون حفظ نص البيانات المسترجعة."
+    },
+    {
+      "id": "unmap-public-demo",
+      "semantic_check_passed": true,
+      "records": 1,
+      "first_record_fields": [
+        "id",
+        "name",
+        "layer",
+        "lng",
+        "lat",
+        "score",
+        "source",
+        "source_id",
+        "match_type",
+        "precision",
+        "category",
+        "names",
+        "address"
+      ],
+      "uses_private_key": false,
+      "note_ar": "فحص وجود سجلات فعلية وحقولها، دون حفظ نص البيانات المسترجعة."
+    }
+  ]
 }

@@ -75,6 +75,10 @@ approved_keys={
  'or_sk5T_yGimzi2EF8CaG-JS_OA6_Eruw_r-eoCLSM8yMU',
  'corx_wurhkSx9Z5GkXBs85bu8iyqJ-963qATW','gk_demo_public_v1',
  'kt_demo_00000000000000000000000000','3','YOUR_API_KEY_HERE',
+ 'd3m0000000000000000000000000key1.MEDUCATE_PUBLIC_DEMO_2026',
+ 'sk-aipower-demo-public','nyx_dk_demo000000000000000000000000000000000000000',
+ 'um_test_793cf0c9cb8f4f5cf12bbdebdd96b59532b38876fbe5d14d',
+ 'brk_test_Dc815ar0WQChF5odYSeB8k2ovmVf1zG2',
 }
 shared_doc=(root/'docs/public-shared-keys.ar.md').read_text(encoding='utf-8')
 shared_tests=json.loads((root/'research/public-key-tests.json').read_text(encoding='utf-8'))

@@ -1,10 +1,10 @@
 # المفاتيح العامة دون تسجيل
 
-**42 خدمة نجح طلبها، 21 قيمة مفتاح مختلفة، 25 مجالًا. المراجعة: 2026-10-13 بتوقيت بغداد.**
+**47 خدمة نجح طلبها، 26 قيمة مفتاح مختلفة، 28 مجالًا. المراجعة: 2026-10-13 بتوقيت بغداد.**
 
 [JSON بالمفاتيح والطلبات](../data/public-shared-keys.json) · [CSV](../data/public-shared-keys.csv) · [أمثلة المشاريع العملية](practical-projects.ar.md) · [نتائج الاختبار](../research/public-key-tests.json) · [المصادر الرسمية](../research/public-key-sources.json) · [غير المحسوم](../research/public-key-unconfirmed.json)
 
-القائمة الحالية ليست حصرًا لكل الخدمات الموجودة. أضافت الجولة الموجهة للمشاريع 9 خدمات و5 قيم مفتاح جديدة. يمكن تصفية **36 خدمة تفيد نموذج مشروع ببيانات عامة أو تحويل محتوى فعلي**؛ تبقى 3 خدمات sandbox ببيانات وهمية وثلاث للتدريب أو placeholder منفصلة. تصنيف practical لا يعني إباحة الإنتاج التجاري.
+القائمة الحالية ليست حصرًا لكل الخدمات الموجودة. أضافت جولة الاستكمال 5 خدمات و5 قيم مفتاح جديدة: ثلاث لبيانات أو وظائف فعلية واثنتان لمحاكاة التكامل. يمكن تصفية **39 خدمة تفيد نموذج مشروع ببيانات عامة أو تحويل محتوى فعلي**؛ تبقى 5 خدمات sandbox ببيانات وهمية وثلاث للتدريب أو placeholder منفصلة. تصنيف practical لا يعني إباحة الإنتاج التجاري.
 
 كل قيمة في هذه القائمة متاحة من المزود دون إنشاء حساب أو تسجيل أو بطاقة، داخل النطاق المحدد. أرقام الخدمات تختلف عن أرقام المفاتيح: DEMO_KEY وdemo و123 مشتركة بين أكثر من خدمة. الكتالوج العام ذا 260 خدمة يشمل خدمات تتطلب حسابًا؛ ليس 260 مفتاحًا مشتركًا.
 
@@ -55,6 +55,11 @@
 | OddiWire public REST preview | `demo` | الرياضة | أمثلة أو بيانات محددة | 10 requests/5 minutes pooled across all demo callers — 5 minutes | [GET example](https://oddiwire.com/v1/fixtures?key=demo&limit=1) · [المصدر](https://oddiwire.com/llms-full.txt) |
 | GSA Site Scanning public demo | `DEMO_KEY` | تعلم واختبار APIs | بيانات عامة فعلية | Observed X-RateLimit-Limit=10; header did not identify its time window; api.data.gov default demo policy is 30/hour and 50/day/IP with service overrides — recurring api.data.gov windows; exact service header window unconfirmed | [GET example](https://api.gsa.gov/technology/site-scanning/v1/websites?limit=1) · [المصدر](https://open.gsa.gov/api/site-scanning-api/) |
 | analytics.usa.gov DAP public demo | `DEMO_KEY` | إحصاءات استخدام المواقع | بيانات عامة فعلية | Observed X-RateLimit-Limit=10; header did not identify its time window; api.data.gov default demo policy is 30/hour and 50/day/IP with service overrides — recurring api.data.gov windows; exact service header window unconfirmed | [GET example](https://api.gsa.gov/analytics/dap/v2/reports/language/data?limit=1) · [المصدر](https://open.gsa.gov/api/dap/) |
+| Meducate public educational demo | `d3m0000000000000000000000000key1.MEDUCATE_PUBLIC_DEMO_2026` | مراجع صحية وتعليمية | بيانات عامة فعلية | 50 requests/day shared demo key; observed limit=50 and UTC-day reset header — day (UTC) | [GET example](https://api.meducateapi.com/api/v1/topics/search?query=asthma) · [المصدر](https://meducateapi.com/docs) |
+| AIPower shared AI-model demo | `sk-aipower-demo-public` | الذكاء الاصطناعي | تطوير بخدمة فعلية أو محدودة | 5 calls/IP/day; restricted to demo models DeepSeek, Qwen Turbo and GLM-4 Flash — day; exact reset time not published | [POST example](https://api.aipower.me/v1/chat/completions) · [المصدر](https://aipower.me/docs) |
+| NYX Suite synthetic fund-data demo | `nyx_dk_demo000000000000000000000000000000000000000` | البيانات المالية | بيانات sandbox | Observed shared demo limit: 10 requests/600-second window — 600 seconds (observed header) | [GET example](https://nyxsuite.com/api/v1/fund/overview) · [المصدر](https://nyxsuite.com/developers/quickstart) |
+| unmap shared mapping development key | `um_test_793cf0c9cb8f4f5cf12bbdebdd96b59532b38876fbe5d14d` | الخرائط والمواقع | تطوير بخدمة فعلية أو محدودة | Public demo is shared and rate-limited; gateway documents 1000 requests/60 seconds/location for every key; a separate demo allocation is not published — ongoing public development access; gateway rate window 60 seconds | [GET example](https://api.unmap.dev/geocode/search?q=Calgary%20Tower&limit=1) · [المصدر](https://unmap.dev/docs/start/quickstart) |
+| Blue Reacher public messaging simulator | `brk_test_Dc815ar0WQChF5odYSeB8k2ovmVf1zG2` | محاكاة تكامل الرسائل | بيانات sandbox | 60 requests/minute/shared key across /v1; 10/minute for simulated instant sends — minute | [GET example](https://api.bluereacher.com/v1/usage) · [المصدر](https://docs.bluereacher.com/docs/guides/sandbox) |
 
 ## مفاتيح تدريب وplaceholder
 
@@ -121,11 +126,16 @@ DocRaptor يستخدم Basic Auth باسم المستخدم الذي يساوي 
 - **OddiWire public REST preview**: REST فقط؛ لا SSE بالمفتاح العام. المزود يصرح أنه preview وليس اعتماد إنتاج. البيانات من خدمة مستقلة، ولا ينفذ الطلب رهانًا أو معاملة.
 - **GSA Site Scanning public demo**: المصدر ينشر DEMO_KEY صراحةً. نجحت قراءة بيانات scan منشورة لمواقع حكومية؛ لا يطلب تشغيل فحص جديد على أي موقع. الحد 10 المشاهد أقل من الافتراضي، فلا تعتمد 30 كحصة فعلية لهذه الخدمة.
 - **analytics.usa.gov DAP public demo**: قراءة إحصاءات مجمعة منشورة لزيارات المواقع الحكومية، وليست حساب تحليلات موقعك. نجح تقرير اللغات. الحد 10 المشاهد خاص بالاستجابة؛ نافذته لم تثبت من header.
+- **Meducate public educational demo**: المفتاح في حقل readonly موسوم Public demo key بالوثائق. أعاد البحث سجلين فعليين؛ البيانات ملخصات يعالجها المزود بنماذج لغوية، ومخصصة للتعليم والمعلومات. ليست بيانات مرضى ولا إثباتًا لدقة سريرية. حصة 1000/يوم تخص المفتاح المسجل ولا تنسب إلى هذا المفتاح.
+- **AIPower shared AI-model demo**: المفتاح عام ومذكور صراحة دون تسجيل أو بطاقة. نجحت إجابة نصية غير فارغة من نموذج demo. لا يشمل GPT أو Claude أو بقية النماذج المدفوعة. رصيد 10 مكالمات عند إنشاء حساب عرض مختلف ولم يقبل هنا.
+- **NYX Suite synthetic fund-data demo**: بيانات صندوق استثمار اصطناعية فقط؛ ليست بيانات صندوقك أو حساب عميل. نجحت حقول fund وshareClasses وlatestNav. حاسبات NYX بلا مفتاح وحصتها 500/يوم سطح مختلف؛ لم تنسب إلى هذا المفتاح. لا يمكن للمفتاح العام إنشاء مقترحات إدارة الصندوق.
+- **unmap shared mapping development key**: المزود ينشر القيمة الكاملة في quickstart ويجيز تضمينها للتجربة. نجح البحث عن Calgary Tower وأعاد اسمًا وإحداثيات فعلية. للتطوير والنماذج، لا يفترض إذن تشغيل نطاق إنتاج. حصة Hobby البالغة 10000/شهر لا تنسب إلى المفتاح المشترك. لم يرسل الاختبار Origin مصطنعًا ولم يختبر جميع خدمات الخرائط أو التوجيه.
+- **Blue Reacher public messaging simulator**: المفتاح يعمل في simulator دون حساب أو مساحة عمل حقيقية. اختُبر GET /v1/usage لبيانات sample فقط. لا يرسل رسائل حقيقية؛ تسجيل webhook قد يرسل اختبارًا إلى رابطك ولم ينفذ هنا. سجل المحادثات وبعض إعدادات الاتصال تحتاج مفتاح live.
 
 ## نتائج التحقق وحدودها
 
-القائمة تجمع نتائج جولات البحث، وليست إعادة اختبار لكل خدمة في كل جولة. 42 خدمة لديها طلب ناجح موثق، و10 مرشحين فشلت طلباتهم خارج القائمة الجاهزة. تأريخ الاختبار وURL ونوع الاستجابة محفوظة لكل سجل. نجح PDF فعلي وJSON فاتورة الاختبار، ونتائج المركبات تحققت من idModel وstrModel، وعناصر مدار ISS من TLE_LINE_1 وTLE_LINE_2. نجاح قائمة Genji الفارغة يثبت مثال القراءة والمصادقة؛ لم تُنشأ حشود.
+القائمة تجمع نتائج جولات البحث، وليست إعادة اختبار لكل خدمة في كل جولة. 47 خدمة لديها طلب ناجح موثق، و13 مرشحين فشلت طلباتهم خارج القائمة الجاهزة. تأريخ الاختبار وURL ونوع الاستجابة محفوظة لكل سجل. نجح توليد نص قصير بواسطة AIPower وقراءة سجل جغرافي من unmap وسجلين مرجعيين من Meducate. نجح PDF فعلي وJSON فاتورة الاختبار، ونتائج المركبات تحققت من idModel وstrModel، وعناصر مدار ISS من TLE_LINE_1 وTLE_LINE_2. نجاح قائمة Genji الفارغة يثبت مثال القراءة والمصادقة؛ لم تُنشأ حشود.
 
-PinnWire أعاد 429 لأن الحصة العامة المشتركة اليومية استُهلكت؛ لم نصنفه كمفتاح باطل، ولم نضعه كطلب جاهز الآن. USDA وRegulations.gov ما زالا غير محسومين في هذه البيئة. GSA eMuseum أعاد 503. لا نكرر الطلبات لتجاوز الحصص ولا نتحايل بتدوير مفاتيح أو IP.
+PinnWire أعاد 429 لأن الحصة العامة المشتركة اليومية استُهلكت؛ لم نصنفه كمفتاح باطل، ولم نضعه كطلب جاهز الآن. SnapForge أعاد 429 لحصة 50/يوم المستهلكة. مفتاح Agent Winds للعقارات أعاد 401، وKnockout تجاوز مهلة القراءة في محاولتين محدودتين. USDA وRegulations.gov ما زالا غير محسومين في هذه البيئة. GSA eMuseum أعاد 503. لا نكرر الطلبات لتجاوز الحصص ولا نتحايل بتدوير مفاتيح أو IP.
 
 الإثبات الوثائقي يثبت النطاق المجاني المعلن، والطلب يثبت نجاح المثال وقت الفحص؛ لا يثبت كل endpoints أو SLA أو أن الخطة ستبقى للأبد. اختبارات POST اقتصرت على نص/رابط اختبار، وبيانات وهمية، وقراءة MCP، وتنسيق PDF، والتحقق من JSON فاتورة دون إرسالها.

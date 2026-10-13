@@ -437,5 +437,86 @@
     "retrieved_at": "2026-10-12T22:49:54Z",
     "sha256": "14b8a491cbb26e9da5d84f59923d5a4a8e42eed339c4e35c56cc325bfa489f7e",
     "resolved_url": "https://open.gsa.gov/api/dap/"
+  },
+  {
+    "url": "https://meducateapi.com/docs",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-13T09:50:38Z",
+    "sha256": "e0dfcf1f0e94c75026a7870fb4bc54b1e6df04da8a611d256f832038cb9d4ce0",
+    "resolved_url": "https://meducateapi.com/docs"
+  },
+  {
+    "url": "https://meducateapi.com/pricing",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-13T09:50:38Z",
+    "sha256": "b54f36cca188e598640a7e1a60fdc2860bc074bfd603e2f36d4805a086fbea61",
+    "resolved_url": "https://meducateapi.com/pricing"
+  },
+  {
+    "url": "https://aipower.me/docs",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-13T09:50:38Z",
+    "sha256": "dbf59731ceeb6c2eba666ab18d717af1f08484da74408961c23516ce73eb3674",
+    "resolved_url": "https://aipower.me/docs"
+  },
+  {
+    "url": "https://nyxsuite.com/developers/quickstart",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-13T09:50:38Z",
+    "sha256": "45e3ed541a0477354ac5c8f5189c896cd309f49e50e3a5a406f23ead08f32c11",
+    "resolved_url": "https://nyxsuite.com/developers/quickstart"
+  },
+  {
+    "url": "https://unmap.dev/docs/start/quickstart",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-13T09:55:32Z",
+    "sha256": "3b3cdbadedda7e434e5f7bf495d997b26513cd2ecb77e1cf2c2481fbc2dd1fb6",
+    "resolved_url": "https://unmap.dev/docs/start/quickstart"
+  },
+  {
+    "url": "https://unmap.dev/docs/start/authentication",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-13T09:55:32Z",
+    "sha256": "644843ca9b65ec71933c583ae81e95959bd709fe3500e3a95da34a1246eb5886",
+    "resolved_url": "https://unmap.dev/docs/start/authentication"
+  },
+  {
+    "url": "https://unmap.dev/docs/reference/plans",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-13T09:56:41Z",
+    "sha256": "3fdf71b1ff2f7d43e078437838ef59b756760cf42965c9fb694d63e2ff51b0d1",
+    "resolved_url": "https://unmap.dev/docs/reference/plans"
+  },
+  {
+    "url": "https://unmap.dev/docs/apis/geocoding",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-13T09:56:41Z",
+    "sha256": "2ba69dfb0a23920edae530f3a8c2f88f9eb35c0ffda0040b949aac77b1a9d907",
+    "resolved_url": "https://unmap.dev/docs/apis/geocoding"
+  },
+  {
+    "url": "https://docs.bluereacher.com/docs/guides/sandbox",
+    "checked_on": "2026-10-13",
+    "kind": "provider_public_documentation",
+    "method": "direct_https_read",
+    "retrieved_at": "2026-10-13T09:59:18Z",
+    "sha256": "fa3bea9cf314fb07ffdee9e2650b3516160f072a637d1131072591750b304460",
+    "resolved_url": "https://docs.bluereacher.com/docs/guides/sandbox"
   }
 ]

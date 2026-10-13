@@ -1,13 +1,13 @@
 {
   "checked_on": "2026-10-13",
   "prior_shared_examples": 6,
-  "current_live_verified_services": 42,
-  "current_distinct_public_key_values": 21,
+  "current_live_verified_services": 47,
+  "current_distinct_public_key_values": 26,
   "discovery_routes": [
     "rechecked candidates from existing 24 API-directory repositories",
     "broad web search followed by provider documentation and official provider repositories"
   ],
-  "accepted_official_evidence_urls": 49,
+  "accepted_official_evidence_urls": 58,
   "candidate_url_count_is_not_verified_service_count": true,
   "known_limitations_ar": "هذه نتيجة جولة بحث واسعة وليست حصرًا لكل الإنترنت. اقتصرت القائمة الجاهزة على قيم نشرها أصحاب الخدمات صراحة أو على مفتاح DEMO_KEY الذي تسمح منصته بالاستكشاف، مع نجاح طلب فعلي. صفحات متعذرة أو نتائج قديمة ومفاتيح لم تنجح موضوعة خارج القائمة.",
   "attempted_documentation_urls": [
@@ -139,11 +139,51 @@
     "https://skybytesim.com/developers",
     "https://proplineapi.com/",
     "https://mcp.prop-line.com/mcp",
-    "https://www.rendral.com/docs"
+    "https://www.rendral.com/docs",
+    "https://www.quickbgremover.com/docs",
+    "https://www.quickbgremover.com/pricing",
+    "https://mcp.merchantwords.com/api/docs",
+    "https://jeffupp.com/api-docs",
+    "https://useknockout.com/docs",
+    "https://useknockout.com/playground",
+    "https://raw.githubusercontent.com/useknockout/api/main/main.py",
+    "https://raw.githubusercontent.com/useknockout/api/main/README.md",
+    "https://nyxsuite.com/developers/api",
+    "https://botoi.com/developers",
+    "https://adfreellm.com/api",
+    "https://raw.githubusercontent.com/chanolan20/free-llm-api-keys-playground/main/README.md",
+    "https://raw.githubusercontent.com/Manavarya09/public-apis-live/main/README.md",
+    "https://raw.githubusercontent.com/mnfst/awesome-free-llm-apis/main/README.md",
+    "https://meducateapi.com/docs",
+    "https://meducateapi.com/pricing",
+    "https://snapforge.click/docs",
+    "https://nyxsuite.com/developers/quickstart",
+    "https://nyxsuite.com/developers/pricing",
+    "https://www.fxrateapi.com/",
+    "https://www.fxrateapi.com/docs",
+    "https://hub.stabilarity.com/api/docs",
+    "https://hub.stabilarity.com/api/openapi.json",
+    "https://aipower.me/docs",
+    "https://sigpik.com/developers",
+    "https://unmap.dev/docs/start/quickstart",
+    "https://unmap.dev/docs/start/authentication",
+    "https://unmap.dev/docs/start/plans-limits",
+    "https://unmap.dev/docs/start/plans-and-limits",
+    "https://www.aiassesstech.com/docs/sdk",
+    "https://eaglecheck.com.au/developers/",
+    "https://getinopay.com/en/developers/errors",
+    "https://getinopay.com/en/developers/quickstart",
+    "https://botoi.com/docs",
+    "https://botoi.com/pricing",
+    "https://raw.githubusercontent.com/aiassesstech/sdk-ts/main/README.md",
+    "https://raw.githubusercontent.com/aiassesstech/sdk-ts/master/README.md",
+    "https://unmap.dev/docs/reference/plans",
+    "https://unmap.dev/docs/apis/geocoding",
+    "https://unmap.dev/docs/start/http"
   ],
   "directory_recheck": {
-    "directories_checked": 24,
-    "directories_with_matching_provider": 14,
+    "directories_checked": 26,
+    "directories_with_matching_provider": 15,
     "report": "research/public-key-discovery.json"
   },
   "rounds": [
@@ -164,6 +204,46 @@
       "passed": 9,
       "failed_or_unavailable": 4,
       "priority_ar": "خدمات مفيدة لقراءة بيانات عامة أو تحويل محتوى حقيقي أو بناء نموذج مشروع، مع استبعاد أمثلة وهمية إضافية ورصيد عمره محدود."
+    },
+    {
+      "name": "continued_shared_key_research",
+      "checked_on": "2026-10-13",
+      "previous_services": 42,
+      "added_services": 5,
+      "verified_services": 47,
+      "previous_distinct_values": 21,
+      "added_distinct_values": 5,
+      "distinct_public_key_values": 26,
+      "candidate_tests": 9,
+      "passing_candidates": 5,
+      "failed_or_unavailable": 4,
+      "primary_http_attempts_in_round": 10,
+      "semantic_followups": 2,
+      "practical_added": 3,
+      "sandbox_added": 2,
+      "discovery_routes": [
+        "GitHub API-directory READMEs and official provider repositories",
+        "broad internet search followed by provider documentation"
+      ],
+      "note_ar": "رفضت مفاتيح المنح اليومية المنتهية، والحسابات المطلوبة، ومفاتيح العروض المقيدة بالموقع، والقيم الكاملة غير المثبتة. لم تنسخ حصص حسابات مسجلة إلى demo."
+    }
+  ],
+  "additional_discovery_repositories": [
+    {
+      "repository_url": "https://github.com/chanolan20/free-llm-api-keys-playground",
+      "readme_url": "https://raw.githubusercontent.com/chanolan20/free-llm-api-keys-playground/main/README.md",
+      "readme_sha256": "e218d7f7b92c9d1046e350f558942a6a326eeec4d33f3e40c82a66e52736053a",
+      "retrieved_at": "2026-10-13T09:52:20Z",
+      "extracted_links": 21,
+      "role": "discovery_only_not_shared_key_authorization"
+    },
+    {
+      "repository_url": "https://github.com/Manavarya09/public-apis-live",
+      "readme_url": "https://raw.githubusercontent.com/Manavarya09/public-apis-live/main/README.md",
+      "readme_sha256": "5f664e436293cce44fdf7d7593ab3ccd588e4018e323fed4694f7df4c258a811",
+      "retrieved_at": "2026-10-13T09:52:20Z",
+      "extracted_links": 4137,
+      "role": "discovery_only_not_shared_key_authorization"
     }
   ]
 }

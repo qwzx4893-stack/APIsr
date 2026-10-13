@@ -3,18 +3,18 @@
   "checked_on": "2026-10-13",
   "timezone": "Asia/Baghdad",
   "summary": {
-    "services": 42,
-    "unique_public_key_values": 21,
+    "services": 47,
+    "unique_public_key_values": 26,
     "category_counts": {
       "space": 2,
       "food": 2,
-      "finance": 4,
+      "finance": 5,
       "government": 6,
       "ocr": 1,
       "sports": 3,
       "music": 1,
       "documents": 3,
-      "geolocation": 1,
+      "geolocation": 2,
       "business": 1,
       "development": 3,
       "images": 1,
@@ -30,19 +30,22 @@
       "proxy": 1,
       "graphics": 1,
       "vehicles": 1,
-      "analytics": 1
+      "analytics": 1,
+      "health": 1,
+      "ai": 1,
+      "messaging": 1
     },
     "access_scope_counts": {
-      "public_data": 18,
-      "development_data": 11,
+      "public_data": 19,
+      "development_data": 13,
       "restricted_sample_data": 7,
-      "sandbox_data": 3,
+      "sandbox_data": 5,
       "synthetic_practice": 3
     },
-    "recurring_quota_services": 28,
+    "recurring_quota_services": 32,
     "synthetic_practice_services": 3,
-    "pending_failed_candidates": 10,
-    "practical_services": 36
+    "pending_failed_candidates": 13,
+    "practical_services": 39
   },
   "note_ar": "قائمة مستقلة لمفاتيح ينشرها المزودون للاستخدام العام دون تسجيل، داخل النطاق الموضح. تكرار قيمة واحدة عبر خدمات متعددة لا يزيد عدد المفاتيح المختلفة. أمثلة sandbox والبيانات الوهمية موضحة؛ لا ضمان للإنتاج أو الاستمرار الأبدي. لم تجمع مفاتيح حسابات شخصية.",
   "services": [
@@ -3033,6 +3036,452 @@
           "لوحة عرض لإحصاءات لغات زوار المواقع الحكومية ومقارنة التقارير العامة."
         ],
         "scope_note_ar": "مفيد ضمن النطاق المجاني الموثق؛ ليس تصريحًا تلقائيًا بالإنتاج التجاري."
+      }
+    },
+    {
+      "id": "meducate-public-demo",
+      "name": "Meducate public educational demo",
+      "category": "health",
+      "category_ar": "مراجع صحية وتعليمية",
+      "key": "d3m0000000000000000000000000key1.MEDUCATE_PUBLIC_DEMO_2026",
+      "key_placement": "header",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "public_data",
+      "quota": "50 requests/day shared demo key; observed limit=50 and UTC-day reset header",
+      "reset": "day (UTC)",
+      "free_type": "recurring_quota",
+      "production_use": "not_inferred",
+      "limitations_ar": "المفتاح في حقل readonly موسوم Public demo key بالوثائق. أعاد البحث سجلين فعليين؛ البيانات ملخصات يعالجها المزود بنماذج لغوية، ومخصصة للتعليم والمعلومات. ليست بيانات مرضى ولا إثباتًا لدقة سريرية. حصة 1000/يوم تخص المفتاح المسجل ولا تنسب إلى هذا المفتاح.",
+      "example_request": {
+        "method": "GET",
+        "url": "https://api.meducateapi.com/api/v1/topics/search?query=asthma",
+        "headers": {
+          "X-Api-Key": "d3m0000000000000000000000000key1.MEDUCATE_PUBLIC_DEMO_2026"
+        },
+        "body": null
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://meducateapi.com/docs",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-13T09:50:38Z",
+            "sha256": "e0dfcf1f0e94c75026a7870fb4bc54b1e6df04da8a611d256f832038cb9d4ce0",
+            "resolved_url": "https://meducateapi.com/docs"
+          },
+          {
+            "url": "https://meducateapi.com/pricing",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-13T09:50:38Z",
+            "sha256": "b54f36cca188e598640a7e1a60fdc2860bc074bfd603e2f36d4805a086fbea61",
+            "resolved_url": "https://meducateapi.com/pricing"
+          }
+        ],
+        "live_test": {
+          "id": "meducate-public-demo",
+          "url": "https://api.meducateapi.com/api/v1/topics/search?query=asthma",
+          "method": "GET",
+          "checked_at": "2026-10-13T09:54:28Z",
+          "uses_private_key": false,
+          "response_kind": "json",
+          "http_status": 200,
+          "bytes": 2126,
+          "sha256": "7b4806cdc581c84af126b659005ed2f29bcc4b662c5156f8453fb99f32bd4ddd",
+          "content_type": "application/json; charset=utf-8",
+          "rate_limit_header": "50",
+          "ok": true,
+          "quota_headers": {
+            "x-ratelimit-limit": "50",
+            "x-ratelimit-remaining": "49",
+            "x-ratelimit-reset": "1791936000"
+          },
+          "shape": [
+            "items",
+            "totalCount",
+            "page",
+            "pageSize",
+            "totalPages",
+            "hasNextPage"
+          ]
+        },
+        "semantic_check": {
+          "id": "meducate-public-demo",
+          "semantic_check_passed": true,
+          "records": 2,
+          "first_record_fields": [
+            "id",
+            "name",
+            "summary",
+            "topicType",
+            "category",
+            "icd11Code",
+            "lastUpdated"
+          ],
+          "uses_private_key": false,
+          "note_ar": "فحص وجود سجلات فعلية وحقولها، دون حفظ نص البيانات المسترجعة."
+        }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج مكتبة معلومات تعليمية يبحث في أسماء الموضوعات والتصنيفات مع عرض مصدر البيانات."
+        ],
+        "scope_note_ar": "مفيد لنموذج المشروع داخل النطاق؛ ترخيص الإنتاج لا يستنتج."
+      }
+    },
+    {
+      "id": "aipower-public-demo",
+      "name": "AIPower shared AI-model demo",
+      "category": "ai",
+      "category_ar": "الذكاء الاصطناعي",
+      "key": "sk-aipower-demo-public",
+      "key_placement": "header",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "development_data",
+      "quota": "5 calls/IP/day; restricted to demo models DeepSeek, Qwen Turbo and GLM-4 Flash",
+      "reset": "day; exact reset time not published",
+      "free_type": "recurring_quota",
+      "production_use": "not_inferred",
+      "limitations_ar": "المفتاح عام ومذكور صراحة دون تسجيل أو بطاقة. نجحت إجابة نصية غير فارغة من نموذج demo. لا يشمل GPT أو Claude أو بقية النماذج المدفوعة. رصيد 10 مكالمات عند إنشاء حساب عرض مختلف ولم يقبل هنا.",
+      "example_request": {
+        "method": "POST",
+        "url": "https://api.aipower.me/v1/chat/completions",
+        "headers": {
+          "Authorization": "Bearer sk-aipower-demo-public"
+        },
+        "body": {
+          "model": "deepseek/deepseek-chat",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Reply with the word hello."
+            }
+          ],
+          "max_tokens": 12
+        }
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://aipower.me/docs",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-13T09:50:38Z",
+            "sha256": "dbf59731ceeb6c2eba666ab18d717af1f08484da74408961c23516ce73eb3674",
+            "resolved_url": "https://aipower.me/docs"
+          }
+        ],
+        "live_test": {
+          "id": "aipower-public-demo",
+          "url": "https://api.aipower.me/v1/chat/completions",
+          "method": "POST",
+          "checked_at": "2026-10-13T09:54:28Z",
+          "uses_private_key": false,
+          "response_kind": "json",
+          "http_status": 200,
+          "bytes": 692,
+          "sha256": "53929d4916f3e9fea3772c1d470638d10dfeb13046626056e0296b8f86367025",
+          "content_type": "application/json",
+          "rate_limit_header": null,
+          "ok": true,
+          "quota_headers": {},
+          "shape": [
+            "id",
+            "object",
+            "created",
+            "model",
+            "choices",
+            "usage",
+            "system_fingerprint",
+            "x_aipower_demo"
+          ],
+          "nonempty_generated_text": true
+        }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج مساعد نصي أو تجربة ربط عميل OpenAI-compatible بنموذج مسموح."
+        ],
+        "scope_note_ar": "مفيد لنموذج المشروع داخل النطاق؛ ترخيص الإنتاج لا يستنتج."
+      }
+    },
+    {
+      "id": "nyx-fund-sandbox",
+      "name": "NYX Suite synthetic fund-data demo",
+      "category": "finance",
+      "category_ar": "البيانات المالية",
+      "key": "nyx_dk_demo000000000000000000000000000000000000000",
+      "key_placement": "header",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "sandbox_data",
+      "quota": "Observed shared demo limit: 10 requests/600-second window",
+      "reset": "600 seconds (observed header)",
+      "free_type": "recurring_quota",
+      "production_use": "not_inferred",
+      "limitations_ar": "بيانات صندوق استثمار اصطناعية فقط؛ ليست بيانات صندوقك أو حساب عميل. نجحت حقول fund وshareClasses وlatestNav. حاسبات NYX بلا مفتاح وحصتها 500/يوم سطح مختلف؛ لم تنسب إلى هذا المفتاح. لا يمكن للمفتاح العام إنشاء مقترحات إدارة الصندوق.",
+      "example_request": {
+        "method": "GET",
+        "url": "https://nyxsuite.com/api/v1/fund/overview",
+        "headers": {
+          "Authorization": "Bearer nyx_dk_demo000000000000000000000000000000000000000"
+        },
+        "body": null
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://nyxsuite.com/developers/quickstart",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-13T09:50:38Z",
+            "sha256": "45e3ed541a0477354ac5c8f5189c896cd309f49e50e3a5a406f23ead08f32c11",
+            "resolved_url": "https://nyxsuite.com/developers/quickstart"
+          }
+        ],
+        "live_test": {
+          "id": "nyx-fund-sandbox",
+          "url": "https://nyxsuite.com/api/v1/fund/overview",
+          "method": "GET",
+          "checked_at": "2026-10-13T09:54:29Z",
+          "uses_private_key": false,
+          "response_kind": "json",
+          "http_status": 200,
+          "bytes": 409,
+          "sha256": "22a0f87d706386dab43b26b0be540ea76148d2ac292e5564d0975929aeb06621",
+          "content_type": "application/json",
+          "rate_limit_header": "10",
+          "ok": true,
+          "quota_headers": {
+            "X-Ratelimit-Limit": "10",
+            "X-Ratelimit-Window": "600s"
+          },
+          "shape": [
+            "fund",
+            "shareClasses",
+            "latestNav"
+          ]
+        }
+      },
+      "project_use": {
+        "practical": false,
+        "examples_ar": [
+          "اختبار ربط واجهة لوحة مالية بهيكل بيانات fund وNAV وهمي قبل الحصول على وصول فعلي."
+        ],
+        "scope_note_ar": "اختبار تكامل ببيانات وهمية فقط."
+      }
+    },
+    {
+      "id": "unmap-public-demo",
+      "name": "unmap shared mapping development key",
+      "category": "geolocation",
+      "category_ar": "الخرائط والمواقع",
+      "key": "um_test_793cf0c9cb8f4f5cf12bbdebdd96b59532b38876fbe5d14d",
+      "key_placement": "header",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "development_data",
+      "quota": "Public demo is shared and rate-limited; gateway documents 1000 requests/60 seconds/location for every key; a separate demo allocation is not published",
+      "reset": "ongoing public development access; gateway rate window 60 seconds",
+      "free_type": "ongoing_public_demo",
+      "production_use": "not_inferred",
+      "limitations_ar": "المزود ينشر القيمة الكاملة في quickstart ويجيز تضمينها للتجربة. نجح البحث عن Calgary Tower وأعاد اسمًا وإحداثيات فعلية. للتطوير والنماذج، لا يفترض إذن تشغيل نطاق إنتاج. حصة Hobby البالغة 10000/شهر لا تنسب إلى المفتاح المشترك. لم يرسل الاختبار Origin مصطنعًا ولم يختبر جميع خدمات الخرائط أو التوجيه.",
+      "example_request": {
+        "method": "GET",
+        "url": "https://api.unmap.dev/geocode/search?q=Calgary%20Tower&limit=1",
+        "headers": {
+          "X-API-Key": "um_test_793cf0c9cb8f4f5cf12bbdebdd96b59532b38876fbe5d14d"
+        },
+        "body": null
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://unmap.dev/docs/start/quickstart",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-13T09:55:32Z",
+            "sha256": "3b3cdbadedda7e434e5f7bf495d997b26513cd2ecb77e1cf2c2481fbc2dd1fb6",
+            "resolved_url": "https://unmap.dev/docs/start/quickstart"
+          },
+          {
+            "url": "https://unmap.dev/docs/start/authentication",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-13T09:55:32Z",
+            "sha256": "644843ca9b65ec71933c583ae81e95959bd709fe3500e3a95da34a1246eb5886",
+            "resolved_url": "https://unmap.dev/docs/start/authentication"
+          },
+          {
+            "url": "https://unmap.dev/docs/reference/plans",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-13T09:56:41Z",
+            "sha256": "3fdf71b1ff2f7d43e078437838ef59b756760cf42965c9fb694d63e2ff51b0d1",
+            "resolved_url": "https://unmap.dev/docs/reference/plans"
+          },
+          {
+            "url": "https://unmap.dev/docs/apis/geocoding",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-13T09:56:41Z",
+            "sha256": "2ba69dfb0a23920edae530f3a8c2f88f9eb35c0ffda0040b949aac77b1a9d907",
+            "resolved_url": "https://unmap.dev/docs/apis/geocoding"
+          }
+        ],
+        "live_test": {
+          "id": "unmap-public-demo",
+          "url": "https://api.unmap.dev/geocode/search?q=Calgary%20Tower&limit=1",
+          "method": "GET",
+          "checked_at": "2026-10-13T09:57:20Z",
+          "uses_private_key": false,
+          "response_kind": "json",
+          "http_status": 200,
+          "bytes": 381,
+          "sha256": "812d7967c4c8779ebe728d23146cd29979ceccc089bd5ef1542b1704a681b8f7",
+          "content_type": "application/json",
+          "rate_limit_header": null,
+          "ok": true,
+          "quota_headers": {},
+          "shape": "list:1"
+        },
+        "semantic_check": {
+          "id": "unmap-public-demo",
+          "semantic_check_passed": true,
+          "records": 1,
+          "first_record_fields": [
+            "id",
+            "name",
+            "layer",
+            "lng",
+            "lat",
+            "score",
+            "source",
+            "source_id",
+            "match_type",
+            "precision",
+            "category",
+            "names",
+            "address"
+          ],
+          "uses_private_key": false,
+          "note_ar": "فحص وجود سجلات فعلية وحقولها، دون حفظ نص البيانات المسترجعة."
+        }
+      },
+      "project_use": {
+        "practical": true,
+        "examples_ar": [
+          "نموذج محدد مواقع فروع يبحث عن مكان ويعرض إحداثياته على خريطة."
+        ],
+        "scope_note_ar": "مفيد لنموذج المشروع داخل النطاق؛ ترخيص الإنتاج لا يستنتج."
+      }
+    },
+    {
+      "id": "bluereacher-public-sandbox",
+      "name": "Blue Reacher public messaging simulator",
+      "category": "messaging",
+      "category_ar": "محاكاة تكامل الرسائل",
+      "key": "brk_test_Dc815ar0WQChF5odYSeB8k2ovmVf1zG2",
+      "key_placement": "header",
+      "provider_published_for_public_use": true,
+      "requires_signup": false,
+      "requires_credit_card": false,
+      "private_credentials_included": false,
+      "price_usd_in_documented_scope": 0,
+      "access_scope": "sandbox_data",
+      "quota": "60 requests/minute/shared key across /v1; 10/minute for simulated instant sends",
+      "reset": "minute",
+      "free_type": "recurring_quota",
+      "production_use": "not_inferred",
+      "limitations_ar": "المفتاح يعمل في simulator دون حساب أو مساحة عمل حقيقية. اختُبر GET /v1/usage لبيانات sample فقط. لا يرسل رسائل حقيقية؛ تسجيل webhook قد يرسل اختبارًا إلى رابطك ولم ينفذ هنا. سجل المحادثات وبعض إعدادات الاتصال تحتاج مفتاح live.",
+      "example_request": {
+        "method": "GET",
+        "url": "https://api.bluereacher.com/v1/usage",
+        "headers": {
+          "Authorization": "Bearer brk_test_Dc815ar0WQChF5odYSeB8k2ovmVf1zG2"
+        },
+        "body": null
+      },
+      "verification": {
+        "checked_on": "2026-10-13",
+        "timezone": "Asia/Baghdad",
+        "status": "official_docs_and_live_request_verified",
+        "evidence": [
+          {
+            "url": "https://docs.bluereacher.com/docs/guides/sandbox",
+            "checked_on": "2026-10-13",
+            "kind": "provider_public_documentation",
+            "method": "direct_https_read",
+            "retrieved_at": "2026-10-13T09:59:18Z",
+            "sha256": "fa3bea9cf314fb07ffdee9e2650b3516160f072a637d1131072591750b304460",
+            "resolved_url": "https://docs.bluereacher.com/docs/guides/sandbox"
+          }
+        ],
+        "live_test": {
+          "id": "bluereacher-public-sandbox",
+          "url": "https://api.bluereacher.com/v1/usage",
+          "method": "GET",
+          "checked_at": "2026-10-13T10:00:27Z",
+          "uses_private_key": false,
+          "response_kind": "json",
+          "http_status": 200,
+          "bytes": 670,
+          "sha256": "e73f26b47bb76dc4d573dd37cfb9016d80034ddfa22c7af9a9837603e17e5726",
+          "content_type": "application/json",
+          "rate_limit_header": null,
+          "ok": true,
+          "quota_headers": {},
+          "shape": [
+            "sandbox",
+            "period",
+            "total_calls",
+            "keys"
+          ]
+        }
+      },
+      "project_use": {
+        "practical": false,
+        "examples_ar": [
+          "اختبار تكامل واجهة رسائل مع شكل الاستجابات وحالات الخطأ قبل ربط مزود إرسال فعلي."
+        ],
+        "scope_note_ar": "اختبار تكامل ببيانات وهمية فقط."
       }
     }
   ]

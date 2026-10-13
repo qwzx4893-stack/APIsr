@@ -146,14 +146,14 @@
         "id": "pinnwire-demo",
         "url": "https://pinnwire.com/kit/v1/markets?sport_id=1&event_type=prematch&key=demo",
         "method": "GET",
-        "checked_at": "2026-10-12T22:51:00Z",
+        "checked_at": "2026-10-13T09:54:29Z",
         "uses_private_key": false,
         "response_kind": "json",
         "ok": false,
         "http_status": 429,
-        "error": "{\"error\":\"rate_limited\",\"window\":\"day\",\"limit\":50,\"retry_after_ms\":4138531,\"message\":\"Rate limit reached for the \\\"demo\\\" plan (50 per day). Wait 4139s and retry (honor the Retry-After header). Get a free API key in 5 seconds (100 requests/day foreve"
+        "error": "{\"error\":\"rate_limited\",\"window\":\"day\",\"limit\":50,\"retry_after_ms\":50728631,\"message\":\"Rate limit reached for the \\\"demo\\\" plan (50 per day). Wait 50729s and retry (honor the Retry-After header). Get a free API key in 5 seconds (100 requests/day fore"
       },
-      "note_ar": "خارج القائمة الجاهزة. 429 تعني نفاد حصة مشتركة قابلة للتجديد وليست بطلان المفتاح؛ DNS وtimeout لا تثبت توقفًا عالميًا."
+      "note_ar": "خارج القائمة الجاهزة: نفاد حصة مشتركة أو خطأ صلاحية أو مهلة شبكة. لا يثبت الفشل توقفًا عالميًا؛ لم تتجاوز الحدود."
     },
     {
       "id": "gsa-emuseum-demo",
@@ -172,6 +172,59 @@
         "error": "no healthy upstream"
       },
       "note_ar": "خارج القائمة الجاهزة. 429 تعني نفاد حصة مشتركة قابلة للتجديد وليست بطلان المفتاح؛ DNS وtimeout لا تثبت توقفًا عالميًا."
+    },
+    {
+      "id": "snapforge-public-demo",
+      "source_url": "https://snapforge.click/docs",
+      "candidate_public_value": "sf_demo_public",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "snapforge-public-demo",
+        "url": "https://api.snapforge.click/v1/og-image",
+        "method": "POST",
+        "checked_at": "2026-10-13T09:54:28Z",
+        "uses_private_key": false,
+        "response_kind": "png",
+        "ok": false,
+        "http_status": 429,
+        "error": "{\"error\":{\"message\":\"Daily limit of 50 requests reached. Upgrade your plan.\",\"code\":\"DAILY_LIMIT_REACHED\"}}"
+      },
+      "note_ar": "خارج القائمة الجاهزة: نفاد حصة مشتركة أو خطأ صلاحية أو مهلة شبكة. لا يثبت الفشل توقفًا عالميًا؛ لم تتجاوز الحدود."
+    },
+    {
+      "id": "agentwinds-properties-demo",
+      "source_url": "https://jeffupp.com/api-docs",
+      "candidate_public_value": "treas-demo-api-key",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "agentwinds-properties-demo",
+        "url": "https://tophamtechbe.com/api/treas/idx/v1/retrieve-property-summary?state=CA&limit=1",
+        "method": "GET",
+        "checked_at": "2026-10-13T09:54:29Z",
+        "uses_private_key": false,
+        "response_kind": "json",
+        "ok": false,
+        "http_status": 401,
+        "error": "{\"message\":\"Invalid or expired property credential.\",\"error\":\"invalid_property_credential\"}"
+      },
+      "note_ar": "خارج القائمة الجاهزة: نفاد حصة مشتركة أو خطأ صلاحية أو مهلة شبكة. لا يثبت الفشل توقفًا عالميًا؛ لم تتجاوز الحدود."
+    },
+    {
+      "id": "knockout-public-demo",
+      "source_url": "https://raw.githubusercontent.com/useknockout/api/main/main.py",
+      "candidate_public_value": "kno_public_beta_4d7e9f1a3c5b2e8d6a9f7c1b3e5d8a2f",
+      "status": "documented_but_not_live_verified",
+      "test": {
+        "id": "knockout-public-demo",
+        "url": "https://useknockout--api.modal.run/remove",
+        "method": "POST",
+        "checked_at": "2026-10-13T09:57:21Z",
+        "uses_private_key": false,
+        "response_kind": "png",
+        "ok": false,
+        "error": "The read operation timed out"
+      },
+      "note_ar": "خارج القائمة الجاهزة: نفاد حصة مشتركة أو خطأ صلاحية أو مهلة شبكة. لا يثبت الفشل توقفًا عالميًا؛ لم تتجاوز الحدود."
     }
   ],
   "other_candidates": [
@@ -279,6 +332,61 @@
       "name": "AIbit Translator",
       "source_url": "https://aibitranslator.com/",
       "reason_ar": "المثال في الموقع يستخدم shared demo، لكن لم أقرأ قيمة عامة مع سياسة حصة مستقلة؛ تعذر DNS المباشر. لا تكفي حصة المفتاح المسجل."
+    },
+    {
+      "name": "Daily AI key grants",
+      "source_url": "https://raw.githubusercontent.com/chanolan20/free-llm-api-keys-playground/main/README.md",
+      "reason_ar": "المستودع يمنح مفاتيح بميزانية محددة وتنتهي بعد 24–48 ساعة، ثم يستبدلها. لم تنسخ قيمها ولم تحتسب ضمن الحصص المتجددة لنفس المفتاح."
+    },
+    {
+      "name": "Google Maps Demo Key",
+      "source_url": "https://mapsplatform.google.com/maps-demo-key/",
+      "reason_ar": "حصة يومية مجانية متجددة موثقة، لكن تحتاج حساب Google ومفتاحًا مخصصًا؛ ليس مفتاحًا مشتركًا دون تسجيل."
+    },
+    {
+      "name": "MerchantWords public demo",
+      "source_url": "https://mcp.merchantwords.com/api",
+      "reason_ar": "صفحة المزود تعلن demo بلا حساب، لكن لم تستخرج قيمة مفتاح كاملة من مرجع صالح؛ القراءة المباشرة 403. خارج قائمة المفاتيح المباشرة."
+    },
+    {
+      "name": "Stabilarity public demo",
+      "source_url": "https://hub.stabilarity.com/api/openapi.json",
+      "reason_ar": "المواصفة الرسمية توثق 100 طلب/يوم/IP للمفتاح العام، لكن قيمة المفتاح لم تظهر في الصفحات المقروءة؛ لم تخمن قيمة أو تحتسب خدمة بلا مفتاح معلوم."
+    },
+    {
+      "name": "FXRATE-API MCP demo",
+      "source_url": "https://www.fxrateapi.com/",
+      "reason_ar": "وجود demo معلن، لكن القيمة الكاملة وحصته المستقلة لم تثبت. حصة 5000/شهر للحساب المجاني لا تكفي لإثبات حصة المفتاح المشترك."
+    },
+    {
+      "name": "AI Assess Tech public SDK demo",
+      "source_url": "https://www.aiassesstech.com/docs/sdk",
+      "reason_ar": "5 تقييمات/ساعة/IP موثقة لمفتاح demo، لكن لم تثبت القيمة الكاملة من المستودع الرسمي المتعذر؛ لم تقبل placeholders."
+    },
+    {
+      "name": "eaglecheck public demo",
+      "source_url": "https://eaglecheck.com.au/developers/",
+      "reason_ar": "الوثائق تذكر مفتاح عرض محدودًا، لكن لم تنشر في الصفحة قيمة كاملة مع سياسة استمرار واضحة؛ لم تقبل حصة اشتراك مختلفة."
+    },
+    {
+      "name": "QuickBGRemover interactive token",
+      "source_url": "https://www.quickbgremover.com/docs",
+      "reason_ar": "قيمة demo في مثال رسمي، لكن لم يثبت تجدد حصتها أو استمرار مجانيتها في النطاق المشترك؛ لم يختبر مفتاح غير مكتمل الأدلة."
+    },
+    {
+      "name": "Rendral on-site playground",
+      "source_url": "https://www.rendral.com/docs",
+      "reason_ar": "وثائق المزود تحصر المفتاح التجريبي في موقعه فقط، فلا يعد مفتاحًا صالحًا لبناء مشروع خارجي. لم تزور Origin لتجاوز القيد."
+    },
+    {
+      "name": "AdFreeLLM anonymous key minting",
+      "source_url": "https://adfreellm.com/api",
+      "reason_ar": "تصف الصفحة إصدار مفتاح خاص لكل طالب دون بريد وحصة يومية؛ ليس قيمة مفتاح عامة مشتركة، وتعذر جلب الموقع مباشرة. لم ينشأ مفتاح ولم يضاف إلى هذه القائمة."
+    },
+    {
+      "name": "GoPDF anonymous demo minting",
+      "source_url": "https://docs.gopdf.dev/api-reference",
+      "reason_ar": "مسار إصدار مفتاح مخصص دون تسجيل وليس قيمة مشتركة منشورة. بقي خارج قائمة المفاتيح المشتركة."
     }
   ]
 }
